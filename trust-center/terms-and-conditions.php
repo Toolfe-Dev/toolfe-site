@@ -38,14 +38,14 @@ include '../includes/header.php'
                         <ul>
                             <li><b> Affiliate</b>means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority. </li>
                             <li><b> Country </b>refers to: Tamil Nadu, India</li>
-                            <li><b> Company </b>(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Toolf IT and Process Automation , Hp complex. </li>
+                            <li><b> Company </b>(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Toolfe IT and Process Automation , no:12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India.. </li>
                             <li><b> Country</b> refers to: Tamil Nadu, India</li>
-                            <li><b>Company</b> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Toolf IT and Process Automation, Hp complex.</li>
+                            <li><b>Company</b> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Toolfe IT and Process Automation, no:12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India..</li>
                             <li><b>Device</b> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
                             <li><b>Service</b> refers to the Website.</li>
                             <li><b>Terms and Conditions</b> (also referred to as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the Terms and Conditions Generator.</li>
                             <li><b>Third-party Social Media Service</b> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</li>
-                            <li><b>Website</b> refers to Toolf, accessible from https://www.toolf.com</li>
+                            <li><b>Website</b> refers to Toolfe, accessible from https://www.Toolfe.com</li>
                             <li><b>You</b> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
                         </ul>
                         <h3><u><b>Acknowledgment</b></u></h3>
@@ -106,8 +106,8 @@ include '../includes/header.php'
                         <h4><u><b>Contact Us</b></u></h4>
                         <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
                         <ul>
-                            <li>By email: <a href="mailto:Support@toolf.com">Support@toolf.com</a></li>
-                            <li>By visiting this page on our website: <a href="https://toolf.com/contact">https://toolf.com/contact</a></li>
+                            <li>By email: <a href="mailto:Support@Toolfe.com">Support@Toolfe.com</a></li>
+                            <li>By visiting this page on our website: <a href="https://Toolfe.com/contact">https://Toolfe.com/contact</a></li>
                         </ul>
 
 

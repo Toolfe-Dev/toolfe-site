@@ -1291,7 +1291,7 @@
               </div>
               <div class="contact-office-info contact-info mb-0 border-0">
                 <h5 class="contact-text text-uppercase">INDIA</h5>
-                <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+                <p>no:12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
                 <h5 class="contact-text text-uppercase">United States</h5>
                 <p>5665 W. Wilshire Blvd
 
@@ -1459,14 +1459,14 @@
               <div class="footer-contact-info-item">
                 <h4>Phone</h4>
                 <p>
-                  <a href="tel:8217460923">+91 8217 460 923</a> <br>
-                  <a href="tel:+1-938-740-75556">+1 938 740 7555</a>
+                  <a href="tel:+12133401515">+1 (213) 340 1515</a>
+                  <a href="tel:+918217460923"><br>+91 8217 460 923</a> <br>
                 </p>
               </div>
               <div class="footer-contact-info-item">
                 <h4>Mail</h4>
                 <p>
-                  <a href="mailto:bluebase@mail.com">support@toolfe.com</a> <br>
+                  <a href="mailto:support@toolfe.com">support@toolfe.com</a> <br>
                 </p>
               </div>
             </div>
