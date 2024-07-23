@@ -3,46 +3,37 @@
 
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Toolfe - Leading Experts in Process Automation and AI Solutions</title>
-    <meta name="description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
-    <meta name="keywords" content="Toolfe, Process Automation, AI Solutions, Technology Services, AI, Automation, Business Solutions" />
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Toolfe - Leading Experts in Process Automation and AI Solutions" />
-    <meta property="og:description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.toolfe.com" />
-    <meta property="og:image" content="https://www.toolfe.com/images/og-image.jpg" />
-    <meta property="og:site_name" content="Toolfe" />
-    <meta property="og:locale" content="en_US" />
+  <!-- ========== Meta Tags ========== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Toolfe - Leading Experts in Process Automation and AI Solutions</title>
+  <meta name="description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
+  <meta name="keywords" content="Toolfe, Process Automation, AI Solutions, Technology Services, AI, Automation, Business Solutions" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Toolfe - Leading Experts in Process Automation and AI Solutions" />
+  <meta property="og:description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.toolfe.com" />
+  <meta property="og:image" content="https://www.toolfe.com/images/og-image.jpg" />
+  <meta property="og:site_name" content="Toolfe" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- ========== Start Fonts Style ========== -->
   <link rel="preconnect" href="https://fonts.googleapis.com/" />
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600&amp;family=Syne:wght@400;500;600&amp;family=Yantramanav:wght@100;300;400;500;700;900&amp;display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600&amp;family=Syne:wght@400;500;600&amp;family=Yantramanav:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
 
   <!-- ========== Start Stylesheet ========== -->
-  <link
-    rel="stylesheet"
-    href="../../../cdn.jsdelivr.net/gh/iconoir-icons/iconoir%40main/css/iconoir.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
-  />
+  <link rel="stylesheet" href="../../../cdn.jsdelivr.net/gh/iconoir-icons/iconoir%40main/css/iconoir.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <!-- ========== End Stylesheet ========== -->
+  <!-- ========== End Stylesheet ========== -->
 
 
 </head>
@@ -77,303 +68,303 @@
     <!-- Header -->
 
 
-<header class="header-area header-2">
+    <header class="header-area header-2">
 
-    <div class="custom-container">
+      <div class="custom-container">
         <div class="custom-row align-items-center justify-content-between">
-            <div class="header-left d-flex align-items-center">
-                <a href="index.php" class="logo">
-                    <img src="https://toolfe.com/o-toolfe/assets/test2.png" alt="Logo" />
-                </a>
+          <div class="header-left d-flex align-items-center">
+            <a href="index.php" class="logo">
+              <img src="https://toolfe.com/o-toolfe/assets/test2.png" alt="Logo" />
+            </a>
 
-                <div class="header-left-right">
-                    <a href="contact.php" class="theme-btn">Contact Us</a>
-                    <span class="menu-bar">
-                        <i class="las la-bars"></i>
-                    </span>
-                </div>
-                <nav class="navbar-wrapper d-flex align-items-center">
-                    <span class="close-menu-bar">
-                        <i class="las la-times"></i>
-                    </span>
-                    <ul>
-                        <li class="dropdown-menu-item">
-                            <a href="#">Who we are</a>
-                            <span class="dropdown-menu-item-icon">
-                                <i class="las la-angle-down"></i>
-                            </span>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="about/about.php">About us</a>
-                                </li>
-                                <li>
-                                    <a href="https://blog.toolfe.com/">Blog</a>
-                                </li>
-                                <!-- <li>
+            <div class="header-left-right">
+              <a href="contact.php" class="theme-btn">Contact Us</a>
+              <span class="menu-bar">
+                <i class="las la-bars"></i>
+              </span>
+            </div>
+            <nav class="navbar-wrapper d-flex align-items-center">
+              <span class="close-menu-bar">
+                <i class="las la-times"></i>
+              </span>
+              <ul>
+                <li class="dropdown-menu-item">
+                  <a href="#">Who we are</a>
+                  <span class="dropdown-menu-item-icon">
+                    <i class="las la-angle-down"></i>
+                  </span>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="about/about.php">About us</a>
+                    </li>
+                    <li>
+                      <a href="https://blog.toolfe.com/">Blog</a>
+                    </li>
+                    <!-- <li>
                                     <a href="home2.php">Why choose us</a>
                                 </li> -->
+                  </ul>
+                </li>
+                <li class="mega-menu-item">
+                  <a href="#">Services</a>
+                  <span class="dropdown-menu-item-icon">
+                    <i class="las la-angle-down"></i>
+                  </span>
+                  <div class="mega-menu">
+                    <div class="mega-menu-inner">
+                      <div class="custom-container d-flex">
+                        <div class="left">
+                          <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
+                            <h5 class="mb-3">Services</h3>
+                              <div class="mega-menu-links d-flex">
+                                <div class="mega-menu-link">
+
+                                  <ul>
+                                    <li>
+                                      <a href="services/ProcessAutomation.php">Process Automation</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/AIMLPage.php">Artificial Intelligence and Machine Learning</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/DataAnalytics.php">Data Analytics</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/Cloud.php">Cloud Solutions</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/MarketResearch.php">Market Research</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="mega-menu-link">
+
+                                  <ul>
+                                    <li>
+                                      <a href="services/WebDevelopment.php">Website Development</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/UXUI.php">User Experience and User Interface Design </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="services/MobileAppDevelopment.php">Mobile Application Development</a>
+                                    </li>
+                                    <li>
+                                      <a href="services/SoftwareDevelopment.php">Web Application Development</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
+                            <ul class="mega-menu-social d-flex align-items-center">
+                              <li>
+                                <a href="#"><i class="iconoir-linkedin"></i></a>
+                              </li>
                             </ul>
-                        </li>
-                        <li class="mega-menu-item">
-                            <a href="#">Services</a>
-                            <span class="dropdown-menu-item-icon">
-                                <i class="las la-angle-down"></i>
-                            </span>
-                            <div class="mega-menu">
-                                <div class="mega-menu-inner">
-                                    <div class="custom-container d-flex">
-                                        <div class="left">
-                                            <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
-                                            <h5 class="mb-3">Services</h3>
-                                                <div class="mega-menu-links d-flex">
-                                                    <div class="mega-menu-link">
-                                                        
-                                                        <ul>
-                                                            <li>
-                                                                <a href="services/ProcessAutomation.php">Process Automation</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/AIMLPage.php">Artificial Intelligence and Machine Learning</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/DataAnalytics.php">Data Analytics</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/Cloud.php">Cloud Solutions</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/MarketResearch.php">Market Research</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="mega-menu-link">
-                                                        
-                                                        <ul>
-                                                            <li>
-                                                                <a href="services/WebDevelopment.php">Website Development</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/UXUI.php">User Experience and User Interface Design </a>
-                                                            </li>
 
-                                                            <li>
-                                                                <a href="services/MobileAppDevelopment.php">Mobile Application Development</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="services/SoftwareDevelopment.php">Web Application Development</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
-                                                <ul class="mega-menu-social d-flex align-items-center">
-                                                    <li>
-                                                        <a href="#"><i class="iconoir-linkedin"></i></a>
-                                                    </li>
-                                                </ul>
-
-                                                <p>
-                                                    Discover your future
-                                                    <a href="career"><span><b>We're hiring</b></span></a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="right">
-                                            <div class="mega-menu-ads">
-                                                <img src="assets/imgs/Hoursparkheader.svg" alt="iPad" />
-                                                <h2>Hourspark</h2>
-                                                <p>World's first 15 hours
-                                                IT task delivery service
-                                                </p>
-                                                <a href="https://hourspark.com/">Visit Now</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mega-menu-item">
-                            <a href="#">Industries</a>
-                            <span class="dropdown-menu-item-icon">
-                                <i class="las la-angle-down"></i>
-                            </span>
-                            <div class="mega-menu">
-                                <div class="mega-menu-inner">
-                            
-                                    <div class="custom-container d-flex">
-                                        <div class="left">
-                                            <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
-                                            <h5 class="mb-3">Industries</h3>
-                                            
-                                                <div class="mega-menu-links d-flex">
-                                                    <div class="mega-menu-link">
-                                                    
-                                                        <ul>
-                                                            <li>
-                                                                <a href="Industries/healthcare.php">Healthcare</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/finance&banking.php">Finance and Banking</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/ecommerce&retial.php">E-Commerce</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/education.php">Education</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/realestate.php">Real Estate</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="mega-menu-link">
-                                                        <!-- <h3>Our Fields</h3> -->
-                                                        <ul>
-                                                            <li>
-                                                                <a href="Industries/Manufacturing.php">Manufacturing</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/media&entertinment.php">Media and Entertainment</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/logistics-transportation.php">Logistics and Transportation</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/telecommunication.php">Telecommunications</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="Industries/energy&utilities.php">Energy and Utilities</a>
-                                                            </li>
-                                                            <li></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
-                                                <ul class="mega-menu-social d-flex align-items-center">
-                                                    <li>
-                                                        <a href="#"><i class="iconoir-linkedin"></i></a>
-                                                    </li>
-                                                </ul>
-
-                                                <p>
-                                                    Discover your future
-                                                    <a href="career"><span><b>We're hiring</b></span></a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="right">
-                                            <div class="mega-menu-ads">
-                                                <img src="assets/imgs/industry-header.svg" style="width: 252px; height: 144px; border-radius: 10px;" alt="iPad" />
-                                                <h2>HealthTech Innovations</h2>
-                                                <p>
-                                                Enhancing Care and Efficiency 
-                                                with Technology
-                                                </p>
-                                                <a href="Industries/healthcare.php">View more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mega-menu-item">
-                                    <a href="#">Case study</a>
-                                    <span class="dropdown-menu-item-icon">
-                                        <i class="las la-angle-down"></i>
-                                    </span>
-                                    <div class="mega-menu mega-menu-portfolio">
-                                        <div class="mega-menu-inner">
-                                            <div class="custom-container d-flex">
-                                                <div class="left">
-                                                    <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
-                                                        <div class="mega-menu-portfolio-card">
-                                                            <div class="img-box">
-                                                                <img src="assets/imgs/case.png" alt="Portfolio">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3><a href="case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
-                                                        
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="mega-menu-portfolio-card">
-                                                            <div class="img-box">
-                                                                <img src="assets/imgs/case2.png" alt="Portfolio">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3><a href="case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                        <div class="mega-menu-portfolio-card">
-                                                            <div class="img-box">
-                                                                <img src="assets/imgs/case4.png" alt="Portfolio">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3><a href="case-study/intelligent_document_processing.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
-                                                                
-                                                            </div>
-                                                        </div>
-                                                        <div class="mega-menu-portfolio-card">
-                                                            <div class="img-box">
-                                                                <img src="assets/imgs/case4.png" alt="Portfolio">
-                                                            </div>
-                                                            <div class="content-box">
-                                                                <h3><a href="case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
-                                                               
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
-                                                        <ul class="mega-menu-social d-flex align-items-center">
-                                                            <li><a href="#"><i class="iconoir-linkedin"></i></a></li>
-                                                        </ul>
-
-                                                        <p>
-                                                    Discover your future
-                                                    <a href="career"><span><b>We're hiring</b></span></a>
-                                                </p>
-                                                    </div>
-                                                </div>
-                                                <div class="right">
-                                                    <div class="mega-menu-ads">
-                                                        <img src="assets/imgs/case5.png" alt="iPad">
-                                                        <h2><a href="case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
-                                                        <br>
-                                                        <a href="case-study">View more</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li> 
-                        <li>
-                            <a href="career/index.php">Careers</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header-right">
-                <div class="header-contact-info d-flex align-items-center">
-                    <div class="phone-number">
-                        <a href="https://www.toolfe.org/public/login">
-                            Client Login
-                            <i class="iconoir-arrow-up-right"></i>
-                        </a>
-                        <!-- +1-938-740-7555 -->
+                            <p>
+                              Discover your future
+                              <a href="career"><span><b>We're hiring</b></span></a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="mega-menu-ads">
+                            <img src="assets/imgs/Hoursparkheader.svg" alt="iPad" />
+                            <h2>Hourspark</h2>
+                            <p>World's first 15 hours
+                              IT task delivery service
+                            </p>
+                            <a href="https://hourspark.com/">Visit Now</a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <a href="contact/index.php" class="theme-btn2">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </div>
+                  </div>
+                </li>
+                <li class="mega-menu-item">
+                  <a href="#">Industries</a>
+                  <span class="dropdown-menu-item-icon">
+                    <i class="las la-angle-down"></i>
+                  </span>
+                  <div class="mega-menu">
+                    <div class="mega-menu-inner">
 
-</header>
+                      <div class="custom-container d-flex">
+                        <div class="left">
+                          <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
+                            <h5 class="mb-3">Industries</h3>
+
+                              <div class="mega-menu-links d-flex">
+                                <div class="mega-menu-link">
+
+                                  <ul>
+                                    <li>
+                                      <a href="Industries/healthcare.php">Healthcare</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/finance&banking.php">Finance and Banking</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/ecommerce&retial.php">E-Commerce</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/education.php">Education</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/realestate.php">Real Estate</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="mega-menu-link">
+                                  <!-- <h3>Our Fields</h3> -->
+                                  <ul>
+                                    <li>
+                                      <a href="Industries/Manufacturing.php">Manufacturing</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/media&entertinment.php">Media and Entertainment</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/logistics-transportation.php">Logistics and Transportation</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/telecommunication.php">Telecommunications</a>
+                                    </li>
+                                    <li>
+                                      <a href="Industries/energy&utilities.php">Energy and Utilities</a>
+                                    </li>
+                                    <li></li>
+                                  </ul>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
+                            <ul class="mega-menu-social d-flex align-items-center">
+                              <li>
+                                <a href="#"><i class="iconoir-linkedin"></i></a>
+                              </li>
+                            </ul>
+
+                            <p>
+                              Discover your future
+                              <a href="career"><span><b>We're hiring</b></span></a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="mega-menu-ads">
+                            <img src="assets/imgs/industry-header.svg" style="width: 252px; height: 144px; border-radius: 10px;" alt="iPad" />
+                            <h2>HealthTech Innovations</h2>
+                            <p>
+                              Enhancing Care and Efficiency
+                              with Technology
+                            </p>
+                            <a href="Industries/healthcare.php">View more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mega-menu-item">
+                  <a href="#">Case study</a>
+                  <span class="dropdown-menu-item-icon">
+                    <i class="las la-angle-down"></i>
+                  </span>
+                  <div class="mega-menu mega-menu-portfolio">
+                    <div class="mega-menu-inner">
+                      <div class="custom-container d-flex">
+                        <div class="left">
+                          <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
+                            <div class="mega-menu-portfolio-card">
+                              <div class="img-box">
+                                <img src="assets/imgs/case1.png" alt="Portfolio">
+                              </div>
+                              <div class="content-box">
+                                <h3><a href="case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
+
+                                </p>
+                              </div>
+                            </div>
+                            <div class="mega-menu-portfolio-card">
+                              <div class="img-box">
+                                <img src="assets/imgs/case2.png" alt="Portfolio">
+                              </div>
+                              <div class="content-box">
+                                <h3><a href="case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
+
+                              </div>
+                            </div>
+                            <div class="mega-menu-portfolio-card">
+                              <div class="img-box">
+                                <img src="assets/imgs/case3.png" alt="Portfolio">
+                              </div>
+                              <div class="content-box">
+                                <h3><a href="case-study/intelligent_document_processing.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
+
+                              </div>
+                            </div>
+                            <div class="mega-menu-portfolio-card">
+                              <div class="img-box">
+                                <img src="assets/imgs/case4.png" alt="Portfolio">
+                              </div>
+                              <div class="content-box">
+                                <h3><a href="case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
+
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
+                            <ul class="mega-menu-social d-flex align-items-center">
+                              <li><a href="#"><i class="iconoir-linkedin"></i></a></li>
+                            </ul>
+
+                            <p>
+                              Discover your future
+                              <a href="career"><span><b>We're hiring</b></span></a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="right">
+                          <div class="mega-menu-ads">
+                            <img src="assets/imgs/case5.png" alt="iPad">
+                            <h2><a href="case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
+                            <br>
+                            <a href="case-study">View more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="career/index.php">Careers</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-right">
+            <div class="header-contact-info d-flex align-items-center">
+              <div class="phone-number">
+                <a href="https://www.toolfe.org/public/login">
+                  Client Login
+                  <i class="iconoir-arrow-up-right"></i>
+                </a>
+                <!-- +1-938-740-7555 -->
+              </div>
+              <a href="contact/index.php" class="theme-btn2">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
 
     <!-- Hero Section -->
     <section class="hero-empowerment-area" style="background-image: url('./assets/imgs/section.png');background-repeat: no-repeat; background-size: cover;">
@@ -382,24 +373,24 @@
           <div class="hero-empowerment-left-content">
             <h5 class="section-subtitle">Autopilot your business</h5>
             <h1 class="section-title fade-in">
-            What AI Starts, <br>AI and Automation Perfects
+              What AI Starts, <br>AI and Automation Perfects
             </h1>
             <p>
-            From AI-driven insights to automated processes, we enhance efficiency and empower businesses to excel in a digital-first world.
+              From AI-driven insights to automated processes, we enhance efficiency and empower businesses to excel in a digital-first world.
             </p>
             <div class="btns-group d-flex">
               <a href="#services" class="theme-btn"> Discover More</a>
-              <div  data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-btn2">Let's Connect
+              <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-btn2">Let's Connect
                 <i class="iconoir-arrow-up-right"></i>
               </div>
             </div>
           </div>
 
           <div class="hero-empowerment-right-content">
-          <div class="top-content">
-                            <img class=" fade-in ms-auto" src="./assets/imgs/bg-1.png" alt="Empowerment" style="max-width: 600px;">
-                            <!-- <img class="mobile" src="./assets/imgs/bg-1.png" alt="Empowerment"> -->
-                        </div>
+            <div class="top-content">
+              <img class=" fade-in ms-auto" src="./assets/imgs/bg-1.png" alt="Empowerment" style="max-width: 600px;">
+              <!-- <img class="mobile" src="./assets/imgs/bg-1.png" alt="Empowerment"> -->
+            </div>
           </div>
         </div>
       </div>
@@ -414,7 +405,7 @@
             <h1 class="section-title">
               Your Partner in <br> Expert <br> Solutions
             </h1>
-            <p>At Toolfe, our journey started with a vision to empower businesses through digital transformation.  Founded by passionate innovators, we've become a trusted partner worldwide. Our story is one of turning challenges into opportunities with cutting-edge IT and automation solutions. We're not just adapting to the digital age  - we're defining it , helping businesses unlock their full potential and achieve lasting growth . Join us as we continue to inspire and lead in technology.</p>
+            <p>At Toolfe, our journey started with a vision to empower businesses through digital transformation. Founded by passionate innovators, we've become a trusted partner worldwide. Our story is one of turning challenges into opportunities with cutting-edge IT and automation solutions. We're not just adapting to the digital age - we're defining it , helping businesses unlock their full potential and achieve lasting growth . Join us as we continue to inspire and lead in technology.</p>
 
           </div>
 
@@ -447,7 +438,7 @@
                   <span class="number">03</span>
                   <h3>Our Continuous acheivement</h3>
                   <p>
-                    We understand your challenges and build lasting partnerships by prioritizing your success. 
+                    We understand your challenges and build lasting partnerships by prioritizing your success.
                   </p>
                 </div>
               </div>
@@ -707,9 +698,9 @@
                   <h3 class="">5</h3>
                 </div>
                 <div class="how-we-do-content">
-                <h4>Launch</h4>
-                <p>Deploy</p>
-                 
+                  <h4>Launch</h4>
+                  <p>Deploy</p>
+
                 </div>
               </div>
 
@@ -721,7 +712,7 @@
                   <h3 class="">4</h3>
                 </div>
                 <div class="how-we-do-content">
-                <h4>Refine</h4>
+                  <h4>Refine</h4>
                   <p>Validate
                   </p>
                 </div>
@@ -758,32 +749,27 @@
         <div class="case-studio">
           <ul class="nav nav-pills case-studio-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <button class="nav-link active" id="development-tab" data-bs-toggle="tab" href="#development" role="tab"
-                aria-controls="development" aria-selected="true">
+              <button class="nav-link active" id="development-tab" data-bs-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="true">
                 Process automation
               </button>
             </li>
             <li class="nav-item">
-              <button class="nav-link" id="woo_commerce-tab" data-bs-toggle="tab" href="#woo_commerce" role="tab"
-                aria-controls="woo_commerce" aria-selected="false">
+              <button class="nav-link" id="woo_commerce-tab" data-bs-toggle="tab" href="#woo_commerce" role="tab" aria-controls="woo_commerce" aria-selected="false">
                 AI/ML
               </button>
             </li>
             <li class="nav-item">
-              <button class="nav-link" id="crm_solutions-tab" data-bs-toggle="tab" href="#crm_solutions" role="tab"
-                aria-controls="crm_solutions" aria-selected="false">
+              <button class="nav-link" id="crm_solutions-tab" data-bs-toggle="tab" href="#crm_solutions" role="tab" aria-controls="crm_solutions" aria-selected="false">
                 Data Analytics
               </button>
             </li>
             <li class="nav-item">
-              <button class="nav-link" id="web_designing-tab" data-bs-toggle="tab" href="#web_designing" role="tab"
-                aria-controls="web_designing" aria-selected="false">
+              <button class="nav-link" id="web_designing-tab" data-bs-toggle="tab" href="#web_designing" role="tab" aria-controls="web_designing" aria-selected="false">
                 Web Development
               </button>
             </li>
             <li class="nav-item">
-              <button class="nav-link" id="it_support-tab" data-bs-toggle="tab" href="#it_support" role="tab"
-                aria-controls="it_support" aria-selected="false">
+              <button class="nav-link" id="it_support-tab" data-bs-toggle="tab" href="#it_support" role="tab" aria-controls="it_support" aria-selected="false">
                 Market Research
               </button>
             </li>
@@ -823,7 +809,7 @@
               </div>
             </div>
             <div class="tab-pane fade" id="woo_commerce" role="tabpanel" aria-labelledby="woo_commerce-tab">
-            <div class="case-studio-body d-flex">
+              <div class="case-studio-body d-flex">
                 <div class="left d-flex flex-1">
 
                   <div class="case-studio-contents service-card ">
@@ -856,7 +842,7 @@
               </div>
             </div>
             <div class="tab-pane fade" id="crm_solutions" role="tabpanel" aria-labelledby="crm_solutions-tab">
-            <div class="case-studio-body d-flex">
+              <div class="case-studio-body d-flex">
                 <div class="left d-flex flex-1">
 
                   <div class="case-studio-contents service-card ">
@@ -888,7 +874,7 @@
               </div>
             </div>
             <div class="tab-pane fade" id="web_designing" role="tabpanel" aria-labelledby="web_designing-tab">
-            <div class="case-studio-body d-flex">
+              <div class="case-studio-body d-flex">
                 <div class="left d-flex flex-1">
 
                   <div class="case-studio-contents service-card ">
@@ -920,7 +906,7 @@
               </div>
             </div>
             <div class="tab-pane fade" id="it_support" role="tabpanel" aria-labelledby="it_support-tab">
-            <div class="case-studio-body d-flex">
+              <div class="case-studio-body d-flex">
                 <div class="left d-flex flex-1">
 
                   <div class="case-studio-contents service-card ">
@@ -1029,7 +1015,7 @@
         <div class="case-studio-header text-center">
           <h5 class="section-subtitle mb-2">Testimonial</h5>
           <h1 class="section-title">Here's what our clients are saying about us</h1>
-          
+
           <br>
         </div>
         <div class="testimonial-slider-wrap">
@@ -1147,10 +1133,9 @@
                 <span class="category">#AWS</span>
               </div>
               <h2><span> <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step Guide(For
-                  Linux and MacOS)</a></span></h2>
+                    Linux and MacOS)</a></span></h2>
               <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward guide.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/"
-                class="theme-btn">
+              <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/" class="theme-btn">
                 <i class="iconoir-arrow-up-right"></i>
               </a>
             </div>
@@ -1163,10 +1148,9 @@
                 <span class="category">#Blockchain Technology</span>
               </div>
               <h2><span href="blog-details.php"> <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and Security
-                  in Networks</a></span></h2>
+                    in Networks</a></span></h2>
               <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is maintained.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/"
-                class="theme-btn">
+              <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/" class="theme-btn">
                 <i class="iconoir-arrow-up-right"></i>
               </a>
             </div>
@@ -1179,11 +1163,10 @@
                 <span class="date">May 15, 2024</span>
                 <span class="category">#UX Research</span>
               </div>
-              <h2><span>  <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best UX research methods and when to use them</a></span></h2>
+              <h2><span> <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best UX research methods and when to use them</a></span></h2>
               <p>Discover effective UX research methods like interviews and usability tests to enhance product
                 understanding and usability.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/"
-                class="theme-btn">
+              <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/" class="theme-btn">
                 <i class="iconoir-arrow-up-right"></i>
               </a>
             </div>
@@ -1198,73 +1181,73 @@
           <img src="assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />
           <div class="our-expert-team-box">
             <div class="our-expert-team-box-inner d-flex align-items-center">
-             
+
             </div>
           </div>
           <h2>Need any further assitance?</h2>
           <p>Feel free to reach out for any inquiries or assistance.</p>
-          <div  data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Let's Connect
+          <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Let's Connect
 
+          </div>
         </div>
-      </div>
     </section>
     <!-- Contact -->
     <section class="contact-area">
-  <div class="custom-container">
-    <div class="custom-row">
-      <div class="contact-form-wrap">
-        <div class="contact-form-body">
-          <h5 class="section-subtitle">Contact</h5>
-          <h1 class="fw-bold mb-2">Supercharge Your Business?</h1>
-          <p>
-            Get the Results You Deserve. Contact Us Today. <br>
-            <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
-          </p>
-          <form id="form" method="POST" class="contact-form">
-            <div class="input-row field">
-              <div class="input-row">
-                <div class="input-group">
-                  <label for="name">Full Name</label>
-                  <input type="text" id="name" name="FullName" placeholder="Enter Your name" required />
+      <div class="custom-container">
+        <div class="custom-row">
+          <div class="contact-form-wrap">
+            <div class="contact-form-body">
+              <h5 class="section-subtitle">Contact</h5>
+              <h1 class="fw-bold mb-2">Supercharge Your Business?</h1>
+              <p>
+                Get the Results You Deserve. Contact Us Today. <br>
+                <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
+              </p>
+              <form id="form" method="POST" class="contact-form">
+                <div class="input-row field">
+                  <div class="input-row">
+                    <div class="input-group">
+                      <label for="name">Full Name</label>
+                      <input type="text" id="name" name="FullName" placeholder="Enter Your name" required />
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="input-row field">
-              <div class="input-group">
-                <label for="email">Email</label>
-                <input id="email" type="email" name="Email" placeholder="Enter Your Email" required />
-              </div>
-              <div class="input-group field">
-                <label for="Phone">Phone</label>
-                <input id="Phone" type="tel" name="Phone" placeholder="Eg: +1 12123232" required />
-              </div>
-            </div>
-            <div class="input-row field">
-              <div class="input-group">
-                <label for="organization">Company Name</label>
-                <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft" required />
-              </div>
-            </div>
-            <div class="input-row field">
-              <div class="input-group">
-                <label for="message">Message</label>
-                <textarea name="Message" id="alert-message" placeholder="Leave us a message...." required></textarea>
-              </div>
-            </div>
-            <div class="input-row field">
-              <div class="input-group input-checkbox">
-                <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" required />
-                <label for="privacy_policy_accept">You agree to our
-                  <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a></label>
-              </div>
-            </div>
-            <div class="input-row field is-grouped">
-              <div class="input-group control">
-                <button id="submit-button" type="submit" class="theme-btn">Submit</button>
-              </div>
-            </div>
-          </form>
-          <div id="alert-message" style="
+                <div class="input-row field">
+                  <div class="input-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="Email" placeholder="Enter Your Email" required />
+                  </div>
+                  <div class="input-group field">
+                    <label for="Phone">Phone</label>
+                    <input id="Phone" type="tel" name="Phone" placeholder="Eg: +1 12123232" required />
+                  </div>
+                </div>
+                <div class="input-row field">
+                  <div class="input-group">
+                    <label for="organization">Company Name</label>
+                    <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft" required />
+                  </div>
+                </div>
+                <div class="input-row field">
+                  <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea name="Message" id="alert-message" placeholder="Leave us a message...." required></textarea>
+                  </div>
+                </div>
+                <div class="input-row field">
+                  <div class="input-group input-checkbox">
+                    <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" required />
+                    <label for="privacy_policy_accept">You agree to our
+                      <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a></label>
+                  </div>
+                </div>
+                <div class="input-row field is-grouped">
+                  <div class="input-group control">
+                    <button id="submit-button" type="submit" class="theme-btn">Submit</button>
+                  </div>
+                </div>
+              </form>
+              <div id="alert-message" style="
             display: none;
             margin: 20px;
             font-weight: bold;
@@ -1273,301 +1256,306 @@
             background-color: beige;
             border-radius: 4px;
             border-color: aquamarine;">
+              </div>
+            </div>
+          </div>
+          <div class="contact-experience">
+            <ul>
+              <li>
+                <h1>Client <span>Portal</span></h1>
+                <p class="contact-text"><a href="mailto:support@toolfe.com">support@toolfe.com</a></p>
+              </li>
+              <li>
+                <h1>15 <span>Mins</span></h1>
+                <p class="contact-text">Response Time</p>
+              </li>
+              <li>
+                <h1>15 <span>Min Free</span></h1>
+                <p class="contact-text">Consultation</p>
+              </li>
+              <li>
+                <h1>15 <span>Hours</span></h1>
+                <p class="contact-text">Client Onboarding</p>
+              </li>
+              <li>
+                <h1>15 <span>Hours Delivery</span></h1>
+                <p class="contact-text"><a href="https://www.hourspark.com">www.hourspark.com</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-infos">
+            <div class="contact-infos-inner">
+              <div class="contact-info mb-0 border-0">
+                <img src="./assets/imgs/contact_us/location.svg" alt="Map" />
+                <h3>Contact Info</h3>
+              </div>
+              <div class="contact-office-info contact-info mb-0 border-0">
+                <h5 class="contact-text text-uppercase">INDIA</h5>
+                <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+                <h5 class="contact-text text-uppercase">United States</h5>
+                <p>5665 W. Wilshire Blvd
+
+                  <br> Los Angeles, CA 90036
+                  <br>(213) 340 1515
+                </p>
+                </p>
+              </div>
+              <ul class="contact-social-links">
+                <li>
+                  <a href="mailto:support@toolfe.com">
+                    <i class="iconoir-mail"></i>
+                    Email
+                  </a>
+                </li>
+                <li>
+                  <a href="https://in.linkedin.com/company/toolfe">
+                    <i class="iconoir-linkedin"></i>
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="contact-experience">
-        <ul>
-          <li>
-            <h1>Client <span>Portal</span></h1>
-            <p class="contact-text"><a href="mailto:support@toolfe.com">support@toolfe.com</a></p>
-          </li>
-          <li>
-            <h1>15 <span>Mins</span></h1>
-            <p class="contact-text">Response Time</p>
-          </li>
-          <li>
-            <h1>15 <span>Min Free</span></h1>
-            <p class="contact-text">Consultation</p>
-          </li>
-          <li>
-            <h1>15 <span>Hours</span></h1>
-            <p class="contact-text">Client Onboarding</p>
-          </li>
-          <li>
-            <h1>15 <span>Hours Delivery</span></h1>
-            <p class="contact-text"><a href="https://www.hourspark.com">www.hourspark.com</a></p>
-          </li>
-        </ul>
-      </div>
-      <div class="contact-infos">
-        <div class="contact-infos-inner">
-          <div class="contact-info mb-0 border-0">
-            <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
-            <h3>Contact Info</h3>
-          </div>
-          <div class="contact-office-info contact-info mb-0 border-0">
-            <h5 class="contact-text text-uppercase">INDIA</h5>
-            <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
-            <h5 class="contact-text text-uppercase">United States</h5>
-            <p>270 E 1st Ave, Vancouver, BC V5T 1A6, Canada, USA. <br>+1 232 212 233</p>
-          </div>
-          <ul class="contact-social-links">
-            <li>
-              <a href="mailto:support@toolfe.com">
-                <i class="iconoir-mail"></i>
-                Email
-              </a>
-            </li>
-            <li>
-              <a href="https://in.linkedin.com/company/toolfe">
-                <i class="iconoir-linkedin"></i>
-                LinkedIn
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Footer -->
 
-  <!-- Footer -->
-  <footer class="footer-area">
+    <!-- Footer -->
+    <footer class="footer-area">
       <img src="assets/imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
       <div class="footer-top">
-          <div class="custom-container">
-              <div class="custom-row align-items-end justify-content-between">
-                  <div class="left-content">
-                      <a href="index.php" class="logo">
-                          <img src="https://toolfe.com/o-toolfe/assets/white-toolfe.png" alt="Logo" />
-                      </a>
-                      <p>We provide the expertise and support to <br>
-                          propel your business forward.</p>
-                      <form action="" method="POST" class="subscribe-form">
-                          <div class="subscribe-box d-flex">
-                              <input type="email" id="email" name="email" placeholder="Enter Your Email" />
-                              <button id="submit2" class="theme-btn" style="background-color:#fff; color: #000;">Get
-                                  Started</button>
-                          </div>
-                          <!-- Alert Message -->
-                          <div class="input-row">
-                              <div class="input-group alert-notification">
-                                  <div id="alert-message-subscribe" class="alert-msg"></div>
-                              </div>
-                          </div>
-                      </form>
-                      <div class="footer-clients d-flex align-items-center">
-                          <div class="footer-client-img">
-                              <img src="assets/imgs/footer/cio.svg" alt="cio">
-                          </div>
-                          <div class="footer-client-img">
-                              <img src="assets/imgs/footer/secure_ssl.svg" alt="securepayment">
-                          </div>
-                          <div class="footer-client-img">
-                              <img src="assets/imgs/footer/secure_payment.svg" alt="securessl">
-                          </div>
-                          <div class="footer-client-img">
-                              <img src="assets/imgs/footer/best_choice.svg" alt="bestchoice">
-                          </div>
-                      </div>
+        <div class="custom-container">
+          <div class="custom-row align-items-end justify-content-between">
+            <div class="left-content">
+              <a href="index.php" class="logo">
+                <img src="https://toolfe.com/o-toolfe/assets/white-toolfe.png" alt="Logo" />
+              </a>
+              <p>We provide the expertise and support to <br>
+                propel your business forward.</p>
+              <form action="" method="POST" class="subscribe-form">
+                <div class="subscribe-box d-flex">
+                  <input type="email" id="email" name="email" placeholder="Enter Your Email" />
+                  <button id="submit2" class="theme-btn" style="background-color:#fff; color: #000;">Get
+                    Started</button>
+                </div>
+                <!-- Alert Message -->
+                <div class="input-row">
+                  <div class="input-group alert-notification">
+                    <div id="alert-message-subscribe" class="alert-msg"></div>
                   </div>
-
-                  <div class="right-content">
-                      <div class="right-content-inner">
-                          <h2>Let’s get started on something great</h2>
-                          <p>Our team of IT experts looks forward to meeting with you <br>
-                              and providing valuable insights tailored to your business.</p>
-                          <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Get an appointment now
-                              <!-- Cal element-click embed code begins -->
-
-                              <!-- Cal element-click embed code ends -->
-                          </div>
-                          <div class="footer-experience d-flex align-items-center">
-
-                              <div class="footer-experience-item">
-                                  <h1>15 <span>Mins</span></h1>
-                                  <p>Response Time</p>
-                              </div>
-                              <div class="footer-experience-item">
-                                  <h1>100%</h1>
-                                  <p>Client Satisfaction</p>
-                              </div>
-                              <div class="footer-experience-item">
-                                  <h1>70% <span></span></h1>
-                                  <p>Customer retention</p>
-                              </div>
-
-                          </div>
-                      </div>
-                  </div>
+                </div>
+              </form>
+              <div class="footer-clients d-flex align-items-center">
+                <div class="footer-client-img">
+                  <img src="assets/imgs/footer/cio.svg" alt="cio">
+                </div>
+                <div class="footer-client-img">
+                  <img src="assets/imgs/footer/secure_ssl.svg" alt="securepayment">
+                </div>
+                <div class="footer-client-img">
+                  <img src="assets/imgs/footer/secure_payment.svg" alt="securessl">
+                </div>
+                <div class="footer-client-img">
+                  <img src="assets/imgs/footer/best_choice.svg" alt="bestchoice">
+                </div>
               </div>
+            </div>
+
+            <div class="right-content">
+              <div class="right-content-inner">
+                <h2>Let’s get started on something great</h2>
+                <p>Our team of IT experts looks forward to meeting with you <br>
+                  and providing valuable insights tailored to your business.</p>
+                <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Get an appointment now
+                  <!-- Cal element-click embed code begins -->
+
+                  <!-- Cal element-click embed code ends -->
+                </div>
+                <div class="footer-experience d-flex align-items-center">
+
+                  <div class="footer-experience-item">
+                    <h1>15 <span>Mins</span></h1>
+                    <p>Response Time</p>
+                  </div>
+                  <div class="footer-experience-item">
+                    <h1>100%</h1>
+                    <p>Client Satisfaction</p>
+                  </div>
+                  <div class="footer-experience-item">
+                    <h1>70% <span></span></h1>
+                    <p>Customer retention</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
 
       <div class="footer-bottom">
-          <div class="custom-container">
-              <div class="custom-row">
-                  <div class="footer-all-links-wrap justify-content-between d-flex">
-                      <div class="footer-links">
-                          <h3>Industries</h3>
-                          <ul>
-                              <li><a href="Industries/healthcare.php">Healthcare</a></li>
-                              <li><a href="Industries/finance&banking.php">Finance and Banking</a></li>
-                              <li><a href="Industries/ecommerce&retial.php">E-Commerce</a></li>
-                              <li><a href="Industries/education.php">Education</a></li>
-                              <li><a href="Industries/realestate.php">Real Estate</a></li>
-                              <li><a href="Industries/Manufacturing.php">Manufacturing</a></li>
-                              <li><a href="Industries/media&entertinment.php">Media and Entertinment</a></li>
-                              <li><a href="Industries/logistics-transportation.php">Logistics</a></li>
-                              <li><a href="Industries/telecommunication.php">Telecommunications</a></li>
-                              <li><a href="Industries/energy&utilities.php">Energy and Utilities</a></li>
-                          </ul>
-                      </div>
-                      <div class="footer-links">
-                          <h3>Services</h3>
-                          <ul>
-                              <li><a href="services/ProcessAutomation.php">Process Automation</a></li>
-                              <li><a href="services/AIMLPage.php">Generative AI & ML</a></li>
-                              <li><a href="services/DataAnalytics.php">Data Analytics</a></li>
-                              <li><a href="services/MarketResearch.php">Market Research</a></li>
-                              <li><a href="services/Cloud.php">Cloud Solutions</a></li>
-                              <li><a href="services/SoftwareDevelopment.php">Web Application Development</a></li>
-                              <li><a href="services/WebDevelopment.php">Website Development</a></li>
-                              <li><a href="services/UXUI.php">User Experience Design UX/UI</a></li>
-                              <li><a href="https://hourspark.com/">15 Hour Spark Tasks<span class="new">Hot</span></a></li>
-                          </ul>
-                      </div>
-
-                      <div class="footer-links">
-
-                          <h3>Quick Links</h3>
-                          <ul>
-                              <li><a href="about/about.php">About us</a></li>
-                              <li><a href="https://blog.toolfe.com/">Blogs</a></li>
-                              <li><a href="career/index.php">Career</a></li>
-                              <li><a href="case-study/index.php">Case Study</a></li>
-                              <li><a href="contact/index.php">Contact us</a></li>
-                              <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
-                              <li><a href="https://hourspark.com/">Hourspark x Toolfe</a></li>
-                              <li><a href="https://outlook.office365.com/owa/calendar/RevolutionizeYourBusinesswithToolfe@toolfe.com/bookings/">Book
-                                      a free consultation</a></li>
-                          </ul>
-                      </div>
-                      <div class="footer-links">
-                          <h3>Trust Center</h3>
-                          <ul>
-                              <li><a href="trust-center/terms-and-conditions.php">Terms and Conditions</a></li>
-                              <li><a href="trust-center/privacy-policy.php">Privacy Policy</a></li>
-                              <li><a href="trust-center/cookie-policy.php">Cookie Policy</a></li>
-                          </ul>
-                      </div>
-
-                  </div>
-
-                  <div class="footer-contact-info">
-                      <div class="footer-contact-info-item">
-                          <h4>Phone</h4>
-                          <p>
-                              <a href="tel:8217460923">+91 8217 460 923</a> <br>
-                              <a href="tel:+1-938-740-75556">+1 938 740 7555</a>
-                          </p>
-                      </div>
-                      <div class="footer-contact-info-item">
-                          <h4>Mail</h4>
-                          <p>
-                              <a href="mailto:bluebase@mail.com">support@toolfe.com</a> <br>
-                          </p>
-                      </div>
-                  </div>
+        <div class="custom-container">
+          <div class="custom-row">
+            <div class="footer-all-links-wrap justify-content-between d-flex">
+              <div class="footer-links">
+                <h3>Industries</h3>
+                <ul>
+                  <li><a href="Industries/healthcare.php">Healthcare</a></li>
+                  <li><a href="Industries/finance&banking.php">Finance and Banking</a></li>
+                  <li><a href="Industries/ecommerce&retial.php">E-Commerce</a></li>
+                  <li><a href="Industries/education.php">Education</a></li>
+                  <li><a href="Industries/realestate.php">Real Estate</a></li>
+                  <li><a href="Industries/Manufacturing.php">Manufacturing</a></li>
+                  <li><a href="Industries/media&entertinment.php">Media and Entertinment</a></li>
+                  <li><a href="Industries/logistics-transportation.php">Logistics</a></li>
+                  <li><a href="Industries/telecommunication.php">Telecommunications</a></li>
+                  <li><a href="Industries/energy&utilities.php">Energy and Utilities</a></li>
+                </ul>
               </div>
+              <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                  <li><a href="services/ProcessAutomation.php">Process Automation</a></li>
+                  <li><a href="services/AIMLPage.php">Generative AI & ML</a></li>
+                  <li><a href="services/DataAnalytics.php">Data Analytics</a></li>
+                  <li><a href="services/MarketResearch.php">Market Research</a></li>
+                  <li><a href="services/Cloud.php">Cloud Solutions</a></li>
+                  <li><a href="services/SoftwareDevelopment.php">Web Application Development</a></li>
+                  <li><a href="services/WebDevelopment.php">Website Development</a></li>
+                  <li><a href="services/UXUI.php">User Experience Design UX/UI</a></li>
+                  <li><a href="https://hourspark.com/">15 Hour Spark Tasks<span class="new">Hot</span></a></li>
+                </ul>
+              </div>
+
+              <div class="footer-links">
+
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="about/about.php">About us</a></li>
+                  <li><a href="https://blog.toolfe.com/">Blogs</a></li>
+                  <li><a href="career/index.php">Career</a></li>
+                  <li><a href="case-study/index.php">Case Study</a></li>
+                  <li><a href="contact/index.php">Contact us</a></li>
+                  <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
+                  <li><a href="https://hourspark.com/">Hourspark x Toolfe</a></li>
+                  <li><a href="https://outlook.office365.com/owa/calendar/RevolutionizeYourBusinesswithToolfe@toolfe.com/bookings/">Book
+                      a free consultation</a></li>
+                </ul>
+              </div>
+              <div class="footer-links">
+                <h3>Trust Center</h3>
+                <ul>
+                  <li><a href="trust-center/terms-and-conditions.php">Terms and Conditions</a></li>
+                  <li><a href="trust-center/privacy-policy.php">Privacy Policy</a></li>
+                  <li><a href="trust-center/cookie-policy.php">Cookie Policy</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="footer-contact-info">
+              <div class="footer-contact-info-item">
+                <h4>Phone</h4>
+                <p>
+                  <a href="tel:8217460923">+91 8217 460 923</a> <br>
+                  <a href="tel:+1-938-740-75556">+1 938 740 7555</a>
+                </p>
+              </div>
+              <div class="footer-contact-info-item">
+                <h4>Mail</h4>
+                <p>
+                  <a href="mailto:bluebase@mail.com">support@toolfe.com</a> <br>
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
 
       <div class="copyright-area">
-          <div class="custom-container">
-              <div class="custom-row d-flex align-items-center justify-content-between">
-                  <ul class="social-links d-flex align-items-center">
+        <div class="custom-container">
+          <div class="custom-row d-flex align-items-center justify-content-between">
+            <ul class="social-links d-flex align-items-center">
 
-                      <li><a href="https://in.linkedin.com/company/toolfe">
-                              <i class="iconoir-linkedin"></i>
-                          </a></li>
-                  </ul>
-                  <p>&copy; 2024 Toolfe, All rights reserved by <a href=""><b>Zotork Private Limited</b></a></p>
-              </div>
+              <li><a href="https://in.linkedin.com/company/toolfe">
+                  <i class="iconoir-linkedin"></i>
+                </a></li>
+            </ul>
+            <p>&copy; 2024 Toolfe, All rights reserved by <a href=""><b>Zotork Private Limited</b></a></p>
           </div>
+        </div>
       </div>
-  </footer>
+    </footer>
 
-  <script type="text/javascript">
+    <script type="text/javascript">
       (function(C, A, L) {
-          let p = function(a, ar) {
-              a.q.push(ar);
-          };
-          let d = C.document;
-          C.Cal = C.Cal || function() {
-              let cal = C.Cal;
-              let ar = arguments;
-              if (!cal.loaded) {
-                  cal.ns = {};
-                  cal.q = cal.q || [];
-                  d.head.appendChild(d.createElement("script")).src = A;
-                  cal.loaded = true;
-              }
-              if (ar[0] === L) {
-                  const api = function() {
-                      p(api, arguments);
-                  };
-                  const namespace = ar[1];
-                  api.q = api.q || [];
-                  if (typeof namespace === "string") {
-                      cal.ns[namespace] = cal.ns[namespace] || api;
-                      p(cal.ns[namespace], ar);
-                      p(cal, ["initNamespace", namespace]);
-                  } else p(cal, ar);
-                  return;
-              }
-              p(cal, ar);
-          };
+        let p = function(a, ar) {
+          a.q.push(ar);
+        };
+        let d = C.document;
+        C.Cal = C.Cal || function() {
+          let cal = C.Cal;
+          let ar = arguments;
+          if (!cal.loaded) {
+            cal.ns = {};
+            cal.q = cal.q || [];
+            d.head.appendChild(d.createElement("script")).src = A;
+            cal.loaded = true;
+          }
+          if (ar[0] === L) {
+            const api = function() {
+              p(api, arguments);
+            };
+            const namespace = ar[1];
+            api.q = api.q || [];
+            if (typeof namespace === "string") {
+              cal.ns[namespace] = cal.ns[namespace] || api;
+              p(cal.ns[namespace], ar);
+              p(cal, ["initNamespace", namespace]);
+            } else p(cal, ar);
+            return;
+          }
+          p(cal, ar);
+        };
       })(window, "https://app.cal.com/embed/embed.js", "init");
       Cal("init", {
-          origin: "https://cal.com"
+        origin: "https://cal.com"
       });
       // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
       // `data-cal-link="toolfe/revolutionize-your-business"`
       // data-cal-namespace=""
       // `data-cal-config='{"layout":"week_view"}'`
       Cal("ui", {
-          "styles": {
-              "branding": {
-                  "brandColor": "#FF4E00"
-              }
-          },
-          "hideEventTypeDetails": false,
-          "layout": "week_view"
+        "styles": {
+          "branding": {
+            "brandColor": "#FF4E00"
+          }
+        },
+        "hideEventTypeDetails": false,
+        "layout": "week_view"
       });
-  </script>
+    </script>
 
-<script>
-document.getElementById('form').addEventListener('submit', function(event) {
-    let isValid = true;
+    <script>
+      document.getElementById('form').addEventListener('submit', function(event) {
+        let isValid = true;
 
-    // Add any custom validation logic here
-    // Example: Check if phone number is in the correct format
-    const phone = document.getElementById('Phone').value;
-    const phonePattern = /^\+?[0-9\s-]+$/;
-    if (!phonePattern.test(phone)) {
-        isValid = false;
-        alert('Please enter a valid phone number.');
-    }
+        // Add any custom validation logic here
+        // Example: Check if phone number is in the correct format
+        const phone = document.getElementById('Phone').value;
+        const phonePattern = /^\+?[0-9\s-]+$/;
+        if (!phonePattern.test(phone)) {
+          isValid = false;
+          alert('Please enter a valid phone number.');
+        }
 
-    if (!isValid) {
-        event.preventDefault();
-    }
-});
-</script>
+        if (!isValid) {
+          event.preventDefault();
+        }
+      });
+    </script>
 
 
 
