@@ -1,28 +1,26 @@
 <div class="hero-contact-form">
-    <form  id="form" method="POST" class="contact-form d-flex">
+    <form id="form" method="POST" class="contact-form d-flex">
         <div class="input-main-row">
             <div class="input-row field">
                 <div class="input-group">
                     <label for="first_name">Name</label>
-                    <input type="text" placeholder="First Name" id="first_name" name="fullname" />
+                    <input type="text" placeholder="First Name" id="first_name" name="fullname" required />
                 </div>
-
             </div>
             <div class="input-row field">
                 <div class="input-group">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Your Email" id="email" name="email" />
+                    <input type="email" placeholder="Your Email" id="email" name="email" required />
                 </div>
                 <div class="input-group phone-number">
                     <label for="phone_number">Phone</label>
-                    <input type="text" name="phone" placeholder="+1 912 323232" />
+                    <input type="text" name="phone" placeholder="+1 912 323232" required />
                 </div>
             </div>
             <div class="input-row field">
-
                 <div class="input-group">
                     <label for="last_name">Company Name</label>
-                    <input type="text" placeholder="Eg. Microsoft" id="company_name" name="company" />
+                    <input type="text" placeholder="Eg. Microsoft" id="company_name" name="company" required />
                 </div>
             </div>
             <div class="input-row field">
@@ -30,47 +28,47 @@
                     <label>Select Your Industry</label>
                     <div class="choice-a-company flex-wrap d-flex">
                         <div class="radio-box">
-                            <input type="radio" id="healthcare" name="industry" value="Healthcare" />
+                            <input type="radio" id="healthcare" name="industry" value="Healthcare" required />
                             <label for="healthcare">Healthcare</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="finance" name="industry" value="Finance and Banking" />
+                            <input type="radio" id="finance" name="industry" value="Finance and Banking" required />
                             <label for="finance">Finance and Banking</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="ecom" name="industry" value="E-Commerce" />
+                            <input type="radio" id="ecom" name="industry" value="E-Commerce" required />
                             <label for="ecom">E-Commerce</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="education" name="industry" value="Education" />
+                            <input type="radio" id="education" name="industry" value="Education" required />
                             <label for="education">Education</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="realestate" name="industry" value="Real Estate" />
+                            <input type="radio" id="realestate" name="industry" value="Real Estate" required />
                             <label for="realestate">Real Estate</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="manufacturing" name="industry" value="Manufacturing" />
+                            <input type="radio" id="manufacturing" name="industry" value="Manufacturing" required />
                             <label for="manufacturing">Manufacturing</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="media" name="industry" value="Media and Entertainment" />
+                            <input type="radio" id="media" name="industry" value="Media and Entertainment" required />
                             <label for="media">Media and Entertainment</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="logistics" name="industry" value="Logistics and Transportation" />
+                            <input type="radio" id="logistics" name="industry" value="Logistics and Transportation" required />
                             <label for="logistics">Logistics and Transportation</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="telecommunications" name="industry" value="Telecommunications" />
+                            <input type="radio" id="telecommunications" name="industry" value="Telecommunications" required />
                             <label for="telecommunications">Telecommunications</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="energy" name="industry" value="Energy and Utilities" />
+                            <input type="radio" id="energy" name="industry" value="Energy and Utilities" required />
                             <label for="energy">Energy and Utilities</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="other" name="industry" value="Other" />
+                            <input type="radio" id="other" name="industry" value="Other" required />
                             <label for="other">Other</label>
                         </div>
                     </div>
@@ -81,28 +79,28 @@
                     <label>What you need from us?</label>
                     <div class="feedback-checkboxes d-flex flex-wrap">
                         <div class="feedback-item">
-                            <input type="checkbox" id="web_design" name="services[]" value="Web design" />
+                            <input type="checkbox" id="web_design" name="services[]" value="Web design" required />
                             <label for="web_design">Process Automation</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="app_design" name="services[]" value="App design" />
+                            <input type="checkbox" id="app_design" name="services[]" value="App design" required />
                             <label for="app_design">Generative AI</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="branding" name="services[]" value="Branding" />
+                            <input type="checkbox" id="branding" name="services[]" value="Branding" required />
                             <label for="branding">Data Analytics</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="development" name="services[]" value="Development" />
+                            <input type="checkbox" id="development" name="services[]" value="Development" required />
                             <label for="development">Market Research</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service" />
+                            <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service" required />
                             <label for="cloud_service">Web Development</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="other" name="services[]" value="Other" />
-                            <label for="other">Other</label>
+                            <input type="checkbox" id="other_service" name="services[]" value="Other" required />
+                            <label for="other_service">Other</label>
                         </div>
                     </div>
                 </div>
@@ -112,7 +110,7 @@
             <div class="input-row field">
                 <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea name="message" id="alert-message" placeholder="Leave us a message...."></textarea>
+                    <textarea name="message" id="alert-message" placeholder="Leave us a message...." required></textarea>
                 </div>
             </div>
             <div class="input-row field">
@@ -127,10 +125,10 @@
             </div>
             <div class="input-row field">
                 <div class="input-group input-checkbox">
-                    <input type="checkbox" id="privacy_policy_accept" name="privacy_policy_accept" value="1">
+                    <input type="checkbox" id="privacy_policy_accept" name="privacy_policy_accept" value="1" required>
                     <label for="privacy_policy_accept">Click the box and agree to our <a
                             href="../trust-center/terms.php" target="_blank">terms and
-                            conditions.</a></a></label>
+                            conditions.</a></label>
                 </div>
             </div>
             <div class="input-row field is-grouped">
@@ -138,8 +136,6 @@
                     <button class="theme-btn" id="submit-button" type="submit">Submit</button>
                 </div>
             </div>
-            <!-- Alert Message -->
-            
         </div>
     </form>
 

@@ -1,4 +1,19 @@
 <script>
+document.getElementById('form').addEventListener('submit', function(event) {
+    let isValid = true;
+
+    // Check if any services are selected
+    let services = document.querySelectorAll('input[name="services[]"]:checked');
+    if (services.length === 0) {
+        isValid = false;
+        alert('Please select at least one service.');
+    }
+
+    if (!isValid) {
+        event.preventDefault();
+    }
+});
+
   document.getElementById("form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent the default form submission
     document.getElementById("alert-message").textContent = "Submitting..";
