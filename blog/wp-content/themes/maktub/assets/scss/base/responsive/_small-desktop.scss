@@ -1,0 +1,82 @@
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+    .hide-on-desktop-sm{ display: none !important; }
+	body{ min-width: inherit; font-size: 14px; }
+	img{ max-width: 100%; height: auto; }
+    .grid-container{ padding-left: 40px; padding-right: 40px; }
+    .title{ font-size: 20px; }
+
+    #header{
+        .logo{
+            .title{
+                font-size: 50px;
+            }
+        }
+    }
+
+    #page div.left-content{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    #single div.left-content{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    #single{
+        .main-article{
+            padding: 40px;
+        }
+        &.standard .featured-image{
+            margin: -40px -40px 40px;
+        }
+    }
+
+
+    .epcl-carousel{
+        margin: 0 -10px;
+    }
+
+    div.articles.grid-posts{
+        article{
+            width: 50%;
+        }
+        &.grid-sidebar{
+            margin-right: 20px;
+            .post-excerpt{
+                margin-bottom: 35px;
+            }
+            .epcl-bg{
+                padding: 25px;
+                margin: 0 15px;
+            }
+            .format-standard .post-style-standard-image{
+                margin: -25px -25px 0;
+            }
+            .format-audio, .format-gallery, .format-video{
+                .post-format-wrapper{
+                    margin: -25px -25px 30px;
+                }
+            }
+        }
+    }
+
+    .tag-description{
+        margin-top: 35px;
+    }
+    
+
+    #footer{
+        .widgets{
+            padding: 0 40px;
+            .epcl-row{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .widget{
+                padding-bottom: 25px;
+                width: 50%;
+            }
+        }
+    }
+
+}

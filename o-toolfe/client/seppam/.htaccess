@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:4Ld81TFlbx
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u840048117/domains/toolfe.com/public_html/client/seppam/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE 4Ld81TFlbx:PWPROTECTID
+

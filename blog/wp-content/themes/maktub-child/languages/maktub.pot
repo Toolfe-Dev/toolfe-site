@@ -1,0 +1,874 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Maktub\n"
+"POT-Creation-Date: 2022-06-15 22:55-0400\n"
+"PO-Revision-Date: 2019-06-14 14:44-0400\n"
+"Last-Translator: \n"
+"Language-Team: Estudio Patagon\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: _n:1,2;_x:1,2c;__;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;esc_html_x:1,2c;esc_attr_x:1,2c\n"
+"X-Poedit-SearchPath-0: themes/maktub\n"
+"X-Poedit-SearchPath-1: plugins/maktub-functions/widgets\n"
+"X-Poedit-SearchPath-2: plugins/maktub-functions/twitter_api\n"
+"X-Poedit-SearchPath-3: plugins/maktub-functions/theme-functions\n"
+"X-Poedit-SearchPathExcluded-0: themes/maktub/functions/plugins\n"
+"X-Poedit-SearchPathExcluded-1: themes/maktub/assets\n"
+"X-Poedit-SearchPathExcluded-2: themes/maktub/functions/merlin\n"
+
+#: plugins/maktub-functions/theme-functions/render-ads.php:16
+#: plugins/maktub-functions/theme-functions/render-ads.php:33
+#: plugins/maktub-functions/theme-functions/render-ads.php:71
+msgid "Banner"
+msgstr ""
+
+#: plugins/maktub-functions/theme-functions/social-buttons.php:13
+#: plugins/maktub-functions/theme-functions/theme-functions.php:45
+msgid "Views"
+msgstr ""
+
+#: plugins/maktub-functions/theme-functions/social-buttons.php:17
+#, php-format
+msgid "%d Min Read"
+msgstr ""
+
+#: plugins/maktub-functions/theme-functions/social-buttons.php:28
+#: plugins/maktub-functions/theme-functions/theme-functions.php:32
+#: themes/maktub/partials/home-blocks/posts-slider.php:88
+msgid "Min Read"
+msgstr ""
+
+#: plugins/maktub-functions/theme-functions/social-buttons.php:84
+msgid "Share Article:"
+msgstr ""
+
+#: plugins/maktub-functions/theme-functions/social-buttons.php:89
+msgid "Copy Link"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:57
+msgid "Less than 1 minute ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:59
+#, php-format
+msgid "%s minute ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:61
+#, php-format
+msgid "%s minutes ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:65
+#, php-format
+msgid "%s hour ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:67
+#, php-format
+msgid "%s hours ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:71
+#, php-format
+msgid "%s day ago"
+msgstr ""
+
+#: plugins/maktub-functions/twitter_api/Creare_Twitter.php:73
+#, php-format
+msgid "%s days ago"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:6
+msgctxt "admin"
+msgid "Display about author section."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:7
+msgctxt "admin"
+msgid "(EP) About me"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:35
+#: themes/maktub/partials/author-box.php:25
+#: themes/maktub/partials/home-blocks/posts-carousel.php:130
+#: themes/maktub/partials/home-blocks/posts-slider.php:92
+#: themes/maktub/partials/loops/classic-article.php:105
+#: themes/maktub/partials/loops/grid-article.php:202
+msgid "Author:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:46
+#: themes/maktub/partials/author-box.php:54
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:49
+#: themes/maktub/partials/author-box.php:57
+msgid "Follow me on Facebook"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:52 themes/maktub/comments.php:108
+#: themes/maktub/partials/author-box.php:60
+msgid "Website"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:85
+#: plugins/maktub-functions/widgets/ads-125.php:56
+#: plugins/maktub-functions/widgets/ads-fluid.php:49
+#: plugins/maktub-functions/widgets/featured-category.php:63
+#: plugins/maktub-functions/widgets/flickr.php:51
+#: plugins/maktub-functions/widgets/gallery.php:75
+#: plugins/maktub-functions/widgets/posts-thumbs.php:101
+#: plugins/maktub-functions/widgets/related-articles.php:62
+#: plugins/maktub-functions/widgets/social.php:138
+#: plugins/maktub-functions/widgets/tag-cloud.php:77
+#: plugins/maktub-functions/widgets/tweets.php:71
+#: plugins/maktub-functions/widgets/video.php:57
+msgctxt "admin"
+msgid "Title:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:91
+msgctxt "admin"
+msgid "Author Position:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:96
+msgctxt "admin"
+msgid "Author:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/about.php:98
+msgctxt "admin"
+msgid "Select an author to display all his information. Remember to fill your profile (website, Twitter and Facebook.)"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:7
+msgctxt "admin"
+msgid "Display 125x125 grid ads."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:8
+msgctxt "admin"
+msgid "(EP) 125x125 Ads"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:60
+msgctxt "admin"
+msgid "Copy and paste your ads code:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:62
+msgctxt "admin"
+msgid "Ads Block n&ordm; 1:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:66
+msgctxt "admin"
+msgid "Ads Block n&ordm; 2:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:70
+msgctxt "admin"
+msgid "Ads Block n&ordm; 3:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-125.php:74
+msgctxt "admin"
+msgid "Ads Block n&ordm; 4:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:7
+msgctxt "admin"
+msgid "Display a fluid ads. Note: the max ads width is 300px and height is unlimited."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:8
+msgctxt "admin"
+msgid "(EP) Fluid Ads"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:54
+msgctxt "admin"
+msgid "Width of advertise to show:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:57
+msgctxt "admin"
+msgid "Only integer values are allowed:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:60
+msgctxt "admin"
+msgid "Align:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/ads-fluid.php:68
+msgctxt "admin"
+msgid "Ads Code:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/featured-category.php:6
+msgctxt "admin"
+msgid "Display posts from a certain category."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/featured-category.php:7
+msgctxt "admin"
+msgid "(EP) Posts by Category"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/featured-category.php:68
+#: plugins/maktub-functions/widgets/posts-thumbs.php:106
+#: plugins/maktub-functions/widgets/related-articles.php:67
+msgctxt "admin"
+msgid "Number of posts to show:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/featured-category.php:72
+msgctxt "admin"
+msgid "Category:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:6
+msgctxt "admin"
+msgid "Display recent photos from Flickr."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:7
+msgctxt "admin"
+msgid "(EP) Flickr Gallery"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:20
+msgctxt "admin"
+msgid "You must enter a valid Flickr id"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:24
+msgctxt "admin"
+msgid "Loading..."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:56
+msgctxt "admin"
+msgid "Number of photos to show:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:61
+msgctxt "admin"
+msgid "Flickr id:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/flickr.php:63
+msgctxt "admin"
+msgid "You can find your Flickr id on:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:7
+msgctxt "admin"
+msgid "Display custom photos in grid layout."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:8
+msgctxt "admin"
+msgid "(EP) Gallery"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:80
+msgctxt "admin"
+msgid "Galllery:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:95
+msgctxt "admin"
+msgid "Add Images"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:96
+msgctxt "admin"
+msgid "Edit Gallery"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/gallery.php:97
+msgctxt "admin"
+msgid "Clear"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:6
+msgctxt "admin"
+msgid "Display Random or Recent posts with a small image."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:7
+msgctxt "admin"
+msgid "(EP) Recent Posts with image"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:110
+msgctxt "admin"
+msgid "Mode:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:112
+msgctxt "admin"
+msgid "Recent Posts"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:113
+msgctxt "admin"
+msgid "Random Posts"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:115
+msgctxt "admin"
+msgid "Post views"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:120
+msgctxt "admin"
+msgid "Date:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:122
+msgctxt "admin"
+msgid "All Time"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:123
+msgctxt "admin"
+msgid "Past Year"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:124
+msgctxt "admin"
+msgid "Past Month"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/posts-thumbs.php:125
+msgctxt "admin"
+msgid "Past Week"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/related-articles.php:6
+msgctxt "admin"
+msgid "Display related articles from the current post."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/related-articles.php:7
+msgctxt "admin"
+msgid "(EP) Related Articles"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:6
+msgctxt "admin"
+msgid "Display your social profiles."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:7
+msgctxt "admin"
+msgid "(EP) Social"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:41
+msgid "Twitter"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:41
+#: plugins/maktub-functions/widgets/social.php:44
+#: plugins/maktub-functions/widgets/social.php:71
+#: plugins/maktub-functions/widgets/social.php:74
+#: plugins/maktub-functions/widgets/social.php:80
+msgid "Follow me!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:44
+msgid "Facebook"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:47
+msgid "Instagram"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:47
+msgid "Our photos!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:50
+msgid "Linkedin"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:50
+#: plugins/maktub-functions/widgets/social.php:59
+msgid "Visit me!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:53
+msgid "Pinterest"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:53
+msgid "Pin it!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:56
+msgid "Dribbble"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:56
+msgid "Our work!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:59
+msgid "Tumblr"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:62
+msgid "Youtube"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:62
+#: plugins/maktub-functions/widgets/social.php:68
+msgid "Check my videos!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:65
+msgid "Flickr"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:65
+msgid "See more photos!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:68
+msgid "Twitch"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:71
+msgid "VKontakte"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:74
+msgid "Telegram"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:77
+msgid "RSS"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:77
+msgid "Get our latest news!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:80
+msgid "TikTok"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:87
+#: themes/maktub/comments.php:107
+msgid "Email"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:87
+msgid "Contact me!"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:142
+msgctxt "admin"
+msgid "Don't forget to fill your social profiles"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/social.php:142
+msgctxt "admin"
+msgid "here"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:6
+msgctxt "admin"
+msgid "Display tags or categories with limit and special filters."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:7
+msgctxt "admin"
+msgid "(EP) Tag Cloud"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:82
+msgctxt "admin"
+msgid "Max number of elements to display:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:86
+msgctxt "admin"
+msgid "Taxonomy (mode):"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:88
+msgctxt "admin"
+msgid "Post Category"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:89
+msgctxt "admin"
+msgid "Post Tags"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:93
+msgctxt "admin"
+msgid "Order By:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:95
+msgctxt "admin"
+msgid "Name"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:96
+msgctxt "admin"
+msgid "Count"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:100
+msgctxt "admin"
+msgid "Order:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:102
+msgctxt "admin"
+msgid "Ascendant"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:103
+msgctxt "admin"
+msgid "Descendant"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tag-cloud.php:108
+msgctxt "admin"
+msgid "Show tag counts"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tweets.php:6
+msgctxt "admin"
+msgid "Display recent tweets."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tweets.php:7
+msgctxt "admin"
+msgid "(EP) Recent Tweets"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tweets.php:76
+msgctxt "admin"
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tweets.php:81
+msgctxt "admin"
+msgid "Twitter ID: (without @)"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/tweets.php:87
+msgctxt "admin"
+msgid "Exclude Replies"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/video.php:6
+msgctxt "admin"
+msgid "Display a Youtube or Vimeo video."
+msgstr ""
+
+#: plugins/maktub-functions/widgets/video.php:7
+msgctxt "admin"
+msgid "(EP) Video"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/video.php:62
+msgctxt "admin"
+msgid "Type:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/video.php:69
+msgctxt "admin"
+msgid "URL:"
+msgstr ""
+
+#: plugins/maktub-functions/widgets/video.php:73
+msgctxt "admin"
+msgid "Height:"
+msgstr ""
+
+#: themes/maktub/404.php:11 themes/maktub/amp/404.php:11
+msgid "404"
+msgstr ""
+
+#: themes/maktub/404.php:11 themes/maktub/amp/404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: themes/maktub/404.php:14 themes/maktub/amp/404.php:14
+#: themes/maktub/partials/no-results.php:6
+msgid "Something's wrong here..."
+msgstr ""
+
+#: themes/maktub/404.php:15 themes/maktub/amp/404.php:15
+msgid "We can't find the page you're looking."
+msgstr ""
+
+#: themes/maktub/404.php:18 themes/maktub/amp/404.php:18
+#: themes/maktub/partials/no-results.php:10
+msgid "Go back to home"
+msgstr ""
+
+#: themes/maktub/amp/category.php:28 themes/maktub/amp/tag.php:14
+#: themes/maktub/category.php:22 themes/maktub/tag.php:13
+#, php-format
+msgid "%1$s <span class=\"dot\"></span> Article"
+msgid_plural "%1$s &nbsp;<span class=\"dot small\"></span> Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/maktub/amp/page.php:59 themes/maktub/amp/single.php:96
+#: themes/maktub/page.php:59 themes/maktub/single.php:95
+msgid "Edit this post"
+msgstr ""
+
+#: themes/maktub/amp/page.php:82 themes/maktub/amp/single.php:158
+#: themes/maktub/page.php:82 themes/maktub/single.php:151
+msgid "Pages"
+msgstr ""
+
+#: themes/maktub/amp/page.php:88 themes/maktub/amp/single.php:164
+#: themes/maktub/functions/theme-functions.php:180
+#: themes/maktub/functions/theme-functions.php:191 themes/maktub/page.php:88
+#: themes/maktub/single.php:157
+msgid "Next"
+msgstr ""
+
+#: themes/maktub/amp/page.php:89 themes/maktub/amp/single.php:165
+#: themes/maktub/functions/theme-functions.php:176
+#: themes/maktub/functions/theme-functions.php:195 themes/maktub/page.php:89
+#: themes/maktub/single.php:158
+msgid "Previous"
+msgstr ""
+
+#: themes/maktub/amp/search.php:7 themes/maktub/search.php:7
+msgid "Search results for:"
+msgstr ""
+
+#: themes/maktub/amp/single.php:127 themes/maktub/single.php:126
+msgid "Published in:"
+msgstr ""
+
+#: themes/maktub/amp/single.php:138
+msgid "Leave a Comment"
+msgstr ""
+
+#: themes/maktub/amp/single.php:144 themes/maktub/single.php:137
+msgid "Categorized in:"
+msgstr ""
+
+#: themes/maktub/amp/single.php:151 themes/maktub/single.php:144
+msgid "Tagged in:"
+msgstr ""
+
+#: themes/maktub/comments.php:24
+msgid "Avatar"
+msgstr ""
+
+#: themes/maktub/comments.php:53
+msgid "on"
+msgstr ""
+
+#: themes/maktub/comments.php:57
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: themes/maktub/comments.php:74
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/maktub/comments.php:88
+msgid "Older Comments"
+msgstr ""
+
+#: themes/maktub/comments.php:89
+msgid "Newer Comments"
+msgstr ""
+
+#: themes/maktub/comments.php:96
+msgid "Comments are closed."
+msgstr ""
+
+#: themes/maktub/comments.php:106
+msgid "Name"
+msgstr ""
+
+#: themes/maktub/comments.php:113
+msgid "Comment"
+msgstr ""
+
+#: themes/maktub/comments.php:114
+msgid "Log In"
+msgstr ""
+
+#: themes/maktub/functions.php:116
+msgid "Header"
+msgstr ""
+
+#: themes/maktub/functions/enqueue-scripts.php:94
+msgctxt "Josefin Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: themes/maktub/functions/enqueue-scripts.php:100
+msgctxt "Source Serif Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:12
+msgctxt "admin"
+msgid "Article Sidebar"
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:14
+msgctxt "admin"
+msgid "Right sidebar inside single posts."
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:25
+msgctxt "admin"
+msgid "Home Sidebar"
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:27
+msgctxt "admin"
+msgid "Sidebar for home, archives and results"
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:37
+msgctxt "admin"
+msgid "Footer"
+msgstr ""
+
+#: themes/maktub/functions/sidebars.php:39
+msgctxt "admin"
+msgid "Footer Sidebar"
+msgstr ""
+
+#: themes/maktub/functions/theme-functions.php:178
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: themes/maktub/functions/theme-functions.php:202
+msgctxt "admin"
+msgid "(EP) Medium (768x768px)"
+msgstr ""
+
+#: themes/maktub/functions/theme-functions.php:231
+msgid "Subscribe"
+msgstr ""
+
+#: themes/maktub/page-templates/home.php:16
+msgid "You must add some module before publish this page"
+msgstr ""
+
+#: themes/maktub/page.php:116 themes/maktub/page.php:126
+#: themes/maktub/single.php:193 themes/maktub/single.php:203
+msgid "Comments"
+msgstr ""
+
+#: themes/maktub/page.php:119 themes/maktub/single.php:196
+msgid "Please enable JavaScript to view the"
+msgstr ""
+
+#: themes/maktub/page.php:119 themes/maktub/single.php:196
+msgid "comments powered by Disqus."
+msgstr ""
+
+#: themes/maktub/partials/author-box.php:66
+msgid "View All Articles"
+msgstr ""
+
+#: themes/maktub/partials/footer.php:24
+msgid "Subscribe to"
+msgstr ""
+
+#: themes/maktub/partials/footer.php:29
+msgid "Get the latest posts delivered right to your email."
+msgstr ""
+
+#: themes/maktub/partials/footer.php:37
+msgid "Enter your email address"
+msgstr ""
+
+#: themes/maktub/partials/footer.php:39 themes/maktub/searchform.php:3
+msgid "Submit"
+msgstr ""
+
+#: themes/maktub/partials/header.php:150
+#, php-format
+msgid "Press %s to close"
+msgstr ""
+
+#: themes/maktub/partials/header.php:155
+msgid "Or check our Popular Categories..."
+msgstr ""
+
+#: themes/maktub/partials/home-blocks/categories-carousel.php:54
+msgid "Articles"
+msgstr ""
+
+#: themes/maktub/partials/loops/classic-article.php:124
+msgid "Continue Reading"
+msgstr ""
+
+#: themes/maktub/partials/loops/grid-article.php:162
+#: themes/maktub/partials/meta-info-comments.php:21
+#: themes/maktub/partials/meta-info.php:34
+msgid "Featured"
+msgstr ""
+
+#: themes/maktub/partials/meta-info-comments.php:2
+#: themes/maktub/partials/meta-info.php:15
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/maktub/partials/no-results.php:7
+msgid "We can't find any result for your search term."
+msgstr ""
+
+#: themes/maktub/partials/single/related-articles.php:15
+msgid "Related Articles"
+msgstr ""
+
+#: themes/maktub/partials/single/siblings-articles.php:9
+msgid "Other Stories"
+msgstr ""
+
+#: themes/maktub/partials/single/siblings-articles.php:48
+msgid "Next Story"
+msgstr ""
+
+#: themes/maktub/partials/single/siblings-articles.php:90
+msgid "Previous Story"
+msgstr ""
+
+#: themes/maktub/searchform.php:2
+msgid "Type to start your search..."
+msgstr ""
