@@ -123,17 +123,17 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/website bento/1.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">Visual <br>
-                                    Appeal</a></h2>
+                            <h2>Visual <br>
+                                    Appeal</h2>
                             <p>We have an expert team for stunning website visual appeal.</p>
 
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Responsive<br>
+                            <h2>Responsive<br>
                                     Website <br>
-                                </a></h2>
+                                </h2>
                             <p>We specialize in responsive designs for user engagement.</p>
 
                         </div>
@@ -149,7 +149,7 @@ include '../includes/header.php'
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
                             <h2>Fast-paced<br>
-                                Development <br></a></h2>
+                                Development <br></h2>
                             <p>Our team optimizes websites for peak performance and usability.</p>
 
                         </div>
@@ -162,8 +162,8 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/website bento/4.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">Innovative <br>
-                                    Technologies</a></h2>
+                            <h2>Innovative <br>
+                                    Technologies</h2>
                             <p>Our advanced technologies ensure websites meet modern user expectations.</p>
 
                         </div>
@@ -178,16 +178,16 @@ include '../includes/header.php'
                             <img width="20px" src="../assets/imgs/services/website bento/5.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">Enhanced
-                                    Functions</a></h2>
+                            <h2>Enhanced
+                                    Functions</h2>
                             <p>We integrate enhanced functions for seamless user experience. <br></p>
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Continous <br>
+                            <h2>Continous <br>
                                     Support <br>
-                                </a></h2>
+                                </h2>
                             <p>We provide continuous support to ensure your website evolves seamlessly.</p>
 
                         </div>
