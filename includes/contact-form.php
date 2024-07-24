@@ -37,14 +37,14 @@
                         <div class="input-row field">
                             <div class="input-group">
                                 <label for="message">Message</label>
-                                <textarea name="Message" id="alert-message" placeholder="Leave us a message...." required></textarea>
+                                <textarea name="Message" id="" placeholder="Leave us a message...." required></textarea>
                             </div>
                         </div>
                         <div class="input-row field">
                             <div class="input-group input-checkbox">
                                 <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" required />
                                 <label for="privacy_policy_accept">You agree to our
-                                    <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a></label>
+                                    <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a></label>
                             </div>
                         </div>
                         <div class="input-row field is-grouped">
@@ -52,6 +52,7 @@
                                 <button id="submit-button" type="submit" class="theme-btn">Submit</button>
                             </div>
                         </div>
+                        <p id="alert-message"></p>
                     </form>
                     <div id="alert-message" style="
             display: none;

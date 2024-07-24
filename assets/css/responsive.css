@@ -334,6 +334,7 @@
     font-size: 13px;
     line-height: 22px;
     padding-right: 8px;
+    min-height: 100px;
   }
   .project-area .project-left-details p {
     font-size: 15px;

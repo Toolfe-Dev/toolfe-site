@@ -882,7 +882,12 @@
                     <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="ICON" />
 
                     <h3>Web Development</h3>
-                    <p>Enhance your business with personalized web solutions. Whether you're looking to revamp your website, optimize user experience, or integrate powerful e-commerce capabilities, our tailored solutions are designed to propel your online success. From responsive designs that engage customers across all devices to seamless content management systems, we ensure your business stays ahead in the digital landscape. Partner with us to unlock growth opportunities and achieve your goals effortlessly, backed by our expertise in creating impactful online experiences.</p>
+                    <p>Enhance your business with personalized web solutions. Whether you're looking to revamp your
+                      website, optimize user experience, or integrate powerful e-commerce capabilities, our tailored
+                      solutions are designed to propel your online success. From responsive designs that engage
+                      customers across all devices to seamless content management systems, we ensure your business stays
+                      ahead in the digital landscape. Partner with us to unlock growth opportunities and achieve your
+                      goals effortlessly, backed by our expertise in creating impactful online experiences.</p>
 
                   </div>
                 </div>
@@ -914,7 +919,12 @@
                     <img src="assets/imgs/Home/ourSolution/solution_icon4.svg" alt="ICON" />
 
                     <h3>Market Research</h3>
-                    <p>Market research plays a vital role in guiding strategic IT decisions. By examining trends, competitors, and customer preferences, it provides essential insights necessary for launching new products, expanding into new markets, and optimizing existing offerings. Understanding these factors helps businesses align their IT strategies with current market demands and anticipate future needs. This proactive approach not only enhances decision-making but also increases the likelihood of success in a competitive business landscape.</p>
+                    <p>Market research plays a vital role in guiding strategic IT decisions. By examining trends,
+                      competitors, and customer preferences, it provides essential insights necessary for launching new
+                      products, expanding into new markets, and optimizing existing offerings. Understanding these
+                      factors helps businesses align their IT strategies with current market demands and anticipate
+                      future needs. This proactive approach not only enhances decision-making but also increases the
+                      likelihood of success in a competitive business landscape.</p>
 
                   </div>
                 </div>
@@ -967,7 +977,6 @@
                 <div class="swiper-wrapper">
 
                   <div class="swiper-slide project-item">
-
                     <div class="project-item-inner">
                       <h2>
                         <a href="./case-study/automating_cloud_deployment.php">Automating Cloud Deployment for Workflow
@@ -1109,11 +1118,11 @@
     <section class="">
       <div class="custom-container">
         <div class="section-header d-flex align-items-center justify-content-between">
-          <div class="left">
-            <h5 class="section-subtitle">Blogs</h5>
-            <h1 class="section-title">Updated
+          <div class="left ">
+            <h5 class="section-subtitle py-2">Blogs</h5>
+            <h1 class="section-title py-2">Updated
               blogs</h1>
-            <p>Here, you'll find the latest insights, trends,
+            <p class="py-2">Here, you'll find the latest insights, trends,
               and tips in the digital services industry.</p>
           </div>
 
@@ -1186,7 +1195,8 @@
           </div>
           <h2>Need any further assitance?</h2>
           <p>Feel free to reach out for any inquiries or assistance.</p>
-          <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Let's Connect
+          <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}'
+            data-cal-namespace="" class="theme-simple-btn">Let's Connect
 
           </div>
         </div>
@@ -1231,7 +1241,8 @@
                 <div class="input-row field">
                   <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea name="Message" id="alert-message" placeholder="Leave us a message...." required></textarea>
+                    <textarea name="Message" id="alert-message" placeholder="Leave us a message...."
+                      required></textarea>
                   </div>
                 </div>
                 <div class="input-row field">
@@ -1245,6 +1256,7 @@
                   <div class="input-group control">
                     <button id="submit-button" type="submit" class="theme-btn">Submit</button>
                   </div>
+                  <h1 id="alert-message"></h1>
                 </div>
               </form>
               <div id="alert-message" style="
@@ -1291,7 +1303,7 @@
               </div>
               <div class="contact-office-info contact-info mb-0 border-0">
                 <h5 class="contact-text text-uppercase">INDIA</h5>
-                <p>no:12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+                <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
                 <h5 class="contact-text text-uppercase">United States</h5>
                 <p>5665 W. Wilshire Blvd
 

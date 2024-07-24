@@ -4284,7 +4284,7 @@ img {
 .project-area .project-right-slider {
   max-width: 1086px;
   width: 100%;
-  transform: translateX(198px);
+  transform: translateX(158px);
 }
 /* .project-area .project-right-slider .swiper {
     overflow-x: hidden;
@@ -4328,6 +4328,8 @@ img {
 }
 .project-item .project-item-inner h2 a {
   color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
 /* changed by Sathish */
 .project-item .project-item-inner img {

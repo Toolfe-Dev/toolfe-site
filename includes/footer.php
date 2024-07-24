@@ -104,7 +104,7 @@
         document.getElementById("alert-message").textContent =
           "Your request has been submitted successfully!";
         document.getElementById("alert-message").style.display = "block";
-        document.getElementById("alert-message").style.background = "white";
+        // document.getElementById("alert-message").style.background = "white";
         document.getElementById("alert-message").style.color = "#198754";
         document.getElementById("submit-button").disabled = false;
         document.getElementById("form").reset();
