@@ -1,4 +1,4 @@
-<div?php
+<?php
 include '../includes/header.php'
 ?>
 
@@ -110,7 +110,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <div>Virtual Classroom Solutions </div>
+            <div">Virtual Classroom Solutions </div>
           </h1>
           <p>
             Enhanced learning through high-quality video conferencing and
@@ -144,7 +144,8 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <div>Student Information Systems (SIS)</div>
+            <div>Student Information Systems (SIS)
+            </div>
           </h1>
           <p>
             Efficient enrollment management and secure student records

@@ -1,4 +1,4 @@
-<div?php
+<?php
 include '../includes/header.php'
 ?>
 
@@ -146,7 +146,8 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <div>AI-Driven Content Personalization</div>
+            <div>AI-Driven Content Personalization
+            </div>
           </h1>
           <p>
             Intelligent Audience Segmentation and Predictive Insights for

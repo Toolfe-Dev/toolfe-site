@@ -1,4 +1,4 @@
-<div?php
+<?php
 include '../includes/header.php'
 ?>
 
@@ -180,7 +180,8 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <div>Data Analytics for Retail Insights</div>
+            <div>Data Analytics for Retail Insights
+            </div>
           </h1>
           <p>
             Data analytics for retail insights involves using advanced tools
