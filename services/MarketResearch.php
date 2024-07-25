@@ -271,7 +271,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                    <div class="how-we-do-items how-we-do-jis d-flex align-items-center justify-content-center">
                         <div class="how-we-do-card">
                             <div class="circle-shape"></div>
                             <div class="line-shape"></div>
@@ -472,7 +472,7 @@ include '../includes/header.php'
 
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Market research is the process of gathering, analyzing, and interpreting
                                         information about a market, including information about the target audience,
                                         competitors, and industry trends.
@@ -493,7 +493,7 @@ include '../includes/header.php'
 
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Market research helps businesses understand their customers, identify
                                         opportunities for growth, reduce risks, and make informed decisions based on
                                         data and insights.
@@ -514,7 +514,7 @@ include '../includes/header.php'
 
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         There are two main types: primary research (collecting new data directly from
                                         sources) and secondary research (analyzing existing data collected by others).
                                     </div>
@@ -538,7 +538,7 @@ include '../includes/header.php'
 
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         By conducting market research to identify demographic, geographic,
                                         psychographic, and behavioral characteristics of potential customers who are
                                         most likely to purchase your product or service.
@@ -559,7 +559,7 @@ include '../includes/header.php'
 
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Common methods include surveys, interviews, focus groups, observations, and
                                         analyzing existing data and market reports.
                                     </div>
@@ -579,7 +579,7 @@ include '../includes/header.php'
 
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Define your objectives, design your questionnaire, select a sample group,
                                         distribute the survey, and analyze the results to draw actionable insights.
                                     </div>
@@ -612,7 +612,7 @@ include '../includes/header.php'
                         <p>You can reach us anytime via <a href="mailto:support@toolfe.com">support@toolfe.com</a>
                         </p>
 
-                        <a href="#" class="our-expert-team-box d-flex align-items-center">
+                        <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
                                     <img src="../assets/imgs/small-img-4.png" alt="team" />

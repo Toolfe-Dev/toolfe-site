@@ -258,7 +258,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                    <div class="how-we-do-items how-we-do-jis d-flex align-items-center justify-content-center">
                         <div class="how-we-do-card">
                             <div class="circle-shape"></div>
                             <div class="line-shape"></div>
@@ -604,7 +604,7 @@ include '../includes/header.php'
                         <p>You can reach us anytime via <a href="mailto:support@toolfe.com">support@toolfe.com</a>
                         </p>
 
-                        <a href="#" class="our-expert-team-box d-flex align-items-center">
+                        <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
                                     <img src="../assets/imgs/small-img-4.png" alt="team" />

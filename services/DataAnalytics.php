@@ -269,7 +269,7 @@ Informs decisions through sentiment and feedback analysis.</p>
 
                     </div>
 
-                    <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                    <div class="how-we-do-items how-we-do-jis d-flex align-items-center justify-content-center">
                     <div class="how-we-do-card">
                             <div class="circle-shape"></div>
                             <div class="line-shape"></div>
@@ -558,7 +558,7 @@ Informs decisions through sentiment and feedback analysis.</p>
                                     <button data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <div class="icon">
                                              <?xml version="1.0" encoding="UTF-8"?><i class="iconoir-chat-bubble-check"></i>
-                                        </div> What are the benefits of predictive analytics?
+                                        </div> What are the benefits of predictive <br> analytics?
 
 
 

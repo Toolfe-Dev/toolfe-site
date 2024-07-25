@@ -284,7 +284,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                    <div class="how-we-do-items how-we-do-jis d-flex align-items-center justify-content-center">
                         <div class="how-we-do-card">
                             <div class="circle-shape"></div>
                             <div class="line-shape"></div>
@@ -487,7 +487,7 @@ feature of a website.</p>
 
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Website development is the process of creating, designing, and maintaining
                                         websites on the internet.
                                     </div>
@@ -508,7 +508,7 @@ feature of a website.</p>
 
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Essential components include a domain name, web hosting, design/layout, content,
                                         and functionality (such as forms or e-commerce).
                                     </div>
@@ -529,7 +529,7 @@ feature of a website.</p>
 
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Common languages include HTML, CSS, JavaScript for front-end development, and
                                         languages like PHP, Python, or Ruby for back-end development.
                                     </div>
@@ -554,7 +554,7 @@ feature of a website.</p>
 
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Responsive web design ensures that a website looks and functions well across
                                         various devices and screen sizes, adapting its layout accordingly.
                                     </div>
@@ -575,7 +575,7 @@ feature of a website.</p>
 
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Front-end development focuses on what users interact with directly (e.g.,
                                         layout, design, interactivity), while back-end development deals with
                                         server-side operations, databases, and application logic.
@@ -598,7 +598,7 @@ feature of a website.</p>
 
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         SEO (Search Engine Optimization) involves optimizing a website to improve its
                                         visibility and ranking in search engine results, thus attracting more organic
                                         traffic.
@@ -632,7 +632,7 @@ feature of a website.</p>
                         <p>You can reach us anytime via <a href="mailto:support@toolfe.com">support@toolfe.com</a>
                         </p>
 
-                        <a href="#" class="our-expert-team-box d-flex align-items-center">
+                        <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
                                     <img src="../assets/imgs/small-img-4.png" alt="team" />
