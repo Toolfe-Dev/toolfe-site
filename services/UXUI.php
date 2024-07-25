@@ -94,7 +94,7 @@ include '../includes/header.php'
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
                     <h5 class="section-subtitle">Why us</h5>
-                    <h1 class="section-title">Creative UIUX <br>Solutions</h1>
+                    <h1 class="section-title">Creative UXUI <br>Solutions</h1>
                 </div>
 
                 <p>Explore our UX/UI web services, where we craft, design, and maintain websites with seamless
@@ -196,8 +196,8 @@ include '../includes/header.php'
                             thrilled
                             to
                             explore
-                            your UI
-                            UX
+                            your UX
+                            UI
                             needs!, Let's Talk!!
                         </p>
                     </div>
@@ -221,7 +221,7 @@ include '../includes/header.php'
                     <div class="top">
                         <h5 class="section-subtitle">Our Workflow</h5>
                         <h1 class="section-title">How we do</h1>
-                        <p>Expertly deliver using our proven UI/UX design method</p>
+                        <p>Expertly deliver using our proven UX/UI design method</p>
                     </div>
                     <!-- <a href="how-we-do.php" class="theme-btn">
                         Learn More
@@ -268,7 +268,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <div class="how-we-do-items d-flex align-items-center justify-content-center">
+                    <div class="how-we-do-items how-we-do-jis d-flex align-items-center justify-content-center">
                         <div class="how-we-do-card">
                             <div class="circle-shape"></div>
                             <div class="line-shape"></div>
@@ -392,9 +392,9 @@ include '../includes/header.php'
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">Jun 24, 2024</span>
-                            <a href="blog-details.php" class="category">#AWS</a>
+                            <a  class="category">#AWS</a>
                         </div>
-                        <h2><a href="blog-details.php">How to Connect to an EC2 Instance Without Errors: A Step-by-Step
+                        <h2><a>How to Connect to an EC2 Instance Without Errors: A Step-by-Step
                                 Guide(For Linux and MacOS)</a></h2>
                         <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward
                             guide.</p>
@@ -409,9 +409,9 @@ include '../includes/header.php'
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
-                            <a href="" class="category">#Blockchain Technology</a>
+                            <a class="category">#Blockchain Technology</a>
                         </div>
-                        <h2><a href="blog-details.php">Essential Blockchain Testing Techniques: Ensuring Integrity and
+                        <h2><a>Essential Blockchain Testing Techniques: Ensuring Integrity and
                                 Security in Networks</a></h2>
                         <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is
                             maintained.</p>
@@ -427,9 +427,9 @@ include '../includes/header.php'
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 15, 2024</span>
-                            <a href="blog-details.php" class="category">#UX Research</a>
+                            <a class="category">#UX Research</a>
                         </div>
-                        <h2><a href="blog-details.php">Best ux research methods and when to use them</a></h2>
+                        <h2><a>Best ux research methods and when to use them</a></h2>
                         <p>Discover effective UX research methods like interviews and usability tests to enhance product
                             understanding and usability.</p>
                         <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/"
@@ -472,7 +472,7 @@ include '../includes/header.php'
 
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         UX (User Experience) design focuses on the overall feel of the user experience,
                                         while UI (User Interface) design deals with the specific look and interactive
                                         elements of the product.
@@ -494,9 +494,9 @@ include '../includes/header.php'
 
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
-                                    <div class="card-body">
-                                        Good UX/UI design enhances user satisfaction, increases engagement, and can
-                                        significantly boost conversion rates, leading to better business outcomes.
+                                    <div class="jiscard-body">
+                                        Good UX/UI design enhances user satisfaction,increases engagement,and can
+                                        significantly boost conversion rates,leading to better business outcomes.
                                     </div>
                                 </div>
                             </div>
@@ -515,7 +515,7 @@ include '../includes/header.php'
 
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         The process typically includes research, wireframing, prototyping, user testing,
                                         and iterative design based on feedback to ensure the final product meets user
                                         needs and expectations.
@@ -541,7 +541,7 @@ include '../includes/header.php'
 
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Stay connected through online communities, blogs, conferences, and continuous
                                         learning platforms like courses and workshops.
                                     </div>
@@ -555,13 +555,13 @@ include '../includes/header.php'
                                             <?xml version="1.0" encoding="UTF-8"?><i
                                                 class="iconoir-chat-bubble-check"></i>
 
-                                        </div> How do your designs meet our needs?
+                                        </div> How do your designs meet our <br> needs?
                                     </button>
                                 </h5>
 
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         We start with a thorough discovery phase to understand your business goals and
                                         user needs. We involve stakeholders throughout the process and use iterative
                                         testing to refine designs.
@@ -583,7 +583,7 @@ include '../includes/header.php'
 
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                         Yes, we can analyze your current product, identify areas for improvement, and
                                         provide a complete redesign to enhance user experience and interface.
                                     </div>
