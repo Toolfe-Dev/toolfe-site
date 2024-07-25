@@ -1,4 +1,4 @@
-<?php
+<div?php
 include '../includes/header.php'
 ?>
 
@@ -81,7 +81,7 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">E-commerce Platform Development</a>
+            <div>E-commerce Platform Development</div>
           </h1>
           <p>
             E-commerce platform development involves creating a
@@ -111,7 +111,7 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Customer Experience Enhancement</a>
+            <div>Customer Experience Enhancement</div>
           </h1>
           <p>
             Enhancing customer experience optimizes interactions across
@@ -149,7 +149,7 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Inventory and Supply Chain Management</a>
+            <div>Inventory and Supply Chain Management</div>
           </h1>
           <p>
             Inventory and supply chain management involves efficiently
@@ -180,8 +180,7 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Data Analytics for Retail Insights
-            </a>
+            <div>Data Analytics for Retail Insights</div>
           </h1>
           <p>
             Data analytics for retail insights involves using advanced tools
@@ -219,7 +218,7 @@ include '../includes/header.php'
              E-commerce and Retail
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Cloud Solutions for E-commerce</a>
+            <div> Cloud Solutions for E-commerce</div>
           </h1>
           <p>
             Cloud solutions for e-commerce enable scalable infrastructure,

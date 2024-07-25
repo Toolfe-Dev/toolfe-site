@@ -88,7 +88,7 @@ include '../includes/header.php'
             Logistics and Transportation
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Supply Chain Management Systems</a>
+            <div> Supply Chain Management Systems</div>
           </h1>
           <p>
             Supply chain systems streamline logistics, inventory, and
@@ -118,7 +118,7 @@ include '../includes/header.php'
              Logistics and Transportation
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Fleet Management Solutions </a>
+            <div>Fleet Management Solutions </div>
           </h1>
           <p>
             Fleet management solutions optimize logistics and maintenance,
@@ -155,7 +155,7 @@ include '../includes/header.php'
              Logistics and Transportation
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Warehouse Management Systems</a>
+            <div>Warehouse Management Systems</div>
           </h1>
           <p>
             Warehouse management systems track inventory, optimize storage,
@@ -183,7 +183,7 @@ include '../includes/header.php'
              Logistics and Transportation
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Data Analytics for Logistics </a>
+            <div>Data Analytics for Logistics </div>
           </h1>
           <p>
             Logistics data analytics optimizes route planning, inventory,
@@ -219,7 +219,7 @@ include '../includes/header.php'
              Logistics and Transportation
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Cloud Solutions for Logistics</a>
+            <div> Cloud Solutions for Logistics</div>
           </h1>
           <p>
             Cloud logistics: scalable infrastructure, real-time data access,
@@ -567,7 +567,7 @@ include '../includes/header.php'
             </div>
             <div class="feature-box">
               <i class="icon-box las la-check"></i>
-              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UI/UX
+              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UX/UI
                 </a></h3>
               <p> Improve user satisfaction with our expert UI/UX design services.
               </p>

@@ -78,7 +78,7 @@ include '../includes/header.php'
             Finance & Banking
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Digital Banking Solutions</a>
+            <div> Digital Banking Solutions</div>
           </h1>
           <p>
             Seamless Banking, Secure Platforms, Integrating Financial
@@ -107,7 +107,7 @@ include '../includes/header.php'
             Finance & Banking
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Fraud Detection and Prevention</a>
+            <div>Fraud Detection and Prevention</div>
           </h1>
           <p>
             Advanced AI for Real-Time Detection, Enhanced Security,
@@ -143,7 +143,7 @@ include '../includes/header.php'
             Finance & Banking
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Data Analytics for Financial Insights</a>
+            <div>Data Analytics for Financial Insights</div>
           </h1>
           <p>
             Data-Driven Insights, Predictive Models, Actionable Data for
@@ -172,7 +172,7 @@ include '../includes/header.php'
             Finance & Banking
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">AI-Powered Financial Advisory</a>
+            <div>AI-Powered Financial Advisory</div>
           </h1>
           <p>
             Personalized Financial Advice, Improved Engagement, Efficient
@@ -207,7 +207,7 @@ include '../includes/header.php'
             Finance & Banking
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Cloud Solutions for Finance</a>
+            <div>Cloud Solutions for Finance</div>
           </h1>
           <p>
             Secure Cloud Storage, Scalable Infrastructure, Enhanced

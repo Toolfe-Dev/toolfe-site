@@ -1,4 +1,4 @@
-<?php
+<div?php
 include '../includes/header.php'
 ?>
 
@@ -82,7 +82,7 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Content Management Systems </a>
+            <div>Content Management Systems </div>
           </h1>
           <p>
             Centralized Content Creation and Distribution with Streamlined
@@ -110,7 +110,7 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">OTT Platforms </a>
+            <div>OTT Platforms </div>
           </h1>
           <p>
             Dynamic Streaming and On-Demand Solutions with Tailored
@@ -146,8 +146,7 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">AI-Driven Content Personalization
-            </a>
+            <div>AI-Driven Content Personalization</div>
           </h1>
           <p>
             Intelligent Audience Segmentation and Predictive Insights for
@@ -177,7 +176,7 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">AI-Optimized Ad Campaigns </a>
+            <div>AI-Optimized Ad Campaigns </div>
           </h1>
           <p>Enhancing Ad Effectiveness through Intelligent Targeting</p>
           <ul>
@@ -210,7 +209,7 @@ include '../includes/header.php'
             Media & Entertainment
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Digital Rights Management </a>
+            <div>Digital Rights Management </div>
           </h1>
           <p>
             Robust Content Security, Licensing Solutions, and Advanced

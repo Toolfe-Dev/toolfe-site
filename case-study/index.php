@@ -167,23 +167,8 @@ include '../includes/header.php'
     </div>
   </section>
 
-  <section class="cta-area">
-    <div class="custom-container">
-      <div class="cta-body text-center">
-        <img src="../assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />
-        <div class="our-expert-team-box">
-          <div class="our-expert-team-box-inner d-flex align-items-center">
-
-          </div>
-        </div>
-        <h2>Need any further assitance?</h2>
-        <p>Feel free to reach out for any inquiries or assistance.</p>
-        <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class="theme-simple-btn">Let's Connect
-        </div>
-      </div>
-  </section>
-
-
+  <!-- CTA -->
+  <?php include '../includes/cta.php';  ?>
 
   <!-- Contact -->
   <section class="hero-section-wrap hero-home2" id="contact-us">

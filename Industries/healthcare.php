@@ -85,7 +85,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Healthcare</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Patient Management Systems</a>
+            <div>Patient Management Systems</div>
           </h1>
           <p>
             Patient Management Systems streamline healthcare by managing
@@ -113,7 +113,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Healthcare</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Telemedicine Platforms</a>
+            <div>Telemedicine Platforms</div>
           </h1>
           <p>
             Telemedicine platforms enable remote medical consultations and
@@ -146,7 +146,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Healthcare</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Predictive Analytics for Patient Care</a>
+            <div>Predictive Analytics for Patient Care</div>
           </h1>
           <p>
             Predictive analytics for patient care uses data to forecast
@@ -174,7 +174,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Healthcare</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">AI-Driven Diagnostics </a>
+            <div>AI-Driven Diagnostics </div>
           </h1>
           <p>
             AI-driven diagnostics utilize artificial intelligence to analyze
@@ -209,7 +209,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">healthcare</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Cloud Solutions for Healthcare</a>
+            <div>Cloud Solutions for Healthcare</div>
           </h1>
           <p>
             Cloud solutions for healthcare provide secure, scalable storage

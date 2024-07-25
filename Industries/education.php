@@ -1,4 +1,4 @@
-<?php
+<div?php
 include '../includes/header.php'
 ?>
 
@@ -83,7 +83,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">E-Learning Platform Development </a>
+            <div>E-Learning Platform Development </div>
           </h1>
           <p>
             Customized online environments for interactive learning with
@@ -110,7 +110,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Virtual Classroom Solutions </a>
+            <div>Virtual Classroom Solutions </div>
           </h1>
           <p>
             Enhanced learning through high-quality video conferencing and
@@ -144,8 +144,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Student Information Systems (SIS)
-            </a>
+            <div>Student Information Systems (SIS)</div>
           </h1>
           <p>
             Efficient enrollment management and secure student records
@@ -173,7 +172,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Data Analytics for Education </a>
+            <div>Data Analytics for Education </div>
           </h1>
           <p>Insightful data-driven strategies for enhanced outcomes.</p>
           <ul>
@@ -204,7 +203,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Cloud Solutions for Education </a>
+            <div> Cloud Solutions for Education </div>
           </h1>
           <p>Secure storage and scalable collaborative infrastructure.</p>
           <ul>

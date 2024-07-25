@@ -18,7 +18,7 @@ include '../includes/header.php'
               Redefining Real Estate with Advanced Technology Solutions
             </h1>
             <p>Enhancing Property Management and Investment Strategies</p>
-            <a href="contact.php" class="theme-simple-btn">
+            <a href="../contact/index.php" class="theme-simple-btn">
               Contact Us Today
             </a>
           </div>
@@ -79,7 +79,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">AI-Powered Property Analytics</a>
+            <div>AI-Powered Property Analytics</div>
           </h1>
           <p>
             Data-Driven Insights for Informed Real Estate Decision-Making
@@ -105,8 +105,8 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Automated Asset Management Solutions
-            </a>
+            <div>Automated Asset Management Solutions
+            </div>
           </h1>
           <p>Streamlined Operations and Enhanced Cost Efficiency</p>
           <ul>
@@ -137,7 +137,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Automated Tenant Management</a>
+            <div>Automated Tenant Management</div>
           </h1>
           <p>Streamlining Tenant Relations with Advanced Automation</p>
           <ul>
@@ -161,7 +161,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Smart Building Solutions</a>
+            <div>Smart Building Solutions</div>
           </h1>
           <p>Optimizing Efficiency and Comfort through Automation</p>
           <ul>
@@ -192,9 +192,9 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">
+            <div>
               AI for Sustainable Real Estate Practices
-            </a>
+            </div>
           </h1>
           <p>Integrating Green Initiatives with Advanced AI Solutions</p>
           <ul>

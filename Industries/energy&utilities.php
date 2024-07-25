@@ -1,4 +1,4 @@
-<?php
+<div?php
 include '../includes/header.php'
 ?>
 
@@ -82,7 +82,7 @@ include '../includes/header.php'
             Energy & Utilities
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php"> Smart Grid Optimization </a>
+            <div> Smart Grid Optimization </div>
           </h1>
           <p>
             Enhance Grid Efficiency and Reliability with Advanced AI
@@ -111,7 +111,7 @@ include '../includes/header.php'
             Energy & Utilities
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Predictive Maintenance </a>
+            <div>Predictive Maintenance </div>
           </h1>
           <p>Maximize Asset Lifespan with AI-Driven Predictive Analytics</p>
           <ul>
@@ -143,7 +143,7 @@ include '../includes/header.php'
             Energy & Utilities
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Energy Demand Forecasting </a>
+            <div>Energy Demand Forecasting </div>
           </h1>
           <p>AI-Driven Demand Planning for Efficient Resource Management</p>
           <ul>
@@ -170,7 +170,7 @@ include '../includes/header.php'
             Energy & Utilities
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Automated Meter Readings</a>
+            <div>Automated Meter Readings</div>
           </h1>
           <p>Accurate and Timely Data Collection</p>
           <ul>
@@ -202,9 +202,8 @@ include '../includes/header.php'
             Energy & Utilities
           </h5>
           <h1 class="section-title">
-            <a href="blog-details.php">
-              Renewable Integration Optimization
-            </a>
+            <div>
+              Renewable Integration Optimization</div>
           </h1>
           <p>Seamless Integration of Renewables with AI Strategies</p>
           <ul>

@@ -22,7 +22,7 @@ include '../includes/header.php'
               Enhancing Efficiency, Quality, and Productivity through
               Advanced Technology
             </p>
-            <a href="contact.php" class="theme-simple-btn">
+            <a href="../contact/index.php" class="theme-simple-btn">
               Contact Us Today
             </a>
           </div>
@@ -83,7 +83,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Manufacturing</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Automation Technology </a>
+            <div>Automation Technology </div>
           </h1>
           <p>
             Boost productivity and cut costs with our advanced automation
@@ -109,7 +109,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Manufacturing</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">IoT for Smart Manufacturing </a>
+            <div>IoT for Smart Manufacturing </div>
           </h1>
           <p>
             Transform your manufacturing operations with real-time
@@ -143,7 +143,7 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Manufacturing</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Quality Control and Management </a>
+            <div>Quality Control and Management </div>
           </h1>
           <p>
             Ensure top-notch product quality with our AI-powered quality
@@ -171,8 +171,8 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Manufacturing</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">Data Analytics for Manufacturing Insights
-            </a>
+            <div>Data Analytics for Manufacturing Insights
+            </div>
           </h1>
           <p>
             Harness the power of data to optimize processes and forecast
@@ -206,9 +206,9 @@ include '../includes/header.php'
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Manufacturing</h5>
           <h1 class="section-title">
-            <a href="blog-details.php">
+            <div>
               Cloud Solutions for Manufacturing
-            </a>
+            </div>
           </h1>
           <p>
             Leverage secure and scalable cloud solutions for seamless data
