@@ -81,28 +81,28 @@
                     <label>What you need from us?</label>
                     <div class="feedback-checkboxes d-flex flex-wrap">
                         <div class="feedback-item">
-                            <input type="checkbox" id="web_design" name="services[]" value="Web design" required />
+                            <input type="checkbox" id="web_design" name="services[]" value="Web design"  />
                             <label for="web_design">Process Automation</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="app_design" name="services[]" value="App design" required />
+                            <input type="checkbox" id="app_design" name="services[]" value="App design"  />
                             <label for="app_design">Generative AI</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="branding" name="services[]" value="Branding" required />
+                            <input type="checkbox" id="branding" name="services[]" value="Branding"  />
                             <label for="branding">Data Analytics</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="development" name="services[]" value="Development" required />
+                            <input type="checkbox" id="development" name="services[]" value="Development"  />
                             <label for="development">Market Research</label>
                         </div>
                         <div class="feedback-item">
                             <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service"
-                                required />
+                                 />
                             <label for="cloud_service">Web Development</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="other_service" name="services[]" value="Other" required />
+                            <input type="checkbox" id="other_service" name="services[]" value="Other"  />
                             <label for="other_service">Other</label>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
             <div class="input-row field">
                 <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea name="message" id="alert-message" placeholder="Leave us a message...."
+                    <textarea name="message" placeholder="Leave us a message...."
                         required></textarea>
                 </div>
             </div>
@@ -140,6 +140,7 @@
                     <button class="theme-btn" id="submit-button" type="submit">Submit</button>
                 </div>
             </div>
+            <p id="alert-message"></p>
         </div>
     </form>
 

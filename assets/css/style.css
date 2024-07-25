@@ -3262,7 +3262,7 @@ img {
   border: none;
   margin-bottom: 80px;
 }
-.about2-tabs .nav-item button {
+.about2-tabs .nav-item div {
   border: none;
   border-radius: 30px;
   display: inline-flex;
@@ -3273,7 +3273,7 @@ img {
   padding: 8px 30px 8px 8px;
   transition: 0.5s;
 }
-.about2-tabs .nav-item button .icon {
+.about2-tabs .nav-item div .icon {
   display: inline-flex;
   background: rgb(19 81 216 / 10%);
   border-radius: 50%;
@@ -3282,16 +3282,16 @@ img {
   align-items: center;
   justify-content: center;
 }
-.about2-tabs .nav-item button .icon img {
+.about2-tabs .nav-item div .icon img {
   width: 20px;
   display: block;
 }
-.about2-tabs .nav-item button.active {
+.about2-tabs .nav-item div.active {
   background: var(--primary_color);
   color: #ffffff;
   transition: 0s;
 }
-.about2-tabs .nav-item button.active .icon {
+.about2-tabs .nav-item div.active .icon {
   background: #ffffff;
 }
 .about2-tab-content .about2-tab-content-body .img-box {

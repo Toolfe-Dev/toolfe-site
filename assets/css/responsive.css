@@ -4300,6 +4300,10 @@
     flex-direction: column;
     gap: 30px;
   }
+  .how-we-do-area .how-we-do-right-content .how-we-do-jis {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
   .how-we-do-area .how-we-do-right-content .how-we-do-items + .how-we-do-items {
     margin-top: 30px;
   }
