@@ -1249,7 +1249,7 @@
                   <div class="input-group input-checkbox">
                     <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" required />
                     <label for="privacy_policy_accept">You agree to our
-                      <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a></label>
+                      <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a></label>
                   </div>
                 </div>
                 <div class="input-row field is-grouped">

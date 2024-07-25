@@ -56,11 +56,13 @@
                             <label for="media">Media and Entertainment</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="logistics" name="industry" value="Logistics and Transportation" required />
+                            <input type="radio" id="logistics" name="industry" value="Logistics and Transportation"
+                                required />
                             <label for="logistics">Logistics and Transportation</label>
                         </div>
                         <div class="radio-box">
-                            <input type="radio" id="telecommunications" name="industry" value="Telecommunications" required />
+                            <input type="radio" id="telecommunications" name="industry" value="Telecommunications"
+                                required />
                             <label for="telecommunications">Telecommunications</label>
                         </div>
                         <div class="radio-box">
@@ -95,7 +97,8 @@
                             <label for="development">Market Research</label>
                         </div>
                         <div class="feedback-item">
-                            <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service" required />
+                            <input type="checkbox" id="cloud_service" name="services[]" value="Cloud service"
+                                required />
                             <label for="cloud_service">Web Development</label>
                         </div>
                         <div class="feedback-item">
@@ -110,7 +113,8 @@
             <div class="input-row field">
                 <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea name="message" id="alert-message" placeholder="Leave us a message...." required></textarea>
+                    <textarea name="message" id="alert-message" placeholder="Leave us a message...."
+                        required></textarea>
                 </div>
             </div>
             <div class="input-row field">
@@ -123,11 +127,11 @@
                     </div>
                 </div>
             </div>
-            <div class="input-row field">
+            <div class="input-row field"> 
                 <div class="input-group input-checkbox">
                     <input type="checkbox" id="privacy_policy_accept" name="privacy_policy_accept" value="1" required>
                     <label for="privacy_policy_accept">Click the box and agree to our <a
-                            href="../trust-center/terms.php" target="_blank">terms and
+                            href="../trust-center/terms-and-conditions.php" target="_blank">terms and
                             conditions.</a></label>
                 </div>
             </div>

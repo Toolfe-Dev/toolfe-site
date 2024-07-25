@@ -335,6 +335,14 @@
     line-height: 22px;
     padding-right: 8px;
     min-height: 100px;
+    margin-left: -10%;
+  }
+  .faq-box .jiscard-body {
+    font-size: 13px;
+    line-height: 22px;
+    padding-right: 8px;
+    min-height: 55px;
+    margin-left: -10%;
   }
   .project-area .project-left-details p {
     font-size: 15px;
@@ -895,11 +903,12 @@
   }
   .faq-box .card-header button {
     text-align: left;
+    margin-left: -10%;
     font-size: 19px;
     /* padding-top: 16px; */
   }
   .faq-style-2-area .faq-box {
-    padding-left: 108px;
+    /* padding-left: 108px; */
   }
   .faq-box {
     padding: 35px 40px 35px 108px;

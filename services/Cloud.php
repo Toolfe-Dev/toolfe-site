@@ -461,6 +461,7 @@ include '../includes/header.php'
                 <div class="faq-items-box">
                     <div class="faq-col">
                         <div id="accordion">
+
                             <div class="faq-box">
                                 <h5 class="card-header" id="headingOne">
                                     <button data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
@@ -474,7 +475,7 @@ include '../includes/header.php'
 
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     Cloud computing offers scalable resources, cost efficiency, and flexibility.
                                     </div>
                                 </div>
@@ -492,7 +493,7 @@ include '../includes/header.php'
 
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     Cloud storage uses encryption, access controls, and regular backups.
                                     </div>
                                 </div>
@@ -511,7 +512,7 @@ include '../includes/header.php'
 
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordion">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     Yes, cloud services minimize hardware costs and maintenance expenses.
                                     </div>
                                 </div>
@@ -533,7 +534,7 @@ include '../includes/header.php'
 
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     It provides scalable resources and enhances collaboration and innovation.
                                     </div>
                                 </div>
@@ -552,7 +553,7 @@ include '../includes/header.php'
 
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     Providers offer high availability, redundancy, and disaster recovery.
                                     </div>
                                 </div>
@@ -571,7 +572,7 @@ include '../includes/header.php'
 
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                     data-parent="#accordion2">
-                                    <div class="card-body">
+                                    <div class="jiscard-body">
                                     Yes, it supports various integration tools and APIs.
                                     </div>
                                 </div>
