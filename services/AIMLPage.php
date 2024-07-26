@@ -1,4 +1,5 @@
 <?php
+$title='AI Excellence';
 include '../includes/header.php'
 ?>
 

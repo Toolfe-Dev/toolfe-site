@@ -1,4 +1,5 @@
 <?php
+$title='Market Research';
 include '../includes/header.php'
 ?>
 

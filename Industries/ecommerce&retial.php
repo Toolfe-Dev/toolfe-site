@@ -1,4 +1,5 @@
 <?php
+$title='Revolutionizing E-commerce with Innovative IT Solutions';
 include '../includes/header.php'
 ?>
 

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Toolfe - Leading Experts in Process Automation and AI Solutions</title>
+    <title><?php echo $title; ?></title>
     <meta name="description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
     <meta name="keywords" content="Toolfe, Process Automation, AI Solutions, Technology Services, AI, Automation, Business Solutions" />
     

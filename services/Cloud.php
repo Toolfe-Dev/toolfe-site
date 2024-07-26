@@ -1,4 +1,5 @@
 <?php
+$title='Cloud & On-Premises';
 include '../includes/header.php'
 ?>
 

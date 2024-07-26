@@ -1,4 +1,5 @@
 <?php
+$title='Careers';
 include '../includes/header.php'
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+$title='Web Application';
 include '../includes/header.php'
 ?>
 

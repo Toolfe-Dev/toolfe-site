@@ -1,4 +1,5 @@
 <?php
+$title='Transforming Connectivity Innovations in Telecommunication';
 include '../includes/header.php'
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+$title='Automating Cloud Deployment for Workflow Management';
 include '../includes/header.php'
 ?>
 

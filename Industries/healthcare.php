@@ -1,4 +1,5 @@
 <?php
+$title='Revolutionizing Healthcare with Innovative IT Solutions';
 include '../includes/header.php'
 ?>
 

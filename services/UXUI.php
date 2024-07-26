@@ -1,4 +1,5 @@
 <?php
+$title='UXUI & Graphics';
 include '../includes/header.php'
 ?>
 

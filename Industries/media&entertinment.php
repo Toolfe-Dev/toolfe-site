@@ -1,4 +1,5 @@
 <?php
+$title='Elevating Entertainment: Innovations in Media Technology';
 include '../includes/header.php'
 ?>
 

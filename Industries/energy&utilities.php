@@ -1,4 +1,5 @@
-<div?php
+<?php 
+$title='Innovations in Energy and Utilities';
 include '../includes/header.php'
 ?>
 

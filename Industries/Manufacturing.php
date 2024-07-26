@@ -1,4 +1,5 @@
 <?php
+$title='Transforming Manufacturing with Innovative IT Solutions';
 include '../includes/header.php'
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+$title='Transforming Finance with Innovative IT Solutions';
 include '../includes/header.php'
 ?>
 

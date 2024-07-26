@@ -1,4 +1,5 @@
 <?php
+$title='Redefining Real Estate with Advanced Technology Solutions';
 include '../includes/header.php'
 ?>
 

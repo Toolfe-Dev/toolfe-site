@@ -1,4 +1,5 @@
 <?php
+$title='Smart Document Processing for Knowledge Management';
 include '../includes/header.php'
 ?>
 

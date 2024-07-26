@@ -1,4 +1,5 @@
 <?php
+$title='Computer Vision for Fruit Ripeness Detection';
 include '../includes/header.php'
 ?>
 

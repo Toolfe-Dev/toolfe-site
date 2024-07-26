@@ -1,4 +1,5 @@
 <?php
+$title='Data Analytics';
 include '../includes/header.php'
 ?>
 

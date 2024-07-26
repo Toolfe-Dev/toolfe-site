@@ -1,4 +1,5 @@
 <?php
+$title='Revolutionizing Education with Innovative IT Solutions';
 include '../includes/header.php'
 ?>
 

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php
+$title='Process Automation';
 include '../includes/header.php'
 ?>
 <!-- Main -->

@@ -1,4 +1,5 @@
 <?php
+$title='Automating Email Management for a Security Department';
 include '../includes/header.php'
 ?>
 
