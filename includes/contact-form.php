@@ -14,7 +14,8 @@
                             <div class="input-row">
                                 <div class="input-group">
                                     <label for="name">Full Name</label>
-                                    <input type="text" id="name" name="FullName" placeholder="Enter Your name" required />
+                                    <input type="text" id="name" name="FullName" placeholder="Enter Your name"
+                                        required />
                                 </div>
                             </div>
                         </div>
@@ -31,7 +32,8 @@
                         <div class="input-row field">
                             <div class="input-group">
                                 <label for="organization">Company Name</label>
-                                <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft" required />
+                                <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft"
+                                    required />
                             </div>
                         </div>
                         <div class="input-row field">
@@ -42,9 +44,11 @@
                         </div>
                         <div class="input-row field">
                             <div class="input-group input-checkbox">
-                                <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" required />
+                                <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept"
+                                    required />
                                 <label for="privacy_policy_accept">You agree to our
-                                    <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a></label>
+                                    <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and
+                                        conditions.</a></label>
                             </div>
                         </div>
                         <div class="input-row field is-grouped">
@@ -69,10 +73,6 @@
             <div class="contact-experience">
                 <ul>
                     <li>
-                        <h1>Client <span>Portal</span></h1>
-                        <p class="contact-text"><a href="mailto:support@toolfe.com">support@toolfe.com</a></p>
-                    </li>
-                    <li>
                         <h1>15 <span>Mins</span></h1>
                         <p class="contact-text">Response Time</p>
                     </li>
@@ -91,14 +91,16 @@
                 </ul>
             </div>
             <div class="contact-infos">
-                <div class="contact-infos-inner">
-                    <div class="contact-info mb-0 border-0">
-                        <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
-                        <h3>Contact Info</h3>
-                    </div>
-                    <div class="contact-office-info contact-info mb-0 border-0">
+                <div class="contact-infos-inner ">
+
+                    <div class="contact-office-info  contact-info mb-0 mt-5 border-0">
+                        <div class="py-3">
+                            <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+                            <h3>Contact Info</h3>
+                        </div>
                         <h5 class="contact-text text-uppercase">INDIA</h5>
-                        <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br><a href="tel:+91 8217 460 923">+91 8217 460 923 </a></p><br>
+                        <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br><a
+                                href="tel:+91 8217 460 923">+91 8217 460 923 </a></p><br>
                         <h5 class="contact-text text-uppercase">United States</h5>
                         <p>5665 W. Wilshire Blvd
 
@@ -106,7 +108,7 @@
                             <br><a href="tel:(213) 340 1515">(213) 340 1515</a>
                         </p>
                     </div>
-                    <ul class="contact-social-links">
+                    <ul class="contact-social-links mb-5">
                         <li>
                             <a href="mailto:support@toolfe.com">
                                 <i class="iconoir-mail"></i>
