@@ -178,6 +178,139 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
+  <section class="contact-area" >
+    <div class="custom-container">
+      <div class="custom-row">
+        <div class="contact-form-wrap">
+          <div class="contact-form-body">
+            <h5 class="section-subtitle">Contact</h5>
+            <h1 class="fw-bold mb-2">Join Our Team</h1>
+            <p>
+            Shape Your Future with Us <br>
+              <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
+            </p>
+            <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
+                        <input type="hidden" name="role" value="Data Analytics"/>
+                        <div class="input-row field">
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Full Name</label>
+                                    <input type="text" name="FullName" placeholder="Enter Your name"/>
+                                    <div class="error" id="nameError"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-row field">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" name="Email" placeholder="Enter Your Email"/>
+                                <div class="error" id="emailError"></div>
+                            </div>
+                            <div class="input-group field">
+                                <label>Phone</label>
+                                <input type="text" name="Phone" placeholder="Eg: +1 12123232"/>
+                                <div class="error" id="phoneError"></div>
+                            </div>
+                        </div>
+                        <div class="input-row field">
+                            <div class="input-group">
+                                <label>Resume/CV</label>
+                                <input type="file" name="resume"/>
+                                <div class="error" id="resumeError"></div>
+                            </div>
+                        </div>
+                        <div class="input-row field">
+                            <div class="input-group">
+                                <label>Message</label>
+                                <textarea name="Message" placeholder="Leave us a message...."></textarea>
+                            </div>
+                        </div>
+                        <div class="input-row field">
+                            <div class="input-group input-checkbox">
+                                <input type="checkbox" name="Agree To Terms" value="yes"/>
+                                <label>You agree to our
+                                    <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a>
+                                </label>
+                                <div class="error" id="termsError"></div>
+                            </div>
+                        </div>
+                        <div class="input-row field is-grouped">
+                            <div class="input-group control">
+                                <button type="submit" class="theme-btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+            <div id="alert-message" style="
+        display: none;
+        margin: 20px;
+        font-weight: bold;
+        color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
+        padding: 8px;
+        background-color: beige;
+        border-radius: 4px;
+        border-color: aquamarine;
+      "></div>
+
+          </div>
+        </div>
+
+        <div class="contact-experience">
+          <ul>
+            <li>
+              <h1>Innovative Atmosphere</h1>
+              <p class="contact-text" >Learning programs fuel growth.</p>
+            </li>
+
+            <li>
+              <h1>Collaborative Culture</h1>
+              <p class="contact-text" >Projects delivered ahead thanks to teamwork</p>
+            </li>
+
+            <li>
+              <h1>Diverse Inclusion</h1>
+              <p class="contact-text" >Embracing diversity to drive team unity.</p>
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="contact-infos">
+          <div class="contact-infos-inner">
+            <div class="contact-info mb-0 border-0">
+              <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+              <h3>Contact Info</h3>
+            </div>
+            <div class="contact-office-info contact-info mb-0 border-0">
+              <!-- <img src="../assets/imgs/contact_us/location.svg" alt="Map" /> -->
+              <h5 class="contact-text text-uppercase">INDIA</h5>
+              <p>
+                12, HP Complex , Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+              <h5 class="contact-text text-uppercase">United States</h5>
+              <p>270 E 1st Ave, Vancouver, BC V5T 1A6, Canada, USA. <br>
+                +1 232 212 233</p>
+            </div>
+
+            <ul class="contact-social-links">
+              <li>
+                <a href="mailto:support@toolfe.com">
+                  <?xml version="1.0" encoding="UTF-8"?><i class="iconoir-mail"></i>
+                  Email
+                </a>
+              <li>
+                <a href="https://in.linkedin.com/company/toolfe">
+                  <?xml version="1.0" encoding="UTF-8"?><i class="iconoir-linkedin"></i>
+                  linkedin
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <?php include '../includes/foot.php';  ?>

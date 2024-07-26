@@ -7181,3 +7181,8 @@ img {
   left: 5px;
   top: 5px;
 }
+
+.error {
+    color: red;
+    font-size: 12px;
+}
