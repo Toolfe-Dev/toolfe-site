@@ -277,6 +277,47 @@ include '../includes/header.php'
           </div>
         </div>
       </div>
+      <div class="our-team-4-lists" style="margin-top: 25px;">
+        <div class="our-team-4-box">
+          <div class="img-box">
+            <img src="../assets/imgs/team/Joshua.png" alt="Joshua Rubus" />
+          </div>
+          <div class="content">
+            <h3>Joshua Rubus</h3>
+            <p>Business Development Manager</p>
+          </div>
+        </div>
+        <div class="our-team-4-box">
+          <div class="img-box">
+            <img src="../assets/imgs/team/jeevitha_c.png" alt="jeevitha c" />
+          </div>
+          <div class="content">
+            <h3>Jeevitha C</h3>
+            <p>Automation Testing Engineer</p>
+          </div>
+        </div>
+        <div class="our-team-4-box">
+          <div class="img-box">
+            <img src="../assets/imgs/team/ajithkumarX.png" alt="Ajithkumar x" />
+          </div>
+          <div class="content">
+            <h3>Ajithkumar X</h3>
+            <p>Product Designer</p>
+          </div>
+        </div>
+
+        
+        <div class="our-team-4-box">
+          <div class="img-box">
+            <img src="../assets/imgs/team/Priyadharshini.png" alt="Priyadharshini" />
+          </div>
+          <div class="content">
+            <h3>Priyadharshini A</h3>
+            <p>User Experience Researcher</p>
+          </div>
+        </div>
+   
+      </div>
     </div>
   </section>
 
