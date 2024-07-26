@@ -389,7 +389,7 @@ include '../includes/header.php'
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
                     <img src="../assets//imgs/services/blog1.jpg" alt="Blog" />
-                    <span class="news-ribbon">New</span>
+                    <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">Jun 24, 2024</span>
