@@ -47,43 +47,43 @@ include '../includes/header.php'
 
                 <ul class="nav nav-tabs about2-tabs" role="tablist">
                     <li class="nav-item">
-                        <button class="nav-link" id="business_strategy-tab" href="#business_strategy" role="tab" aria-controls="business_strategy">
+                        <div class="nav-link" id="business_strategy-tab" href="#business_strategy" role="tab" aria-controls="business_strategy">
                             <span class="icon">1</span> Cloud Deployment
 
-                        </button>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="market_analysis-tab" href="#market_analysis" role="tab" aria-controls="market_analysis" aria-selected="false">
+                        <div class="nav-link" id="market_analysis-tab" href="#market_analysis" role="tab" aria-controls="market_analysis" aria-selected="false">
                             <span class="icon">2</span> Cloud Migration
-                        </button>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="process_optimation-tab" href="#process_optimation" role="tab" aria-controls="process_optimation" aria-selected="false">
+                        <div class="nav-link" id="process_optimation-tab" href="#process_optimation" role="tab" aria-controls="process_optimation" aria-selected="false">
                             <span class="icon">3</span> Cloud Automation
-                        </button>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="performance_improvement-tab" href="#performance_improvement" role="tab" aria-controls="performance_improvement" aria-selected="false">
+                        <div class="nav-link" id="performance_improvement-tab" href="#performance_improvement" role="tab" aria-controls="performance_improvement" aria-selected="false">
                             <span class="icon">4</span> Advanced Cloud Solutions
-                        </button>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
+                        <div class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
                             <span class="icon">5</span> DevOps as a Service
-                        </button>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
+                        <div class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
                             <span class="icon">6</span> Cloud Optimization
-                        </button>
+                        </div>
                     <li class="nav-item">
-                        <button class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
+                        <div class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
                             <span class="icon">7</span> Cloud Security Services
-                        </button>
+                        </div>
                     <li class="nav-item">
-                        <button class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
+                        <div class="nav-link" id="entrepreneurial_guidance-tab" href="#entrepreneurial_guidance" role="tab" aria-controls="entrepreneurial_guidance" aria-selected="false">
                             <span class="icon">8</span> Cloud Infrastructure Management
-                        </button>
+                        </div>
                     </li>
                     </li>
                     </li>

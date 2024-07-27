@@ -44,6 +44,8 @@
   <link rel="stylesheet" href="../assets/css/responsive.css" />
     <!-- ========== End Stylesheet ========== -->
 
+    <!-- fav icon -->
+    <link rel="icon" type="image/svg" href="../assets/imgs/toolfe_fav_icon.svg">
 
 </head>
 

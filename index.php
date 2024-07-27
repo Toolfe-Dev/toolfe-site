@@ -34,6 +34,9 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/responsive.css" />
   <!-- ========== End Stylesheet ========== -->
+   
+   <!-- fav icon -->
+  <link rel="icon" type="image/svg" href="assets/imgs/toolfe_fav_icon.svg">
 
 
 </head>
@@ -367,10 +370,10 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-empowerment-area" style="background-image: url('./assets/imgs/section.png');background-repeat: no-repeat; background-size: cover;">
+    <section class="hero-empowerment-area " style="background-image: url('./assets/imgs/section.png');background-repeat: no-repeat; background-size: cover;">
       <div class="custom-container">
-        <div class="custom-row align-items-center mt-5">
-          <div class="hero-empowerment-left-content">
+        <div class="custom-row align-items-center ">
+          <div class="hero-empowerment-left-content">                                                                                                  
             <h5 class="section-subtitle">Autopilot your business</h5>
             <h1 class="section-title fade-in">
               What AI Starts, <br>AI and Automation Perfects
@@ -399,7 +402,7 @@
     <!-- About Section -->
     <section class="about-area">
       <div class="custom-container">
-        <div class="custom-row justify-content-between align-items-center">
+        <div class="custom-row ">
           <div class="left-content">
             <h5 class="section-subtitle">ABOUT US</h5>
             <h1 class="section-title">
@@ -1452,8 +1455,7 @@
                   <li><a href="contact/index.php">Contact us</a></li>
                   <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                   <li><a href="https://hourspark.com/">Hourspark x Toolfe</a></li>
-                  <li><a href="https://outlook.office365.com/owa/calendar/RevolutionizeYourBusinesswithToolfe@toolfe.com/bookings/">Book
-                      a free consultation</a></li>
+                  <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>
                 </ul>
               </div>
               <div class="footer-links">

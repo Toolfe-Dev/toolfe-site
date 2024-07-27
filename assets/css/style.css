@@ -1152,11 +1152,11 @@ img {
 
 /* Hero Section */
 .hero-empowerment-area {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(243, 246, 253, 0.7) 0%,
     rgba(243, 246, 253, 0) 86.26%
-  );
+  ); */
   padding-top: 124px;
 }
 .hero-empowerment-area .custom-row {
@@ -1539,7 +1539,7 @@ img {
 .hero-contact-form .contact-form {
   gap: 84px;
   width: 100%;
-}
+}                                                           
 .hero-contact-form .contact-form .input-main-row {
   flex: 1;
 }
@@ -1746,7 +1746,7 @@ img {
   color: #ffffff;
 }
 .company-service-area {
-  padding: 100px 0 180px 0;
+  padding: 50px 0 180px 0;
 }
 .feature-page .company-service-area {
   padding-top: 0px;
@@ -2995,8 +2995,8 @@ img {
 
 /* About */
 .about-area {
-  padding-top: 220px;
-  padding-bottom: 110px;
+  /* padding-top: 220px;
+  padding-bottom: 110px; */
 }
 .about-area .custom-row {
   width: 100%;

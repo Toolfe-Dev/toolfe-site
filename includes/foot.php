@@ -116,8 +116,7 @@
                               <li><a href="../contact/index.php">Contact us</a></li>
                               <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                               <li><a href="https://hourspark.com/">Hourspark x Toolfe</a></li>
-                              <li><a href="https://outlook.office365.com/owa/calendar/RevolutionizeYourBusinesswithToolfe@toolfe.com/bookings/">Book
-                                      a free consultation</a></li>
+                              <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>
                           </ul>
                       </div>
                       <div class="footer-links">
