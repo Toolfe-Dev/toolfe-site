@@ -109,7 +109,7 @@
 
                           <h3>Quick Links</h3>
                           <ul>
-                              <li><a href="../about/about.php">About us</a></li>
+                              <li><a href="../about/index.php">About us</a></li>
                               <li><a href="https://blog.toolfe.com/">Blogs</a></li>
                               <li><a href="../career/index.php">Career</a></li>
                               <li><a href="../case-study/index.php">Case Study</a></li>

@@ -26,7 +26,7 @@
                             </span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="../about/about.php">About us</a>
+                                    <a href="../about/index.php">About us</a>
                                 </li>
                                 <li>
                                     <a href="https://blog.toolfe.com/">Blog</a>
