@@ -36,7 +36,7 @@
   <!-- ========== End Stylesheet ========== -->
    
    <!-- fav icon -->
-  <link rel="icon" type="image/svg" href="assets/imgs/toolfe_fav_icon.svg">
+  <link rel="icon" type="image/svg" href="./assets/imgs/toolfe_fav_icon.svg">
 
 
 </head>
