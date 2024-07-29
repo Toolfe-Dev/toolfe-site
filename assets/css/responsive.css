@@ -3380,6 +3380,7 @@
   .project-item .project-item-inner h2 {
     font-size: 36px;
     line-height: 1;
+    max-width: 100%;
   }
   .news-area .section-header,
   .service-area .service-section-header {
@@ -4995,10 +4996,10 @@
   .team-page .our-team-4-lists {
     grid-template-columns: 1fr;
   }
-  .testimonial-slider-wrap .swiper-button-prev,
+  /* .testimonial-slider-wrap .swiper-button-prev,
   .testimonial-slider-wrap .swiper-button-next {
-    display: none;
-  }
+    display: block;
+  } */
   .overview-page .our-team-4-lists {
     grid-template-columns: 1fr;
   }
