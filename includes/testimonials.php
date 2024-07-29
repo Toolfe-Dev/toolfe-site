@@ -19,12 +19,9 @@
                                       <img src="assets/imgs/icon-linkedin.svg" alt="Icon"/>
                                   </span> -->
                             <h1>
-                                "We sincerely appreciate Toolfe for outstanding digital
-                                transformation services. Their skilled professionals
-                                provided exceptional solutions that helped optimize our
-                                business processes and enhance our digital presence. Their
-                                data analytics and automation expertise significantly
-                                improved our productivity."
+                                "Toolfe automation service has transformed our business operations, simplifying processes, and eliminating manual tasks. 
+                                The service has significantly boosted our productivity and accuracy, allowing us to focus on more important aspects of our business. 
+                                I would highly recommend their automation service to any business looking to increase efficiency."
                             </h1>
                             <div class="author-box d-flex align-items-center">
                                 <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
@@ -45,12 +42,9 @@
                                       <img src="assets/imgs/icon-linkedin.svg" alt="Icon"/>
                                   </span> -->
                             <h1>
-                                "Toolfe deserves our utmost gratitude for their exceptional
-                                service in developing our e-commerce site and setting up
-                                our company. Their professionalism and remarkable
-                                understanding of our needs were second to none. If you are
-                                looking for top-notch services, Toolfe is undoubtedly the
-                                go-to solution for you."
+                                "Toolfe deserves our utmost gratitude for their exceptional service in developing our e-commerce site and setting up our company.
+                                Their professionalism and remarkable understanding of our needs were second to none.
+                                If you are looking for top-notch services, Toolfe is undoubtedly the go-to solution for you."
                             </h1>
                             <div class="author-box d-flex align-items-center">
                                 <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
