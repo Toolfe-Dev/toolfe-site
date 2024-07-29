@@ -36,7 +36,7 @@
   <!-- ========== End Stylesheet ========== -->
    
    <!-- fav icon -->
-  <link rel="icon" type="image/x-icon" href="./assets/imgs/toolfe_fav_icon.svg">
+  <link rel="icon" type="image/x-icon" href="assets/imgs/toolfe_fav_icon.svg">
 
 
 </head>
@@ -308,7 +308,7 @@
                                 <img src="assets/imgs/case3.png" alt="Portfolio">
                               </div>
                               <div class="content-box">
-                                <h3><a href="case-study/intelligent_document_processing.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
+                                <h3><a href="case-study/intelligent_document_processing.php"> Digital <br> Transformation Initiative for an constructionCompany</a></h3>
 
                               </div>
                             </div>
@@ -1003,7 +1003,7 @@
                   <div class="swiper-slide project-item">
                     <div class="project-item-inner">
                       <h2>
-                        <a href="./case-study/digital_transformation_initiative.php">Digital Transformation Initiative
+                        <a href="./case-study/digital_transformation_initiative.php">Digital <br> Transformation Initiative
                           for an construction Company
                       </h2>
                       <a href="./case-study/digital_transformation_initiative.php">
