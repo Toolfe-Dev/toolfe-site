@@ -117,7 +117,7 @@ include '../includes/header.php'
                             <h2>Scalability and<br>
                                 Flexibility <br>
                                 </a></h2>
-                            <p>We design apps that grow with your business.</p>
+                            <p>Our mobile app development approach ensures your app can grow with user demands and adapt to evolving market needs seamlessly.</p>
 
                         </div>
                         <div class="portfolio-img">
@@ -130,9 +130,8 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>User Authentication<br>
-                                and Authorization <br></a></h2>
-                            <p>We have a best team for your branding studio.</p>
+                            <h2>User Authentication and Authorization <br></a></h2>
+                            <p>Implementing secure user authentication and authorization ensures that only authorized users can access sensitive data and features.</p>
 
                         </div>
                         <div class="portfolio-img">
@@ -140,7 +139,7 @@ include '../includes/header.php'
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-                        <div class="portfolio-img" style="height:232px;">
+                        <div class="portfolio-img">
                             <img src="../assets/imgs/services/Mobileappbento/4.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
@@ -166,13 +165,12 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>High Security <br>
-                                Standards <br>
+                            <h2>High Security Standards
                                 </a></h2>
-                            <p></p>We offer advanced security solutions for secure app development.</p>
+                            <p>We offer advanced security solutions for secure app development.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 244px;">
+                        <div class="portfolio-img">
                             <img src="../assets/imgs/services/Mobileappbento/6.png" alt="Portfolio" />
                         </div>
                     </div>

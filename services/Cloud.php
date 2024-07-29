@@ -127,7 +127,7 @@ include '../includes/header.php'
                             <h2>Enhanced<br>
                                 Security <br>
                                 </a></h2>
-                            <p>Our encryption methods ensure data integrity and client confidentiality.</p>
+                            <p>Our encryption methods ensure data integrity and client confidentiality. We employ the latest security protocols to protect sensitive information from unauthorized access. This commitment to security builds trust and safeguards your business from potential threats</p>
 
                         </div>
                         <div class="portfolio-img">

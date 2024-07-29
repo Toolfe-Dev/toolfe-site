@@ -120,8 +120,7 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Tailoring<br>
-                                Solutions <br>
+                            <h2>Unique Solutions
                                 </a></h2>
                             <p>AI Solutions Crafted for Your Specific Requirements.</p>
 

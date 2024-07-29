@@ -111,8 +111,7 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/marketbento/1.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2>Sales <br>
-                                Optimization</a></h2>
+                            <h2>Sales Efficiency</a></h2>
                             <p>We analyze market trends to enhance your sales strategies for maximum profitability and
                                 business growth.</p>
 
@@ -123,7 +122,7 @@ include '../includes/header.php'
                             <h2>Brand<br>
                                 Perception <br>
                                 </a></h2>
-                            <p>Our experts are committed to bolstering your brand's reputation and trust.</p>
+                            <p>Our experts are committed to bolstering your brand's reputation and trust. We use proven strategies to enhance your image and foster loyalty. By focusing on quality and consistency, we ensure your brand maintains a strong, positive presence in the market.</p>
 
                         </div>
                         <div class="portfolio-img">
@@ -175,10 +174,9 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Trend <br>
-                                Forecasting <br>
+                            <h2>Trend Forecasting <br>
                                 </a></h2>
-                            <p>Analyze patterns to forecast trends and optimize business decisions.</p>
+                            <p>Analyze patterns to forecast trends and optimize decisions. Our data insights help you anticipate shifts and stay ahead.</p>
 
                         </div>
                         <div class="portfolio-img" style="height: 292px;">

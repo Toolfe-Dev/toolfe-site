@@ -125,7 +125,7 @@ Access valuable insights with our tailored data analytics solutions, empowering 
                             <h2>Predictive<br>
                                 Analysis <br>
                                 </a></h2>
-                            <p>We use predictive modeling to anticipate trends and stay ahead in your industry competition.</p>
+                            <p>We use predictive modeling to anticipate trends and stay ahead in your industry competition. This advanced approach allows us to make data-driven decisions that drive growth and innovation.Using advanced technology, we help you surpass industry standards, ensuring success.</p>
 
                         </div>
                         <div class="portfolio-img">

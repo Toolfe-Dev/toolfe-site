@@ -122,7 +122,7 @@ include '../includes/header.php'
                             <h2>Customized<br>
                                 Automation
                                 </a></h2>
-                            <p>Deploy custom tools that perfectly fit with your processes</p>
+                            <p>"Deploy custom tools that are tailored to your specific processes. This ensures a perfect fit and seamless integration into your workflow. By leveraging these tools, you can optimize efficiency and improve overall performance.</p>
                         </div>
                         <div class="portfolio-img">
                             <img src="../assets/imgs/services/processautomationbento/2.png" alt="Portfolio" />

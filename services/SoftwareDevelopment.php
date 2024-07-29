@@ -128,7 +128,7 @@ include '../includes/header.php'
                         <div class="portfolio-body">
                             <h2><a href="#">Feasibility and<br>
                                     Prototyping <br></a></h2>
-                            <p>We assess project viability with detailed feasibility studies.</p>
+                            <p>We assess project viability through feasibility studies, identifying risks and ensuring informed decisions for successful outcomes.</p>
 
                         </div>
                         <div class="portfolio-img">
@@ -136,7 +136,7 @@ include '../includes/header.php'
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-                        <div class="portfolio-img" style="height: 260px" ;>
+                        <div class="portfolio-img">
                             <img src="../assets/imgs/services/software devbento/4.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
@@ -163,13 +163,13 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Data <br>
+                            <h2><a href="#">Data
                                     Security <br>
                                 </a></h2>
                             <p>Our methods ensure safe and efficient data management.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 292px;">
+                        <div class="portfolio-img">
                             <img src="../assets/imgs/services/software devbento/6.png" alt="Portfolio" />
                         </div>
                     </div>

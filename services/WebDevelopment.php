@@ -186,10 +186,9 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Continous <br>
-                                    Support <br>
+                            <h2>Continuous Support <br>
                                 </h2>
-                            <p>We provide continuous support to ensure your website evolves seamlessly.</p>
+                            <p>Continuous support for seamless website evolution.</p>
 
                         </div>
                         <div class="portfolio-img" style="height: 240px;">

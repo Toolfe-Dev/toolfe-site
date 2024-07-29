@@ -110,19 +110,16 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/uiuxbento/1.png" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2>Increase <br>
-                                Participation</a></h2>
+                            <h2>Engage More</a></h2>
                             <p>We create designs that make users want to interact more.</p>
 
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Effortless<br>
-                                Interaction <br>
+                            <h2>Effortless <br>Interaction <br>
                                 </a></h2>
-                            <p>Our goal is to create interfaces that users love to use.</p>
-
+                            <p>Our goal is to create interfaces that users love to use. We focus on intuitive design and engaging experiences to enhance user satisfaction.</p>
                         </div>
                         <div class="portfolio-img">
                             <img src="../assets/imgs/services/uiuxbento/2.png" alt="Portfolio" />
@@ -134,8 +131,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Aesthetic<br>
-                                Appealing <br></a></h2>
+                            <h2>Aesthetic <br> Appealing</a></h2>
                             <p>Our designs prioritize visual appeal to foster user satisfaction.</p>
 
                         </div>
@@ -147,12 +143,10 @@ include '../includes/header.php'
                         <div class="portfolio-img">
                             <img src="../assets/imgs/services/uiuxbento/4.png" alt="Portfolio" />
                         </div>
-                        <div class="portfolio-body" style="height:210px;">
-                            <h2>Customer <br>
-                                Continuation</a></h2>
-                            <p>We optimize interfaces to ensure smooth user experiences. <br>
+                        <div class="portfolio-body">
+                            <h2>Customer Continuation</a></h2>
+                            <p>We optimize interfaces for smooth, intuitive, and engaging experiences. Our design ensures seamless usability and performance. Users also stay satisfied<br>
                             </p>
-
                         </div>
                     </div>
 
@@ -173,14 +167,13 @@ include '../includes/header.php'
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2>Reduced <br>
-                                Complexity <br>
+                            <h2>Reduced Complexity
                                 </a></h2>
                             <p>We optimize user journeys for effortless interaction.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height:270px;">
-                            <img src="../assets/imgs/services/uiuxbento/6.png" alt="Portfolio" />
+                        <div class="portfolio-img">
+                            <img src="../assets/imgs/services/uiuxbento/6.svg" alt="Portfolio" />
                         </div>
                     </div>
 
