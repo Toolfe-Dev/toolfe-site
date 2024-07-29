@@ -87,7 +87,7 @@ function processFiles(event) {
         imageDiv.appendChild(img);
       } else {
         const img = document.createElement("img");
-        img.src = "assets/imgs/file-attachment.png"; // Image URL for non-image files
+        img.src = "assets/imgs/file-attachment.webp"; // Image URL for non-image files
         img.alt = file.name;
         img.style.maxWidth = "100%";
         imageDiv.appendChild(img);

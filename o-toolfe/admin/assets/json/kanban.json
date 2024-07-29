@@ -12,8 +12,8 @@
                 "due-date": "5 April",
                 "attachments": "4",
                 "assigned": [
-                    "12.png",
-                    "5.png"
+                    "12.webp",
+                    "5.webp"
                 ],
                 "members": [
                     "Bruce",
@@ -29,8 +29,8 @@
                 "attachments": "2",
                 "due-date": "10 April",
                 "assigned": [
-                    "3.png",
-                    "8.png"
+                    "3.webp",
+                    "8.webp"
                 ],
                 "members": [
                     "Helena",
@@ -52,8 +52,8 @@
                 "due-date": "8 April",
                 "attachments": "8",
                 "assigned": [
-                    "11.png",
-                    "6.png"
+                    "11.webp",
+                    "6.webp"
                 ],
                 "members": [
                     "Laurel",
@@ -65,15 +65,15 @@
                 "title": "Find new images for pages",
                 "comments": "18",
                 "badge-text": "Images",
-                "image": "16.jpg",
+                "image": "16.webp",
                 "badge": "warning",
                 "due-date": "2 April",
                 "attachments": "10",
                 "assigned": [
-                    "9.png",
-                    "2.png",
-                    "3.png",
-                    "12.png"
+                    "9.webp",
+                    "2.webp",
+                    "3.webp",
+                    "12.webp"
                 ],
                 "members": [
                     "Dianna",
@@ -97,9 +97,9 @@
                 "due-date": "7 April",
                 "attachments": "1",
                 "assigned": [
-                    "2.png",
-                    "9.png",
-                    "10.png"
+                    "2.webp",
+                    "9.webp",
+                    "10.webp"
                 ],
                 "members": [
                     "Kara",
@@ -116,7 +116,7 @@
                 "due-date": "7 April",
                 "attachments": "6",
                 "assigned": [
-                    "1.png"
+                    "1.webp"
                 ],
                 "members": [
                     "Sarah"

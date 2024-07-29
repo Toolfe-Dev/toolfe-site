@@ -28,7 +28,7 @@ include '../includes/header.php'
           </p>
         </div>
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/idp_thumbanail_hero.png" alt="Blog" />
+          <img src="../assets/imgs/casestudy/idp_thumbanail_hero.webp" alt="Blog" />
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/cs5_aim.png" alt="About" />
+          <img src="../assets/imgs/casestudy/cs5_aim.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -82,7 +82,7 @@ include '../includes/header.php'
       <div class="our-teams-list">
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs5_solution1.png" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs5_solution1.webp" alt="Team" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -124,7 +124,7 @@ include '../includes/header.php'
 
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs5_solution2.png" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs5_solution2.webp" alt="Team" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -180,7 +180,7 @@ include '../includes/header.php'
         </div>
         <div class="right">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/techStack/idp.png" alt="About" />
+            <img src="../assets/imgs/casestudy/techStack/idp.webp" alt="About" />
           </div>
         </div>
       </div>
@@ -317,7 +317,7 @@ include '../includes/header.php'
 
       <div class="service2-items d-flex w-full">
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/media_Thumbnail.png" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/media_Thumbnail.webp" alt="Service" />
           <h2>Media & Entertainment</h2>
           <p>
             Enhancing audience engagement <br />through cutting-edge tech.
@@ -327,7 +327,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/manufactureing_thumbnail.png" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/manufactureing_thumbnail.webp" alt="Service" />
           <h2>Manufacturing</h2>
           <p>
             Optimizing production with<br />
@@ -338,7 +338,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/energy_thumbnail.png" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/energy_thumbnail.webp" alt="Service" />
           <h2>Energy & Utilities</h2>
           <p>Efficiently managing resources <br />with digital tools.</p>
           <a href="../Industries/energy&utilities.php" class="theme-btn">
@@ -346,7 +346,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/realestate_thumbnail.png" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/realestate_thumbnail.webp" alt="Service" />
           <h2>Real Estate</h2>
           <p>Smart solutions for property management and sales.</p>
           <a href="../Industries/healthcare.php" class="theme-btn">
@@ -381,7 +381,7 @@ include '../includes/header.php'
             <a class="our-expert-team-box d-flex align-items-center">
               <div class="our-expert-team-box-inner d-flex align-items-center">
                 <div class="imgs d-flex align-items-center">
-                  <img src="../assets/imgs/small-img-4.png" alt="team" />
+                  <img src="../assets/imgs/small-img-4.webp" alt="team" />
                 </div>
                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
               </div>

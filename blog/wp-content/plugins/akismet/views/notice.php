@@ -199,7 +199,7 @@
 <?php elseif ( $type == 'usage-limit' && isset( Akismet::$limit_notices[ $code ] ) ) : ?>
 <div class="error akismet-usage-limit-alert">
 	<div class="akismet-usage-limit-logo">
-		<img src="<?php echo esc_url( plugins_url( '../_inc/img/logo-a-2x.png', __FILE__ ) ); ?>" alt="Akismet" />
+		<img src="<?php echo esc_url( plugins_url( '../_inc/img/logo-a-2x.webp', __FILE__ ) ); ?>" alt="Akismet" />
 	</div>
 	<div class="akismet-usage-limit-text">
 		<h3>

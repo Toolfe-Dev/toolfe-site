@@ -27,7 +27,7 @@
                                 improved our productivity."
                             </h1>
                             <div class="author-box d-flex align-items-center">
-                                <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                                <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                                 <div class="author-box-content">
                                     <!-- <h4>Wadi Oddai</h4> -->
                                     <p>Vijaykumar, CEO, Oman</p>
@@ -53,7 +53,7 @@
                                 go-to solution for you."
                             </h1>
                             <div class="author-box d-flex align-items-center">
-                                <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                                <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                                 <div class="author-box-content">
                                     <!-- <h4>Animal Cafe</h4> -->
                                     <p>Pradeep, MD, Chennai</p>
@@ -79,7 +79,7 @@
                                 improved our productivity."
                             </h1>
                             <div class="author-box d-flex align-items-center">
-                                <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                                <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                                 <div class="author-box-content">
                                     <!-- <h4>Jesus Industrials</h4> -->
                                     <p>Justin, Owner, Chennai</p>

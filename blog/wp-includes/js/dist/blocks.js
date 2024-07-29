@@ -2889,7 +2889,7 @@ showdown.helper.emojis = {
   'zzz':'\ud83d\udca4',
 
   /* special emojis :P */
-  'octocat':  '<img alt=":octocat:" height="20" width="20" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png">',
+  'octocat':  '<img alt=":octocat:" height="20" width="20" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/octocat.webp">',
   'showdown': '<span style="font-family: \'Anonymous Pro\', monospace; text-decoration: underline; text-decoration-style: dashed; text-decoration-color: #3e8b8a;text-underline-position: under;">S</span>'
 };
 
@@ -3558,7 +3558,7 @@ showdown.subParser('anchors', function (text, options, globals) {
   text = text.replace(/\[((?:\[[^\]]*]|[^\[\]])*)] ?(?:\n *)?\[(.*?)]()()()()/g, writeAnchorTag);
 
   // Next, inline-style links: [link text](url "optional title")
-  // cases with crazy urls like ./image/cat1).png
+  // cases with crazy urls like ./image/cat1).webp
   text = text.replace(/\[((?:\[[^\]]*]|[^\[\]])*)]()[ \t]*\([ \t]?<([^>]*)>(?:[ \t]*((["'])([^"]*?)\5))?[ \t]?\)/g,
     writeAnchorTag);
 
@@ -4587,7 +4587,7 @@ showdown.subParser('images', function (text, options, globals) {
   // base64 encoded images
   text = text.replace(base64RegExp, writeImageTagBase64);
 
-  // cases with crazy urls like ./image/cat1).png
+  // cases with crazy urls like ./image/cat1).webp
   text = text.replace(crazyRegExp, writeImageTag);
 
   // normal cases

@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>@lang('Invoice')</title>
-    <link rel="shortcut icon" href="{{ getImage(imagePath()['logoIcon']['path'] .'/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ getImage(imagePath()['logoIcon']['path'] .'/favicon.webp') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset($activeTemplateTrue.'css/bootstrap3.min.css')}}">
     <link rel="stylesheet" href="{{asset($activeTemplateTrue.'css/invoice.css')}}">
 
@@ -17,7 +17,7 @@
                             <table style="width:100%">
                                 <tr style="width:100%" class="heading">
                                 <td colspan="3">
-                                    <img class="invoice-logo" src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('logo')" />
+                                    <img class="invoice-logo" src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('logo')" />
                                 </td>
                                 <td class="text-right">
                                     <div class="invoice-from" style="max-width:400px">

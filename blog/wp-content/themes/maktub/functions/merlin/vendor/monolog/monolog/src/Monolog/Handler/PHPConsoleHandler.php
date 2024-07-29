@@ -27,7 +27,7 @@ use PhpConsole\Helper;
  * 1. Install Google Chrome extension https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef
  * 2. See overview https://github.com/barbushin/php-console#overview
  * 3. Install PHP Console library https://github.com/barbushin/php-console#installation
- * 4. Example (result will looks like http://i.hizliresim.com/vg3Pz4.png)
+ * 4. Example (result will looks like http://i.hizliresim.com/vg3Pz4.webp)
  *
  *      $logger = new \Monolog\Logger('all', array(new \Monolog\Handler\PHPConsoleHandler()));
  *      \Monolog\ErrorHandler::register($logger);

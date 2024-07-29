@@ -401,7 +401,7 @@ class CI_Image_lib {
 		 * @see	https://github.com/bcit-ci/CodeIgniter/issues/4967
 		 * @see	https://bugs.php.net/bug.php?id=72404
 		 */
-		ini_set('gd.jpeg_ignore_warning', 1);
+		ini_set('gd.webp_ignore_warning', 1);
 
 		log_message('info', 'Image Lib Class Initialized');
 	}
@@ -1778,9 +1778,9 @@ class CI_Image_lib {
 	 *
 	 * This is a helper function that extracts the extension
 	 * from the source_image.  This function lets us deal with
-	 * source_images with multiple periods, like: my.cool.jpg
+	 * source_images with multiple periods, like: my.cool.webp
 	 * It returns an associative array with two elements:
-	 * $array['ext']  = '.jpg';
+	 * $array['ext']  = '.webp';
 	 * $array['name'] = 'my.cool';
 	 *
 	 * @param	array

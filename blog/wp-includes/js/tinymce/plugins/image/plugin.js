@@ -1022,7 +1022,7 @@ var image = (function (domGlobals) {
         });
       };
     };
-    var acceptExts = '.jpg,.jpeg,.png,.gif';
+    var acceptExts = '.webp,.webp,.webp,.gif';
     var makeTab$2 = function (editor) {
       return {
         title: 'Upload',

@@ -464,7 +464,7 @@ class Onboarding {
 
         $step->set_component_name( 'SetupOnlineStore' );
 
-        // $step->set_image_url( 'setup-online-store.png' ); // TODO: set image url
+        // $step->set_image_url( 'setup-online-store.webp' ); // TODO: set image url
 
         $step->set_title( __( 'Store info', 'hostinger-easy-onboarding' ) );
 

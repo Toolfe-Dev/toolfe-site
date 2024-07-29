@@ -34,7 +34,7 @@
         hollow: {
           margin: 5,
           size: "70%",
-          image: "../assets/images/dashboard-3/round.png",
+          image: "../assets/images/dashboard-3/round.webp",
           imageWidth: 115,
           imageHeight: 115,
           imageClipped: false,

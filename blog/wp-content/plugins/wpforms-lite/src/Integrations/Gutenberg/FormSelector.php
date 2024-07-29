@@ -213,8 +213,8 @@ class FormSelector implements IntegrationInterface {
 			'wpforms-gutenberg-form-selector',
 			'wpforms_gutenberg_form_selector',
 			[
-				'logo_url'          => WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.png',
-				'block_preview_url' => WPFORMS_PLUGIN_URL . 'assets/images/integrations/gutenberg/block-preview.png',
+				'logo_url'          => WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.webp',
+				'block_preview_url' => WPFORMS_PLUGIN_URL . 'assets/images/integrations/gutenberg/block-preview.webp',
 				'wpnonce'           => wp_create_nonce( 'wpforms-gutenberg-form-selector' ),
 				'forms'             => $forms,
 				'i18n'              => $i18n,

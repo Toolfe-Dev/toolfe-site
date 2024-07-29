@@ -629,7 +629,7 @@ abstract class AbstractRenderer
                 $tmpDir = $this->_dompdf->getOptions()->getTempDir();
                 $tmpName = @tempnam($tmpDir, "bg_dompdf_img_");
                 @unlink($tmpName);
-                $tmpFile = "$tmpName.png";
+                $tmpFile = "$tmpName.webp";
 
                 imagepng($bg, $tmpFile);
                 imagedestroy($bg);

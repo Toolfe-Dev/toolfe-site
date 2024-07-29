@@ -28,7 +28,7 @@ $links_utm_medium = 'Builder Help Modal';
 <div id="wpforms-builder-help" style="display: none; opacity: 0;" class="wpforms-admin-page">
 
 	<img id="wpforms-builder-help-logo"
-		src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.png' ); ?>"
+		src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.webp' ); ?>"
 		title="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>"
 		alt="WPForms Logo">
 

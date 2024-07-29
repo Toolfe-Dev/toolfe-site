@@ -34,7 +34,7 @@
         </div>
         <div class="account-wrapper style--two">
             <div class="account-logo text-center">
-                <a class="site-logo" href="{{route('home')}}"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('site-logo')"></a>
+                <a class="site-logo" href="{{route('home')}}"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('site-logo')"></a>
             </div>
             <form class="account-form" action="{{ route('user.register') }}" method="POST" onsubmit="return submitUserForm();">
                 @csrf

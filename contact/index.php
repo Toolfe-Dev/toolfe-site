@@ -167,7 +167,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/contact_us/contact-us_1.jpg" alt="About" />
+          <img src="../assets/imgs/contact_us/contact-us_1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -228,7 +228,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     // Add any custom validation logic here
     // Example: Check if phone number is in the correct format
     const phone = document.getElementById('Phone').value;
-    const phonePattern = /^\+?[0-9\s-]+$/;
+    const phonePattern = /^\+?[0-9\s\-()]+$/;
     if (!phonePattern.test(phone)) {
         isValid = false;
         alert('Please enter a valid phone number.');

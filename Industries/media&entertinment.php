@@ -34,7 +34,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/me1.jpg" alt="About" />
+          <img src="../assets/imgs/industry/me1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -76,7 +76,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/me2.jpg" alt="News" />
+          <img src="../assets/imgs/industry/me2.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -134,13 +134,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/me3.jpg" alt="News" />
+          <img src="../assets/imgs/industry/me3.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/me4.jpg" alt="News" />
+          <img src="../assets/imgs/industry/me4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -198,13 +198,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/me5.jpg" alt="News" />
+          <img src="../assets/imgs/industry/me5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/me6.jpg" alt="News" />
+          <img src="../assets/imgs/industry/me6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -242,7 +242,7 @@ include '../includes/header.php'
 
             <div class="sticky-news d-flex card-h1">
                 <div class="news-img-box">
-                    <img src="../assets/imgs/case-studie-1.jpg" alt="Case Studie"/>
+                    <img src="../assets/imgs/case-studie-1.webp" alt="Case Studie"/>
                 </div>
                 <div class="news-content">
                     <h5 class="section-subtitle">MOBILE DEVELOPMENT</h5>
@@ -269,7 +269,7 @@ include '../includes/header.php'
 
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-2.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-2.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">CLOUD COMPUTING</h5>
@@ -299,7 +299,7 @@ include '../includes/header.php'
                 </div>
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-3.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-3.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">APP DEVELOPMENT</h5>
@@ -326,7 +326,7 @@ include '../includes/header.php'
                 </div>
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-4.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-4.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">WEB DEVELOPMENT</h5>
@@ -355,7 +355,7 @@ include '../includes/header.php'
                 </div>
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-5.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-5.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">SAAS SOLUTIONS</h5>
@@ -381,7 +381,7 @@ include '../includes/header.php'
                 </div>
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-6.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-6.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">VR DEVELOPMENT</h5>
@@ -411,7 +411,7 @@ include '../includes/header.php'
                 </div>
                 <div class="news-item card-h1">
                     <div class="news-img-box">
-                        <img src="../assets/imgs/case-studie-7.jpg" alt="Case Studie"/>
+                        <img src="../assets/imgs/case-studie-7.webp" alt="Case Studie"/>
                     </div>
                     <div class="news-item-body">
                         <h5 class="section-subtitle">MOBILE APP DEVELOPMENT</h5>
@@ -458,7 +458,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/me7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/me7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we harness the expertise of top professionals and innovative minds to drive advancements in media
@@ -498,7 +498,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/me8.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/me8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Content Recommenders</h3>
@@ -513,7 +513,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/me9.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/me9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Sentiment Analysis</h3>

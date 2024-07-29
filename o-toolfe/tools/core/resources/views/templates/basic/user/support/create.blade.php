@@ -45,7 +45,7 @@
                                         <label for="supportTicketFile" class="form-label">@lang('Select one file or multiple files')</label>
                                         <input class="form-control custom--file-upload" type="file" name="attachments[]" multiple>
                                         <div id="fileUploadsContainer"></div>
-                                        <div class="form-text text--muted">@lang('Allowed File Extensions: .jpg, .jpeg, .png, .pdf')</div>
+                                        <div class="form-text text--muted">@lang('Allowed File Extensions: .webp, .webp, .webp, .pdf')</div>
                                     </div>
                                     <div class="col-md-2 col-3 text-end mt-2">
                                         <a href="javascript:void(0)" onclick="extraTicketAttachment()" class="btn btn-sm w-100 py-2 btn--base reply-add">

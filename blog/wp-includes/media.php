@@ -4265,7 +4265,7 @@ function wp_plupload_default_settings() {
  *     @type string $filesizeHumanReadable Filesize of the attachment in human readable format (e.g. 1 MB).
  *     @type int    $filesizeInBytes       Filesize of the attachment in bytes.
  *     @type int    $height                If the attachment is an image, represents the height of the image in pixels.
- *     @type string $icon                  Icon URL of the attachment (e.g. /wp-includes/images/media/archive.png).
+ *     @type string $icon                  Icon URL of the attachment (e.g. /wp-includes/images/media/archive.webp).
  *     @type int    $id                    ID of the attachment.
  *     @type string $link                  URL to the attachment.
  *     @type int    $menuOrder             Menu order of the attachment post.

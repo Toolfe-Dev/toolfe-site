@@ -58,7 +58,7 @@
                                                 </div>
                                             </div>
                                             <div class="avatar-edit">
-                                                <input type="file" class="profilePicUpload" name="image" id="profilePicUpload1" accept=".png, .jpg, .jpeg">
+                                                <input type="file" class="profilePicUpload" name="image" id="profilePicUpload1" accept=".webp, .webp, .webp">
                                                 <label for="profilePicUpload1" class="bg--success">@lang('Upload Image')</label>
                                                 <small class="mt-2 text-facebook">@lang('Supported files'): <b>@lang('jpeg'), @lang('jpg').</b> @lang('Image will be resized into 400x400px') </small>
                                             </div>

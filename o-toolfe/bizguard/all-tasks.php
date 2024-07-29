@@ -90,7 +90,7 @@ $open_task = array_reverse($open_task);
                   if (empty($all_task)) {
                     echo '<div class="text-center">
                             <h3 class="display-6">No Tasks Available</h3>
-                            <img src="./assets/imgs/task-not-available.png" alt="No tasks available" class="img-fluid">
+                            <img src="./assets/imgs/task-not-available.webp" alt="No tasks available" class="img-fluid">
                           </div>';
                 } else {
                     foreach ($all_task as $row) {
@@ -133,7 +133,7 @@ $open_task = array_reverse($open_task);
                                     </div>
                                   </div>     
                                   <div class=" d-flex justify-content-end align-items-center">
-                                    <img src="./assets/imgs/task-lable.png" alt="#tasks" class="">
+                                    <img src="./assets/imgs/task-lable.webp" alt="#tasks" class="">
                                   </div>                     
                                 </div>
                               </div>';
@@ -148,7 +148,7 @@ $open_task = array_reverse($open_task);
                   if (empty($closed_task)) {
                     echo '<div class="text-center">
                             <h3 class="display-6">No Tasks Available</h3>
-                            <img src="./assets/imgs/task-not-available.png" alt="No tasks available" class="img-fluid">
+                            <img src="./assets/imgs/task-not-available.webp" alt="No tasks available" class="img-fluid">
                           </div>';
                 } else {
                     foreach ($closed_task as $row) {
@@ -190,7 +190,7 @@ $open_task = array_reverse($open_task);
                                     ' . $status . '</div>
                                   </div>     
                                   <div class=" d-flex justify-content-end align-items-center">
-                                    <img src="./assets/imgs/task-lable.png" alt="#tasks" class="">
+                                    <img src="./assets/imgs/task-lable.webp" alt="#tasks" class="">
                                   </div>                     
                                 </div>
                               </div>';
@@ -205,7 +205,7 @@ $open_task = array_reverse($open_task);
                   if (empty($open_task)) {
                     echo '<div class="text-center">
                             <h3 class="display-6">No Tasks Available</h3>
-                            <img src="./assets/imgs/task-not-available.png" alt="No tasks available" class="img-fluid">
+                            <img src="./assets/imgs/task-not-available.webp" alt="No tasks available" class="img-fluid">
                           </div>';
                 } else {
                     foreach ($open_task as $row) {
@@ -247,7 +247,7 @@ $open_task = array_reverse($open_task);
                                     ' . $status . '</div>
                                   </div>     
                                   <div class=" d-flex justify-content-end align-items-center">
-                                    <img src="./assets/imgs/task-lable.png" alt="#tasks" class="">
+                                    <img src="./assets/imgs/task-lable.webp" alt="#tasks" class="">
                                   </div>                     
                                 </div>
                               </div>';

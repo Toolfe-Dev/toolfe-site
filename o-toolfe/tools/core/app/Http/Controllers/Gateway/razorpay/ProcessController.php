@@ -44,7 +44,7 @@ class ProcessController extends Controller
         $val['buttontext'] = "Pay with Razorpay";
         $val['name'] = Auth::user()->username;
         $val['description'] = "Payment By Razorpay";
-        $val['image'] = asset( 'assets/images/logoIcon/logo.png');
+        $val['image'] = asset( 'assets/images/logoIcon/logo.webp');
         $val['prefill.name'] = Auth::user()->firstname . ' ' . Auth::user()->lastname;
         $val['prefill.email'] = Auth::user()->email;
         $val['prefill.contact'] = Auth::user()->mobile;

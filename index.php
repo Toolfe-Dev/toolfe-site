@@ -16,7 +16,7 @@
   <meta property="og:description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.toolfe.com" />
-  <meta property="og:image" content="https://www.toolfe.com/images/og-image.jpg" />
+  <meta property="og:image" content="https://www.toolfe.com/images/og-image.webp" />
   <meta property="og:site_name" content="Toolfe" />
   <meta property="og:locale" content="en_US" />
 
@@ -98,7 +98,7 @@
                   </span>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="about/about.php">About us</a>
+                      <a href="about">About us</a>
                     </li>
                     <li>
                       <a href="https://blog.toolfe.com/">Blog</a>
@@ -286,7 +286,7 @@
                           <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case1.png" alt="Portfolio">
+                                <img src="assets/imgs/case1.webp" alt="Portfolio">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
@@ -296,7 +296,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case2.png" alt="Portfolio">
+                                <img src="assets/imgs/case2.webp" alt="Portfolio">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
@@ -305,7 +305,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case3.png" alt="Portfolio">
+                                <img src="assets/imgs/case3.webp" alt="Portfolio">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/intelligent_document_processing.php"> Digital <br> Transformation Initiative for an constructionCompany</a></h3>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case4.png" alt="Portfolio">
+                                <img src="assets/imgs/case4.webp" alt="Portfolio">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
@@ -336,7 +336,7 @@
                         </div>
                         <div class="right">
                           <div class="mega-menu-ads">
-                            <img src="assets/imgs/case5.png" alt="iPad">
+                            <img src="assets/imgs/case5.webp" alt="iPad">
                             <h2><a href="case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
                             <br>
                             <a href="case-study">View more</a>
@@ -370,7 +370,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-empowerment-area " style="background-image: url('./assets/imgs/section.png');background-repeat: no-repeat; background-size: cover;">
+    <section class="hero-empowerment-area " style="background-image: url('./assets/imgs/section.webp');background-repeat: no-repeat; background-size: cover;">
       <div class="custom-container">
         <div class="custom-row align-items-center ">
           <div class="hero-empowerment-left-content">                                                                                                  
@@ -391,8 +391,8 @@
 
           <div class="hero-empowerment-right-content">
             <div class="top-content">
-              <img class=" fade-in ms-auto" src="./assets/imgs/bg-1.png" alt="Empowerment" style="max-width: 600px;">
-              <!-- <img class="mobile" src="./assets/imgs/bg-1.png" alt="Empowerment"> -->
+              <img class=" fade-in ms-auto" src="./assets/imgs/bg-1.webp" alt="Empowerment" style="max-width: 600px;">
+              <!-- <img class="mobile" src="./assets/imgs/bg-1.webp" alt="Empowerment"> -->
             </div>
           </div>
         </div>
@@ -400,7 +400,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-area">
+    <section class="about-area mb-5">
       <div class="custom-container">
         <div class="custom-row ">
           <div class="left-content">
@@ -579,7 +579,7 @@
             <a href="./contact/index.php" class="theme-btn">Contact Us</a>
           </div>
 
-          <img src="assets/imgs/Home/home_why_choose.png" alt="Service About" />
+          <img src="assets/imgs/Home/home_why_choose.webp" alt="Service About" />
           <div class="hero-service-about-body">
             <p>
               At Toolfe, we pride ourselves on being a dynamic force of
@@ -986,7 +986,7 @@
                           Management</a>
                       </h2>
                       <a href="./case-study/automating_cloud_deployment.php">
-                        <img src="assets/imgs/casestudy/cloud_thumbnail_home.png" alt="Project" />
+                        <img src="assets/imgs/casestudy/cloud_thumbnail_home.webp" alt="Project" />
                       </a>
                     </div>
                   </div>
@@ -996,7 +996,7 @@
                         <a href="./case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for a Security Department</a>
                       </h2>
                       <a href="./case-study/implementing_computer_vision.php">
-                        <img src="assets/imgs/casestudy/email_thumbnail_home.png " alt="Project" />
+                        <img src="assets/imgs/casestudy/email_thumbnail_home.webp " alt="Project" />
                       </a>
                     </div>
                   </div>
@@ -1007,7 +1007,7 @@
                           for an construction Company
                       </h2>
                       <a href="./case-study/digital_transformation_initiative.php">
-                        <img src="assets/imgs/casestudy/digital_thumbnail_home.png" alt="Project" />
+                        <img src="assets/imgs/casestudy/digital_thumbnail_home.webp" alt="Project" />
                       </a>
                     </div>
                   </div>
@@ -1048,7 +1048,7 @@
                     improved our productivity."
                   </h1>
                   <div class="author-box d-flex align-items-center">
-                    <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                    <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                     <div class="author-box-content">
                       <!-- <h4>Wadi Oddai</h4> -->
                       <p>Vijaykumar, CEO, Oman</p>
@@ -1071,7 +1071,7 @@
                     go-to solution for you."
                   </h1>
                   <div class="author-box d-flex align-items-center">
-                    <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                    <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                     <div class="author-box-content">
                       <!-- <h4>Animal Cafe</h4> -->
                       <p>Pradeep, MD, Chennai</p>
@@ -1094,7 +1094,7 @@
                     improved our productivity."
                   </h1>
                   <div class="author-box d-flex align-items-center">
-                    <!-- <img src="assets/imgs/testimonial-1.jpg" alt="Testimonial"/> -->
+                    <!-- <img src="assets/imgs/testimonial-1.webp" alt="Testimonial"/> -->
                     <div class="author-box-content">
                       <!-- <h4>Jesus Industrials</h4> -->
                       <p>Justin, Owner, Chennai</p>
@@ -1118,73 +1118,79 @@
     </section>
 
     <!-- Blogs -->
-    <section class="">
-      <div class="custom-container">
-        <div class="section-header d-flex align-items-center justify-content-between">
-          <div class="left ">
-            <h5 class="section-subtitle py-2">Blogs</h5>
-            <h1 class="section-title py-2">Updated
-              blogs</h1>
-            <p class="py-2">Here, you'll find the latest insights, trends,
-              and tips in the digital services industry.</p>
-          </div>
+    <section class="news2-area">
+        <div class="custom-container">
+            <div class="section-header d-flex align-items-center justify-content-between">
+                <div class="left">
+                    <h5 class="section-subtitle">Blogs</h5>
+                    <h1 class="section-title">Updated
+                        blogs</h1>
+                    <p>Here, you'll find the latest insights, trends,
+                        and tips in the digital services industry.</p>
+                </div>
 
-          <a href="https://blog.toolfe.com/" class="theme-btn">
-            Learn More
-            <i class="iconoir-arrow-up-right"></i>
-          </a>
+                <a href="https://blog.toolfe.com/" class="theme-btn">
+                    Learn More
+                    <i class="iconoir-arrow-up-right"></i>
+                </a>
+            </div>
+
+            <div class="news2-lists d-flex">
+                <div class="news2-card card-h">
+                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
+                    <!-- <span class="news-ribbon">New</span> -->
+                    <div class="news2-card-body">
+                        <div class="meta">
+                            <span class="date">Jun 24, 2024</span>
+                            <a  class="category">#AWS</a>
+                        </div>
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step
+                                Guide(For Linux and MacOS)</a></h2>
+                        <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward
+                            guide.</p>
+                        <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/"
+                            class="theme-btn">
+                            <i class="iconoir-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="news2-card card-h">
+                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
+                    <div class="news2-card-body">
+                        <div class="meta">
+                            <span class="date">May 22, 2024</span>
+                            <a  class="category">#Blockchain Technology</a>
+                        </div>
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and
+                                Security in Networks</a></h2>
+                        <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is
+                            maintained.</p>
+                        <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/"
+                            class="theme-btn">
+                            <i class="iconoir-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="news2-card card-h">
+                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
+
+                    <div class="news2-card-body">
+                        <div class="meta">
+                            <span class="date">May 15, 2024</span>
+                            <a class="category">#UX Research</a>
+                        </div>
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best ux research methods and when to use them</a></h2>
+                        <p>Discover effective UX research methods like interviews and usability tests to enhance product
+                            understanding and usability.</p>
+                        <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/"
+                            class="theme-btn">
+                            <i class="iconoir-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-        <div class="news2-lists d-flex">
-          <div class="news2-card card-h">
-            <img src="./assets/imgs/services/blog1.jpg" alt="Blog" />
-            <span class="news-ribbon">New</span>
-            <div class="news2-card-body">
-              <div class="meta">
-                <span class="date">Jun 24, 2024</span>
-                <span class="category">#AWS</span>
-              </div>
-              <h2><span> <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step Guide(For
-                    Linux and MacOS)</a></span></h2>
-              <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward guide.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/" class="theme-btn">
-                <i class="iconoir-arrow-up-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="news2-card card-h">
-            <img src="./assets/imgs/services/blog2.jpg" alt="Blog" />
-            <div class="news2-card-body">
-              <div class="meta">
-                <span class="date">May 22, 2024</span>
-                <span class="category">#Blockchain Technology</span>
-              </div>
-              <h2><span href="blog-details.php"> <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and Security
-                    in Networks</a></span></h2>
-              <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is maintained.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/" class="theme-btn">
-                <i class="iconoir-arrow-up-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="news2-card card-h">
-            <img src="./assets/imgs/services/blog3.jpg" alt="Blog" />
-
-            <div class="news2-card-body">
-              <div class="meta">
-                <span class="date">May 15, 2024</span>
-                <span class="category">#UX Research</span>
-              </div>
-              <h2><span> <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best UX research methods and when to use them</a></span></h2>
-              <p>Discover effective UX research methods like interviews and usability tests to enhance product
-                understanding and usability.</p>
-              <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/" class="theme-btn">
-                <i class="iconoir-arrow-up-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <!-- CTA -->
     <section class="cta-area">
@@ -1559,7 +1565,7 @@
         // Add any custom validation logic here
         // Example: Check if phone number is in the correct format
         const phone = document.getElementById('Phone').value;
-        const phonePattern = /^\+?[0-9\s-]+$/;
+        const phonePattern = /^\+?[0-9\s\-()]+$/;
         if (!phonePattern.test(phone)) {
           isValid = false;
           alert('Please enter a valid phone number.');

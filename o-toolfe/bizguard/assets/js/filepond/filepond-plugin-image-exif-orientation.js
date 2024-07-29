@@ -48,7 +48,7 @@
         var view = new DataView(e.target.result);
 
         // Every JPEG file starts from binary value '0xFFD8'
-        if (getUint16(view, 0) !== Marker.JPEG) {
+        if (getUint16(view, 0) !== Marker.webp) {
           // This aint no JPEG
           resolve(-1);
           return;

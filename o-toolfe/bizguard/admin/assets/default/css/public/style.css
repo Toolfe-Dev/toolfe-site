@@ -581,7 +581,7 @@ img.not-found {
 
 /* Hero: */
 .z-hero-wrapper {
-  background-image: url(../../images/inspiration-geometry.png);
+  background-image: url(../../images/inspiration-geometry.webp);
 }
 
 @media screen and (min-width: 768px) {

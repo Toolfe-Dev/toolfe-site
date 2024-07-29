@@ -67,7 +67,7 @@ button:focus {outline:0;}
 .window-buttons-wrapper button[action="finish"]{
     background-repeat:repeat-x !important;
     background-color:green !important;
-    background-image:url("../images/button-back-green.png") !important;
+    background-image:url("../images/button-back-green.webp") !important;
     color:#FFF;text-shadow:0 1px 0 rgba(0,0,0,0.4) !important;
     border:1px solid green !important;
     font-weight: bold;
@@ -101,7 +101,7 @@ button:focus {outline:0;}
 	background-position:0 -30px;
 }
 .wpfc-dialog-buttons {
-    background: url("/images/button-back.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/button-back.webp") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
     border: 1px solid #aaa;
     padding: 4px 10px;
     display: none;
@@ -163,15 +163,15 @@ button:focus {outline:0;}
 }
 
 .buttons-blood {
-    background-image:url("../images/button-back-blood.png") !important;
+    background-image:url("../images/button-back-blood.webp") !important;
 }
 
 .buttons-orange {
-    background-image:url("../images/button-back-fire.png") !important;
+    background-image:url("../images/button-back-fire.webp") !important;
 }
 
 .buttons-start {
-    background-image:url("../images/button-back-green.png") !important;
+    background-image:url("../images/button-back-green.webp") !important;
 }
 
 .wpfc-green-button {

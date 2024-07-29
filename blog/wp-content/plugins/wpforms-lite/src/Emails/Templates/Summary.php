@@ -46,7 +46,7 @@ class Summary extends General {
 
 		// Set specific WPForms logo width in pixels for MS Outlook and old email clients.
 		return array(
-			'url'   => \WPFORMS_PLUGIN_URL . 'assets/images/logo.png',
+			'url'   => \WPFORMS_PLUGIN_URL . 'assets/images/logo.webp',
 			'width' => 250,
 		);
 	}

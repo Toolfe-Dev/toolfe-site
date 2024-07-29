@@ -3045,12 +3045,12 @@ class WP_Site_Health {
 			'url'           => 'https://wordpress.org/plugins/a-fake-plugin/',
 			'package'       => 'https://downloads.wordpress.org/plugin/a-fake-plugin.9.9.zip',
 			'icons'         => array(
-				'2x' => 'https://ps.w.org/a-fake-plugin/assets/icon-256x256.png',
-				'1x' => 'https://ps.w.org/a-fake-plugin/assets/icon-128x128.png',
+				'2x' => 'https://ps.w.org/a-fake-plugin/assets/icon-256x256.webp',
+				'1x' => 'https://ps.w.org/a-fake-plugin/assets/icon-128x128.webp',
 			),
 			'banners'       => array(
-				'2x' => 'https://ps.w.org/a-fake-plugin/assets/banner-1544x500.png',
-				'1x' => 'https://ps.w.org/a-fake-plugin/assets/banner-772x250.png',
+				'2x' => 'https://ps.w.org/a-fake-plugin/assets/banner-1544x500.webp',
+				'1x' => 'https://ps.w.org/a-fake-plugin/assets/banner-772x250.webp',
 			),
 			'banners_rtl'   => array(),
 			'tested'        => '5.5.0',

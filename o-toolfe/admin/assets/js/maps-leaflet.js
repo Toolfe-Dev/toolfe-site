@@ -4398,7 +4398,7 @@
   const basicMapVar = document.getElementById('basicMap');
   if (basicMapVar) {
     const basicMap = L.map('basicMap').setView([42.35, -71.08], 10);
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(basicMap);
@@ -4421,7 +4421,7 @@
       [51.503, -0.06],
       [51.51, -0.047]
     ]).addTo(markerMap);
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(markerMap);
@@ -4436,7 +4436,7 @@
       draggable: 'true'
     }).addTo(draggableMap);
     markerLocation.bindPopup("<b>You're here!</b>").openPopup();
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(draggableMap);
@@ -4461,7 +4461,7 @@
       L.circle(e.latlng, radius).addTo(userLocation);
     }
     userLocation.on('locationfound', onLocationFound);
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(userLocation);
@@ -4473,8 +4473,8 @@
   if (customIconsVar) {
     const customIcons = L.map('customIcons').setView([51.5, -0.09], 10);
     const greenLeaf = L.icon({
-      iconUrl: assetsPath + 'img/icons/misc/leaf-green.png',
-      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.png',
+      iconUrl: assetsPath + 'img/icons/misc/leaf-green.webp',
+      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.webp',
       iconSize: [38, 95],
       shadowSize: [50, 64],
       iconAnchor: [22, 94],
@@ -4482,8 +4482,8 @@
       popupAnchor: [-3, -76]
     });
     const redLeaf = L.icon({
-      iconUrl: assetsPath + 'img/icons/misc/leaf-red.png',
-      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.png',
+      iconUrl: assetsPath + 'img/icons/misc/leaf-red.webp',
+      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.webp',
       iconSize: [38, 95],
       shadowSize: [50, 64],
       iconAnchor: [22, 94],
@@ -4491,8 +4491,8 @@
       popupAnchor: [-3, -76]
     });
     const orangeLeaf = L.icon({
-      iconUrl: assetsPath + 'img/icons/misc/leaf-orange.png',
-      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.png',
+      iconUrl: assetsPath + 'img/icons/misc/leaf-orange.webp',
+      shadowUrl: assetsPath + 'img/icons/misc/leaf-shadow.webp',
       iconSize: [38, 95],
       shadowSize: [50, 64],
       iconAnchor: [22, 94],
@@ -4508,7 +4508,7 @@
     L.marker([51.49, -0.45], {
       icon: orangeLeaf
     }).addTo(customIcons);
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(customIcons);
@@ -4551,7 +4551,7 @@
     L.geoJson(statesData, {
       style: style
     }).addTo(geoJsonMap);
-    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(geoJsonMap);
@@ -4566,11 +4566,11 @@
       aurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.'),
       golden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.');
     const cities = L.layerGroup([littleton, denver, aurora, golden]);
-    const street = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    const street = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.webp', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
         maxZoom: 18
       }),
-      watercolor = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
+      watercolor = L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.webp', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
         maxZoom: 18
       });
@@ -4587,7 +4587,7 @@
       Cities: cities
     };
     L.control.layers(baseMaps, overlayMaps).addTo(layerControl);
-    L.tileLayer('https://c.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://c.tile.osm.org/{z}/{x}/{y}.webp', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
       maxZoom: 18
     }).addTo(layerControl);

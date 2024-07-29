@@ -13,19 +13,19 @@
                                         <div class="avatar-preview">
                                             <div class="row">
                                                 <div class="col-sm-6">
-                                                    <div class="profilePicPreview logoPicPrev logoPrev" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'].'/logo.png', '?'.time()) }})">
+                                                    <div class="profilePicPreview logoPicPrev logoPrev" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'].'/logo.webp', '?'.time()) }})">
                                                         <button type="button" class="remove-image"><i class="fa fa-times"></i></button>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 mt-sm-0 mt-4">
-                                                    <div class="profilePicPreview logoPicPrev logoPrev bg--dark" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'].'/logo.png', '?'.time()) }})">
+                                                    <div class="profilePicPreview logoPicPrev logoPrev bg--dark" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'].'/logo.webp', '?'.time()) }})">
                                                         <button type="button" class="remove-image"><i class="fa fa-times"></i></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="avatar-edit">
-                                            <input type="file" class="profilePicUpload" id="profilePicUpload1" accept=".png, .jpg, .jpeg" name="logo">
+                                            <input type="file" class="profilePicUpload" id="profilePicUpload1" accept=".webp, .webp, .webp" name="logo">
                                             <label for="profilePicUpload1" class="bg-primary">@lang('Select Logo') </label>
                                         </div>
                                     </div>
@@ -37,19 +37,19 @@
                                         <div class="avatar-preview">
                                             <div class="row">
                                                 <div class="col-sm-6">
-                                                    <div class="profilePicPreview logoPicPrev iconPrev" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'] .'/favicon.png', '?'.time()) }})">
+                                                    <div class="profilePicPreview logoPicPrev iconPrev" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'] .'/favicon.webp', '?'.time()) }})">
                                                         <button type="button" class="remove-image"><i class="fa fa-times"></i></button>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 mt-sm-0 mt-4">
-                                                    <div class="profilePicPreview logoPicPrev iconPrev bg--dark" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'] .'/favicon.png', '?'.time()) }})">
+                                                    <div class="profilePicPreview logoPicPrev iconPrev bg--dark" style="background-image: url({{ getImage(imagePath()['logoIcon']['path'] .'/favicon.webp', '?'.time()) }})">
                                                         <button type="button" class="remove-image"><i class="fa fa-times"></i></button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="avatar-edit">
-                                            <input type="file" class="profilePicUpload" id="profilePicUpload2" accept=".png" name="favicon">
+                                            <input type="file" class="profilePicUpload" id="profilePicUpload2" accept=".webp" name="favicon">
                                             <label for="profilePicUpload2" class="bg-primary">@lang('Select Favicon')</label>
                                         </div>
                                     </div>

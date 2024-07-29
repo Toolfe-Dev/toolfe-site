@@ -18,12 +18,12 @@ include './includes/header.php';
             <div class="">
                 <div class="row p-4 align-items-center rounded-3 " style="height: 80vh;">
                   <div class="col-lg-4 p-0 overflow-hidden">
-                    <div class="lc-block"><img class="rounded-start w-100" src="assets/imgs/submit-img.png" width="720"></div>
+                    <div class="lc-block"><img class="rounded-start w-100" src="assets/imgs/submit-img.webp" width="720"></div>
                   </div>
                   <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <div class="lc-block mb-3">
                       <div editable="rich " class="d-flex align-items-center">
-                        <img src="assets/imgs/tick-mark.png" alt="alert" class=" me-4">
+                        <img src="assets/imgs/tick-mark.webp" alt="alert" class=" me-4">
                         <h3 class="fw-semibold display-6">Your request has been successfully submitted</h3>
                       </div>
                     </div>

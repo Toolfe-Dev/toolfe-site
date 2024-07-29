@@ -11209,14 +11209,14 @@ label {
 }
 
 .bg_1 {
-  background: url("../img/bg/bg-1.jpg");
+  background: url("../img/bg/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .bg_2 {
-  background: url("../img/bg/bg-1.jpg");
+  background: url("../img/bg/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11265,7 +11265,7 @@ label {
   height: 100%;
   top: 9px;
   left: 9px;
-  background-image: url(../img/btn-texture-black.png);
+  background-image: url(../img/btn-texture-black.webp);
   border: 1px solid #000000;
   box-sizing: border-box;
   z-index: -1;
@@ -11289,7 +11289,7 @@ label {
 }
 
 .btn.white:before {
-  background-image: url(../img/btn-texture-white.png);
+  background-image: url(../img/btn-texture-white.webp);
   border-color: #ffffff;
 }
 
@@ -11304,7 +11304,7 @@ label {
 }
 
 .btn.gray:before {
-  background-image: url(../img/btn-texture-gray.png);
+  background-image: url(../img/btn-texture-gray.webp);
   border-color: #54595f;
 }
 
@@ -11319,7 +11319,7 @@ label {
 }
 
 .btn.olive:before {
-  background-image: url(../img/btn-texture-olive.png);
+  background-image: url(../img/btn-texture-olive.webp);
   border-color: #1271BB;
 }
 
@@ -14727,7 +14727,7 @@ label {
 .testimonial_inner::before {
   position: absolute;
   content: "";
-  background: url(../img/bg/bg_t_1.png);
+  background: url(../img/bg/bg_t_1.webp);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -14738,7 +14738,7 @@ label {
 .testimonial_inner::after {
   position: absolute;
   content: "";
-  background: url(../img/bg/bg_t_2.png);
+  background: url(../img/bg/bg_t_2.webp);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -14795,7 +14795,7 @@ label {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/bg/bg-2.jpg");
+  background-image: url("../img/bg/bg-2.webp");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -18344,7 +18344,7 @@ label {
 
 .page_header .page_header_inner {
   position: relative;
-  background-image: url(../img/header_bg.jpg);
+  background-image: url(../img/header_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -19472,7 +19472,7 @@ body.bg-dark.bg-white .btn.white, body.bg-white .btn.white {
 }
 
 body.bg-dark.bg-white .btn.white:before, body.bg-white .btn.white:before {
-  background-image: url(../img/btn-texture-gray.png);
+  background-image: url(../img/btn-texture-gray.webp);
   border-color: #2e2e2e;
 }
 
@@ -20290,7 +20290,7 @@ body.bg-dark.bg-white .page_header.in-service .page_header_inner .page_header_co
 }
 
 body.bg-dark.bg-white .header-layer-bg, body.bg-white .header-layer-bg {
-  background-image: url("../img/bg/bg-2-light.jpg");
+  background-image: url("../img/bg/bg-2-light.webp");
 }
 
 body.bg-dark.bg-white .testimonial.in-service, body.bg-white .testimonial.in-service {

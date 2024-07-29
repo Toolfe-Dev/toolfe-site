@@ -32,7 +32,7 @@ class ProcessController extends Controller
         $val['currency'] = "$deposit->method_currency";
         $val['detail1_description'] = "$basic->sitename";
         $val['detail1_text'] = "Pay To $basic->sitename";
-        $val['logo_url'] = asset('assets/images/logoIcon/logo.png');
+        $val['logo_url'] = asset('assets/images/logoIcon/logo.webp');
 
         $send['val'] = $val;
         $send['view'] = 'user.payment.redirect';

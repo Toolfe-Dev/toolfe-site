@@ -91,7 +91,7 @@ abstract class Core {
 			throw new \UnexpectedValueException( 'Provider class should define a provider "name" param in its constructor.' );
 		}
 
-		$this->icon = WPFORMS_PLUGIN_URL . 'assets/images/sullie.png';
+		$this->icon = WPFORMS_PLUGIN_URL . 'assets/images/sullie.webp';
 		if ( ! empty( $params['icon'] ) ) {
 			$this->icon = \esc_url_raw( $params['icon'] );
 		}

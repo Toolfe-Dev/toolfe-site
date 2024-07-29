@@ -17,7 +17,7 @@
     content="Toolfe is an IT company that provides businesses with comprehensive, cost-effective technology solutions and consulting. " />
   <title>Thanks, Message Sent</title>
   <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.webp">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -136,7 +136,7 @@ if(isset($_POST['captcha-response']) && !empty($_POST['captcha-response'])){
             <div class="row">
               <div class="col-xxl-12">
                 <div class="error__content">
-                  <img src="assets/imgs/thumb/sent.png" alt="Page not found">
+                  <img src="assets/imgs/thumb/sent.webp" alt="Page not found">
                   <h2>Your message reached us</h2>
                   <p>Our Support team will reach you within 24-Hours.</p>
                   <div class="btn_wrapper">
@@ -173,7 +173,7 @@ if(isset($_POST['captcha-response']) && !empty($_POST['captcha-response'])){
         <div class="footer__top-3">
           <div class="footer__top-wrapper-3">
             <div class="footer__logo-3 pt-120">
-              <img src="assets/imgs/logo/site-logo-white-2.png" alt="Footer Logo">
+              <img src="assets/imgs/logo/site-logo-white-2.webp" alt="Footer Logo">
               <p>We provide purpose driven digital transformation solutions to businesses worldwide.</p>
             </div>
             <div class="footer__social-3">

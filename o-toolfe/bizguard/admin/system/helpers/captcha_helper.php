@@ -134,7 +134,7 @@ if ( ! function_exists('create_captcha'))
 			$current_dir = @opendir($img_path);
 			while ($filename = @readdir($current_dir))
 			{
-				if (preg_match('#^(?<ts>\d{10})\.png$#', $filename, $match) && ($match['ts'] + $expiration) < $now)
+				if (preg_match('#^(?<ts>\d{10})\.webp$#', $filename, $match) && ($match['ts'] + $expiration) < $now)
 				{
 					@unlink($img_path.$filename);
 				}
@@ -143,7 +143,7 @@ if ( ! function_exists('create_captcha'))
 			@closedir($current_dir);
 
 			// This variable will later be used later to determine whether we write to disk or output a data:image URI
-			$img_filename = $now.'.png';
+			$img_filename = $now.'.webp';
 		}
 		else
 		{

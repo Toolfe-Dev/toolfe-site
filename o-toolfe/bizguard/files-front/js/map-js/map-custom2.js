@@ -1,7 +1,7 @@
 // custom map js
 var map = L.map("map").setView([51.505, -0.09], 13);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.webp", {
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
@@ -23,9 +23,9 @@ L.control.scale().addTo(map);
 
 // Create a Tile Layer and add it to the map
 var tiles = new L.tileLayer(
-  "http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png"
+  "http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.webp"
 ).addTo(map);
-L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.webp", {
   attribution:
     '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);

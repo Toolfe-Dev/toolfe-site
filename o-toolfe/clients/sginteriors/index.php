@@ -16,7 +16,7 @@
         <meta name="author" content="">
 
         <!-- Favicon and touch Icons -->
-        <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
+        <link href="assets/img/favicon.webp" rel="shortcut icon" type="image/png">
         <link href="assets/img/apple-touch-icon.html" rel="apple-touch-icon">
         <link href="assets/img/apple-touch-icon-72x72.html" rel="apple-touch-icon" sizes="72x72">
         <link href="assets/img/apple-touch-icon-114x114.html" rel="apple-touch-icon" sizes="114x114">
@@ -49,7 +49,7 @@
       "brandSetting":{
           "brandName":"Sri Gajamukha Interiors",
           "brandSubTitle":"Typically replies within a day",
-          "brandImg":"https://toolfe.com/assets/imgs/clients/favicon-whatsapp.png",
+          "brandImg":"https://toolfe.com/assets/imgs/clients/favicon-whatsapp.webp",
           "welcomeText":"Hi there!\nHow can I help you?",
           "messageText":"Hello, I have a question about {{page_link}} and {{page_title}}",
           "backgroundColor":"#1271BB",
@@ -167,7 +167,7 @@
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                <div class="slider" style="background-image: url('assets/img/slider/5.jpg')">
+                                <div class="slider" style="background-image: url('assets/img/slider/5.webp')">
                                     <div class="slide_content">
                                         <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
                                             <div class="slide_content_inner">
@@ -192,7 +192,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="slider" style="background-image: url('assets/img/slider/14.jpg')">
+                                <div class="slider" style="background-image: url('assets/img/slider/14.webp')">
                                     <div class="slide_content">
                                         <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
                                             <div class="slide_content_inner">
@@ -217,7 +217,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="slider" style="background-image: url('assets/img/slider/5.jpg')">
+                                <div class="slider" style="background-image: url('assets/img/slider/5.webp')">
                                     <div class="slide_content">
                                         <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
                                             <div class="slide_content_inner">
@@ -242,7 +242,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="slider" style="background-image: url('assets/img/slider/8.jpg')">
+                                <div class="slider" style="background-image: url('assets/img/slider/8.webp')">
                                     <div class="slide_content">
                                         <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
                                             <div class="slide_content_inner">
@@ -324,7 +324,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-5">
                             <div class="about_image">
-                                <img src="assets/img/about/a1.jpg" alt="img">
+                                <img src="assets/img/about/a1.webp" alt="img">
                                 <img src="https://wpthemebooster.com/demo/themeforest/html/mrittik/assets/img/about/e1.svg" alt="About" data-aos="fade-down" data-aos-duration="1000">
                             </div>
                         </div>
@@ -415,9 +415,9 @@
                     <div class="row">
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-1.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-1.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/3.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/3.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Budget Estimation</a></h4>
                                     <p class="text-gray-600">Our top priority is to deliver designs that offer the best quality and value, while staying within the budget.</p>
                                     <div class="arrow_effect">
@@ -428,9 +428,9 @@
                         </div>
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="700">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-2.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-2.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/2.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/2.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Design Your Own</a></h4>
                                     <p class="text-gray-600">Our goal is to assist you in bringing your dream house to life by creating custom designs tailored to your preferences.</p>
                                     <div class="arrow_effect">
@@ -441,9 +441,9 @@
                         </div>
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="900">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-3.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-3.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/1.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/1.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Free Samples</a></h4>
                                     <p class="text-gray-600">We offer complimentary samples that are easy to browse and choose from.</p>
                                     <div class="arrow_effect">
@@ -454,9 +454,9 @@
                         </div>
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1100">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-4.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-4.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/5.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/5.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Free Consultation</a></h4>
                                     <p class="text-gray-600">We will be accessible to you via phone, email, and office visits throughout the entire project timeline.</p>
                                     <div class="arrow_effect">
@@ -467,9 +467,9 @@
                         </div>
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1300">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-5.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-5.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/6.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/6.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Visualization</a></h4>
                                     <p class="text-gray-600">Preview your home with stunning 3D interior concepts, providing a realistic feel of your finished space.</p>
                                     <div class="arrow_effect">
@@ -480,9 +480,9 @@
                         </div>
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
                             <div class="icon_box type-2">
-                                <img src="assets/img/icon_box/bg-6.jpg" alt="img" class="post-bg">
+                                <img src="assets/img/icon_box/bg-6.webp" alt="img" class="post-bg">
                                 <div class="icon_box_inner">
-                                    <img src="assets/img/icon_box/4.png" alt="Icon Box">
+                                    <img src="assets/img/icon_box/4.webp" alt="Icon Box">
                                     <h4 class="text-white"><a href="service-1.html">Onsite Supervision</a></h4>
                                     <p class="text-gray-600">Our skilled team of Project Managers and Site Supervisors guarantee a hassle-free and enjoyable experience for your home interior project.</p>
                                     <div class="arrow_effect">
@@ -506,7 +506,7 @@
                             <div class="funfacts_inner">
                                 <div class="funfact2 d-flex align-items-center">
                                     <div class="fun_img">
-                                        <img src="assets/img/fact-1.png" alt="img">
+                                        <img src="assets/img/fact-1.webp" alt="img">
                                     </div>
                                     <div class="funfact_content">
                                         <p>PROJECTS COMPLETED</p>
@@ -515,7 +515,7 @@
                                 </div>                            
                                 <div class="funfact2 d-flex align-items-center">
                                     <div class="fun_img">
-                                        <img src="assets/img/fact-2.png" alt="img">
+                                        <img src="assets/img/fact-2.webp" alt="img">
                                     </div>
                                     <div class="funfact_content">
                                         <p>HAPPY CLIENTS</p>
@@ -524,7 +524,7 @@
                                 </div>                            
                                 <div class="funfact2 d-flex align-items-center">
                                     <div class="fun_img">
-                                        <img src="assets/img/fact-3.png" alt="img">
+                                        <img src="assets/img/fact-3.webp" alt="img">
                                     </div>
                                     <div class="funfact_content">
                                         <p>YEARS OF EXPERTISE</p>
@@ -533,7 +533,7 @@
                                 </div>                            
                                 <div class="funfact2 d-flex align-items-center">
                                     <div class="fun_img">
-                                        <img src="assets/img/fact-4.png" alt="img">
+                                        <img src="assets/img/fact-4.webp" alt="img">
                                     </div>
                                     <div class="funfact_content">
                                         <p>POSITIVE FEEDBACKS</p>
@@ -599,7 +599,7 @@
                         <!-- Bathroom Sanitary -->
                         <div class="grid-item bathroom_sanitary width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6> 
@@ -610,7 +610,7 @@
                         </div>       
                         <div class="grid-item bathroom_sanitary width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6>
@@ -621,7 +621,7 @@
                         </div> 
                         <div class="grid-item bathroom_sanitary width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6>
@@ -632,7 +632,7 @@
                         </div> 
                         <div class="grid-item landscape bathroom_sanitary width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6>
@@ -643,7 +643,7 @@
                         </div>  
                         <div class="grid-item bathroom_sanitary width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6>
@@ -654,7 +654,7 @@
                         </div>   
                         <div class="grid-item bathroom_sanitary width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/bath_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/bath_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Bathroom Sanitary</a></h6>
@@ -668,7 +668,7 @@
                         <!-- Crockery Units -->
                         <div class="grid-item landscape Crockery width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/cro_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/cro_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Crockery Units</a></h6>
@@ -679,7 +679,7 @@
                         </div>  
                         <div class="grid-item Crockery width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/cro_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/cro_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Crockery Units</a></h6>
@@ -690,7 +690,7 @@
                         </div>   
                         <div class="grid-item Crockery width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/cro_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/cro_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Crockery Units</a></h6>
@@ -701,7 +701,7 @@
                         </div>   
                         <div class="grid-item Crockery width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/cro_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/cro_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Crockery Units</a></h6> 
@@ -715,7 +715,7 @@
                         <!-- False ceiling -->
                         <div class="grid-item landscape false_ceiling width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/fal_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/fal_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">False ceiling</a></h6>
@@ -726,7 +726,7 @@
                         </div> 
                         <div class="grid-item false_ceiling width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/fal_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/fal_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">False ceiling</a></h6>
@@ -737,7 +737,7 @@
                         </div>   
                         <div class="grid-item false_ceiling width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/fal_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/fal_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">False ceiling</a></h6>
@@ -748,7 +748,7 @@
                         </div>   
                         <div class="grid-item false_ceiling width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/fal_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/fal_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">False ceiling</a></h6> 
@@ -762,7 +762,7 @@
                         <!-- Foyer Design -->
                         <div class="grid-item landscape foyer_designs width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/foy_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/foy_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Foyer Designs</a></h6>
@@ -776,7 +776,7 @@
                         <!-- Light -->
                         <div class="grid-item landscape lights width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/light_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/light_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Lights</a></h6>
@@ -787,7 +787,7 @@
                         </div>  
                         <div class="grid-item lights width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/light_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/light_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Lights</a></h6>
@@ -798,7 +798,7 @@
                         </div>   
                         <div class="grid-item lights width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/light_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/light_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Lights</a></h6>
@@ -809,7 +809,7 @@
                         </div>   
                         <div class="grid-item lights width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/light_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/light_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Lights</a></h6> 
@@ -820,7 +820,7 @@
                         </div>      
                         <div class="grid-item landscape lights width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/light_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/light_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Lights</a></h6>
@@ -834,7 +834,7 @@
                         <!-- Modular Kitchen -->
                         <div class="grid-item kitchen width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6>
@@ -845,7 +845,7 @@
                         </div>   
                         <div class="grid-item kitchen width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6>
@@ -856,7 +856,7 @@
                         </div>   
                         <div class="grid-item kitchen width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6> 
@@ -867,7 +867,7 @@
                         </div>  
                         <div class="grid-item landscape kitchen width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6>
@@ -878,7 +878,7 @@
                         </div>  
                         <div class="grid-item kitchen width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6>
@@ -889,7 +889,7 @@
                         </div>   
                         <div class="grid-item kitchen width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/kitc_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/kitc_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Modular Kitchen</a></h6>
@@ -903,7 +903,7 @@
                         <!-- Pooja Units -->
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -914,7 +914,7 @@
                         </div>   
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/Pooja_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/Pooja_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -925,7 +925,7 @@
                         </div>   
                         <div class="grid-item landscape pooja width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -936,7 +936,7 @@
                         </div>  
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -947,7 +947,7 @@
                         </div>   
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -958,7 +958,7 @@
                         </div> 
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -969,7 +969,7 @@
                         </div>   
                         <div class="grid-item pooja width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/pooja_7.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/pooja_7.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Pooja Units</a></h6>
@@ -983,7 +983,7 @@
                         <!-- Space saving furnitures -->
                         <div class="grid-item landscape space_furnitures width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/space_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/space_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Space Saving Furnitures</a></h6>
@@ -994,7 +994,7 @@
                         </div>  
                         <div class="grid-item space_furnitures width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/space_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/space_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Space Saving Furnitures</a></h6>
@@ -1005,7 +1005,7 @@
                         </div>   
                         <div class="grid-item space_furnitures width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/space_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/space_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Space Saving Furnitures</a></h6>
@@ -1016,7 +1016,7 @@
                         </div>   
                         <div class="grid-item space_furnitures width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/space_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/space_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Space Saving Furnitures</a></h6> 
@@ -1027,7 +1027,7 @@
                         </div>
                         <div class="grid-item landscape space_furnitures width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/space_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/space_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Space Saving Furnitures</a></h6>
@@ -1041,7 +1041,7 @@
                         <!-- Storage Wardrobes -->
                         <div class="grid-item landscape storage_wardrobe width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6>
@@ -1052,7 +1052,7 @@
                         </div> 
                         <div class="grid-item storage_wardrobe width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6>
@@ -1063,7 +1063,7 @@
                         </div>  
                         <div class="grid-item storage_wardrobe width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6>
@@ -1074,7 +1074,7 @@
                         </div>  
                         <div class="grid-item storage_wardrobe width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6> 
@@ -1085,7 +1085,7 @@
                         </div>
                         <div class="grid-item storage_wardrobe width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6>
@@ -1096,7 +1096,7 @@
                         </div> 
                         <div class="grid-item storage_wardrobe width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/store_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/store_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Storage Wardrobes</a></h6>
@@ -1110,7 +1110,7 @@
                         <!-- Study Table -->
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1121,7 +1121,7 @@
                         </div>  
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1132,7 +1132,7 @@
                         </div>  
                         <div class="grid-item landscape study_table width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1143,7 +1143,7 @@
                         </div>  
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1154,7 +1154,7 @@
                         </div>  
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1165,7 +1165,7 @@
                         </div>  
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1176,7 +1176,7 @@
                         </div>  
                         <div class="grid-item study_table width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/study_7.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/study_7.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Study Table</a></h6>
@@ -1190,7 +1190,7 @@
                         <!-- TV Units -->
                         <div class="grid-item tv width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6> 
@@ -1201,7 +1201,7 @@
                         </div>      
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1212,7 +1212,7 @@
                         </div>
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1223,7 +1223,7 @@
                         </div>
                         <div class="grid-item landscape tv width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1234,7 +1234,7 @@
                         </div>
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1245,7 +1245,7 @@
                         </div>
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1256,7 +1256,7 @@
                         </div>
                         <div class="grid-item landscape tv width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_7.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_7.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1267,7 +1267,7 @@
                         </div>
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_8.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_8.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1278,7 +1278,7 @@
                         </div>
                         <div class="grid-item tv width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/tv_9.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/tv_9.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">TV Units</a></h6>
@@ -1292,7 +1292,7 @@
                         <!-- Wall Paints -->
                         <div class="grid-item landscape wall_paint width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1303,7 +1303,7 @@
                         </div>
                         <div class="grid-item wall_paint width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1314,7 +1314,7 @@
                         </div>
                         <div class="grid-item wall_paint width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1325,7 +1325,7 @@
                         </div>
                         <div class="grid-item wall_paint width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1336,7 +1336,7 @@
                         </div>
                         <div class="grid-item wall_paint width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1347,7 +1347,7 @@
                         </div>
                         <div class="grid-item landscape wall_paint width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wall_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wall_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wall Paints</a></h6>
@@ -1361,7 +1361,7 @@
                         <!-- Wallpapers -->
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_1.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_1.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1372,7 +1372,7 @@
                         </div>
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_2.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_2.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1383,7 +1383,7 @@
                         </div>
                         <div class="grid-item landscape wallpapers width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_3.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_3.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1394,7 +1394,7 @@
                         </div>
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_4.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_4.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1405,7 +1405,7 @@
                         </div>
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_5.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_5.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1416,7 +1416,7 @@
                         </div>
                         <div class="grid-item wallpapers width-100">
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_6.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_6.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wrallpapers</a></h6> 
@@ -1427,7 +1427,7 @@
                         </div>  
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_7.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_7.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1438,7 +1438,7 @@
                         </div>
                         <div class="grid-item wallpapers width-50"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_8.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_8.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1449,7 +1449,7 @@
                         </div>
                         <div class="grid-item landscape wallpapers width-100"> 
                             <div class="thumb">
-                                <img class="item_image" src="assets/img/portfolio/wallpaper_9.png" alt="">
+                                <img class="item_image" src="assets/img/portfolio/wallpaper_9.webp" alt="">
                                 <div class="works-info">
                                     <div class="label-text">
                                         <h6><a href="#">Wallpapers</a></h6>
@@ -1526,7 +1526,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="blog_post mb-0">
-                                <img src="assets/img/blog/1.jpg" alt="img">
+                                <img src="assets/img/blog/1.webp" alt="img">
                                 <div class="blog_content">                                    
                                     <h2 class="post-count">01</h2>
                                     <div class="meta">
@@ -1540,7 +1540,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="blog_post mb-0">
-                                <img src="assets/img/blog/2.jpg" alt="img">
+                                <img src="assets/img/blog/2.webp" alt="img">
                                 <div class="blog_content">                                    
                                     <h2 class="post-count">02</h2>
                                     <div class="meta">
@@ -1554,7 +1554,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="blog_post mb-0">
-                                <img src="assets/img/blog/3.jpg" alt="img">
+                                <img src="assets/img/blog/3.webp" alt="img">
                                 <div class="blog_content">                                    
                                     <h2 class="post-count">03</h2>
                                     <div class="meta">

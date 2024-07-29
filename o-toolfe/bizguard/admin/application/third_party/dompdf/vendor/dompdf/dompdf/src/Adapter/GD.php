@@ -841,12 +841,12 @@ class GD implements Canvas
             case "jpg":
             case "jpeg":
                 $contentType = "image/jpeg";
-                $extension = ".jpg";
+                $extension = ".webp";
                 break;
             case "png":
             default:
                 $contentType = "image/png";
-                $extension = ".png";
+                $extension = ".webp";
                 break;
         }
 

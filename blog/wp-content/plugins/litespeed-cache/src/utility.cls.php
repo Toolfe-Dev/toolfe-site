@@ -457,8 +457,8 @@ class Utility extends Root {
 	 *
 	 * @since 3.0
 	 * @access public
-	 * @param  string 	`https://aa.com/bbb/wp-content/upload/2018/08/test.jpg` or `/bbb/wp-content/upload/2018/08/test.jpg`
-	 * @return string 	`2018/08/test.jpg`
+	 * @param  string 	`https://aa.com/bbb/wp-content/upload/2018/08/test.webp` or `/bbb/wp-content/upload/2018/08/test.webp`
+	 * @return string 	`2018/08/test.webp`
 	 */
 	public static function att_short_path( $url ) {
 		if ( ! defined( 'LITESPEED_UPLOAD_PATH' ) ) {

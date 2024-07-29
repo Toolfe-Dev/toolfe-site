@@ -49,7 +49,7 @@ if ( ! \defined( 'ABSPATH' ) ) {
 	</div>
 
 	<div class="wpforms-challenge-block-timer">
-		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/challenge/sullie-circle.png' ); ?>" alt="<?php esc_html_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>">
+		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/challenge/sullie-circle.webp' ); ?>" alt="<?php esc_html_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>">
 		<div>
 			<h3><?php esc_html_e( 'WPForms Challenge', 'wpforms-lite' ); ?></h3>
 			<p>

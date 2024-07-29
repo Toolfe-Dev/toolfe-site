@@ -259,7 +259,7 @@
   height: 16px;
   border: none;
   cursor: pointer;
-  background-image: url(../../images/js-grid.png);
+  background-image: url(../../images/js-grid.webp);
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -270,7 +270,7 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .jsgrid .jsgrid-button {
-    background-image: url(../../images/js-grid.png);
+    background-image: url(../../images/js-grid.webp);
     background-size: 24px 352px;
   }
 }

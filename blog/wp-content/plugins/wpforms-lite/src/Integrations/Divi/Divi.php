@@ -203,7 +203,7 @@ class Divi implements IntegrationInterface {
 			[
 				'ajax_url'          => admin_url( 'admin-ajax.php' ),
 				'nonce'             => wp_create_nonce( 'wpforms_divi_builder' ),
-				'placeholder'       => WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.png',
+				'placeholder'       => WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.webp',
 				'placeholder_title' => esc_html__( 'WPForms', 'wpforms-lite' ),
 			]
 		);

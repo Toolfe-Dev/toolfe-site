@@ -208,8 +208,8 @@ class Analytics {
 				<h1>%4$s</h1>
 				<p>%5$s</p>
 			</section>',
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/wpforms-monsterinsights.png' ),
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/wpforms-monsterinsights@2x.png' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/wpforms-monsterinsights.webp' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/wpforms-monsterinsights@2x.webp' ),
 			esc_attr__( 'WPForms ♥ MonsterInsights', 'wpforms-lite' ),
 			esc_html__( 'The Best Google Analytics Plugin for WordPress', 'wpforms-lite' ),
 			esc_html__( 'MonsterInsights connects WPForms to Google Analytics, providing a powerful integration with their Forms addon. MonsterInsights is a sister company of WPForms.', 'wpforms-lite' )
@@ -237,9 +237,9 @@ class Analytics {
 					<li>%7$s</li>
 				</ul>			
 			</section>',
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/screenshot-tnail.jpg' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/screenshot-tnail.webp' ),
 			esc_attr__( 'Analytics screenshot', 'wpforms-lite' ),
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/screenshot-full.jpg' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/analytics/screenshot-full.webp' ),
 			esc_html__( 'Track form impressions and conversions.', 'wpforms-lite' ),
 			esc_html__( 'View form conversion rates from WordPress.', 'wpforms-lite' ),
 			esc_html__( 'Complete UTM tracking with form entries.', 'wpforms-lite' ),

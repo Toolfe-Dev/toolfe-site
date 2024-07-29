@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div id="wpforms-challenge-popup-lite-connect" class="wpforms-education-lite-connect-wrapper wpforms-challenge-popup-footer">
 	<h3>
 		<?php esc_html_e( 'One More Thing', 'wpforms-lite' ); ?>
-		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/lite-connect/raised-hand.png' ); ?>" alt="">
+		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/lite-connect/raised-hand.webp' ); ?>" alt="">
 	</h3>
 	<p>
 		<?php esc_html_e( 'WPForms now offers offsite backups for your form entries. If you decide to upgrade to WPForms Pro, you can restore entries collected while you used WPForms Lite.', 'wpforms-lite' ); ?>

@@ -92,7 +92,7 @@ class UserController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $filename = time() . '_' . $user->username . '.jpg';
+            $filename = time() . '_' . $user->username . '.webp';
             $location = 'assets/images/user/profile/' . $filename;
             $in['image'] = $filename;
 

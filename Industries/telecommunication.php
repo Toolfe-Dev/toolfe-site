@@ -32,7 +32,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/tc1.jpg" alt="About" />
+          <img src="../assets/imgs/industry/tc1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -77,7 +77,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc2.jpg" alt="News" />
+          <img src="../assets/imgs/industry/tc2.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -138,13 +138,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc3.jpg" alt="News" />
+          <img src="../assets/imgs/industry/tc3.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc4.jpg" alt="News" />
+          <img src="../assets/imgs/industry/tc4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -205,13 +205,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc5.jpg" alt="News" />
+          <img src="../assets/imgs/industry/tc5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc6.png" alt="News" />
+          <img src="../assets/imgs/industry/tc6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -268,7 +268,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/tc7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/tc7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we pride ourselves on being a dynamic force of
@@ -311,7 +311,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/tc8.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/tc8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Network Security</h3>
@@ -327,7 +327,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/tc9.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/tc9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Customer Support Automation</h3>
@@ -383,7 +383,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section1.png" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section1.webp" alt="About" />
                 </div>
               </div>
               <div class="right">
@@ -413,7 +413,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section2.png" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section2.webp" alt="About" />
                 </div>
               </div>
               <div class="right">
@@ -446,7 +446,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section3.png" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section3.webp" alt="About" />
                 </div>
               </div>
               <div class="right">
@@ -479,7 +479,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section4.png" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section4.webp" alt="About" />
                 </div>
               </div>
               <div class="right">
@@ -510,7 +510,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section5.png" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section5.webp" alt="About" />
                 </div>
               </div>
               <div class="right">

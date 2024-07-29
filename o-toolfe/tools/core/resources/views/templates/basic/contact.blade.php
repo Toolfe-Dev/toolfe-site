@@ -10,7 +10,7 @@
     @include($activeTemplate.'partials.breadcrumb')
 
     <section class="pt-100 pb-100 bg--gradient">
-        <!-- <div class="bottom-img"><img src="{{ getImage('assets/images/how-work.png','1915x1080') }}" alt="@lang('image')"></div> -->
+        <!-- <div class="bottom-img"><img src="{{ getImage('assets/images/how-work.webp','1915x1080') }}" alt="@lang('image')"></div> -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5">

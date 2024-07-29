@@ -169,7 +169,7 @@ class Avatar extends Base {
 	 * @since  4.0
 	 */
 	private function _filepath( $url ) {
-		$filename = md5( $url ) . '.jpg';
+		$filename = md5( $url ) . '.webp';
 		if ( is_multisite() ) {
 			$filename = get_current_blog_id() . '/' . $filename;
 		}

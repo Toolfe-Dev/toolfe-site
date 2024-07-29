@@ -328,7 +328,7 @@ function setPreview(view) {
 
     var previewWidth = 112,
             previewHeight = 73,
-            previewSrc = 'pages/preview.jpg',
+            previewSrc = 'pages/preview.webp',
             preview = $(_thumbPreview.children(':first')),
             numPages = (view == 1 || view == $('#slider').slider('option', 'max')) ? 1 : 2,
             width = (numPages == 1) ? previewWidth / 2 : previewWidth;

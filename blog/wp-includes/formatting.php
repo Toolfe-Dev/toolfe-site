@@ -5929,9 +5929,9 @@ function _print_emoji_detection_script() {
 		 *
 		 * @since 4.2.0
 		 *
-		 * @param string $extension The emoji extension for png files. Default .png.
+		 * @param string $extension The emoji extension for png files. Default .webp.
 		 */
-		'ext'     => apply_filters( 'emoji_ext', '.png' ),
+		'ext'     => apply_filters( 'emoji_ext', '.webp' ),
 
 		/**
 		 * Filters the URL where emoji SVG images are hosted.
@@ -6038,7 +6038,7 @@ function wp_staticize_emoji( $text ) {
 	$cdn_url = apply_filters( 'emoji_url', 'https://s.w.org/images/core/emoji/14.0.0/72x72/' );
 
 	/** This filter is documented in wp-includes/formatting.php */
-	$ext = apply_filters( 'emoji_ext', '.png' );
+	$ext = apply_filters( 'emoji_ext', '.webp' );
 
 	$output = '';
 	/*

@@ -54,15 +54,15 @@ $(function () {
             },
             children: [
               {
-                text: 'bg.jpg',
+                text: 'bg.webp',
                 type: 'img'
               },
               {
-                text: 'logo.png',
+                text: 'logo.webp',
                 type: 'img'
               },
               {
-                text: 'avatar.png',
+                text: 'avatar.webp',
                 type: 'img'
               }
             ]
@@ -148,15 +148,15 @@ $(function () {
             },
             children: [
               {
-                text: 'bg.jpg',
+                text: 'bg.webp',
                 type: 'img'
               },
               {
-                text: 'logo.png',
+                text: 'logo.webp',
                 type: 'img'
               },
               {
-                text: 'avatar.png',
+                text: 'avatar.webp',
                 type: 'img'
               }
             ]
@@ -242,15 +242,15 @@ $(function () {
             },
             children: [
               {
-                text: 'bg.jpg',
+                text: 'bg.webp',
                 type: 'img'
               },
               {
-                text: 'logo.png',
+                text: 'logo.webp',
                 type: 'img'
               },
               {
-                text: 'avatar.png',
+                text: 'avatar.webp',
                 type: 'img'
               }
             ]
@@ -335,15 +335,15 @@ $(function () {
             },
             children: [
               {
-                text: 'bg.jpg',
+                text: 'bg.webp',
                 type: 'img'
               },
               {
-                text: 'logo.png',
+                text: 'logo.webp',
                 type: 'img'
               },
               {
-                text: 'avatar.png',
+                text: 'avatar.webp',
                 type: 'img'
               }
             ]

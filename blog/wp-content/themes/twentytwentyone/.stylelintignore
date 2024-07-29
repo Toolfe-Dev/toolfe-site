@@ -3,7 +3,7 @@ node_modules/
 assets/images
 *.php
 *.map
-*.png
+*.webp
 *.json
 LICENSE
 composer.lock

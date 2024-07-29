@@ -121,7 +121,7 @@
         hollow: {
           margin: 5,
           size: "70%",
-          image: "../files-front/images/dashboard-5/follower.png",
+          image: "../files-front/images/dashboard-5/follower.webp",
           imageWidth: 50,
           imageHeight: 50,
           imageClipped: false,

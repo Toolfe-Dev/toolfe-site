@@ -61,8 +61,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="description" content="Cuba admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="files-front/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="files-front/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="files-front/images/favicon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="files-front/images/favicon.webp" type="image/x-icon">
     <title>Toolfe BizGuard - Your Business Our Protection</title>
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <div class="login-card login-dark">
             <div>
               <div class="login-main"> 
-                <div><a class="logo text-start" href="index.php"><img class="img-fluid for-light" src="files-front/images/dashboard-5/logo-biz.png" alt="looginpage"><img class="img-fluid for-dark" src="files-front/images/dashboard-5/logo-biz-white.png" alt="looginpage"></a></div>
+                <div><a class="logo text-start" href="index.php"><img class="img-fluid for-light" src="files-front/images/dashboard-5/logo-biz.webp" alt="looginpage"><img class="img-fluid for-dark" src="files-front/images/dashboard-5/logo-biz-white.webp" alt="looginpage"></a></div>
 
                 <form class="theme-form" method="POST" action="login.php">
                   <h4>Sign in to BizGuard account</h4>

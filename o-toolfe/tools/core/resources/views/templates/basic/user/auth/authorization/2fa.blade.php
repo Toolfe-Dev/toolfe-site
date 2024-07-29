@@ -2,7 +2,7 @@
 @section('content')
 @include($activeTemplate.'partials.breadcrumb')
     <section class="pt-100 pb-100 position-relative z-index">
-        <div class="bottom-img"><img src="{{ getImage('assets/images/how-work.png','1915x1080') }}" alt="@lang('image')"></div>
+        <div class="bottom-img"><img src="{{ getImage('assets/images/how-work.webp','1915x1080') }}" alt="@lang('image')"></div>
 
         <div class="container">
             <div class="row justify-content-center">
@@ -65,7 +65,7 @@
         </div>
         <div class="account-wrapper">
         <div class="account-logo text-center">
-        <a class="site-logo" href="{{route('home')}}"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('site-logo')"></a>
+        <a class="site-logo" href="{{route('home')}}"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('site-logo')"></a>
         </div>
         <form class="account-form" method="POST" action="{{route('user.go2fa.verify')}}">
             @csrf

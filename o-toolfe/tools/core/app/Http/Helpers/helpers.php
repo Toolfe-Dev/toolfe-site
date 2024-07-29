@@ -691,7 +691,7 @@ function imagePath()
         ]
     ];
     $data['image'] = [
-        'default' => 'assets/images/default.png',
+        'default' => 'assets/images/default.webp',
     ];
     $data['withdraw'] = [
         'method' => [

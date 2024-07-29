@@ -2444,7 +2444,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'ActiveCampaign',
 			'slug'        => 'activecampaign',
-			'img'         => 'addon-icon-activecampaign.png',
+			'img'         => 'addon-icon-activecampaign.webp',
 			'plugin'      => 'wpforms-activecampaign/wpforms-activecampaign.php',
 			'plugin_slug' => 'wpforms-activecampaign',
 			'license'     => 'elite',
@@ -2452,7 +2452,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'AWeber',
 			'slug'        => 'aweber',
-			'img'         => 'addon-icon-aweber.png',
+			'img'         => 'addon-icon-aweber.webp',
 			'plugin'      => 'wpforms-aweber/wpforms-aweber.php',
 			'plugin_slug' => 'wpforms-aweber',
 			'license'     => 'pro',
@@ -2460,7 +2460,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Campaign Monitor',
 			'slug'        => 'campaign-monitor',
-			'img'         => 'addon-icon-campaign-monitor.png',
+			'img'         => 'addon-icon-campaign-monitor.webp',
 			'plugin'      => 'wpforms-campaign-monitor/wpforms-campaign-monitor.php',
 			'plugin_slug' => 'wpforms-campaign-monitor',
 			'license'     => 'pro',
@@ -2468,7 +2468,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Drip',
 			'slug'        => 'drip',
-			'img'         => 'addon-icon-drip.png',
+			'img'         => 'addon-icon-drip.webp',
 			'plugin'      => 'wpforms-drip/wpforms-drip.php',
 			'plugin_slug' => 'wpforms-drip',
 			'license'     => 'pro',
@@ -2476,7 +2476,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'GetResponse',
 			'slug'        => 'getresponse',
-			'img'         => 'addon-icon-getresponse.png',
+			'img'         => 'addon-icon-getresponse.webp',
 			'plugin'      => 'wpforms-getresponse/wpforms-getresponse.php',
 			'plugin_slug' => 'wpforms-getresponse',
 			'license'     => 'pro',
@@ -2484,7 +2484,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Mailchimp',
 			'slug'        => 'mailchimp',
-			'img'         => 'addon-icon-mailchimp.png',
+			'img'         => 'addon-icon-mailchimp.webp',
 			'plugin'      => 'wpforms-mailchimp/wpforms-mailchimp.php',
 			'plugin_slug' => 'wpforms-mailchimp',
 			'license'     => 'pro',
@@ -2492,7 +2492,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Salesforce',
 			'slug'        => 'salesforce',
-			'img'         => 'addon-icon-salesforce.png',
+			'img'         => 'addon-icon-salesforce.webp',
 			'plugin'      => 'wpforms-salesforce/wpforms-salesforce.php',
 			'plugin_slug' => 'wpforms-salesforce',
 			'license'     => 'elite',
@@ -2500,7 +2500,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Sendinblue',
 			'slug'        => 'sendinblue',
-			'img'         => 'addon-icon-sendinblue.png',
+			'img'         => 'addon-icon-sendinblue.webp',
 			'plugin'      => 'wpforms-sendinblue/wpforms-sendinblue.php',
 			'plugin_slug' => 'wpforms-sendinblue',
 			'license'     => 'pro',
@@ -2508,7 +2508,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'Zapier',
 			'slug'        => 'zapier',
-			'img'         => 'addon-icon-zapier.png',
+			'img'         => 'addon-icon-zapier.webp',
 			'plugin'      => 'wpforms-zapier/wpforms-zapier.php',
 			'plugin_slug' => 'wpforms-zapier',
 			'license'     => 'pro',
@@ -2516,7 +2516,7 @@ function wpforms_get_providers_all() {
 		[
 			'name'        => 'HubSpot',
 			'slug'        => 'hubspot',
-			'img'         => 'addon-icon-hubspot.png',
+			'img'         => 'addon-icon-hubspot.webp',
 			'plugin'      => 'wpforms-hubspot/wpforms-hubspot.php',
 			'plugin_slug' => 'wpforms-hubspot',
 			'license'     => 'pro',

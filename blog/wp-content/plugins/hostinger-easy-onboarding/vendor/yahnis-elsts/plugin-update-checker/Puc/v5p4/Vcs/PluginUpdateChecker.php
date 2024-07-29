@@ -210,10 +210,10 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		protected function setIconsFromLocalAssets($pluginInfo) {
 			$icons = $this->getLocalAssetUrls(array(
 				'icon.svg'         => 'svg',
-				'icon-256x256.png' => '2x',
-				'icon-256x256.jpg' => '2x',
-				'icon-128x128.png' => '1x',
-				'icon-128x128.jpg' => '1x',
+				'icon-256x256.webp' => '2x',
+				'icon-256x256.webp' => '2x',
+				'icon-128x128.webp' => '1x',
+				'icon-128x128.webp' => '1x',
 			));
 
 			if ( !empty($icons) ) {
@@ -238,10 +238,10 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		 */
 		protected function setBannersFromLocalAssets($pluginInfo) {
 			$banners = $this->getLocalAssetUrls(array(
-				'banner-772x250.png' => 'high',
-				'banner-772x250.jpg' => 'high',
-				'banner-1544x500.png' => 'low',
-				'banner-1544x500.jpg' => 'low',
+				'banner-772x250.webp' => 'high',
+				'banner-772x250.webp' => 'high',
+				'banner-1544x500.webp' => 'low',
+				'banner-1544x500.webp' => 'low',
 			));
 
 			if ( !empty($banners) ) {

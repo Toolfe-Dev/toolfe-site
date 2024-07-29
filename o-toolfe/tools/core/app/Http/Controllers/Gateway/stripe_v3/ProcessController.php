@@ -30,7 +30,7 @@ class ProcessController extends Controller
             'line_items' => [[
                 'name' => $general->sitename,
                 'description' => 'Deposit  with Stripe',
-                'images' => [asset('assets/images/logoIcon/logo.png')],
+                'images' => [asset('assets/images/logoIcon/logo.webp')],
                 'amount' => $deposit->final_amo * 100,
                 'currency' => "$deposit->method_currency",
                 'quantity' => 1,

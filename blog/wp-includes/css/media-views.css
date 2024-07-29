@@ -283,7 +283,7 @@
 
 /* higher specificity */
 .wp-core-ui .media-modal-icon {
-	background-image: url(../images/uploader-icons.png);
+	background-image: url(../images/uploader-icons.webp);
 	background-repeat: no-repeat;
 }
 
@@ -2909,7 +2909,7 @@
   (min-resolution: 120dpi) {
 
 	.wp-core-ui .media-modal-icon {
-		background-image: url(../images/uploader-icons-2x.png);
+		background-image: url(../images/uploader-icons-2x.webp);
 		background-size: 134px 15px;
 	}
 

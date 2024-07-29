@@ -1242,7 +1242,7 @@ final class WP_Theme implements ArrayAccess {
 	/**
 	 * Returns the main screenshot file for the theme.
 	 *
-	 * The main screenshot is called screenshot.png. gif and jpg extensions are also allowed.
+	 * The main screenshot is called screenshot.webp. gif and jpg extensions are also allowed.
 	 *
 	 * Screenshots for a theme must be in the stylesheet directory. (In the case of child
 	 * themes, parent theme screenshots are not inherited.)

@@ -2269,7 +2269,7 @@ img {
   .how-we-do-card
   .line-shape {
   position: absolute;
-  background-image: url(../imgs/linenew.png);
+  background-image: url(../imgs/linenew.webp);
   background-repeat: no-repeat;
   height: 1px;
   width: 268px;
@@ -2296,7 +2296,7 @@ img {
   /* border-right: 1px dashed #ffffff;
     border-bottom: 1px dashed #ffffff;
     border-radius: 0 30px 30px 0; */
-  background-image: url(../imgs/linenew2.png);
+  background-image: url(../imgs/linenew2.webp);
   background-repeat: round;
 }
 .how-we-do-area
@@ -2313,7 +2313,7 @@ img {
   .line-shape {
   right: auto;
   left: -84px;
-  background-image: url(../imgs/linenew3.png);
+  background-image: url(../imgs/linenew3.webp);
   background-repeat: round;
 }
 .how-we-do-area
@@ -3002,7 +3002,8 @@ img {
   width: 100%;
 }
 .about-area .left-content {
-  max-width: 385px;
+  max-width: 450px;
+  padding-right: 30px;
   width: 100%;
   flex: none;
 }

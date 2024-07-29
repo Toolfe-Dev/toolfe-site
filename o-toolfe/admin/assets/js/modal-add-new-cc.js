@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 assetsPath +
                 'img/icons/payments/' +
                 type +
-                '-cc.png" class="cc-icon-image" height="28"/>';
+                '-cc.webp" class="cc-icon-image" height="28"/>';
             } else {
               document.querySelector('.card-type').innerHTML = '';
             }

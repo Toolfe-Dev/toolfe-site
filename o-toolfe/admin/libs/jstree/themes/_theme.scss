@@ -4,8 +4,8 @@
 @if $enable-light-style {
   $theme-name: 'default';
   $throbber-bg: "url('./themes/default/throbber.gif')";
-  $small-bg: "url('./themes/default/32px.png')";
-  $big-bg: "url('./themes/default/40px.png')";
+  $small-bg: "url('./themes/default/32px.webp')";
+  $big-bg: "url('./themes/default/40px.webp')";
 
   .jstree-#{$theme-name} {
     background: transparent;
@@ -65,8 +65,8 @@
 @if $enable-dark-style {
   $theme-name: 'default-dark';
   $throbber-bg: "url('./themes/default-dark/throbber.gif')";
-  $small-bg: "url('./themes/default-dark/32px.png')";
-  $big-bg: "url('./themes/default-dark/40px.png')";
+  $small-bg: "url('./themes/default-dark/32px.webp')";
+  $big-bg: "url('./themes/default-dark/40px.webp')";
 
   .jstree-#{$theme-name} {
     background: transparent;

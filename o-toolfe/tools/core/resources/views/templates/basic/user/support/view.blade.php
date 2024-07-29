@@ -40,9 +40,9 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label for="supportTicketFile" class="form-label">@lang('Select one file or multiple files')</label>
-                                        <input class="form-control custom--file-upload" type="file" name="attachments[]" accept=".jpg,.jpeg,.png,.pdf" multiple>
+                                        <input class="form-control custom--file-upload" type="file" name="attachments[]" accept=".webp,.webp,.webp,.pdf" multiple>
                                         <div id="fileUploadsContainer"></div>
-                                        <div class="form-text text--muted">@lang('Allowed File Extensions: .jpg, .jpeg, .png, .pdf')</div>
+                                        <div class="form-text text--muted">@lang('Allowed File Extensions: .webp, .webp, .webp, .pdf')</div>
                                     </div>
                                 </div>
                             </div>

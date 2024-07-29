@@ -12,7 +12,7 @@ function epcl_dashboard_menu() {
         'administrator',
         'estudiopatagon-welcome',
         'epcl_welcome_page',
-        EPCL_PLUGIN_URL.'shortcodes/images/lightbox-icon.png',
+        EPCL_PLUGIN_URL.'shortcodes/images/lightbox-icon.webp',
         3
     );
 

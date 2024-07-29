@@ -490,7 +490,7 @@ class WP_HTML_Tag_Processor {
 	 *
 	 *     // Correspondingly, something like this will appear in this array.
 	 *     $lexical_updates = array(
-	 *         WP_HTML_Text_Replacement( 14, 28, 'https://my-site.my-domain/wp-content/uploads/2014/08/kittens.jpg' )
+	 *         WP_HTML_Text_Replacement( 14, 28, 'https://my-site.my-domain/wp-content/uploads/2014/08/kittens.webp' )
 	 *     );
 	 *
 	 * @since 6.2.0

@@ -955,7 +955,7 @@ class WPForms_Builder {
 				<div class="wpforms-toolbar">
 
 					<div class="wpforms-left">
-						<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.png' ); ?>" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>">
+						<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.webp' ); ?>" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>">
 					</div>
 
 					<div class="wpforms-center">

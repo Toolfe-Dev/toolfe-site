@@ -397,7 +397,7 @@ class DeclarationBlock extends RuleSet
 
     /**
      * Converts shorthand background declarations
-     * (e.g. `background: url("chess.png") gray 50% repeat fixed;`)
+     * (e.g. `background: url("chess.webp") gray 50% repeat fixed;`)
      * into their constituent parts.
      *
      * @see http://www.w3.org/TR/21/colors.html#propdef-background

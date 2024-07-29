@@ -67,7 +67,7 @@ include '../includes/header.php'
         </div>
 
         <div class="img-box">
-          <img src="../assets/imgs/about_us/about_us_1.png" alt="About" />
+          <img src="../assets/imgs/about_us/about_us_1.webp" alt="About" />
         </div>
       </div>
     </div>
@@ -186,8 +186,8 @@ include '../includes/header.php'
 
         </div>
         <div class="about-service7-img-box d-flex">
-          <img src="../assets/imgs/about_us/about_us_mission.png" alt="mission" />
-          <img src="../assets/imgs/about_us/about_us_vission.png" alt="about_us_vission" />
+          <img src="../assets/imgs/about_us/about_us_mission.webp" alt="mission" />
+          <img src="../assets/imgs/about_us/about_us_vission.webp" alt="about_us_vission" />
         </div>
       </div>
     </div>
@@ -206,7 +206,7 @@ include '../includes/header.php'
           <a href="../contact/index.php" class="theme-btn">Contact Us</a>
         </div>
 
-        <img src="../assets/imgs/about_us/about_us_why_choose.png" alt="Service About" />
+        <img src="../assets/imgs/about_us/about_us_why_choose.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>At Toolfe, we are committed to delivering top-notch IT solutions that drive business success. Our expertise in AI/ML, RPA, Automation, and Digital Services ensures that we provide innovative, reliable, and efficient solutions tailored to your unique needs. We pride ourselves on our client-centric approach, exceptional service quality, and a track record of successful project deliveries.</p>
           <ul>
@@ -242,7 +242,7 @@ include '../includes/header.php'
       <div class="our-team-4-lists">
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/jeff.png" alt="Jeffrin Jen J" />
+            <img src="../assets/imgs/team/jeff.webp" alt="Jeffrin Jen J" />
           </div>
           <div class="content">
             <h3>Jeffrin Jen J</h3>
@@ -251,7 +251,7 @@ include '../includes/header.php'
         </div>
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/sathish-p.png" alt="Sathish P" />
+            <img src="../assets/imgs/team/sathish-p.webp" alt="Sathish P" />
           </div>
           <div class="content">
             <h3>Sathish P</h3>
@@ -260,7 +260,7 @@ include '../includes/header.php'
         </div>
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/sathish-k.png" alt="Sathish K" />
+            <img src="../assets/imgs/team/sathish-k.webp" alt="Sathish K" />
           </div>
           <div class="content">
             <h3>Sathish K</h3>
@@ -269,7 +269,7 @@ include '../includes/header.php'
         </div>
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/satya.png" alt="Satya Lohit" />
+            <img src="../assets/imgs/team/satya.webp" alt="Satya Lohit" />
           </div>
           <div class="content">
             <h3>Satya Lohit</h3>
@@ -280,7 +280,7 @@ include '../includes/header.php'
       <div class="our-team-4-lists" style="margin-top: 25px;">
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/Joshua.png" alt="Joshua Rubus" />
+            <img src="../assets/imgs/team/Joshua.webp" alt="Joshua Rubus" />
           </div>
           <div class="content">
             <h3>Joshua Rubus</h3>
@@ -289,7 +289,7 @@ include '../includes/header.php'
         </div>
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/jeevitha_c.png" alt="jeevitha c" />
+            <img src="../assets/imgs/team/jeevitha_c.webp" alt="jeevitha c" />
           </div>
           <div class="content">
             <h3>Jeevitha C</h3>
@@ -298,7 +298,7 @@ include '../includes/header.php'
         </div>
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/ajithkumarX.png" alt="Ajithkumar x" />
+            <img src="../assets/imgs/team/ajithkumarX.webp" alt="Ajithkumar x" />
           </div>
           <div class="content">
             <h3>Ajithkumar X</h3>
@@ -309,7 +309,7 @@ include '../includes/header.php'
         
         <div class="our-team-4-box">
           <div class="img-box">
-            <img src="../assets/imgs/team/Priyadharshini.png" alt="Priyadharshini" />
+            <img src="../assets/imgs/team/Priyadharshini.webp" alt="Priyadharshini" />
           </div>
           <div class="content">
             <h3>Priyadharshini A</h3>

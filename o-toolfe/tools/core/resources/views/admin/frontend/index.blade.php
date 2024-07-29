@@ -40,7 +40,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="avatar-edit">
-                                                                <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="profilePicUpload{{ $loop->index }}" accept=".png, .jpg, .jpeg">
+                                                                <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="profilePicUpload{{ $loop->index }}" accept=".webp, .webp, .webp">
                                                                 <label for="profilePicUpload{{ $loop->index }}"
                                                                        class="bg--primary">{{inputTitle($imgKey)}}</label>
                                                                 <small class="mt-2 text-facebook">@lang('Supported files:') <b>jpeg, jpg, png</b>.
@@ -279,7 +279,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="avatar-edit">
-                                                        <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="addImage{{ $loop->index }}" accept=".png, .jpg, .jpeg">
+                                                        <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="addImage{{ $loop->index }}" accept=".webp, .webp, .webp">
                                                         <label for="addImage{{ $loop->index }}" class="bg--success">{{ __(inputTitle($imgKey)) }}</label>
                                                         <small class="mt-2 text-facebook">@lang('Supported files'): <b>@lang('jpeg'), @lang('jpg'), @lang('png')</b>.
                                                             @if(@$section->element->images->$imgKey->size)
@@ -380,7 +380,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="avatar-edit">
-                                                        <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="uploadImage{{ $loop->index }}" accept=".png, .jpg, .jpeg">
+                                                        <input type="file" class="profilePicUpload" name="image_input[{{ $imgKey }}]" id="uploadImage{{ $loop->index }}" accept=".webp, .webp, .webp">
                                                         <label for="uploadImage{{ $loop->index }}" class="bg--success">{{ __(inputTitle($imgKey)) }}</label>
                                                         <small class="mt-2 text-facebook">@lang('Supported files'): <b>@lang('jpeg'), @lang('jpg'), @lang('png')</b>.
                                                             @if(@$section->element->images->$imgKey->size)

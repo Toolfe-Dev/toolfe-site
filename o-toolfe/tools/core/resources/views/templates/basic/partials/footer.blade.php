@@ -13,7 +13,7 @@
         <div class="footer-top-info-wrapper">
           <div class="row mb-30 align-items-center">
             <div class="col-lg-2 mb-lg-0 mb-5 text-lg-left text-center header">
-              <a href="{{route('home')}}" class="footer-logo site-logo"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('site-logo')"></a>
+              <a href="{{route('home')}}" class="footer-logo site-logo"><img src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('site-logo')"></a>
             </div>
             <div class="col-lg-7 col-md-7">
               <div class="row justify-content-center gy-4">

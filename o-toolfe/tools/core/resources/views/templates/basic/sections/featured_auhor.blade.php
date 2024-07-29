@@ -6,7 +6,7 @@
 @if ($featuredAuthor)
     @if ($featuredAuthor->user->status == 1)
         <!-- featured author seciton start -->
-        <section class="pt-100 pb-100 bg__img" style="background-image: url({{ asset($activeTemplateTrue.'images/bg3.jpg') }});">
+        <section class="pt-100 pb-100 bg__img" style="background-image: url({{ asset($activeTemplateTrue.'images/bg3.webp') }});">
             <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 mb-5">

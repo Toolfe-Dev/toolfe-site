@@ -1114,7 +1114,7 @@
   position: relative;
   background-position: bottom;
   background-size: cover;
-  background-image: url(../images/landing/home-bg.jpg);
+  background-image: url(../images/landing/home-bg.webp);
   background-color: #1b1c21;
 
   .sub-title {
@@ -2172,7 +2172,7 @@ $landing-color : var(--theme-deafult);
 .footer-bg {
   position: relative;
   text-align: center;
-  background: url(../images/landing/footer.jpg);
+  background: url(../images/landing/footer.webp);
   margin-left: 0;
   color: $white;
 

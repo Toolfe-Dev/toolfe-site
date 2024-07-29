@@ -37,7 +37,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/edu1.png" alt="About" />
+          <img src="../assets/imgs/industry/edu1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -79,7 +79,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu3.png" alt="News" />
+          <img src="../assets/imgs/industry/edu3.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -134,13 +134,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu2.png" alt="News" />
+          <img src="../assets/imgs/industry/edu2.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu4.png" alt="News" />
+          <img src="../assets/imgs/industry/edu4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -194,13 +194,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu5.png" alt="News" />
+          <img src="../assets/imgs/industry/edu5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu6.png" alt="News" />
+          <img src="../assets/imgs/industry/edu6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -242,7 +242,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/edu7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/edu7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we provide customized, scalable IT solutions that enhance learning and ensure data security . Our
@@ -282,7 +282,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/edu8.png" alt="Service" />
+          <img src="../assets/imgs/industry/edu8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Adaptive Learning Platforms</h3>
@@ -295,7 +295,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/edu9.png" alt="Service" />
+          <img src="../assets/imgs/industry/edu9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Automated Grading and Feedback</h3>

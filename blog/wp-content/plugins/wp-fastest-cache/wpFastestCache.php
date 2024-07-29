@@ -2162,12 +2162,12 @@ GNU General Public License for more details.
 						return $matches[0];
 					}
 
-					//https://site.com?brizy_media=AttachmentName.jpg&brizy_crop=CropSizes&brizy_post=TheCurrentPost
+					//https://site.com?brizy_media=AttachmentName.webp&brizy_crop=CropSizes&brizy_post=TheCurrentPost
 					if(preg_match("/brizy_media\=/i", $matches[0])){
 						return $matches[0];
 					}
 
-					//https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_736/http://wpfc.com/stories.png
+					//https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_736/http://wpfc.com/stories.webp
 					if(preg_match("/cdn\.shortpixel\.ai\/client/i", $matches[0])){
 						return $matches[0];
 					}
@@ -2232,11 +2232,11 @@ GNU General Public License for more details.
 					}else if(preg_match("/[\"\']https?\:\\\\\/\\\\\/[^\"\']+[\"\']/i", $matches[0])){
 						if(preg_match("/^(logo|url|image)$/i", $matches[1])){
 							//If the url is called with "//", it causes an error on https://search.google.com/structured-data/testing-tool/u/0/
-							//<script type="application/ld+json">"logo":{"@type":"ImageObject","url":"\/\/cdn.site.com\/image.png"}</script>
-							//<script type="application/ld+json">{"logo":"\/\/cdn.site.com\/image.png"}</script>
-							//<script type="application/ld+json">{"image":"\/\/cdn.site.com\/image.jpg"}</script>
+							//<script type="application/ld+json">"logo":{"@type":"ImageObject","url":"\/\/cdn.site.com\/image.webp"}</script>
+							//<script type="application/ld+json">{"logo":"\/\/cdn.site.com\/image.webp"}</script>
+							//<script type="application/ld+json">{"image":"\/\/cdn.site.com\/image.webp"}</script>
 						}else{
-							//<script>var loaderRandomImages=["https:\/\/www.site.com\/wp-content\/uploads\/2016\/12\/image.jpg"];</script>
+							//<script>var loaderRandomImages=["https:\/\/www.site.com\/wp-content\/uploads\/2016\/12\/image.webp"];</script>
 							$matches[0] = preg_replace("/\\\\\//", "/", $matches[0]);
 							
 							if(preg_match("/".preg_quote($cdn->originurl, "/")."/", $matches[0])){

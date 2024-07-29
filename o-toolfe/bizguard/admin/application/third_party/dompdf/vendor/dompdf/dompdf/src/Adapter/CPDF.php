@@ -614,7 +614,7 @@ class CPDF implements Canvas
                 $tmp_dir = $this->_dompdf->getOptions()->getTempDir();
                 $tmp_name = @tempnam($tmp_dir, "{$type}_dompdf_img_");
                 @unlink($tmp_name);
-                $filename = "$tmp_name.png";
+                $filename = "$tmp_name.webp";
 
                 imagepng($im, $filename);
                 imagedestroy($im);

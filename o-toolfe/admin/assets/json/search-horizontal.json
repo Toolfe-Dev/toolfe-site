@@ -605,70 +605,70 @@
     {
       "name": "Class Attendance",
       "subtitle": "By Tommy Shelby",
-      "src": "img/icons/misc/search-xls.png",
+      "src": "img/icons/misc/search-xls.webp",
       "meta": "17kb",
       "url": "javascript:;"
     },
     {
       "name": "Passport Image",
       "subtitle": "By William Budd",
-      "src": "img/icons/misc/search-jpg.png",
+      "src": "img/icons/misc/search-jpg.webp",
       "meta": "35kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Class Notes",
       "subtitle": "By Laurel Lance",
-      "src": "img/icons/misc/search-doc.png",
+      "src": "img/icons/misc/search-doc.webp",
       "meta": "153kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Receipt",
       "subtitle": "By Donnie Darko",
-      "src": "img/icons/misc/search-jpg.png",
+      "src": "img/icons/misc/search-jpg.webp",
       "meta": "25kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Social Guide",
       "subtitle": "By Ryan Middleton",
-      "src": "img/icons/misc/search-doc.png",
+      "src": "img/icons/misc/search-doc.webp",
       "meta": "39kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Expenses",
       "subtitle": "By Slade Wilson",
-      "src": "img/icons/misc/search-xls.png",
+      "src": "img/icons/misc/search-xls.webp",
       "meta": "15kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Documentation",
       "subtitle": "By Walter White",
-      "src": "img/icons/misc/search-doc.png",
+      "src": "img/icons/misc/search-doc.webp",
       "meta": "200kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Avatar",
       "subtitle": "By Ross Geller",
-      "src": "img/icons/misc/search-jpg.png",
+      "src": "img/icons/misc/search-jpg.webp",
       "meta": "100kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Data",
       "subtitle": "By Erik Foreman",
-      "src": "img/icons/misc/search-xls.png",
+      "src": "img/icons/misc/search-xls.webp",
       "meta": "5kb",
       "url": "app-file-manager.html"
     },
     {
       "name": "Gardening Guide",
       "subtitle": "By Jerry Seinfeld",
-      "src": "img/icons/misc/search-doc.png",
+      "src": "img/icons/misc/search-doc.webp",
       "meta": "25kb",
       "url": "app-file-manager.html"
     }
@@ -677,43 +677,43 @@
     {
       "name": "John Doe",
       "subtitle": "Admin",
-      "src": "img/avatars/1.png",
+      "src": "img/avatars/1.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "Micheal Clarke",
       "subtitle": "Customer",
-      "src": "img/avatars/2.png",
+      "src": "img/avatars/2.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "Melina Gibson",
       "subtitle": "Staff",
-      "src": "img/avatars/5.png",
+      "src": "img/avatars/5.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "Anna Strong",
       "subtitle": "Staff",
-      "src": "img/avatars/7.png",
+      "src": "img/avatars/7.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "Stephanie Gould",
       "subtitle": "Customer",
-      "src": "img/avatars/3.png",
+      "src": "img/avatars/3.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "David Budd",
       "subtitle": "Admin",
-      "src": "img/avatars/10.png",
+      "src": "img/avatars/10.webp",
       "url": "app-user-view-account.html"
     },
     {
       "name": "Mark Shepiro",
       "subtitle": "Admin",
-      "src": "img/avatars/12.png",
+      "src": "img/avatars/12.webp",
       "url": "app-user-view-account.html"
     }
   ]

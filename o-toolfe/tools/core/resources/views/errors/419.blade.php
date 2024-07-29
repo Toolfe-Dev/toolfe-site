@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ $general->sitename($page_title ?? '419 | Session has expired') }}</title>
-  <link rel="shortcut icon" type="image/png" href="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.png')}}">
+  <link rel="shortcut icon" type="image/png" href="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.webp')}}">
   <!-- bootstrap 4  -->
   <link rel="stylesheet" href="{{ asset('assets/errors/css/bootstrap.min.css') }}">
   <!-- dashdoard main css -->
@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-center">
-          <img src="{{ asset('assets/errors/images/error-419.png') }}" alt="@lang('image')">
+          <img src="{{ asset('assets/errors/images/error-419.webp') }}" alt="@lang('image')">
           <h2 class="title"><b>@lang('419')</b> @lang('Sorry your session has expired.')</h2>
           <p>@lang('Please go back and refresh your browser and try again')</p>
           <a href="javascript:window.history.back();" class="cmn-btn mt-4">@lang('Go Back')</a>

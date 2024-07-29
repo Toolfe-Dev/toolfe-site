@@ -3,7 +3,7 @@ var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],
 var proporzioneViewport = x / y;		
 	var larghezzaMinimaViewport = 0;		
 					
-//se il viewport è più stretto di 640 lo imposto a 640		
+//se il viewport ï¿½ piï¿½ stretto di 640 lo imposto a 640		
 	if (x < larghezzaMinimaViewport) {		
 		//alert('schermo troppo piccolo (' + x + ' x ' + y + ')');		
 		y = (larghezzaMinimaViewport * y) / x;		
@@ -25,7 +25,7 @@ var sfogliabileY = 587.00;
  		
 //calcolo la proporzione dello sfogliabile		
 var proporzioneSfogliabile = sfogliabileX / sfogliabileY;		
-//se la proporzione dello sfogliabile è maggiore della proporzione del viewport tengo fissa l'altezza		
+//se la proporzione dello sfogliabile ï¿½ maggiore della proporzione del viewport tengo fissa l'altezza		
 if (proporzioneSfogliabile < proporzioneViewport){		
 	altezzaEffettiva 	= y - margineY;		
 	larghezzaEffettiva 	= (altezzaEffettiva * (proporzioneSfogliabile));		
@@ -113,7 +113,7 @@ function loadPage(page, pageElement) {
         pageElement.find('.loader').remove();
     });
 
-    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.jpg');
+    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.webp');
     loadRegions(page, pageElement);
 }
 
@@ -127,7 +127,7 @@ function loadLargePage(page, pageElement) {
         prevImg.remove();
 
     });
-    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.jpg');
+    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.webp');
 }
 
 //Load small page
@@ -136,7 +136,7 @@ function loadSmallPage(page, pageElement) {
     img.css({width: '100%', height: '100%'});
     img.unbind('load');
 
-    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.jpg');
+    img.attr('src', flipbookcfg.url + (page - flipbookcfg.cover) + '.webp');
 }
 
 function requestFullScreen(element) {
@@ -439,17 +439,17 @@ $(".controlzoom").hide();
 
             console.log(ui.value);
             if (ui.value == 1) {
-                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ui.value + '-thumb.jpg" style="width: 100%; height: 100%;" />');
+                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ui.value + '-thumb.webp" style="width: 100%; height: 100%;" />');
             } else if (ui.value == lst) {
                 $(ui.handle).find('.thumbnail div').html('');
                 if (nps % 2 != 0) {
-                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.jpg" style="width: 49%; height: 100%;" />');
+                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.webp" style="width: 49%; height: 100%;" />');
                 } else {
-                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 100%; height: 100%;" />');
+                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 100%; height: 100%;" />');
                 }
             } else {
                 $(ui.handle).find('.thumbnail div').html('');
-                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.jpg" style="width: 49%; height: 100%;" />');
+                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.webp" style="width: 49%; height: 100%;" />');
             }
 
             moveBar(false);
@@ -466,17 +466,17 @@ $(".controlzoom").hide();
 
             console.log(ui.value);
             if (ui.value == 1) {
-                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ui.value + '-thumb.jpg" style="width: 100%; height: 100%;" />');
+                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ui.value + '-thumb.webp" style="width: 100%; height: 100%;" />');
             } else if (ui.value == lst) {
                 $(ui.handle).find('.thumbnail div').html('');
                 if (nps % 2 != 0) {
-                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.jpg" style="width: 49%; height: 100%;" />');
+                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.webp" style="width: 49%; height: 100%;" />');
                 } else {
-                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 100%; height: 100%;" />');
+                    $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 100%; height: 100%;" />');
                 }
             } else {
                 $(ui.handle).find('.thumbnail div').html('');
-                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.jpg" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.jpg" style="width: 49%; height: 100%;" />');
+                $(ui.handle).find('.thumbnail div').html('<img src="' + flipbookcfg.url + ((ui.value - 1) * 2) + '-thumb.webp" style="width: 49%; height: 100%;" /><img src="' + flipbookcfg.url + ((ui.value - 1) * 2 + 1) + '-thumb.webp" style="width: 49%; height: 100%;" />');
             }
 
         },

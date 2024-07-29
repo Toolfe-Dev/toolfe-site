@@ -35,7 +35,7 @@ function wpforms_visual_composer_shortcode() {
 		array(
 			'name'        => esc_html__( 'WPForms', 'wpforms-lite' ),
 			'base'        => 'wpforms',
-			'icon'        => WPFORMS_PLUGIN_URL . 'assets/images/sullie-vc.png',
+			'icon'        => WPFORMS_PLUGIN_URL . 'assets/images/sullie-vc.webp',
 			'category'    => esc_html__( 'Content', 'wpforms-lite' ),
 			'description' => esc_html__( 'Add your form', 'wpforms-lite' ),
 			'params'      => array(

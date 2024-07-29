@@ -14,9 +14,9 @@
       "opened": true
     },
     "children": [
-      { "text": "bg.jpg", "type": "img" },
-      { "text": "logo.png", "type": "img" },
-      { "text": "avatar.png", "type": "img" }
+      { "text": "bg.webp", "type": "img" },
+      { "text": "logo.webp", "type": "img" },
+      { "text": "avatar.webp", "type": "img" }
     ]
   },
   {

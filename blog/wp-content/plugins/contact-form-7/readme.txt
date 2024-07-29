@@ -71,7 +71,7 @@ Do you have questions or issues with Contact Form 7? Use these support channels 
 
 == Screenshots ==
 
-1. screenshot-1.png
+1. screenshot-1.webp
 
 == Changelog ==
 

@@ -67,8 +67,8 @@ class Community {
 			'button_text'    => esc_html__( 'Join WPForms VIP Circle', 'wpforms-lite' ),
 			'button_link'    => 'https://www.facebook.com/groups/wpformsvip/',
 			'cover_bg_color' => '#E4F0F6',
-			'cover_img'      => 'vip-circle.png',
-			'cover_img2x'    => 'vip-circle@2x.png',
+			'cover_img'      => 'vip-circle.webp',
+			'cover_img2x'    => 'vip-circle@2x.webp',
 		];
 
 		$data['youtube'] = [
@@ -77,8 +77,8 @@ class Community {
 			'button_text'    => esc_html__( 'Visit WPForms YouTube Channel', 'wpforms-lite' ),
 			'button_link'    => 'https://www.youtube.com/c/wpformsplugin',
 			'cover_bg_color' => '#FFE6E6',
-			'cover_img'      => 'youtube.png',
-			'cover_img2x'    => 'youtube@2x.png',
+			'cover_img'      => 'youtube.webp',
+			'cover_img2x'    => 'youtube@2x.webp',
 		];
 
 		$data['dev_docs'] = [
@@ -87,8 +87,8 @@ class Community {
 			'button_text'    => esc_html__( 'View WPForms Dev Docs', 'wpforms-lite' ),
 			'button_link'    => 'https://wpforms.com/developers/?utm_source=WordPress&amp;utm_medium=Community&amp;utm_campaign=' . esc_attr( $type ) . '&amp;utm_content=Developers',
 			'cover_bg_color' => '#EBEBEB',
-			'cover_img'      => 'dev-docs.png',
-			'cover_img2x'    => 'dev-docs@2x.png',
+			'cover_img'      => 'dev-docs.webp',
+			'cover_img2x'    => 'dev-docs@2x.webp',
 		];
 
 		$data['wpbeginner'] = [
@@ -97,8 +97,8 @@ class Community {
 			'button_text'    => esc_html__( 'Join WPBeginner Engage', 'wpforms-lite' ),
 			'button_link'    => 'https://www.facebook.com/groups/wpbeginner/',
 			'cover_bg_color' => '#FCEBDF',
-			'cover_img'      => 'wpbeginner.png',
-			'cover_img2x'    => 'wpbeginner@2x.png',
+			'cover_img'      => 'wpbeginner.webp',
+			'cover_img2x'    => 'wpbeginner@2x.webp',
 		];
 
 		$data['translators'] = [
@@ -107,8 +107,8 @@ class Community {
 			'button_text'    => esc_html__( 'Join Translators Community', 'wpforms-lite' ),
 			'button_link'    => 'https://wpforms.com/translator-community-signup/?utm_source=WordPress&amp;utm_medium=Community&amp;utm_campaign=' . esc_attr( $type ) . '&amp;utm_content=Translators',
 			'cover_bg_color' => '#F2FAED',
-			'cover_img'      => 'translators.png',
-			'cover_img2x'    => 'translators@2x.png',
+			'cover_img'      => 'translators.webp',
+			'cover_img2x'    => 'translators@2x.webp',
 		];
 
 		$data['suggest'] = [
@@ -117,8 +117,8 @@ class Community {
 			'button_text'    => esc_html__( 'Suggest a Feature', 'wpforms-lite' ),
 			'button_link'    => 'https://wpforms.com/features/suggest/?utm_source=WordPress&amp;utm_medium=Community&amp;utm_campaign=' . esc_attr( $type ) . '&amp;utm_content=Feature',
 			'cover_bg_color' => '#FFF9EF',
-			'cover_img'      => 'suggest.png',
-			'cover_img2x'    => 'suggest@2x.png',
+			'cover_img'      => 'suggest.webp',
+			'cover_img2x'    => 'suggest@2x.webp',
 		];
 
 		return $data;

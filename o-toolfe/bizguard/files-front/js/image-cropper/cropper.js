@@ -3684,7 +3684,7 @@
             if (tagName === "img") {
               this.isImg = true;
 
-              // e.g.: "img/picture.jpg"
+              // e.g.: "img/picture.webp"
               url = element.getAttribute("src") || "";
               this.originalUrl = url;
 
@@ -3693,7 +3693,7 @@
                 return;
               }
 
-              // e.g.: "http://example.com/img/picture.jpg"
+              // e.g.: "http://example.com/img/picture.webp"
               url = element.src;
             } else if (tagName === "canvas" && window.HTMLCanvasElement) {
               url = element.toDataURL();

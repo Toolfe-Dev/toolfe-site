@@ -362,7 +362,7 @@ function wpforms_admin_header() {
 	?>
 	<div id="wpforms-header-temp"></div>
 	<div id="wpforms-header" class="wpforms-header">
-		<img class="wpforms-header-logo" src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/logo.png' ); ?>" alt="WPForms Logo">
+		<img class="wpforms-header-logo" src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/logo.webp' ); ?>" alt="WPForms Logo">
 	</div>
 	<?php
 	/**

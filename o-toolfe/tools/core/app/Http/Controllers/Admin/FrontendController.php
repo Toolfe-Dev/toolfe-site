@@ -20,7 +20,7 @@ class FrontendController extends Controller
             $arr = explode('/', $temp);
             $tempname = end($arr);
             $templates[$i]['name'] = $tempname;
-            $templates[$i]['image'] = asset($temp) . '/preview.jpg';
+            $templates[$i]['image'] = asset($temp) . '/preview.webp';
             $i++;
         }
         $extra_templates = json_decode(getTemplates(), true);

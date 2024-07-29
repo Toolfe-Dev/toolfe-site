@@ -33,7 +33,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/re1.jpg" alt="About" />
+          <img src="../assets/imgs/industry/re1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -75,7 +75,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/re2.jpg" alt="News" />
+          <img src="../assets/imgs/industry/re2.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
@@ -127,13 +127,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/re3.jpg" alt="News" />
+          <img src="../assets/imgs/industry/re3.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/re4.jpg" alt="News" />
+          <img src="../assets/imgs/industry/re4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
@@ -182,13 +182,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/re5.jpg" alt="News" />
+          <img src="../assets/imgs/industry/re5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/re6.jpg" alt="News" />
+          <img src="../assets/imgs/industry/re6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Real Estate</h5>
@@ -230,7 +230,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/re7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/re7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             Toolfe specializes in overcoming real estate challenges with
@@ -273,7 +273,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/re8.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/re8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Market <br>Analysis</h3>
@@ -286,7 +286,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/re9.jpg" alt="Service" />
+          <img src="../assets/imgs/industry/re9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Smart Lease Management</h3>

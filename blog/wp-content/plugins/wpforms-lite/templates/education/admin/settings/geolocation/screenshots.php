@@ -12,18 +12,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 $images_url  = WPFORMS_PLUGIN_URL . 'assets/images/geolocation-education/';
 $screenshots = [
 	[
-		'url'   => $images_url . 'entry-location.jpg',
-		'url2x' => $images_url . 'entry-location@2x.jpg',
+		'url'   => $images_url . 'entry-location.webp',
+		'url2x' => $images_url . 'entry-location@2x.webp',
 		'title' => __( 'Location Info in Entries', 'wpforms-lite' ),
 	],
 	[
-		'url'   => $images_url . 'address-autocomplete.jpg',
-		'url2x' => $images_url . 'address-autocomplete@2x.jpg',
+		'url'   => $images_url . 'address-autocomplete.webp',
+		'url2x' => $images_url . 'address-autocomplete@2x.webp',
 		'title' => __( 'Address Autocomplete Field', 'wpforms-lite' ),
 	],
 	[
-		'url'   => $images_url . 'smart-address-field.jpg',
-		'url2x' => $images_url . 'smart-address-field@2x.jpg',
+		'url'   => $images_url . 'smart-address-field.webp',
+		'url2x' => $images_url . 'smart-address-field@2x.webp',
 		'title' => __( 'Smart Address Field', 'wpforms-lite' ),
 	],
 ];

@@ -34,7 +34,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="sticky-news d-flex card-h1">
         <div class="news-img-box">
-          <img src="../assets/imgs/casestudy/cloud_thumbnail_index.png" alt="Case studies" />
+          <img src="../assets/imgs/casestudy/cloud_thumbnail_index.webp" alt="Case studies" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle">Cloud Deployment</h5>
@@ -61,7 +61,7 @@ include '../includes/header.php'
       <div class="news-items align-items-start">
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/email_thumbnail_index.png" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/email_thumbnail_index.webp" alt="Case Studie" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Robotic Process Automation</h5>
@@ -86,7 +86,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/digital_thumbnail_index.png" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/digital_thumbnail_index.webp" alt="Case Studie" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Automation And Marketing</h5>
@@ -112,7 +112,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/cv_thumbnail_index.png" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/cv_thumbnail_index.webp" alt="Case Studie" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Computer Vision</h5>
@@ -140,7 +140,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/idp_thumbanail_index.png" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/idp_thumbanail_index.webp" alt="Case Studie" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">NLP/Ai</h5>
@@ -192,7 +192,7 @@ include '../includes/header.php'
             <a href="#" class="our-expert-team-box d-flex align-items-center">
               <div class="our-expert-team-box-inner d-flex align-items-center">
                 <div class="imgs d-flex align-items-center">
-                  <img src="../assets/imgs/small-img-4.png" alt="team" />
+                  <img src="../assets/imgs/small-img-4.webp" alt="team" />
                 </div>
                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
               </div>

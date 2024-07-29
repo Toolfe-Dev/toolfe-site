@@ -4053,7 +4053,7 @@
           myTool2: {
             show: true,
             title: "Custom extension method 2",
-            // icon: 'image://./files-front/echarts-logo.png',
+            // icon: 'image://./files-front/echarts-logo.webp',
             onclick: function () {
               alert("myToolHandler2");
             },

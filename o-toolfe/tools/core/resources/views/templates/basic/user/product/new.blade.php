@@ -20,7 +20,7 @@
                                                         <div class="profilePicPreview productPicPreview" style="background-image: url({{ getImage('/',imagePath()['p_image']['size']) }})"></div>
                                                     </div>
                                                     <div class="avatar-edit">
-                                                        <input type='file' name="image" class="profilePicUpload" id="profilePicUpload1" accept=".png, .jpg, .jpeg" required>
+                                                        <input type='file' name="image" class="profilePicUpload" id="profilePicUpload1" accept=".webp, .webp, .webp" required>
                                                         <label for="profilePicUpload1"><i class="la la-pencil"></i></label>
                                                     </div>
                                                 </div>
@@ -171,7 +171,7 @@
                                                             <div class="fileUpload btn btn-orange">
                                                                 <img src="{{asset('assets/images/first.svg')}}" class="icon">
                                                                 <span class="upl fs-12px" id="upload">@lang('Upload')</span>
-                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".jpg,.jpeg,.png" required onchange="screenshotURL(this);" />
+                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".webp,.webp,.webp" required onchange="screenshotURL(this);" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -185,7 +185,7 @@
                                                             <div class="fileUpload btn btn-orange">
                                                                 <img src="{{asset('assets/images/first.svg')}}" class="icon">
                                                                 <span class="upl fs-12px" id="upload">@lang('Upload')</span>
-                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".jpg,.jpeg,.png" required onchange="screenshotURL(this);" />
+                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".webp,.webp,.webp" required onchange="screenshotURL(this);" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -199,7 +199,7 @@
                                                             <div class="fileUpload btn btn-orange">
                                                                 <img src="{{asset('assets/images/first.svg')}}" class="icon">
                                                                 <span class="upl fs-12px" id="upload">@lang('Upload')</span>
-                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".jpg,.jpeg,.png" required onchange="screenshotURL(this);" />
+                                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".webp,.webp,.webp" required onchange="screenshotURL(this);" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -528,7 +528,7 @@
                                                 <button type="button" class="input-field-close removeBtn"><i class="las la-times"></i></button>
                                                 <img src="{{asset('assets/images/first.svg')}}" class="icon">
                                                 <span class="upl fs-12px" id="upload">@lang('Upload')</span>
-                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".jpg,.jpeg,.png" required onchange="screenshotURL(this);" />
+                                                <input type="file" class="upload up from--control validate" name="screenshot[]" accept=".webp,.webp,.webp" required onchange="screenshotURL(this);" />
                                             </div>
                                         </div>
                                     </div>

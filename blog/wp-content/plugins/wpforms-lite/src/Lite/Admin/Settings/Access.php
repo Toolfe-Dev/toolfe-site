@@ -156,30 +156,30 @@ class Access {
 
 		$content = sprintf(
 			$format,
-			esc_url( $images_url . 'thumbnail-access-controls.png' ),
-			esc_url( $images_url . 'thumbnail-access-controls@2x.png' ),
-			esc_url( $images_url . 'screenshot-access-controls.png' ),
-			esc_url( $images_url . 'screenshot-access-controls@2x.png' ),
+			esc_url( $images_url . 'thumbnail-access-controls.webp' ),
+			esc_url( $images_url . 'thumbnail-access-controls@2x.webp' ),
+			esc_url( $images_url . 'screenshot-access-controls.webp' ),
+			esc_url( $images_url . 'screenshot-access-controls@2x.webp' ),
 			esc_html__( 'Simple Built-in Controls', 'wpforms-lite' ),
 			esc_attr( esc_html__( 'Simple Built-in Controls', 'wpforms-lite' ) )
 		);
 
 		$content .= sprintf(
 			$format,
-			esc_url( $images_url . 'thumbnail-members.png' ),
-			esc_url( $images_url . 'thumbnail-members@2x.png' ),
-			esc_url( $images_url . 'screenshot-members.png' ),
-			esc_url( $images_url . 'screenshot-members@2x.png' ),
+			esc_url( $images_url . 'thumbnail-members.webp' ),
+			esc_url( $images_url . 'thumbnail-members@2x.webp' ),
+			esc_url( $images_url . 'screenshot-members.webp' ),
+			esc_url( $images_url . 'screenshot-members@2x.webp' ),
 			esc_html__( 'Members Integration', 'wpforms-lite' ),
 			esc_attr( esc_html__( 'Members Integration', 'wpforms-lite' ) )
 		);
 
 		$content .= sprintf(
 			$format,
-			esc_url( $images_url . 'thumbnail-user-role-editor.png' ),
-			esc_url( $images_url . 'thumbnail-user-role-editor@2x.png' ),
-			esc_url( $images_url . 'screenshot-user-role-editor.png' ),
-			esc_url( $images_url . 'screenshot-user-role-editor@2x.png' ),
+			esc_url( $images_url . 'thumbnail-user-role-editor.webp' ),
+			esc_url( $images_url . 'thumbnail-user-role-editor@2x.webp' ),
+			esc_url( $images_url . 'screenshot-user-role-editor.webp' ),
+			esc_url( $images_url . 'screenshot-user-role-editor@2x.webp' ),
 			esc_html__( 'User Role Editor Integration', 'wpforms-lite' ),
 			esc_attr( esc_html__( 'User Role Editor Integration', 'wpforms-lite' ) )
 		);

@@ -95,7 +95,7 @@ include '../includes/header.php'
   <section class="company-service-area career-service-area">
     <div class="custom-container">
       <div class="hero-service-about">
-        <img src="../assets/imgs/career/career_page1.png" alt="Service About" />
+        <img src="../assets/imgs/career/career_page1.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we believe in the power of collective creativity and
@@ -136,24 +136,24 @@ include '../includes/header.php'
 
       <div class="service2-items d-flex w-full">
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Professional Growth.png" alt="Service" />
+          <img src="../assets/imgs/career/Professional Growth.webp" alt="Service" />
           <h2>Professional Growth</h2>
           <p>
             Access continuous learning to<br> advance your career.
           </p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Innovative Projects.png" alt="Service" />
+          <img src="../assets/imgs/career/Innovative Projects.webp" alt="Service" />
           <h2> Innovative Projects</h2>
           <p>Work on cutting-edge projects in <br>technology and innovation.</p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Collaborative Environment.png" alt="Service" />
+          <img src="../assets/imgs/career/Collaborative Environment.webp" alt="Service" />
           <h2>Collaborative Environment</h2>
           <p>Thrive in a supportive workplace that <br> values teamwork.</p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/WOrk life balance.png" alt="Service" />
+          <img src="../assets/imgs/career/WOrk life balance.webp" alt="Service" />
           <h2>Work-Life Balance</h2>
           <p>
             Enjoy a flexible environment that <br>promotes a healthy balance.
@@ -183,7 +183,7 @@ include '../includes/header.php'
 
       <div class="news2-lists d-flex">
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog1.jpg" alt="Blog" />
+          <img src="../assets/imgs/services/blog1.webp" alt="Blog" />
           <span class="news-ribbon">New</span>
           <div class="news2-card-body">
             <div class="meta">
@@ -200,7 +200,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog2.jpg" alt="Blog" />
+          <img src="../assets/imgs/services/blog2.webp" alt="Blog" />
           <div class="news2-card-body">
             <div class="meta">
               <span class="date">May 22, 2024</span>
@@ -216,7 +216,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog3.jpg" alt="Blog" />
+          <img src="../assets/imgs/services/blog3.webp" alt="Blog" />
 
           <div class="news2-card-body">
             <div class="meta">

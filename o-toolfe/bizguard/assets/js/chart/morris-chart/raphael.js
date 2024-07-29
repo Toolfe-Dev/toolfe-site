@@ -3454,7 +3454,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     = (object) Raphaël element object with type “image”
 	     **
 	     > Usage
-	     | var c = paper.image("apple.png", 10, 10, 80, 80);
+	     | var c = paper.image("apple.webp", 10, 10, 80, 80);
 	    \*/
 	    paperproto.image = function (src, x, y, w, h) {
 	        var out = R._engine.image(this, src || "about:blank", x || 0, y || 0, w || 0, h || 0);

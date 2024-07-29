@@ -17,11 +17,11 @@
     <title>Toolfe | Admin Login</title>
 
     <meta name="description" content="Only Admins are allowed to login" />
-        <meta property="og:image" content="https://toolfe.com/assets/media/og_img_admin.png">
+        <meta property="og:image" content="https://toolfe.com/assets/media/og_img_admin.webp">
 
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/media/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="../assets/media/favicon.webp" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

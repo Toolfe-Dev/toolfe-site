@@ -10,7 +10,7 @@
             ed.addButton('wpfc', {
                 title : 'Block caching for this page',
                 cmd : 'wpfc',
-                image : self.url + "/icon.png"
+                image : self.url + "/icon.webp"
             });
 
             ed.addCommand('wpfc', function() {
@@ -23,7 +23,7 @@
             this.url = url.replace("../js","../images");
         },
         setWpfcNotHTML: function(){
-            this.wpfcNotHTML = '<img src="' + this.url + "/tinymce-wpfcnot.jpg" + '" class="mce-wp-wpfcnot" style="margin-right:95%;" />';
+            this.wpfcNotHTML = '<img src="' + this.url + "/tinymce-wpfcnot.webp" + '" class="mce-wp-wpfcnot" style="margin-right:95%;" />';
         },
         _handleWpfcNOT : function(ed, url) {
             var self = this;

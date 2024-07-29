@@ -1012,7 +1012,7 @@
 				//{"concatemoji":"http:\/\/your_url.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7"}
 				$content = preg_replace_callback("/\{\"concatemoji\"\:\"[^\"]+\"\}/i", array($this, 'cdn_replace_urls'), $content);
 				
-				//<script>var loaderRandomImages=["https:\/\/www.site.com\/wp-content\/uploads\/2016\/12\/image.jpg"];</script>
+				//<script>var loaderRandomImages=["https:\/\/www.site.com\/wp-content\/uploads\/2016\/12\/image.webp"];</script>
 				$content = preg_replace_callback("/[\"\']([^\'\"]+)[\"\']\s*\:\s*[\"\']https?\:\\\\\/\\\\\/[^\"\']+[\"\']/i", array($this, 'cdn_replace_urls'), $content);
 
 				// <script>
@@ -1020,8 +1020,8 @@
 				// </script>
 				$content = preg_replace_callback("/(jsFileLocation)\s*\:[\"\']([^\"\']+)[\"\']/i", array($this, 'cdn_replace_urls'), $content);
 
-				// <form data-product_variations="[{&quot;src&quot;:&quot;//domain.com\/img.jpg&quot;}]">
-				// <div data-siteorigin-parallax="{&quot;backgroundUrl&quot;:&quot;https:\/\/domain.com\/wp-content\/TOR.jpg&quot;,&quot;backgroundSize&quot;:[830,467],&quot;}" data-stretch-type="full">
+				// <form data-product_variations="[{&quot;src&quot;:&quot;//domain.com\/img.webp&quot;}]">
+				// <div data-siteorigin-parallax="{&quot;backgroundUrl&quot;:&quot;https:\/\/domain.com\/wp-content\/TOR.webp&quot;,&quot;backgroundSize&quot;:[830,467],&quot;}" data-stretch-type="full">
 				$content = preg_replace_callback("/(data-product_variations|data-siteorigin-parallax)\=[\"\'][^\"\']+[\"\']/i", array($this, 'cdn_replace_urls'), $content);
 
 				// <object data="https://site.com/source.swf" type="application/x-shockwave-flash"></object>

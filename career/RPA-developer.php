@@ -272,7 +272,8 @@ include '../includes/header.php'
         </div>
         <div class="contact-infos">
           <div class="contact-infos-inner">
-            <div class="contact-info mb-0 border-0">
+            <div class="contact-in
+            fo mb-0 border-0">
               <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
               <h3>Contact Info</h3>
             </div>

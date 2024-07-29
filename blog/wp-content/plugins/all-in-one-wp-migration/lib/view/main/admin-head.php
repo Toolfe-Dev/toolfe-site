@@ -82,7 +82,7 @@
 	.toplevel_page_ai1wm_export > div.wp-menu-image:before {
 		line-height: 27px !important;
 		content: '';
-		background: url('<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/logo-20x20.png') no-repeat center center;
+		background: url('<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/logo-20x20.webp') no-repeat center center;
 		speak: none !important;
 		font-style: normal !important;
 		font-weight: normal !important;
@@ -99,7 +99,7 @@
 		position: relative;
 		display: inline-block;
 		content: '';
-		background: url('<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/logo-20x20.png') no-repeat center center;
+		background: url('<?php echo wp_make_link_relative( AI1WM_URL ); ?>/lib/view/assets/img/logo-20x20.webp') no-repeat center center;
 		speak: none !important;
 		font-style: normal !important;
 		font-weight: normal !important;

@@ -1,7 +1,7 @@
 @extends('reviewer.layouts.master')
 @section('content')
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/admin/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/admin/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15"><strong>@lang('Recover Account')</strong></h4>
             <form action="{{ route('reviewer.password.verify-code') }}" method="POST" class="cmn-form mt-30">

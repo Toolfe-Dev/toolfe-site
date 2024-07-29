@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15">@lang('Please Verify Your Mobile to Get Access')</h4>
             <h4>@lang('Your Mobile Number'): <strong>{{Auth::guard('reviewer')->user()->mobile}}</strong></h4>

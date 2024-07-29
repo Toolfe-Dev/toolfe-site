@@ -34,7 +34,7 @@ $version = '1.6';
 	<div id="epcl-shortcodes-form">
         <!-- start: .sidebar -->
 		<div class="sidebar">
-			<span class="form-title"><img src="<?php echo $directory_uri; ?>/images/lightbox-icon.png"><?php esc_html_e('Shortcodes', 'epcl_framework'); ?></span>
+			<span class="form-title"><img src="<?php echo $directory_uri; ?>/images/lightbox-icon.webp"><?php esc_html_e('Shortcodes', 'epcl_framework'); ?></span>
 			<ul class="tab-selector">
 				<li class="button active" data-tab="button"><a href="#"><i class="dashicons dashicons-admin-links"></i> Button</a></li>
 				<li class="icon" data-tab="icon"><a href="#"><i class="dashicons dashicons-star-filled"></i> Icon</a></li>

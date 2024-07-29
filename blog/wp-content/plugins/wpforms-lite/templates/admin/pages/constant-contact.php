@@ -29,8 +29,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php
 			printf(
 				'<img src="%s" srcset="%s 2x" alt="" class="logo">',
-				esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-logo.png' ),
-				esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-logo@2x.png' )
+				esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-logo.webp' ),
+				esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-logo@2x.webp' )
 			);
 			?>
 		</a>
@@ -125,7 +125,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php
 					printf(
 						'<div class="step-image-wrapper"><img src="%1$s" alt=""><a href="%1$s" class="hover" data-lity></a></div><figcaption>%2$d. %3$s</figcaption>',
-						esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-step' . $index . '.png' ),
+						esc_url( WPFORMS_PLUGIN_URL . 'assets/images/constant-contact/cc-about-step' . $index . '.webp' ),
 						absint( $index ),
 						esc_html( $item )
 					);

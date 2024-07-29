@@ -69,7 +69,7 @@ class UncannyAutomator implements IntegrationInterface {
 	public function load() {
 
 		$this->name = esc_html__( 'Uncanny Automator', 'wpforms-lite' );
-		$this->icon = WPFORMS_PLUGIN_URL . 'assets/images/icon-provider-uncanny-automator.png';
+		$this->icon = WPFORMS_PLUGIN_URL . 'assets/images/icon-provider-uncanny-automator.webp';
 
 		$this->hooks();
 	}

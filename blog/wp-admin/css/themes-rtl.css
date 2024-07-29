@@ -1942,7 +1942,7 @@ body.full-overlay-active {
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
 	.wp-full-overlay .collapse-sidebar-arrow {
-		background-image: url(../images/arrows-2x.png);
+		background-image: url(../images/arrows-2x.webp);
 		background-size: 15px 123px;
 	}
 

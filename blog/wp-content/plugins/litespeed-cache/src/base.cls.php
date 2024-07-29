@@ -706,10 +706,10 @@ class Base extends Root
 				 *     	inc_js[0] = true
 				 *     	filetype[0] = '.css
 				 *     				   .js
-				 *     				   .jpg'
+				 *     				   .webp'
 				 *
 				 * format out:
-				 * 		[0] = [ 'url' => 'https://example.com', 'inc_js' => true, 'filetype' => [ '.css', '.js', '.jpg' ] ]
+				 * 		[0] = [ 'url' => 'https://example.com', 'inc_js' => true, 'filetype' => [ '.css', '.js', '.webp' ] ]
 				 */
 				if ($k == self::O_CDN_MAPPING) {
 					$mapping_fields = array(

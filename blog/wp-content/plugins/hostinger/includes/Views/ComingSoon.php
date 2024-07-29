@@ -19,7 +19,7 @@
 			<img alt="logo" class="hsr-logo"
 				src="<?php echo esc_url( HOSTINGER_PLUGIN_URL . 'assets/images/logo-black.svg' ); ?>">
 			<img alt="illustration" class="hsr-coming-soon-illustration"
-				src="<?php echo esc_url( HOSTINGER_PLUGIN_URL . 'assets/images/illustration.png' ); ?>">
+				src="<?php echo esc_url( HOSTINGER_PLUGIN_URL . 'assets/images/illustration.webp' ); ?>">
 			<h3>
 				<?php echo esc_html__( 'Coming Soon', 'hostinger' ); ?>
 			</h3>

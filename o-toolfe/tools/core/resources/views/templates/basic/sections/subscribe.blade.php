@@ -5,7 +5,7 @@
 <!-- subscribe section start -->
 <!-- bg_img" style="background-image: url({{ getImage('assets/images/frontend/subscribe/'. @$subscribeContent->data_values->image,'1920x761') }}); -->
 <section class="subscribe-section">
-  <div class="el"><img src="{{ asset($activeTemplateTrue.'images/bg-el.png') }}" alt="image"></div>
+  <div class="el"><img src="{{ asset($activeTemplateTrue.'images/bg-el.webp') }}" alt="image"></div>
     <div class="container">
       <div class="row align-items-center justify-content-between gy-4">
         <div class="col-lg-5 text-lg-start text-center">

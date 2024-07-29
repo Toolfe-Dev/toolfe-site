@@ -86,7 +86,7 @@ $(function () {
               $service = full['service'],
               $image = full['avatar_image'],
               $rand_num = Math.floor(Math.random() * 11) + 1,
-              $user_img = $rand_num + '.png';
+              $user_img = $rand_num + '.webp';
             if ($image === true) {
               // For Avatar image
               var $output =

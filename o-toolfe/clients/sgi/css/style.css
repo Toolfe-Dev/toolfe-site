@@ -831,7 +831,7 @@ form .form-group select {
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background: #ffffff url(../images/icons/icon-select.png) right center no-repeat;
+  background: #ffffff url(../images/icons/icon-select.webp) right center no-repeat;
   cursor: pointer;
 }
 

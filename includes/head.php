@@ -214,7 +214,7 @@
                                                     <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case1.png" alt="Portfolio">
+                                                                <img src="../assets/imgs/case1.webp" alt="Portfolio">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
@@ -224,7 +224,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case2.png" alt="Portfolio">
+                                                                <img src="../assets/imgs/case2.webp" alt="Portfolio">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
@@ -233,7 +233,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case3.png" alt="Portfolio">
+                                                                <img src="../assets/imgs/case3.webp" alt="Portfolio">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/intelligent_document_processing.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
@@ -242,7 +242,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case4.png" alt="Portfolio">
+                                                                <img src="../assets/imgs/case4.webp" alt="Portfolio">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
@@ -264,7 +264,7 @@
                                                 </div>
                                                 <div class="right">
                                                     <div class="mega-menu-ads">
-                                                        <img src="../assets/imgs/case5.png" alt="iPad">
+                                                        <img src="../assets/imgs/case5.webp" alt="iPad">
                                                         <h2><a href="../case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
                                                         <br>
                                                         <a href="../case-study">View more</a>

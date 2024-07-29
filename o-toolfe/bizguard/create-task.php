@@ -119,7 +119,7 @@ $department_query = $conn->query($department_sql);
                                     <div class="lc-block mb-3">
                                         <div class="d-flex flex-column justify-content-center">
                                         <div editable="rich " class="d-flex align-items-center">
-                                            <img src="assets/imgs/alert.png" alt="alert" class=" me-4">
+                                            <img src="assets/imgs/alert.webp" alt="alert" class=" me-4">
                                             <h3 class="fw-semibold display-6 mb-lg-3">You have reached your plan limits</h3>
                                         </div>
                                     </div>

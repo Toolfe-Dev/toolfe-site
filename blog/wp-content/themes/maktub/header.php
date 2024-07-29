@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <?php if ( ! ( function_exists( 'has_site_icon' ) && has_site_icon() ) ): ?>
-        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png" />
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.webp" />
     <?php endif; ?>
 
     <?php wp_head(); ?>

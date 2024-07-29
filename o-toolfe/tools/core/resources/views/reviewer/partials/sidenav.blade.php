@@ -1,12 +1,12 @@
 <div class="sidebar capsule--rounded bg_img overlay--dark"
-     data-background="{{asset('assets/reviewer/images/sidebar/2.jpg')}}">
+     data-background="{{asset('assets/reviewer/images/sidebar/2.webp')}}">
     <button class="res-sidebar-close-btn"><i class="las la-times"></i></button>
     <div class="sidebar__inner">
         <div class="sidebar__logo">
             <a href="{{route('reviewer.dashboard')}}" class="sidebar__main-logo"><img
-                    src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('image')"></a>
+                    src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('image')"></a>
             <a href="{{route('reviewer.dashboard')}}" class="sidebar__logo-shape"><img
-                    src="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.png')}}" alt="@lang('image')"></a>
+                    src="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.webp')}}" alt="@lang('image')"></a>
             <button type="button" class="navbar__expand"></button>
         </div>
 

@@ -20,7 +20,7 @@
                                                 <div class="profilePicPreview productPicPreview" style="background-image: url({{ getImage(imagePath()['profile']['cover']['path'].'/'. $user->cover_image,imagePath()['profile']['cover']['size']) }})"></div>
                                             </div>
                                             <div class="avatar-edit">
-                                                <input type='file' name="cover_image" class="profilePicUpload" id="profilePicUpload2" accept=".png, .jpg, .jpeg">
+                                                <input type='file' name="cover_image" class="profilePicUpload" id="profilePicUpload2" accept=".webp, .webp, .webp">
                                                 <label for="profilePicUpload2"><i class="la la-pencil"></i></label>
                                             </div>
                                         </div>
@@ -34,7 +34,7 @@
                                                 <div class="profilePicPreview" style="background-image: url({{ getImage(imagePath()['profile']['user']['path'].'/'. $user->image,imagePath()['profile']['user']['size']) }})"></div>
                                             </div>
                                             <div class="avatar-edit">
-                                                <input type='file' name="image" class="profilePicUpload" id="profilePicUpload1" accept=".png, .jpg, .jpeg" />
+                                                <input type='file' name="image" class="profilePicUpload" id="profilePicUpload1" accept=".webp, .webp, .webp" />
                                                 <label for="profilePicUpload1"><i class="la la-pencil"></i></label>
                                             </div>
                                         </div>

@@ -261,7 +261,7 @@
 
 					if(isset($GLOBALS["wp_fastest_cache_options"]->wpFastestCacheLazyLoad)){
 						// to set noscript for lazy load
-						// <noscript><img src="http://google.com/image.jpg"></noscript>
+						// <noscript><img src="http://google.com/image.webp"></noscript>
 						$GLOBALS["wp_fastest_cache"]->noscript = $value["text"].$GLOBALS["wp_fastest_cache"]->noscript;
 					}
 				}

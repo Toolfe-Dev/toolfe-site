@@ -35,7 +35,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/ecom1.png" alt="About" />
+          <img src="../assets/imgs/industry/ecom1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -75,7 +75,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/ecom2.png" alt="News" />
+          <img src="../assets/imgs/industry/ecom2.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -137,13 +137,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/ecom3.png" alt="News" />
+          <img src="../assets/imgs/industry/ecom3.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/ecom4.png" alt="News" />
+          <img src="../assets/imgs/industry/ecom4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -207,13 +207,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/ecom5.png" alt="News" />
+          <img src="../assets/imgs/industry/ecom5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/ecom6.png" alt="News" />
+          <img src="../assets/imgs/industry/ecom6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -263,7 +263,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/ecom7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/ecom7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             Our team of experts understands the unique challenges faced by the retail industry. We are committed to
@@ -301,7 +301,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/ecom8.png" alt="Service" />
+          <img src="../assets/imgs/industry/ecom8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Personalized Recommendations</h3>
@@ -314,7 +314,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/ecom9.png" alt="Service" />
+          <img src="../assets/imgs/industry/ecom9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Supply Chain Optimization</h3>

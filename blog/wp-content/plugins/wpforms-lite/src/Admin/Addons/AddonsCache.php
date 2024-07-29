@@ -77,7 +77,7 @@ class AddonsCache extends \WPForms\Helpers\CacheBase {
 		foreach ( $data as $addon ) {
 
 			// Addon icon.
-			$addon['icon'] = str_replace( 'wpforms-', 'addon-icon-', $addon['slug'] ) . '.png';
+			$addon['icon'] = str_replace( 'wpforms-', 'addon-icon-', $addon['slug'] ) . '.webp';
 
 			// Use slug as a key for further usage.
 			$addons_cache[ $addon['slug'] ] = $addon;

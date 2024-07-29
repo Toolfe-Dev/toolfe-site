@@ -95,7 +95,7 @@ $orderData['amount']; ?>
       class="bg-white lg:p-14 md:p-10 p-4 flex md:flex-row flex-col justify-between items-center gap-10 text-center"
     >
       <div class="">
-        <img src="./imgs/sams-logo.png" alt="" class="md:w-32 w-28" />
+        <img src="./imgs/sams-logo.webp" alt="" class="md:w-32 w-28" />
       </div>
       <div class="">
         <h1 class="md:text-5xl text-3xl font-semibold bg-white mb-4">
@@ -109,7 +109,7 @@ $orderData['amount']; ?>
         </p> -->
       </div>
       <div class="md:block hidden">
-        <img src="./imgs/sams-logo.png" alt="" class="w-32" />
+        <img src="./imgs/sams-logo.webp" alt="" class="w-32" />
       </div>
     </header>
 

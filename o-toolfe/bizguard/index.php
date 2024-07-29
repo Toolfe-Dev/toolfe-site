@@ -72,7 +72,7 @@ $services = get_ticket_details($id,$conn);
                   <div class="card ">
                   <div class="card-body text-center pt-3"> 
                     <div class=" mx-auto d-flex justify-content-center align-items-center">
-                      <img src="./assets/images/premium-gold.png" alt="" class="mx-auto">
+                      <img src="./assets/images/premium-gold.webp" alt="" class="mx-auto">
                     </div>
                     <h6 class="mb-3 text-center">
                       <a href="#">Upgrade to Premium </a> for exclusive benefits, skipping the line for a seamless experience
@@ -90,7 +90,7 @@ $services = get_ticket_details($id,$conn);
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div class="d-flex align-items-center gap-2">
-                            <div class="social-icons"><img src="assets/imgs/all-task.png" alt="facebook icon"></div><span>Task in Queue</span>
+                            <div class="social-icons"><img src="assets/imgs/all-task.webp" alt="facebook icon"></div><span>Task in Queue</span>
                           </div><span class="font-success f-12 d-xxl-block d-xl-none"></span>
                         </div>
                         <div class="social-content">
@@ -111,7 +111,7 @@ $services = get_ticket_details($id,$conn);
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div class="d-flex align-items-center gap-2">
-                            <div class="social-icons"><img src="assets/imgs/open-task.png" alt="instagram icon"></div><span>Open Tasks</span>
+                            <div class="social-icons"><img src="assets/imgs/open-task.webp" alt="instagram icon"></div><span>Open Tasks</span>
                           </div><span class="font-success f-12 d-xxl-block d-xl-none"></span>
                         </div>
                         <div class="social-content">
@@ -132,7 +132,7 @@ $services = get_ticket_details($id,$conn);
                       <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                           <div class="d-flex align-items-center gap-2">
-                            <div class="social-icons"><img src="assets/imgs/closed-task.png" alt="twitter icon"></div><span>Closed Tasks</span>
+                            <div class="social-icons"><img src="assets/imgs/closed-task.webp" alt="twitter icon"></div><span>Closed Tasks</span>
                           </div><span class="font-success f-12 d-xxl-block d-xl-none"></span>
                         </div>
                         <div class="social-content">
@@ -169,7 +169,7 @@ $services = get_ticket_details($id,$conn);
                                   if ($count >= 3) break;
                                   echo('
                                   <li class="primary">
-                                  <!-- <img src="assets/images/dashboard/user/4.jpg" alt="profile"> -->
+                                  <!-- <img src="assets/images/dashboard/user/4.webp" alt="profile"> -->
                                     <div> 
                                     <a href="task-details.php?id='.$ticket['id'].'">
                                     
@@ -200,7 +200,7 @@ $services = get_ticket_details($id,$conn);
                             else {
                             echo('
                                   <div class="text-center d-flex align-items-center justify-content-center w-100 h-auto mt-5">
-                                    <img src="assets/imgs/task-not-available2.png" width="200px" alt="profile">
+                                    <img src="assets/imgs/task-not-available2.webp" width="200px" alt="profile">
                                   </div>
                             ');
                         };
@@ -229,10 +229,10 @@ $services = get_ticket_details($id,$conn);
                           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <img src="./assets/imgs/home_baner.png" class="d-block w-100" alt="...">
+                                <img src="./assets/imgs/home_baner.webp" class="d-block w-100" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img src="./assets/imgs/home_baner1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/imgs/home_baner1.webp" class="d-block w-100" alt="...">
                               </div>
                               <!-- <div class="carousel-item">
                                 <img src="..." class="d-block w-100" alt="...">

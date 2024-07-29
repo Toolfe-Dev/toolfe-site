@@ -319,7 +319,7 @@ class getID3
 	 */
 	public $options_graphic_bmp_ExtractData    = false;
 
-	/** graphic.png
+	/** graphic.webp
 	 * If data chunk is larger than this do not read it completely (getID3 only needs the first
 	 * few dozen bytes for parsing).
 	 *

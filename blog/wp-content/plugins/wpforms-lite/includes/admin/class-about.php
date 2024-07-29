@@ -275,7 +275,7 @@ class WPForms_About {
 
 			<div class="wpforms-admin-column-40 wpforms-admin-column-last">
 				<figure>
-					<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/about/team.jpg" alt="<?php esc_attr_e( 'The WPForms Team photo', 'wpforms-lite' ); ?>">
+					<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/about/team.webp" alt="<?php esc_attr_e( 'The WPForms Team photo', 'wpforms-lite' ); ?>">
 					<figcaption>
 						<?php esc_html_e( 'The WPForms Team', 'wpforms-lite' ); ?><br>
 					</figcaption>
@@ -624,7 +624,7 @@ class WPForms_About {
 
 		<div class="wpforms-admin-about-section wpforms-admin-about-section-squashed wpforms-admin-about-section-post wpforms-admin-columns">
 			<div class="wpforms-admin-column-20">
-				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/how-choose-right-form-field.png' ); ?>" alt="">
+				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/how-choose-right-form-field.webp' ); ?>" alt="">
 			</div>
 			<div class="wpforms-admin-column-80">
 				<h2>
@@ -643,7 +643,7 @@ class WPForms_About {
 
 		<div class="wpforms-admin-about-section wpforms-admin-about-section-squashed wpforms-admin-about-section-post wpforms-admin-columns">
 			<div class="wpforms-admin-column-20">
-				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/complete-guide-to-wpforms-settings.png' ); ?>" alt="">
+				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/complete-guide-to-wpforms-settings.webp' ); ?>" alt="">
 			</div>
 			<div class="wpforms-admin-column-80">
 				<h2>
@@ -662,7 +662,7 @@ class WPForms_About {
 
 		<div class="wpforms-admin-about-section wpforms-admin-about-section-squashed wpforms-admin-about-section-post wpforms-admin-columns">
 			<div class="wpforms-admin-column-20">
-				<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/about/how-create-gdpr-compliant-forms.png" alt="">
+				<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/about/how-create-gdpr-compliant-forms.webp" alt="">
 			</div>
 			<div class="wpforms-admin-column-80">
 				<h2>
@@ -681,7 +681,7 @@ class WPForms_About {
 
 		<div class="wpforms-admin-about-section wpforms-admin-about-section-squashed wpforms-admin-about-section-post wpforms-admin-columns">
 			<div class="wpforms-admin-column-20">
-				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/how-install-activate-wpforms-addons.png' ); ?>" alt="">
+				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/about/how-install-activate-wpforms-addons.webp' ); ?>" alt="">
 			</div>
 			<div class="wpforms-admin-column-80">
 				<h2>
@@ -859,7 +859,7 @@ class WPForms_About {
 		return [
 
 			'optinmonster/optin-monster-wp-api.php'        => [
-				'icon'  => $images_url . 'plugin-om.png',
+				'icon'  => $images_url . 'plugin-om.webp',
 				'name'  => esc_html__( 'OptinMonster', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Instantly get more subscribers, leads, and sales with the #1 conversion optimization toolkit. Create high converting popups, announcement bars, spin a wheel, and more with smart targeting and personalization.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/optinmonster/',
@@ -867,14 +867,14 @@ class WPForms_About {
 			],
 
 			'google-analytics-for-wordpress/googleanalytics.php' => [
-				'icon'  => $images_url . 'plugin-mi.png',
+				'icon'  => $images_url . 'plugin-mi.webp',
 				'name'  => esc_html__( 'MonsterInsights', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The leading WordPress analytics plugin that shows you how people find and use your website, so you can make data driven decisions to grow your business. Properly set up Google Analytics without writing code.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/google-analytics-for-wordpress/',
 				'url'   => 'https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.zip',
 				'pro'   => [
 					'plug' => 'google-analytics-premium/googleanalytics-premium.php',
-					'icon' => $images_url . 'plugin-mi.png',
+					'icon' => $images_url . 'plugin-mi.webp',
 					'name' => esc_html__( 'MonsterInsights Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'The leading WordPress analytics plugin that shows you how people find and use your website, so you can make data driven decisions to grow your business. Properly set up Google Analytics without writing code.', 'wpforms-lite' ),
 					'url'  => 'https://www.monsterinsights.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -883,14 +883,14 @@ class WPForms_About {
 			],
 
 			'wp-mail-smtp/wp_mail_smtp.php'                => [
-				'icon'  => $images_url . 'plugin-smtp.png',
+				'icon'  => $images_url . 'plugin-smtp.webp',
 				'name'  => esc_html__( 'WP Mail SMTP', 'wpforms-lite' ),
 				'desc'  => esc_html__( "Improve your WordPress email deliverability and make sure that your website emails reach user's inbox with the #1 SMTP plugin for WordPress. Over 3 million websites use it to fix WordPress email issues.", 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/wp-mail-smtp/',
 				'url'   => 'https://downloads.wordpress.org/plugin/wp-mail-smtp.zip',
 				'pro'   => [
 					'plug' => 'wp-mail-smtp-pro/wp_mail_smtp.php',
-					'icon' => $images_url . 'plugin-smtp.png',
+					'icon' => $images_url . 'plugin-smtp.webp',
 					'name' => esc_html__( 'WP Mail SMTP Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( "Improve your WordPress email deliverability and make sure that your website emails reach user's inbox with the #1 SMTP plugin for WordPress. Over 3 million websites use it to fix WordPress email issues.", 'wpforms-lite' ),
 					'url'  => 'https://wpmailsmtp.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -899,14 +899,14 @@ class WPForms_About {
 			],
 
 			'all-in-one-seo-pack/all_in_one_seo_pack.php'  => [
-				'icon'  => $images_url . 'plugin-aioseo.png',
+				'icon'  => $images_url . 'plugin-aioseo.webp',
 				'name'  => esc_html__( 'AIOSEO', 'wpforms-lite' ),
 				'desc'  => esc_html__( "The original WordPress SEO plugin and toolkit that improves your website's search rankings. Comes with all the SEO features like Local SEO, WooCommerce SEO, sitemaps, SEO optimizer, schema, and more.", 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/all-in-one-seo-pack/',
 				'url'   => 'https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip',
 				'pro'   => [
 					'plug' => 'all-in-one-seo-pack-pro/all_in_one_seo_pack.php',
-					'icon' => $images_url . 'plugin-aioseo.png',
+					'icon' => $images_url . 'plugin-aioseo.webp',
 					'name' => esc_html__( 'AIOSEO Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( "The original WordPress SEO plugin and toolkit that improves your website's search rankings. Comes with all the SEO features like Local SEO, WooCommerce SEO, sitemaps, SEO optimizer, schema, and more.", 'wpforms-lite' ),
 					'url'  => 'https://aioseo.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -915,14 +915,14 @@ class WPForms_About {
 			],
 
 			'coming-soon/coming-soon.php'                  => [
-				'icon'  => $images_url . 'plugin-seedprod.png',
+				'icon'  => $images_url . 'plugin-seedprod.webp',
 				'name'  => esc_html__( 'SeedProd', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The fastest drag & drop landing page builder for WordPress. Create custom landing pages without writing code, connect them with your CRM, collect subscribers, and grow your audience. Trusted by 1 million sites.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/coming-soon/',
 				'url'   => 'https://downloads.wordpress.org/plugin/coming-soon.zip',
 				'pro'   => [
 					'plug' => 'seedprod-coming-soon-pro-5/seedprod-coming-soon-pro-5.php',
-					'icon' => $images_url . 'plugin-seedprod.png',
+					'icon' => $images_url . 'plugin-seedprod.webp',
 					'name' => esc_html__( 'SeedProd Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'The fastest drag & drop landing page builder for WordPress. Create custom landing pages without writing code, connect them with your CRM, collect subscribers, and grow your audience. Trusted by 1 million sites.', 'wpforms-lite' ),
 					'url'  => 'https://www.seedprod.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -931,14 +931,14 @@ class WPForms_About {
 			],
 
 			'rafflepress/rafflepress.php'                  => [
-				'icon'  => $images_url . 'plugin-rp.png',
+				'icon'  => $images_url . 'plugin-rp.webp',
 				'name'  => esc_html__( 'RafflePress', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Turn your website visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with the most powerful giveaways & contests plugin for WordPress.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/rafflepress/',
 				'url'   => 'https://downloads.wordpress.org/plugin/rafflepress.zip',
 				'pro'   => [
 					'plug' => 'rafflepress-pro/rafflepress-pro.php',
-					'icon' => $images_url . 'plugin-rp.png',
+					'icon' => $images_url . 'plugin-rp.webp',
 					'name' => esc_html__( 'RafflePress Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'Turn your website visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with the most powerful giveaways & contests plugin for WordPress.', 'wpforms-lite' ),
 					'url'  => 'https://rafflepress.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -947,7 +947,7 @@ class WPForms_About {
 			],
 
 			'pushengage/main.php'                          => [
-				'icon'  => $images_url . 'plugin-pushengage.png',
+				'icon'  => $images_url . 'plugin-pushengage.webp',
 				'name'  => esc_html__( 'PushEngage', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Connect with your visitors after they leave your website with the leading web push notification software. Over 10,000+ businesses worldwide use PushEngage to send 9 billion notifications each month.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/pushengage/',
@@ -955,14 +955,14 @@ class WPForms_About {
 			],
 
 			'instagram-feed/instagram-feed.php'            => [
-				'icon'  => $images_url . 'plugin-sb-instagram.png',
+				'icon'  => $images_url . 'plugin-sb-instagram.webp',
 				'name'  => esc_html__( 'Smash Balloon Instagram Feeds', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Easily display Instagram content on your WordPress site without writing any code. Comes with multiple templates, ability to show content from multiple accounts, hashtags, and more. Trusted by 1 million websites.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/instagram-feed/',
 				'url'   => 'https://downloads.wordpress.org/plugin/instagram-feed.zip',
 				'pro'   => [
 					'plug' => 'instagram-feed-pro/instagram-feed.php',
-					'icon' => $images_url . 'plugin-sb-instagram.png',
+					'icon' => $images_url . 'plugin-sb-instagram.webp',
 					'name' => esc_html__( 'Smash Balloon Instagram Feeds Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'Easily display Instagram content on your WordPress site without writing any code. Comes with multiple templates, ability to show content from multiple accounts, hashtags, and more. Trusted by 1 million websites.', 'wpforms-lite' ),
 					'url'  => 'https://smashballoon.com/instagram-feed/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -971,14 +971,14 @@ class WPForms_About {
 			],
 
 			'custom-facebook-feed/custom-facebook-feed.php' => [
-				'icon'  => $images_url . 'plugin-sb-fb.png',
+				'icon'  => $images_url . 'plugin-sb-fb.webp',
 				'name'  => esc_html__( 'Smash Balloon Facebook Feeds', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Easily display Facebook content on your WordPress site without writing any code. Comes with multiple templates, ability to embed albums, group content, reviews, live videos, comments, and reactions.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/custom-facebook-feed/',
 				'url'   => 'https://downloads.wordpress.org/plugin/custom-facebook-feed.zip',
 				'pro'   => [
 					'plug' => 'custom-facebook-feed-pro/custom-facebook-feed.php',
-					'icon' => $images_url . 'plugin-sb-fb.png',
+					'icon' => $images_url . 'plugin-sb-fb.webp',
 					'name' => esc_html__( 'Smash Balloon Facebook Feeds Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'Easily display Facebook content on your WordPress site without writing any code. Comes with multiple templates, ability to embed albums, group content, reviews, live videos, comments, and reactions.', 'wpforms-lite' ),
 					'url'  => 'https://smashballoon.com/custom-facebook-feed/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -987,14 +987,14 @@ class WPForms_About {
 			],
 
 			'feeds-for-youtube/youtube-feed.php'           => [
-				'icon'  => $images_url . 'plugin-sb-youtube.png',
+				'icon'  => $images_url . 'plugin-sb-youtube.webp',
 				'name'  => esc_html__( 'Smash Balloon YouTube Feeds', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Easily display YouTube videos on your WordPress site without writing any code. Comes with multiple layouts, ability to embed live streams, video filtering, ability to combine multiple channel videos, and more.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/feeds-for-youtube/',
 				'url'   => 'https://downloads.wordpress.org/plugin/feeds-for-youtube.zip',
 				'pro'   => [
 					'plug' => 'youtube-feed-pro/youtube-feed.php',
-					'icon' => $images_url . 'plugin-sb-youtube.png',
+					'icon' => $images_url . 'plugin-sb-youtube.webp',
 					'name' => esc_html__( 'Smash Balloon YouTube Feeds Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'Easily display YouTube videos on your WordPress site without writing any code. Comes with multiple layouts, ability to embed live streams, video filtering, ability to combine multiple channel videos, and more.', 'wpforms-lite' ),
 					'url'  => 'https://smashballoon.com/youtube-feed/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -1003,14 +1003,14 @@ class WPForms_About {
 			],
 
 			'custom-twitter-feeds/custom-twitter-feed.php' => [
-				'icon'  => $images_url . 'plugin-sb-twitter.png',
+				'icon'  => $images_url . 'plugin-sb-twitter.webp',
 				'name'  => esc_html__( 'Smash Balloon Twitter Feeds', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Easily display Twitter content in WordPress without writing any code. Comes with multiple layouts, ability to combine multiple Twitter feeds, Twitter card support, tweet moderation, and more.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/custom-twitter-feeds/',
 				'url'   => 'https://downloads.wordpress.org/plugin/custom-twitter-feeds.zip',
 				'pro'   => [
 					'plug' => 'custom-twitter-feeds-pro/custom-twitter-feed.php',
-					'icon' => $images_url . 'plugin-sb-twitter.png',
+					'icon' => $images_url . 'plugin-sb-twitter.webp',
 					'name' => esc_html__( 'Smash Balloon Twitter Feeds Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'Easily display Twitter content in WordPress without writing any code. Comes with multiple layouts, ability to combine multiple Twitter feeds, Twitter card support, tweet moderation, and more.', 'wpforms-lite' ),
 					'url'  => 'https://smashballoon.com/custom-twitter-feeds/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -1019,7 +1019,7 @@ class WPForms_About {
 			],
 
 			'trustpulse-api/trustpulse.php'                => [
-				'icon'  => $images_url . 'plugin-trustpulse.png',
+				'icon'  => $images_url . 'plugin-trustpulse.webp',
 				'name'  => esc_html__( 'TrustPulse', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'Boost your sales and conversions by up to 15% with real-time social proof notifications. TrustPulse helps you show live user activity and purchases to help convince other users to purchase.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/trustpulse-api/',
@@ -1027,7 +1027,7 @@ class WPForms_About {
 			],
 
 			'searchwp/index.php'                           => [
-				'icon'  => $images_url . 'plugin-searchwp.png',
+				'icon'  => $images_url . 'plugin-searchwp.webp',
 				'name'  => esc_html__( 'SearchWP', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The most advanced WordPress search plugin. Customize your WordPress search algorithm, reorder search results, track search metrics, and everything you need to leverage search to grow your business.', 'wpforms-lite' ),
 				'wporg' => false,
@@ -1036,7 +1036,7 @@ class WPForms_About {
 			],
 
 			'affiliate-wp/affiliate-wp.php'                => [
-				'icon'  => $images_url . 'plugin-affwp.png',
+				'icon'  => $images_url . 'plugin-affwp.webp',
 				'name'  => esc_html__( 'AffiliateWP', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The #1 affiliate management plugin for WordPress. Easily create an affiliate program for your eCommerce store or membership site within minutes and start growing your sales with the power of referral marketing.', 'wpforms-lite' ),
 				'wporg' => false,
@@ -1045,14 +1045,14 @@ class WPForms_About {
 			],
 
 			'stripe/stripe-checkout.php'                   => [
-				'icon'  => $images_url . 'plugin-wp-simple-pay.png',
+				'icon'  => $images_url . 'plugin-wp-simple-pay.webp',
 				'name'  => esc_html__( 'WP Simple Pay', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The #1 Stripe payments plugin for WordPress. Start accepting one-time and recurring payments on your WordPress site without setting up a shopping cart. No code required.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/stripe/',
 				'url'   => 'https://downloads.wordpress.org/plugin/stripe.zip',
 				'pro'   => [
 					'plug' => 'wp-simple-pay-pro-3/simple-pay.php',
-					'icon' => $images_url . 'plugin-wp-simple-pay.png',
+					'icon' => $images_url . 'plugin-wp-simple-pay.webp',
 					'name' => esc_html__( 'WP Simple Pay Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'The #1 Stripe payments plugin for WordPress. Start accepting one-time and recurring payments on your WordPress site without setting up a shopping cart. No code required.', 'wpforms-lite' ),
 					'url'  => 'https://wpsimplepay.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',
@@ -1061,7 +1061,7 @@ class WPForms_About {
 			],
 
 			'easy-digital-downloads/easy-digital-downloads.php' => [
-				'icon'  => $images_url . 'plugin-edd.png',
+				'icon'  => $images_url . 'plugin-edd.webp',
 				'name'  => esc_html__( 'Easy Digital Downloads', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The best WordPress eCommerce plugin for selling digital downloads. Start selling eBooks, software, music, digital art, and more within minutes. Accept payments, manage subscriptions, advanced access control, and more.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/easy-digital-downloads/',
@@ -1069,14 +1069,14 @@ class WPForms_About {
 			],
 
 			'sugar-calendar-lite/sugar-calendar-lite.php'  => [
-				'icon'  => $images_url . 'plugin-sugarcalendar.png',
+				'icon'  => $images_url . 'plugin-sugarcalendar.webp',
 				'name'  => esc_html__( 'Sugar Calendar', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'A simple & powerful event calendar plugin for WordPress that comes with all the event management features including payments, scheduling, timezones, ticketing, recurring events, and more.', 'wpforms-lite' ),
 				'wporg' => 'https://wordpress.org/plugins/sugar-calendar-lite/',
 				'url'   => 'https://downloads.wordpress.org/plugin/sugar-calendar-lite.zip',
 				'pro'   => [
 					'plug' => 'sugar-calendar/sugar-calendar.php',
-					'icon' => $images_url . 'plugin-sugarcalendar.png',
+					'icon' => $images_url . 'plugin-sugarcalendar.webp',
 					'name' => esc_html__( 'Sugar Calendar Pro', 'wpforms-lite' ),
 					'desc' => esc_html__( 'A simple & powerful event calendar plugin for WordPress that comes with all the event management features including payments, scheduling, timezones, ticketing, recurring events, and more.', 'wpforms-lite' ),
 					'url'  => 'https://sugarcalendar.com/?utm_source=wpformsplugin&utm_medium=link&utm_campaign=About%20WPForms',

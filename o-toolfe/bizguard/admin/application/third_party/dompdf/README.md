@@ -2,9 +2,9 @@ Dompdf
 ======
 
 [![Build Status](https://github.com/dompdf/dompdf/actions/workflows/test.yml/badge.svg)](https://github.com/dompdf/dompdf/actions/workflows/test.yml)
-[![Latest Release](https://poser.pugx.org/dompdf/dompdf/v/stable.png)](https://packagist.org/packages/dompdf/dompdf)
-[![Total Downloads](https://poser.pugx.org/dompdf/dompdf/downloads.png)](https://packagist.org/packages/dompdf/dompdf)
-[![License](https://poser.pugx.org/dompdf/dompdf/license.png)](https://packagist.org/packages/dompdf/dompdf)
+[![Latest Release](https://poser.pugx.org/dompdf/dompdf/v/stable.webp)](https://packagist.org/packages/dompdf/dompdf)
+[![Total Downloads](https://poser.pugx.org/dompdf/dompdf/downloads.webp)](https://packagist.org/packages/dompdf/dompdf)
+[![License](https://poser.pugx.org/dompdf/dompdf/license.webp)](https://packagist.org/packages/dompdf/dompdf)
  
 **Dompdf is an HTML to PDF converter**
 
@@ -24,7 +24,7 @@ release. For released code please
 question on [StackOverflow](https://stackoverflow.com/questions/tagged/dompdf) or
 in [Discussions](https://github.com/dompdf/dompdf/discussions).**
 
-Follow us on [![Twitter](http://twitter-badges.s3.amazonaws.com/twitter-a.png)](http://www.twitter.com/dompdf).
+Follow us on [![Twitter](http://twitter-badges.s3.amazonaws.com/twitter-a.webp)](http://www.twitter.com/dompdf).
 
 ---
 

@@ -1661,17 +1661,17 @@ class Merlin {
 
 		if ( ! empty( $screenshot ) ) {
 			// Get custom screenshot file extension
-			if ( '.png' === substr( $screenshot, -4 ) ) {
+			if ( '.webp' === substr( $screenshot, -4 ) ) {
 				$screenshot_ext = 'png';
 			} else {
 				$screenshot_ext = 'jpg';
 			}
 		} else {
-			if ( file_exists( $this->base_path . '/screenshot.png' ) ) {
-				$screenshot     = $this->base_path . '/screenshot.png';
+			if ( file_exists( $this->base_path . '/screenshot.webp' ) ) {
+				$screenshot     = $this->base_path . '/screenshot.webp';
 				$screenshot_ext = 'png';
-			} elseif ( file_exists( $this->base_path . '/screenshot.jpg' ) ) {
-				$screenshot     = $this->base_path . '/screenshot.jpg';
+			} elseif ( file_exists( $this->base_path . '/screenshot.webp' ) ) {
+				$screenshot     = $this->base_path . '/screenshot.webp';
 				$screenshot_ext = 'jpg';
 			}
 		}

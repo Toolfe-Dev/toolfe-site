@@ -31,7 +31,7 @@
 				<div class="wpfc-cdn-pages-container">
 					<div class="wiz-cont" style="">
 						<h1>Authorities</h1>		
-						<p style="margin-bottom: 24px;">This feature allows you to show the clear cache button which exists on the admin toolbar based on user roles. <a target="_blank" href="https://www.wpfastestcache.com/features/clear-cache-link-on-the-toolbar/"><img src="<?php echo plugins_url("wp-fastest-cache/images/info.png"); ?>" /></a></p>
+						<p style="margin-bottom: 24px;">This feature allows you to show the clear cache button which exists on the admin toolbar based on user roles. <a target="_blank" href="https://www.wpfastestcache.com/features/clear-cache-link-on-the-toolbar/"><img src="<?php echo plugins_url("wp-fastest-cache/images/info.webp"); ?>" /></a></p>
 
 						<?php
 							global $wp_roles;

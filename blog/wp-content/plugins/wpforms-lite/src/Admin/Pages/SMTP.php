@@ -208,8 +208,8 @@ class SMTP {
 				<h1>%4$s</h1>
 				<p>%5$s</p>
 			</section>',
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/wpforms-wpmailsmtp.png' ),
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/wpforms-wpmailsmtp@2x.png' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/wpforms-wpmailsmtp.webp' ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/wpforms-wpmailsmtp@2x.webp' ),
 			esc_attr__( 'WPForms ♥ WP Mail SMTP', 'wpforms-lite' ),
 			esc_html__( 'Making Email Deliverability Easy for WordPress', 'wpforms-lite' ),
 			esc_html__( 'WP Mail SMTP fixes deliverability problems with your WordPress emails and form notifications. It\'s built by the same folks behind WPForms.', 'wpforms-lite' )
@@ -237,9 +237,9 @@ class SMTP {
 					<li>%7$s</li>
 				</ul>
 			</section>',
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/screenshot-tnail.png?ver=' . WPFORMS_VERSION ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/screenshot-tnail.webp?ver=' . WPFORMS_VERSION ),
 			esc_attr__( 'WP Mail SMTP screenshot', 'wpforms-lite' ),
-			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/screenshot-full.png?ver=' . WPFORMS_VERSION ),
+			esc_url( WPFORMS_PLUGIN_URL . 'assets/images/smtp/screenshot-full.webp?ver=' . WPFORMS_VERSION ),
 			esc_html__( 'Improves email deliverability in WordPress.', 'wpforms-lite' ),
 			esc_html__( 'Used by 2+ million websites.', 'wpforms-lite' ),
 			esc_html__( 'Free mailers: SendLayer, SMTP.com, Sendinblue, Google Workspace / Gmail, Mailgun, Postmark, SendGrid.', 'wpforms-lite' ),

@@ -30,7 +30,7 @@
       },
     };
     var originalImageURL = $image.attr("src");
-    var uploadedImageName = "cropped.jpg";
+    var uploadedImageName = "cropped.webp";
     var uploadedImageType = "image/jpeg";
     var uploadedImageURL;
     $('[data-toggle="tooltip"]').tooltip();

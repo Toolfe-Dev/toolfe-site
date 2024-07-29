@@ -272,7 +272,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         hollow: {
           margin: 15,
           size: '70%',
-          image: '../files-front/images/email-template/success.png',
+          image: '../files-front/images/email-template/success.webp',
           imageWidth: 64,
           imageHeight: 64,
           imageClipped: false
@@ -294,7 +294,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     fill: {
       type: 'image',
       image: {
-        src: ['../files-front/images/user-card/5.jpg']
+        src: ['../files-front/images/user-card/5.webp']
       }
     },
     stroke: {

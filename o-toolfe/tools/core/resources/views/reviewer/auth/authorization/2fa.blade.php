@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15"><strong>@lang('2FA Verification')</strong></h4>
             <p class="logo-text mb-15"><strong>@lang('Google Authenticator Code')</strong></p>

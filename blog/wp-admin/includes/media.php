@@ -2470,7 +2470,7 @@ function media_upload_type_url_form( $type = null, $errors = null, $id = null ) 
 		document.getElementById('go_button').style.color = '#bbb';
 		if ( ! document.forms[0].src.value )
 			document.getElementById('status_img').innerHTML = '';
-		else document.getElementById('status_img').innerHTML = '<img src="<?php echo esc_url( admin_url( 'images/no.png' ) ); ?>" alt="" />';
+		else document.getElementById('status_img').innerHTML = '<img src="<?php echo esc_url( admin_url( 'images/no.webp' ) ); ?>" alt="" />';
 	},
 
 	updateImageData : function() {
@@ -2479,7 +2479,7 @@ function media_upload_type_url_form( $type = null, $errors = null, $id = null ) 
 		t.width = t.preloadImg.width;
 		t.height = t.preloadImg.height;
 		document.getElementById('go_button').style.color = '#333';
-		document.getElementById('status_img').innerHTML = '<img src="<?php echo esc_url( admin_url( 'images/yes.png' ) ); ?>" alt="" />';
+		document.getElementById('status_img').innerHTML = '<img src="<?php echo esc_url( admin_url( 'images/yes.webp' ) ); ?>" alt="" />';
 	},
 
 	getImageData : function() {

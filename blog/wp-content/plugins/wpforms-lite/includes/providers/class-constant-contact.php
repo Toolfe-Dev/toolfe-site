@@ -45,7 +45,7 @@ class WPForms_Constant_Contact extends WPForms_Provider {
 		$this->name     = 'Constant Contact';
 		$this->slug     = 'constant-contact';
 		$this->priority = 14;
-		$this->icon     = WPFORMS_PLUGIN_URL . 'assets/images/icon-provider-constant-contact.png';
+		$this->icon     = WPFORMS_PLUGIN_URL . 'assets/images/icon-provider-constant-contact.webp';
 
 		if ( is_admin() ) {
 			// Admin notice requesting connecting.

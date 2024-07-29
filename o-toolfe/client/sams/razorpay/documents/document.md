@@ -25,7 +25,7 @@ $api->document->create($payload);
   "id": "doc_EsyWjHrfzb59Re",
   "entity": "document",
   "purpose": "dispute_evidence",
-  "name": "doc_19_12_2020.jpg",
+  "name": "doc_19_12_2020.webp",
   "mime_type": "image/png",
   "size": 2863,
   "created_at": 1590604200

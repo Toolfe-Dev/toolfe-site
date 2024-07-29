@@ -108,7 +108,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/processautomationbento/1.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/1.webp" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Automated <br>
@@ -125,7 +125,7 @@ include '../includes/header.php'
                             <p>"Deploy custom tools that are tailored to your specific processes. This ensures a perfect fit and seamless integration into your workflow. By leveraging these tools, you can optimize efficiency and improve overall performance.</p>
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/processautomationbento/2.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/2.webp" alt="Portfolio" />
                         </div>
                     </div>
 
@@ -141,12 +141,12 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/processautomationbento/3.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/3.webp" alt="Portfolio" />
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img" style="height: 240px;">
-                            <img src="../assets/imgs/services/processautomationbento/4.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/4.webp" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Integrated <br>
@@ -161,7 +161,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/processautomationbento/5.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/5.webp" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Automation <br>
@@ -179,7 +179,7 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img" style="height: 276px;">
-                            <img src="../assets/imgs/services/processautomationbento/6.png" alt="Portfolio" />
+                            <img src="../assets/imgs/services/processautomationbento/6.webp" alt="Portfolio" />
                         </div>
                     </div>
 
@@ -356,7 +356,7 @@ include '../includes/header.php'
                 </div>
                 <div class="right">
                     <div class="img-box">
-                        <img src="../assets/imgs/services/techstack/Process_automation.png" alt="About" />
+                        <img src="../assets/imgs/services/techstack/Process_automation.webp" alt="About" />
                     </div>
                 </div>
             </div>
@@ -383,14 +383,14 @@ include '../includes/header.php'
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog1.jpg" alt="Blog" />
+                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">Jun 24, 2024</span>
                             <a  class="category">#AWS</a>
                         </div>
-                        <h2><a>How to Connect to an EC2 Instance Without Errors: A Step-by-Step
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step
                                 Guide(For Linux and MacOS)</a></h2>
                         <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward
                             guide.</p>
@@ -401,13 +401,13 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog2.jpg" alt="Blog" />
+                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
                             <a  class="category">#Blockchain Technology</a>
                         </div>
-                        <h2><a>Essential Blockchain Testing Techniques: Ensuring Integrity and
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and
                                 Security in Networks</a></h2>
                         <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is
                             maintained.</p>
@@ -418,14 +418,14 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog3.jpg" alt="Blog" />
+                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
 
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 15, 2024</span>
                             <a class="category">#UX Research</a>
                         </div>
-                        <h2><a>Best ux research methods and when to use them</a></h2>
+                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best ux research methods and when to use them</a></h2>
                         <p>Discover effective UX research methods like interviews and usability tests to enhance product
                             understanding and usability.</p>
                         <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/"
@@ -614,7 +614,7 @@ include '../includes/header.php'
                         <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
-                                    <img src="../assets/imgs/small-img-4.png" alt="team" />
+                                    <img src="../assets/imgs/small-img-4.webp" alt="team" />
                                 </div>
                                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
                             </div>

@@ -88,7 +88,7 @@ class Discord extends OAuth2
 
         if ($data->get('avatar')) {
             $userProfile->photoURL = 'https://cdn.discordapp.com/avatars/';
-            $userProfile->photoURL .= $data->get('id') . '/' . $data->get('avatar') . '.png';
+            $userProfile->photoURL .= $data->get('id') . '/' . $data->get('avatar') . '.webp';
         }
 
         return $userProfile;

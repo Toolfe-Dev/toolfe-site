@@ -34,7 +34,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/eu1.jpg" alt="About" />
+          <img src="../assets/imgs/industry/eu1.webp" alt="About" />
         </div>
 
         <div class="content-box">
@@ -76,7 +76,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/eu2.png" alt="News" />
+          <img src="../assets/imgs/industry/eu2.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -131,13 +131,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/eu3.png" alt="News" />
+          <img src="../assets/imgs/industry/eu3.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/eu4.png" alt="News" />
+          <img src="../assets/imgs/industry/eu4.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -190,13 +190,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/eu5.png" alt="News" />
+          <img src="../assets/imgs/industry/eu5.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/eu6.png" alt="News" />
+          <img src="../assets/imgs/industry/eu6.webp" alt="News" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -241,7 +241,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/eu7.png" alt="Service About" />
+        <img src="../assets/imgs/industry/eu7.webp" alt="Service About" />
         <div class="hero-service-about-body">
           <p>
             From identifying the best rates to implementing sustainable solutions, our team of experts will become your trusted partner. Our team specializes in overcoming the unique challenges within the energy and utilities sector. We are dedicated to delivering innovative IT solutions that effectively address these challenges.
@@ -277,7 +277,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/eu8.png" alt="Service" />
+          <img src="../assets/imgs/industry/eu8.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Smart Grid Management</h3>
@@ -290,7 +290,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/eu9.png" alt="Service" />
+          <img src="../assets/imgs/industry/eu9.webp" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Predictive Maintenance for Infrastructure</h3>

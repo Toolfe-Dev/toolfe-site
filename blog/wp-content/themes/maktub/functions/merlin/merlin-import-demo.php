@@ -54,7 +54,7 @@ function prefix_merlin_local_import_files() {
                     'option_name' => 'epcl_theme',
                 ),
             ),
-			'import_preview_image_url'     => get_template_directory_uri().'/screenshot.jpg',
+			'import_preview_image_url'     => get_template_directory_uri().'/screenshot.webp',
 			'import_notice'                => 'Before install Demo config, it is recommended to install our 2 required plugins (ACF and '.EPCL_THEMENAME.' Functions)',            
 			'preview_url'                  => 'https://themes.estudiopatagon.com/'.EPCL_THEMESLUG,
 		),

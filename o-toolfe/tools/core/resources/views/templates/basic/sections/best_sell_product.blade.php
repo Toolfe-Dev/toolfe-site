@@ -10,7 +10,7 @@
 
 @endphp
 
-<section class="pt-100 pb-100 px-xxl-5 bg_img" style="background-image: url({{ asset($activeTemplateTrue.'/images/bg2.jpg') }});">
+<section class="pt-100 pb-100 px-xxl-5 bg_img" style="background-image: url({{ asset($activeTemplateTrue.'/images/bg2.webp') }});">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s">

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15"><strong>@lang('Recover Account')</strong></h4>
             <form action="{{ route('reviewer.password.reset') }}" method="POST" class="cmn-form mt-30">

@@ -58,8 +58,8 @@ $notifications = get_notification_data($id,$conn);
   <meta name="keywords"
     content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
   <meta name="author" content="pixelstrap">
-  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
   <title>BizGuard </title>
   </title>
   <!-- Google font-->
@@ -132,7 +132,7 @@ $notifications = get_notification_data($id,$conn);
 
         <div class="header-logo-wrapper col-auto p-0">
           <div class="logo-wrapper"><a href="index.php"><img class="img-fluid"
-                src="assets/images/dashboard-5/logo-biz.png" alt=""></a></div>
+                src="assets/images/dashboard-5/logo-biz.webp" alt=""></a></div>
           <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i>
           </div>
         </div>
@@ -267,18 +267,18 @@ $notifications = get_notification_data($id,$conn);
       <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
         <div>
           <div class="logo-wrapper"><a href="index.php"><img class="img-fluid for-light"
-                src="assets/images/dashboard-5/logo-biz.png" alt=""><img class="img-fluid for-dark"
-                src="assets/images/dashboard-5/logo-biz-white.png" alt=""></a>
+                src="assets/images/dashboard-5/logo-biz.webp" alt=""><img class="img-fluid for-dark"
+                src="assets/images/dashboard-5/logo-biz-white.webp" alt=""></a>
             <div class="back-btn"><i class="fa fa-angle-left"></i></div>
             <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
           </div>
           <div class="logo-icon-wrapper"><a href="index.php"><img class="img-fluid"
-                src="assets/images/favicon.png" alt=""></a></div>
+                src="assets/images/favicon.webp" alt=""></a></div>
           <nav class="sidebar-main">
             <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
             <div id="sidebar-menu">
               <ul class="sidebar-links" id="simple-bar">
-                <li class="back-btn"><a href="index.php"><img class="img-fluid" src="assets/images/favicon.png"
+                <li class="back-btn"><a href="index.php"><img class="img-fluid" src="assets/images/favicon.webp"
                       alt=""></a>
                   <div class="mobile-back text-end">
                     <span>Back</span>

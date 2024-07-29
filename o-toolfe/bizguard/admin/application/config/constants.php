@@ -130,7 +130,7 @@ define( 'MAX_EMAIL_RESEND_LIMIT', 3 );
 
 define( 'MODALS_SUPPORTED_PARENT_AREAS', ['admin', 'user'] );
 define( 'NO_PERMISSION_MSG', '403 - You do not have permission of this area.' );
-define( 'DEFAULT_USER_IMG', 'default.png' );
+define( 'DEFAULT_USER_IMG', 'default.webp' );
 
 /**
  * Slugs to handle the parent and child menus of sidebar. Supports only parent and child.

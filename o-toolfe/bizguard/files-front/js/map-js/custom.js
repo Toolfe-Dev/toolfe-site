@@ -3,7 +3,7 @@
   function buildMap(lat, lon) {
     document.getElementById("weathermap").innerHTML =
       "<div id='map' style='width: 100%; height: 100%;'></div>";
-    var osmUrl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    var osmUrl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.webp",
       osmAttribution =
         'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,' +
         ' <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
@@ -27,7 +27,7 @@
 
   var map = L.map("map2").setView([60, 50], 3);
 
-  var osm = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+  var osm = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.webp", {
     maxZoom: 18,
     attribution:
       'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a  href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',

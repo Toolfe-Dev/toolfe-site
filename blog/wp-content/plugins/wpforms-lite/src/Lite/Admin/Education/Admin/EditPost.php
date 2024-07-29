@@ -203,12 +203,12 @@ class EditPost implements EducationInterface {
 
 		$strings['gutenberg_guide'] = [
 			[
-				'image'   => WPFORMS_PLUGIN_URL . '/assets/lite/images/edit-post-education-page-1.png',
+				'image'   => WPFORMS_PLUGIN_URL . '/assets/lite/images/edit-post-education-page-1.webp',
 				'title'   => __( 'Easily add your contact form', 'wpforms-lite' ),
 				'content' => __( 'Oh hey, it looks like you\'re working on a contact page. Don\'t forget to embed your contact form. Click the plus icon above and search for WPForms.', 'wpforms-lite' ),
 			],
 			[
-				'image'   => WPFORMS_PLUGIN_URL . '/assets/lite/images/edit-post-education-page-2.png',
+				'image'   => WPFORMS_PLUGIN_URL . '/assets/lite/images/edit-post-education-page-2.webp',
 				'title'   => __( 'Embed your form', 'wpforms-lite' ),
 				'content' => __( 'Then click on the WPForms block to embed your desired contact form.', 'wpforms-lite' ),
 			],

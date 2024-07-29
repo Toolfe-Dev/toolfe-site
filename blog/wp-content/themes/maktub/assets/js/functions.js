@@ -272,7 +272,7 @@
                     arrowMarkup: '<i class="mfp-arrow mfp-arrow-%dir% fa fa-chevron-%dir%"></i>',
                     tCounter: '%curr% / %total%'
                 },
-                delegate: "a[href*='.jpg'],a[href*='.png'],a[href*='.gif'],a[href*='.jpeg'],a[href*='.webp']",
+                delegate: "a[href*='.webp'],a[href*='.webp'],a[href*='.gif'],a[href*='.webp'],a[href*='.webp']",
                 mainClass: 'my-mfp-zoom-in',
                 removalDelay: 300,
                 closeMarkup: '<span title="%title%" class="mfp-close">&times;</span>',
@@ -292,7 +292,7 @@
                 arrowMarkup: '<i class="mfp-arrow mfp-arrow-%dir% fa fa-chevron-%dir%"></i>',
                 tCounter: '%curr% / %total%'
             },
-            delegate: "a[href*='.jpg'],a[href*='.png'],a[href*='.gif'],a[href*='.jpeg'],a[href*='.webp']",
+            delegate: "a[href*='.webp'],a[href*='.webp'],a[href*='.gif'],a[href*='.webp'],a[href*='.webp']",
             mainClass: 'my-mfp-zoom-in',
             removalDelay: 300,
             closeMarkup: '<span title="%title%" class="mfp-close">&times;</span>',

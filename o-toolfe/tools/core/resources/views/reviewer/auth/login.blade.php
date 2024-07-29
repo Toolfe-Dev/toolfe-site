@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15">@lang('Welcome to') <strong>{{$general->sitename}}</strong></h4>
             <p>{{$page_title}} @lang('to Dashboard')</p>

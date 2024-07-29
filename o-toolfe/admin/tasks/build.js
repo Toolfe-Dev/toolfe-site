@@ -172,10 +172,10 @@ module.exports = (conf, srcGlob) => {
   const buildCopyTask = function () {
     return src(
       srcGlob(
-        '**/*.png',
+        '**/*.webp',
         '**/*.gif',
-        '**/*.jpg',
-        '**/*.jpeg',
+        '**/*.webp',
+        '**/*.webp',
         '**/*.svg',
         '**/*.swf',
         '**/*.eot',

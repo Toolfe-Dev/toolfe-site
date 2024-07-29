@@ -5585,12 +5585,12 @@ EOT;
         // create temp alpha file
         $tempfile_alpha = @tempnam($this->tmp, "cpdf_img_");
         @unlink($tempfile_alpha);
-        $tempfile_alpha = "$tempfile_alpha.png";
+        $tempfile_alpha = "$tempfile_alpha.webp";
 
         // create temp plain file
         $tempfile_plain = @tempnam($this->tmp, "cpdf_img_");
         @unlink($tempfile_plain);
-        $tempfile_plain = "$tempfile_plain.png";
+        $tempfile_plain = "$tempfile_plain.webp";
 
         $imgalpha = imagecreate($wpx, $hpx);
         imagesavealpha($imgalpha, false);

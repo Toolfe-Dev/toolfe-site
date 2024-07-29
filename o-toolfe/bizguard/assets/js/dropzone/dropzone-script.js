@@ -10,7 +10,7 @@
         maxFilesize: 5,
         addRemoveLinks: true,
         accept: function (file, done) {
-          if (file.name == "justinbieber.jpg") {
+          if (file.name == "justinbieber.webp") {
             done("Naha, you don't.");
           } else {
             done();
@@ -23,7 +23,7 @@
         maxFilesize: 10,
         addRemoveLinks: true,
         accept: function (file, done) {
-          if (file.name == "justinbieber.jpg") {
+          if (file.name == "justinbieber.webp") {
             done("Naha, you don't.");
           } else {
             done();
@@ -37,7 +37,7 @@
         addRemoveLinks: true,
         acceptedFiles: "image/*,application/pdf,.psd",
         accept: function (file, done) {
-          if (file.name == "justinbieber.jpg") {
+          if (file.name == "justinbieber.webp") {
             done("Naha, you don't.");
           } else {
             done();

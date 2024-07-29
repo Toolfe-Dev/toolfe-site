@@ -311,7 +311,7 @@ function wp_create_image_subsizes( $file, $attachment_id ) {
 
 			if ( ! is_wp_error( $resized ) ) {
 				/*
-				 * Append "-scaled" to the image file name. It will look like "my_image-scaled.jpg".
+				 * Append "-scaled" to the image file name. It will look like "my_image-scaled.webp".
 				 * This doesn't affect the sub-sizes names as they are generated from the original image (for best quality).
 				 */
 				$saved = $editor->save( $editor->generate_filename( 'scaled' ) );
@@ -538,13 +538,13 @@ function wp_generate_attachment_metadata( $attachment_id, $file ) {
 		if ( ! empty( $exists ) ) {
 			update_post_meta( $attachment_id, '_thumbnail_id', $exists );
 		} else {
-			$ext = '.jpg';
+			$ext = '.webp';
 			switch ( $metadata['image']['mime'] ) {
 				case 'image/gif':
 					$ext = '.gif';
 					break;
 				case 'image/png':
-					$ext = '.png';
+					$ext = '.webp';
 					break;
 				case 'image/webp':
 					$ext = '.webp';
@@ -620,7 +620,7 @@ function wp_generate_attachment_metadata( $attachment_id, $file ) {
 				 */
 				$dirname      = dirname( $file ) . '/';
 				$ext          = '.' . pathinfo( $file, PATHINFO_EXTENSION );
-				$preview_file = $dirname . wp_unique_filename( $dirname, wp_basename( $file, $ext ) . '-pdf.jpg' );
+				$preview_file = $dirname . wp_unique_filename( $dirname, wp_basename( $file, $ext ) . '-pdf.webp' );
 
 				$uploaded = $editor->save( $preview_file, 'image/jpeg' );
 				unset( $editor );

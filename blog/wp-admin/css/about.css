@@ -923,7 +923,7 @@
 /* WordPress Version Badge */
 
 .wp-badge {
-	background: #0073aa url(../images/w-logo-white.png?ver=20160308) no-repeat;
+	background: #0073aa url(../images/w-logo-white.webp?ver=20160308) no-repeat;
 	background-position: center 25px;
 	background-size: 80px 80px;
 	color: #fff;
@@ -1294,7 +1294,7 @@
 }
 
 .freedoms-php .column .freedoms-image {
-	background-image: url('../images/freedoms.png');
+	background-image: url('../images/freedoms.webp');
 	background-size: 100%;
 	padding-top: 100%;
 }

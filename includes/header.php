@@ -16,7 +16,7 @@
     <meta property="og:description" content="Toolfe specializes in process automation and AI solutions, delivering innovative and efficient technology services to enhance your business operations." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.toolfe.com" />
-    <meta property="og:image" content="https://www.toolfe.com/images/og-image.jpg" />
+    <meta property="og:image" content="https://www.toolfe.com/images/og-image.webp" />
     <meta property="og:site_name" content="Toolfe" />
     <meta property="og:locale" content="en_US" />
 

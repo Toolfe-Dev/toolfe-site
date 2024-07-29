@@ -1738,7 +1738,7 @@ function do_favicon() {
 	 */
 	do_action( 'do_faviconico' );
 
-	wp_redirect( get_site_icon_url( 32, includes_url( 'images/w-logo-blue-white-bg.png' ) ) );
+	wp_redirect( get_site_icon_url( 32, includes_url( 'images/w-logo-blue-white-bg.webp' ) ) );
 	exit;
 }
 
@@ -2780,7 +2780,7 @@ function wp_unique_filename( $dir, $filename, $unique_filename_callback = null )
 	 * @since 5.8.1 The `$alt_filenames` and `$number` parameters were added.
 	 *
 	 * @param string        $filename                 Unique file name.
-	 * @param string        $ext                      File extension. Example: ".png".
+	 * @param string        $ext                      File extension. Example: ".webp".
 	 * @param string        $dir                      Directory path.
 	 * @param callable|null $unique_filename_callback Callback function that generates the unique file name.
 	 * @param string[]      $alt_filenames            Array of alternate file names that were checked for collisions.
@@ -4728,7 +4728,7 @@ function smilies_init() {
 
 	if ( ! isset( $wpsmiliestrans ) ) {
 		$wpsmiliestrans = array(
-			':mrgreen:' => 'mrgreen.png',
+			':mrgreen:' => 'mrgreen.webp',
 			':neutral:' => "\xf0\x9f\x98\x90",
 			':twisted:' => "\xf0\x9f\x98\x88",
 			':arrow:'   => "\xe2\x9e\xa1",

@@ -51,7 +51,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="wpforms-challenge-popup-content">
 			<h3>
 				<?php esc_html_e( 'Congrats, You Did It!', 'wpforms-lite' ); ?>
-				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/challenge/party-popper.png' ); ?>" alt="">
+				<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/challenge/party-popper.webp' ); ?>" alt="">
 			</h3>
 			<p>
 				<?php

@@ -22347,7 +22347,7 @@ const getDefaultTransition = (valueKey, { keyframes }) => {
  * Check if a value is animatable. Examples:
  *
  * ✅: 100, "100px", "#fff"
- * ❌: "block", "url(2.jpg)"
+ * ❌: "block", "url(2.webp)"
  * @param value
  *
  * @internal
@@ -66271,7 +66271,7 @@ function PageControl({
  * 					content: <p>Welcome to the ACME Store!</p>,
  * 				},
  * 				{
- * 					image: <img src="https://acmestore.com/add-to-cart.png" />,
+ * 					image: <img src="https://acmestore.com/add-to-cart.webp" />,
  * 					content: (
  * 						<p>
  * 							Click <i>Add to Cart</i> to buy a product.
@@ -71949,7 +71949,7 @@ const ResizableBox = (0,external_wp_element_namespaceObject.forwardRef)(Unforwar
  * const MyResponsiveWrapper = () => (
  * 	<ResponsiveWrapper naturalWidth={ 2000 } naturalHeight={ 680 }>
  * 		<img
- * 			src="https://s.w.org/style/images/about/WordPress-logotype-standard.png"
+ * 			src="https://s.w.org/style/images/about/WordPress-logotype-standard.webp"
  * 			alt="WordPress"
  * 		/>
  * 	</ResponsiveWrapper>

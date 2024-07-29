@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="page-wrapper default-version">
-    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.jpg')}}">
+    <div class="form-area bg_img" data-background="{{asset('assets/reviewer/images/1.webp')}}">
         <div class="form-wrapper">
             <h4 class="logo-text mb-15"><strong>@lang('Please Verify Your Email to Get Access')</strong></h4>
             <form action="{{route('reviewer.verify_email')}}" method="POST" class="cmn-form mt-30">

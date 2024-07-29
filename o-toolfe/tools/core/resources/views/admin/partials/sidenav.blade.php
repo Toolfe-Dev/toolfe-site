@@ -1,12 +1,12 @@
 <div class="sidebar {{ sidebarVariation()['selector'] }} {{ sidebarVariation()['sidebar'] }} {{ @sidebarVariation()['overlay'] }} {{ @sidebarVariation()['opacity'] }}"
-     data-background="{{getImage('assets/admin/images/sidebar/2.jpg','400x800')}}">
+     data-background="{{getImage('assets/admin/images/sidebar/2.webp','400x800')}}">
     <button class="res-sidebar-close-btn"><i class="las la-times"></i></button>
     <div class="sidebar__inner">
         <div class="sidebar__logo">
             <a href="{{route('admin.dashboard')}}" class="sidebar__main-logo"><img
-                    src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.png')}}" alt="@lang('image')"></a>
+                    src="{{getImage(imagePath()['logoIcon']['path'] .'/logo.webp')}}" alt="@lang('image')"></a>
             <a href="{{route('admin.dashboard')}}" class="sidebar__logo-shape"><img
-                    src="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.png')}}" alt="@lang('image')"></a>
+                    src="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.webp')}}" alt="@lang('image')"></a>
             <button type="button" class="navbar__expand"></button>
         </div>
 

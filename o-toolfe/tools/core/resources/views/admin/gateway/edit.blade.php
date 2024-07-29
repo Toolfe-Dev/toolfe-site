@@ -20,7 +20,7 @@
                                         <div class="profilePicPreview" style="background-image: url('{{ getImage(imagePath()['gateway']['path'].'/'. $gateway->image,imagePath()['gateway']['size']) }}')"></div>
                                     </div>
                                     <div class="avatar-edit">
-                                        <input type="file" name="image" class="profilePicUpload" id="image" accept=".png, .jpg, .jpeg"/>
+                                        <input type="file" name="image" class="profilePicUpload" id="image" accept=".webp, .webp, .webp"/>
                                         <label for="image" class="bg--primary"><i class="la la-pencil"></i></label>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                                 <div class="profilePicPreview" style="background-image: url('{{getImage(imagePath()['gateway']['path'].'/'.$gateway_currency->image,imagePath()['gateway']['size'])}}')"></div>
                                             </div>
                                             <div class="avatar-edit">
-                                                <input type="file" name="currency[{{ $currency_idx }}][image]" id="image{{ $currency_idx }}" class="profilePicUpload" accept=".png, .jpg, .jpeg"/>
+                                                <input type="file" name="currency[{{ $currency_idx }}][image]" id="image{{ $currency_idx }}" class="profilePicUpload" accept=".webp, .webp, .webp"/>
                                                 <label for="image{{ $currency_idx }}" class="bg-primary"><i class="la la-pencil"></i
                                                     ></label>
                                             </div>
@@ -247,7 +247,7 @@
                                         </div>
                                     </div>
                                     <div class="avatar-edit">
-                                        <input disabled type="file" accept=".png, .jpg, .jpeg" class="profilePicUpload" id="image{{ $currency_idx }}" name="currency[{{ $currency_idx }}][image]"/>
+                                        <input disabled type="file" accept=".webp, .webp, .webp" class="profilePicUpload" id="image{{ $currency_idx }}" name="currency[{{ $currency_idx }}][image]"/>
                                         <label for="image{{ $currency_idx }}" class="bg-primary"><i class="la la-pencil"></i></label>
                                     </div>
                                 </div>

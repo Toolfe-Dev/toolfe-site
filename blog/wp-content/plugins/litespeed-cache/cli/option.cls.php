@@ -58,7 +58,7 @@ class Option extends Base {
 		 * 		`set 'crawler-cookies[vals][0]' "USD\nTWD"`
 		 *
 		 * For multi lines setting:
-		 * 		`set media-lqip_exc $'img1.jpg\nimg2.jpg'`
+		 * 		`set media-lqip_exc $'img1.webp\nimg2.webp'`
 		 */
 
 		// Build raw data

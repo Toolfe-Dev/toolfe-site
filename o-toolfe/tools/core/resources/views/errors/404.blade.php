@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ $general->sitename($page_title ?? '404 | page not found') }}</title>
-  <link rel="shortcut icon" type="image/png" href="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.png')}}">
+  <link rel="shortcut icon" type="image/png" href="{{getImage(imagePath()['logoIcon']['path'] .'/favicon.webp')}}">
   <!-- bootstrap 4  -->
   <link rel="stylesheet" href="{{ asset('assets/errors/css/bootstrap.min.css') }}">
   <!-- dashdoard main css -->
@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-center">
-          <img src="{{ asset('assets/errors/images/error-404.png') }}" alt="@lang('image')">
+          <img src="{{ asset('assets/errors/images/error-404.webp') }}" alt="@lang('image')">
           <h2 class="title"><b>@lang('404')</b> @lang('Page not found')</h2>
           <p>@lang("page you are looking for doesn't exit or an other error occured") <br> @lang('or temporarily unavailable.')</p>
           <a href="javascript:window.history.back();" class="cmn-btn mt-4">@lang('Go Back')</a>

@@ -4,7 +4,7 @@
 @endphp
 
 
-<section class="pt-100 pb-100 bg_img" style="background-image: url({{ asset($activeTemplateTrue.'/images/bg2.jpg') }});">
+<section class="pt-100 pb-100 bg_img" style="background-image: url({{ asset($activeTemplateTrue.'/images/bg2.webp') }});">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">

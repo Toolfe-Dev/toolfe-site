@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <script type="text/html" id="tmpl-wpforms-settings-lite-connect-modal-content">
 	<div class="wpforms-settings-lite-connect-modal-content">
-		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.png' ); ?>" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>" class="wpforms-mascot">
+		<img src="<?php echo esc_url( WPFORMS_PLUGIN_URL . 'assets/images/sullie-alt.webp' ); ?>" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>" class="wpforms-mascot">
 
 		<h2><?php esc_html_e( 'Form Entry Backups', 'wpforms-lite' ); ?></h2>
 		<p>
