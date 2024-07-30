@@ -1137,7 +1137,7 @@
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog1.webp" alt="Blog" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
@@ -1155,7 +1155,7 @@
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog2.webp" alt="Blog" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
@@ -1172,7 +1172,7 @@
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog3.webp" alt="Blog" />
 
                     <div class="news2-card-body">
                         <div class="meta">
@@ -1282,10 +1282,6 @@
           </div>
           <div class="contact-experience">
             <ul>
-              <li>
-                <h1>Client <span>Portal</span></h1>
-                <p class="contact-text"><a href="mailto:support@toolfe.com">support@toolfe.com</a></p>
-              </li>
               <li>
                 <h1>15 <span>Mins</span></h1>
                 <p class="contact-text">Response Time</p>

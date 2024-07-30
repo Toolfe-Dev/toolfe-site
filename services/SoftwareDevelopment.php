@@ -102,17 +102,17 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/software devbento/1.webp" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">Agile <br>
-                                    Methods</a></h2>
+                            <h2><div>Agile <br>
+                                    Methods</div></h2>
                             <p>We have an expert team for iterative software delivery.</p>
 
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Custom<br>
+                            <h2><div>Custom<br>
                                     Solutions <br>
-                                </a></h2>
+                                </div></h2>
                             <p>Delivering custom-built software solutions that align with your goals.</p>
 
                         </div>
@@ -126,8 +126,8 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Feasibility and<br>
-                                    Prototyping <br></a></h2>
+                            <h2><div>Feasibility and<br>
+                                    Prototyping <br></div></h2>
                             <p>We assess project viability through feasibility studies, identifying risks and ensuring informed decisions for successful outcomes.</p>
 
                         </div>
@@ -136,17 +136,12 @@ include '../includes/header.php'
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-<<<<<<< Updated upstream
-                        <div class="portfolio-img">
-                            <img src="../assets/imgs/services/software devbento/4.png" alt="Portfolio" />
-=======
                         <div class="portfolio-img" style="height: 260px" ;>
                             <img src="../assets/imgs/services/software devbento/4.webp" alt="Portfolio" />
->>>>>>> Stashed changes
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">API <br>
-                                    Integration</a></h2>
+                            <h2><div>API <br>
+                                    Integration</div></h2>
                             <p>Tailored API integrations to meet your specific software needs.</p>
 
                         </div>
@@ -160,27 +155,22 @@ include '../includes/header.php'
                             <img src="../assets/imgs/services/software devbento/5.webp" alt="Portfolio" />
                         </div>
                         <div class="portfolio-body">
-                            <h2><a href="#">Post Launch <br>
-                                    Support</a></h2>
+                            <h2><div>Post Launch <br>
+                                    Support</div></h2>
                             <p>We're here to assist beyond the initial launch phase.</p>
 
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-2 card-h">
                         <div class="portfolio-body">
-                            <h2><a href="#">Data
+                            <h2><div>Data
                                     Security <br>
-                                </a></h2>
+                                </div></h2>
                             <p>Our methods ensure safe and efficient data management.</p>
 
                         </div>
-<<<<<<< Updated upstream
-                        <div class="portfolio-img">
-                            <img src="../assets/imgs/services/software devbento/6.png" alt="Portfolio" />
-=======
                         <div class="portfolio-img" style="height: 292px;">
                             <img src="../assets/imgs/services/software devbento/6.webp" alt="Portfolio" />
->>>>>>> Stashed changes
                         </div>
                     </div>
 
@@ -213,7 +203,7 @@ include '../includes/header.php'
     <section class="how-we-do-area">
         <div class="custom-container" style="margin-top: 100px;">
             <div class="custom-row">
-                <img src="../assets//imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+                <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
                 <div class="how-we-do-left-content">
                     <div class="top">
                         <h5 class="section-subtitle">Our Workflow</h5>

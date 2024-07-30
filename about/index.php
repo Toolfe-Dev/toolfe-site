@@ -74,7 +74,7 @@ include '../includes/header.php'
   </section>
 
   <!-- About Section -->
-  <section class="about-area">
+  <section class="about-area py-5">
     <div class="custom-container">
       <div class="custom-row justify-content-between align-items-center">
         <div class="left-content">
@@ -482,11 +482,6 @@ include '../includes/header.php'
 
         <div class="contact-experience">
           <ul>
-
-            <li>
-              <h1 >Client <span>Portal</span></h1>
-              <p class="contact-text" ><a href="mailto:support@toolfe.com">support@toolfe.com</a></p>
-            </li>
             <li>
               <h1>15 <span>Mins</span></h1>
               <p class="contact-text" >Response Time</p>
@@ -521,8 +516,9 @@ include '../includes/header.php'
               <p>
                 12, HP Complex , Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
               <h5 class="contact-text text-uppercase">United States</h5>
-              <p>270 E 1st Ave, Vancouver, BC V5T 1A6, Canada, USA. <br>
-                +1 232 212 233</p>
+              <p>5665 W. Wilshire Blvd
+Los Angeles, CA 90036
+(213) 340 1515</p>
             </div>
 
             <ul class="contact-social-links">

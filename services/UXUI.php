@@ -533,7 +533,7 @@ include '../includes/header.php'
                                             <?xml version="1.0" encoding="UTF-8"?><i
                                                 class="iconoir-chat-bubble-check"></i>
 
-                                        </div> How do you track UI/UX trends?
+                                        </div> How do you track UX/UI trends?
 
                                     </button>
                                 </h5>
