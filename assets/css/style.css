@@ -3118,7 +3118,7 @@ img {
   pointer-events: none;
 }
 .about-timeline .about-timeline-item + .about-timeline-item {
-  margin-top: 68px;
+  margin-bottom: 68px;
 }
 .about-timeline .about-timeline-item:nth-child(odd) {
   margin-left: auto;
