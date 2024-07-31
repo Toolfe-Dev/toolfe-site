@@ -17,7 +17,7 @@ include '../includes/header.php'
           <div class="hero-section-content text-center" style="margin-top:100px">
             <h5 class="section-subtitle">Media and Entertainment</h5>
             <h1 class="section-title fade-in">
-              Elevating Entertainment: Innovations in Media Technology
+              Elevating Entertainment Innovations in Media Technology
             </h1>
             <p>Enriching User Experiences and Content Delivery</p>
             <a href="../contact/index.php" class="theme-simple-btn">
