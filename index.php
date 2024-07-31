@@ -438,7 +438,7 @@
                 <div class="about-timeline-item-inner">
                   <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
                   <span class="number">03</span>
-                  <h3>Our Continuous acheivement</h3>
+                  <h3>Our Continuous Acheivement</h3>
                   <p>
                     We understand your challenges and build lasting partnerships by prioritizing your success.
                   </p>

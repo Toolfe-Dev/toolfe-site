@@ -31,7 +31,10 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="d-flex justify-content-between align-items-center mb-5">
         <h1 class="section-title">RPA Developer</h1>
+        <a href="#career-form" class="">
         <button id="#" class="theme-btn" style="background-color:#fff; color: #000;">Apply Now</button>
+        </a>
+        
       </div>
       <div class="career-body d-flex g-2 p-0" style="background-color: #fff;">
         <div class="career-lists ps-3 pe-5">
@@ -173,7 +176,7 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
-  <section class="contact-area" >
+  <section class="contact-area" id="career-form" >
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">

@@ -3002,7 +3002,7 @@ img {
   width: 100%;
 }
 .about-area .left-content {
-  max-width: 450px;
+  max-width: 385px;
   padding-right: 30px;
   width: 100%;
   flex: none;
@@ -3048,6 +3048,7 @@ img {
   font-size: 14px;
 }
 .about-area .right-content {
+  margin-left: auto;
   max-width: 897px;
   width: 100%;
 }
@@ -3099,7 +3100,7 @@ img {
   content: "";
   height: calc(100% + 68px);
   /* border-left: 1px dashed var(--primary_color); */
-  background: url(../imgs/linet.svg) no-repeat;
+  background: url(../imgs/line-shape-4.svg) no-repeat;
   background-size: cover;
   width: 1px;
   position: absolute;
@@ -4239,7 +4240,6 @@ img {
   position: absolute;
   width: 1500px;
   z-index: -1;
-  background: #ffffff;
   right: 56%;
 }
 .project-area .project-left-details .section-subtitle {
