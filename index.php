@@ -118,7 +118,7 @@
                       <div class="custom-container d-flex">
                         <div class="left">
                           <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
-                            <h5 class="mb-3">Services</h3>
+                         
                               <div class="mega-menu-links d-flex">
                                 <div class="mega-menu-link">
 
@@ -307,7 +307,7 @@
                                 <img src="assets/imgs/case3.webp" alt="Portfolio">
                               </div>
                               <div class="content-box">
-                                <h3><a href="case-study/intelligent_document_processing.php"> Digital <br> Transformation Initiative for an constructionCompany</a></h3>
+                                <h3><a href="case-study/digital_transformation_initiative.php"> Digital <br> Transformation Initiative for an constructionCompany</a></h3>
 
                               </div>
                             </div>
@@ -1307,12 +1307,12 @@
               </div>
               <div class="contact-office-info contact-info mb-0 border-0">
                 <h5 class="contact-text text-uppercase">INDIA</h5>
-                <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+                <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br><a href="tel:+91 8217 460 923">+91 8217 460 923 </a></p><br>
                 <h5 class="contact-text text-uppercase">United States</h5>
                 <p>5665 W. Wilshire Blvd
 
                   <br> Los Angeles, CA 90036
-                  <br>(213) 340 1515
+                  <br><a href="tel:(213) 340 1515">+1 (213) 340 1515</a>
                 </p>
                 </p>
               </div>

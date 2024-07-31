@@ -235,7 +235,7 @@
                                                                 <img src="../assets/imgs/case3.webp" alt="Portfolio">
                                                             </div>
                                                             <div class="content-box">
-                                                                <h3><a href="../case-study/intelligent_document_processing.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
+                                                                <h3><a href="../case-study/digital_transformation_initiative.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
                                                                 
                                                             </div>
                                                         </div>

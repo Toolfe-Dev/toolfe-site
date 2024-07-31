@@ -493,9 +493,9 @@ include '../includes/header.php'
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">
               <h5 class="contact-text text-uppercase">INDIA</h5>
-              <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India.<br>+91 8217 460 923</p><br>
+              <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India.<br><a href="tel:+91 8217 460 923">+91 8217 460 923 </a></p><br>
               <h5 class="contact-text text-uppercase">United States</h5>
-              <p>5665 W. Wilshire Blvd, Los Angeles, CA 90036<br>(213) 340 1515</p>
+              <p>5665 W. Wilshire Blvd, Los Angeles, CA 90036<br><a href="tel:(213) 340 1515">+1 (213) 340 1515</a></p>
             </div>
 
             <ul class="contact-social-links">

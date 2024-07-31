@@ -267,7 +267,7 @@ include '../includes/header.php'
                 <div class="author-box d-flex align-items-center">
                   <div class="author-box-content">
                     <h4>Anisha MS</h4>
-                    <p>UI/UX Designers</p>
+                    <p>UX/UI Designers</p>
                   </div>
                 </div>
               </div>

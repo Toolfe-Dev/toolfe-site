@@ -3,7 +3,7 @@ require './db/connection.php';
 include ('./includes/header.php');
 
 $services = [
-    "UI/UX Design" => [
+    "UX/UI Design" => [
         "Crafting intuitive and engaging interfaces",
         "User research and persona development",
         "Wireframing and prototyping",

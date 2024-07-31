@@ -301,7 +301,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/ecom8.webp" alt="Service" />
+          <img src="../assets/imgs/industry/ecom8.svg" alt="Service" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Personalized Recommendations</h3>
@@ -356,8 +356,8 @@ include '../includes/header.php'
             </div>
             <div class="feature-box">
               <i class="icon-box las la-check"></i>
-              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UI/UX</a></h3>
-              <p>Develop and Enhance user interaction with our UI/UX designs.
+              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UX/UI</a></h3>
+              <p>Develop and Enhance user interaction with our UX/UI designs.
               </p>
             </div>
             <div class="feature-box">

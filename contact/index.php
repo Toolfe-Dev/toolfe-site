@@ -183,7 +183,7 @@ include '../includes/header.php'
               <i class="las la-check"></i> Automation
             </li>
             <li>
-              <i class="las la-check"></i> innovation
+              <i class="las la-check"></i> Innovation
             </li>
             <li>
               <i class="las la-check"></i> Optimization

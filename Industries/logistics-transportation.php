@@ -570,7 +570,7 @@ include '../includes/header.php'
               <i class="icon-box las la-check"></i>
               <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UX/UI
                 </a></h3>
-              <p> Improve user satisfaction with our expert UI/UX design services.
+              <p> Improve user satisfaction with our expert UX/UI design services.
               </p>
             </div>
 

@@ -561,7 +561,7 @@ include '../includes/header.php'
             </div>
             <div class="feature-box">
               <i class="icon-box las la-check"></i>
-              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UI/UX</a></h3>
+              <h3 class="contact-text"><a href="../services/UXUI.php">User Experience Design UX/UI</a></h3>
               <p>Design intuitive and user-friendly interfaces to enhance the user experience.</p>
             </div>
             <div class="feature-box">

@@ -105,7 +105,7 @@
                         <p>5665 W. Wilshire Blvd
 
                             <br> Los Angeles, CA 90036
-                            <br><a href="tel:(213) 340 1515">(213) 340 1515</a>
+                            <br><a href="tel:(213) 340 1515">+1 (213) 340 1515</a>
                         </p>
                     </div>
                     <ul class="contact-social-links mb-5">
