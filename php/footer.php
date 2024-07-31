@@ -93,7 +93,7 @@
 
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="case-studie.php">About us</a></li>
+                            <li><a href="case-studie.php">About Us</a></li>
                             <li><a href="feature.php">Blogs</a></li>
                             <li><a href="our-field-details.php">Career</a></li>
                             <li><a href="our-field-details.php">Case Study</a></li>
@@ -152,7 +152,7 @@
                         </a></li>
                 </ul>
 
-                <p>&copy; 2024 Toolfe All rights reserved by <a href="#">Zotork Private Limited</a></p>
+                <p>&copy; 2024 Toolfe All rights reserved by Zotork Private Limited</p>
             </div>
         </div>
     </div>

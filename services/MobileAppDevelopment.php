@@ -139,13 +139,8 @@ include '../includes/header.php'
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-<<<<<<< Updated upstream
-                        <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/4.png" alt="Portfolio" />
-=======
                         <div class="portfolio-img" style="height:232px;">
                             <img src="../assets/imgs/services/Mobileappbento/4.webp" alt="Portfolio" />
->>>>>>> Stashed changes
                         </div>
                         <div class="portfolio-body">
                             <h2>Multi-platform <br>
@@ -175,13 +170,8 @@ include '../includes/header.php'
                             <p>We offer advanced security solutions for secure app development.</p>
 
                         </div>
-<<<<<<< Updated upstream
-                        <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/6.png" alt="Portfolio" />
-=======
                         <div class="portfolio-img" style="height: 244px;">
                             <img src="../assets/imgs/services/Mobileappbento/6.webp" alt="Portfolio" />
->>>>>>> Stashed changes
                         </div>
                     </div>
 
@@ -457,7 +447,7 @@ include '../includes/header.php'
             <div class="faq-inner">
 
                 <h5 class="section-subtitle">FAQ SECTION</h5>
-                <h1 class="section-title">Frequently asked questions</h1>
+                <h1 class="section-title">Frequently Asked Questions</h1>
 
                 <div class="faq-items-box">
                     <div class="faq-col">
@@ -613,7 +603,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <h5 class="section-subtitle text-center">Contact us</h5><br>
+                    <center><h5 class="section-subtitle text-center">Contact us</h5></center><br>
                     <h1 class="section-title text-center">Let's make AI work for you!</h1> <br><br>
 
                     <div class="hero-contact-form-header d-flex align-items-center justify-content-between">

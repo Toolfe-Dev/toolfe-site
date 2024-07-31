@@ -202,7 +202,7 @@ if(isset($_POST['captcha-response']) && !empty($_POST['captcha-response'])){
               <div class="col-xxl-8 col-xl-8 col-lg-8">
                 <div class="footer__nav-2">
                   <ul class="footer-menu-2 menu-anim">
-                    <li><a href=https://toolfe.com>home </a> </li> <li><a href="about/">About us</a></li>
+                    <li><a href=https://toolfe.com>home </a> </li> <li><a href="about/">About Us</a></li>
                     <li><a href="https://blog.toolfe.com">Blog</a></li>
                     <li><a href="contact">Contact us</a></li>
                   </ul>

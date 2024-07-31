@@ -14,7 +14,7 @@ include '../includes/header.php'
       <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
       <div class="custom-container">
         <div class="hero-section-content text-center">
-          <h5 class="section-subtitle">About us</h5>
+          <h5 class="section-subtitle">About Us</h5>
           <h1 class="section-title fade-in">
             Transforming Businesses with Next-Generation<br />
             IT Solutions

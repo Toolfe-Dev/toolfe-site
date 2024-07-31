@@ -26,7 +26,7 @@
                             </span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="../about/index.php">About us</a>
+                                    <a href="../about/index.php">About Us</a>
                                 </li>
                                 <li>
                                     <a href="https://blog.toolfe.com/">Blog</a>
@@ -72,7 +72,7 @@
                                                         
                                                         <ul>
                                                             <li>
-                                                                <a href="../services/WebDevelopment.php">Website Development</a>
+                                                                <a href="../services/web-development.php">Website Development</a>
                                                             </li>
                                                             <li>
                                                                 <a href="../services/UXUI.php">User Experience and User Interface Design </a>

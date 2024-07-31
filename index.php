@@ -98,7 +98,7 @@
                   </span>
                   <ul class="dropdown-menu">
                     <li>
-                      <a href="about">About us</a>
+                      <a href="about">About Us</a>
                     </li>
                     <li>
                       <a href="https://blog.toolfe.com/">Blog</a>
@@ -144,7 +144,7 @@
 
                                   <ul>
                                     <li>
-                                      <a href="services/WebDevelopment.php">Website Development</a>
+                                      <a href="services/web-development.php">Website Development</a>
                                     </li>
                                     <li>
                                       <a href="services/UXUI.php">User Experience and User Interface Design </a>
@@ -529,7 +529,7 @@
           </div>
           <div class="service-card simple-shadow">
             <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="Service Icon" class="service-icon" />
-            <h3><a href="services/WebDevelopment.php"> Website <br>Development </a></h3>
+            <h3><a href="services/web-development.php"> Website <br>Development </a></h3>
             <p>
               Develop stunning, high-performance websites that captivate your
               audience and drive engagement.
@@ -752,7 +752,7 @@
           <ul class="nav nav-pills case-studio-tabs" id="myTab" role="tablist">
             <li class="nav-item">
               <button class="nav-link active" id="development-tab" data-bs-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="true">
-                Process automation
+                Process Automation
               </button>
             </li>
             <li class="nav-item">
@@ -896,7 +896,7 @@
                 <div class="right">
                   <div class="case-studio-contents service-card card-h">
                     <!-- <img src="assets/imgs/service-icon-1.svg" alt="ICON" /> -->
-                    <a href="./services/Webdevelopment.php" class="theme-btn">
+                    <a href="./services/web-development.php" class="theme-btn">
                       <i class="iconoir-arrow-up-right"></i>
                     </a>
                     <h3>Benefits</h3>
@@ -1424,7 +1424,7 @@
                   <li><a href="Industries/education.php">Education</a></li>
                   <li><a href="Industries/realestate.php">Real Estate</a></li>
                   <li><a href="Industries/Manufacturing.php">Manufacturing</a></li>
-                  <li><a href="Industries/media&entertinment.php">Media and Entertinment</a></li>
+                  <li><a href="Industries/media&entertinment.php">Media and Entertainment</a></li>
                   <li><a href="Industries/logistics-transportation.php">Logistics</a></li>
                   <li><a href="Industries/telecommunication.php">Telecommunications</a></li>
                   <li><a href="Industries/energy&utilities.php">Energy and Utilities</a></li>
@@ -1439,7 +1439,7 @@
                   <li><a href="services/MarketResearch.php">Market Research</a></li>
                   <li><a href="services/Cloud.php">Cloud Solutions</a></li>
                   <li><a href="services/SoftwareDevelopment.php">Web Application Development</a></li>
-                  <li><a href="services/WebDevelopment.php">Website Development</a></li>
+                  <li><a href="services/web-development.php">Website Development</a></li>
                   <li><a href="services/UXUI.php">User Experience Design UX/UI</a></li>
                   <li><a href="https://hourspark.com/">15 Hour Spark Tasks<span class="new">Hot</span></a></li>
                 </ul>
@@ -1449,7 +1449,7 @@
 
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="about/index.php">About us</a></li>
+                  <li><a href="about/index.php">About Us</a></li>
                   <li><a href="https://blog.toolfe.com/">Blogs</a></li>
                   <li><a href="career/index.php">Career</a></li>
                   <li><a href="case-study/index.php">Case Study</a></li>
@@ -1498,7 +1498,7 @@
                   <i class="iconoir-linkedin"></i>
                 </a></li>
             </ul>
-            <p>&copy; 2024 Toolfe, All rights reserved by <a href=""><b>Zotork Private Limited</b></a></p>
+            <p>&copy; 2024 Toolfe, All rights reserved by <b>Zotork Private Limited</b></p>
           </div>
         </div>
       </div>

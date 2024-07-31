@@ -565,7 +565,7 @@ include '../includes/header.php'
             </div>
             <div class="feature-box">
               <i class="icon-box las la-check"></i>
-              <h3 class="contact-text"><a href="../services/WebDevelopment.php">Web Development
+              <h3 class="contact-text"><a href="../services/web-development.php">Web Development
                 </a></h3>
               <p> Create stunning and functional websites that engage your audience and drive conversions.
               </p>

@@ -111,7 +111,7 @@
                     <div class="mainnav d-none d-lg-block">
                         <ul class="main_menu">
                             <li class="menu-item active"><a href="index.html">Home</a></li>
-                            <li class="menu-item"><a href="#">About us</a></li>
+                            <li class="menu-item"><a href="#">About Us</a></li>
                             <li class="menu-item"><a href="#">Services</a></li>
                             <li class="menu-item"><a href="#">Contact us</a></li>
                         </ul>
@@ -331,7 +331,7 @@
                         <div class="col-lg-6 col-md-7">
                             <div class="about_text_inner">
                                 <div class="about_text">
-                                    <h2 class="text-white">About us</h2>
+                                    <h2 class="text-white">About Us</h2>
                                     <p>We make your dream home a reflection of your personality and desires. As a top interior design firm in Bangalore, we offer innovative plans and advanced technology. Our team delivers high-quality, personalized designs that guarantee your satisfaction.</p>
                                 </div>
 

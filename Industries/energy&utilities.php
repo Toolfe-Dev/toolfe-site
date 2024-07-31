@@ -260,7 +260,7 @@ include '../includes/header.php'
   <!-- case studies -->
 
   <section class="service2-area">
-    <img class="bg-shape" src="../../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">

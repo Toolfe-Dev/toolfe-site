@@ -84,7 +84,7 @@
                               <li><a href="../Industries/education.php">Education</a></li>
                               <li><a href="../Industries/realestate.php">Real Estate</a></li>
                               <li><a href="../Industries/Manufacturing.php">Manufacturing</a></li>
-                              <li><a href="../Industries/media&entertinment.php">Media and Entertinment</a></li>
+                              <li><a href="../Industries/media&entertinment.php">Media and Entertainment</a></li>
                               <li><a href="../Industries/logistics-transportation.php">Logistics</a></li>
                               <li><a href="../Industries/telecommunication.php">Telecommunications</a></li>
                               <li><a href="../Industries/energy&utilities.php">Energy and Utilities</a></li>
@@ -99,7 +99,7 @@
                               <li><a href="../services/MarketResearch.php">Market Research</a></li>
                               <li><a href="../services/Cloud.php">Cloud Solutions</a></li>
                               <li><a href="../services/SoftwareDevelopment.php">Web Application Development</a></li>
-                              <li><a href="../services/WebDevelopment.php">Website Development</a></li>
+                              <li><a href="../services/web-development.php">Website Development</a></li>
                               <li><a href="../services/UXUI.php">User Experience Design UX/UI</a></li>
                               <li><a href="https://hourspark.com/">15 Hour Spark Tasks<span class="new">Hot</span></a></li>
                           </ul>
@@ -109,7 +109,7 @@
 
                           <h3>Quick Links</h3>
                           <ul>
-                              <li><a href="../about/index.php">About us</a></li>
+                              <li><a href="../about/index.php">About Us</a></li>
                               <li><a href="https://blog.toolfe.com/">Blogs</a></li>
                               <li><a href="../career/index.php">Career</a></li>
                               <li><a href="../case-study/index.php">Case Study</a></li>
@@ -159,7 +159,7 @@
                               <i class="iconoir-linkedin"></i>
                           </a></li>
                   </ul>
-                  <p>&copy; 2024 Toolfe, All rights reserved by <a href=""><b>Zotork Private Limited</b></a></p>
+                  <p>&copy; 2024 Toolfe, All rights reserved by <b>Zotork Private Limited</b></p>
               </div>
           </div>
       </div>

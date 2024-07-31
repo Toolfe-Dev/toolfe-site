@@ -454,7 +454,7 @@ include '../includes/header.php'
             <div class="faq-inner">
 
                 <h5 class="section-subtitle">FAQ SECTION</h5>
-                <h1 class="section-title">Frequently asked questions</h1>
+                <h1 class="section-title">Frequently Asked Questions</h1>
 
                 <div class="faq-items-box">
                     <div class="faq-col">
@@ -584,7 +584,7 @@ language processing tasks?
 
                     </div>
 
-                    <h5 class="section-subtitle text-center">Contact us</h5><br>
+                    <center><h5 class="section-subtitle text-center">Contact us</h5></center><br>
                     <h1 class="section-title text-center">Let's make AI work for you!</h1> <br><br>
 
                     <div class="hero-contact-form-header d-flex align-items-center justify-content-between">

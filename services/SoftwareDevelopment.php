@@ -11,8 +11,8 @@ include '../includes/header.php'
     <!-- Hero -->
     <section class="hero-section-wrap hero-home2">
         <div class="hero-section-content-wrap">
-            <img class="bg-shape slide-left" src="../../assets//imgs/bg-shape-6.svg" alt="Shape" />
-            <img class="bg-shape2 slide-right" src="../../assets//imgs/bg-shape-5.svg" alt="Shape" />
+            <img class="bg-shape slide-left" src="../assets//imgs/bg-shape-6.svg" alt="Shape" />
+            <img class="bg-shape2 slide-right" src="../assets//imgs/bg-shape-5.svg" alt="Shape" />
             <div class="custom-container">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Application Strategy, Design Mastery, Development Success</h5>
@@ -82,7 +82,7 @@ include '../includes/header.php'
 
     <!-- Portfolio -->
     <section class="portoflio-area">
-        <img src="../../assets//imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
+        <img src="../assets//imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
         <div class="custom-container">
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
@@ -444,7 +444,7 @@ include '../includes/header.php'
             <div class="faq-inner">
 
                 <h5 class="section-subtitle">FAQ SECTION</h5>
-                <h1 class="section-title">Frequently asked questions</h1>
+                <h1 class="section-title">Frequently Asked Questions</h1>
 
                 <div class="faq-items-box">
                     <div class="faq-col">
@@ -589,7 +589,7 @@ include '../includes/header.php'
 
                     </div>
 
-                    <h5 class="section-subtitle text-center">Contact us</h5><br>
+                    <center><h5 class="section-subtitle text-center">Contact us</h5></center><br>
                     <h1 class="section-title text-center">Let's make AI work for you!</h1> <br><br>
 
                     <div class="hero-contact-form-header d-flex align-items-center justify-content-between">

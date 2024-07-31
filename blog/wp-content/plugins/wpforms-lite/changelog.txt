@@ -596,7 +596,7 @@
 - Fixed: Giving access to WPForms for Editors (and other roles) should give access to dashboard widget as well.
 - Fixed: Add 'attr' property to 'input_container' for radio/checkbox-based fields.
 - Fixed: Various typos.
-- Fixed: WP Mail SMTP plugin description on About us page.
+- Fixed: WP Mail SMTP plugin description on About Us page.
 
 = 1.5.4.2 =
 - Changed: Renamed certain actions with typos in their names, backwards-compatible. Added a deprecation text using `do_action_deprecated()`.

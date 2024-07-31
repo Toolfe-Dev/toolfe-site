@@ -281,7 +281,7 @@ include '../includes/header.php'
             <div class="feature-box">
               <i class="icon-box las la-check"></i>
               <h3 class="contact-text">
-                <a href="../services/WebDevelopment.php">Web Development </a>
+                <a href="../services/web-development.php">Web Development </a>
               </h3>
               <p>
                 Create stunning and functional websites that engage your
@@ -364,7 +364,7 @@ include '../includes/header.php'
 
           </div>
 
-          <h5 class="section-subtitle text-center">Contact us</h5><br>
+          <center><h5 class="section-subtitle text-center">Contact us</h5></center><br>
           <h1 class="section-title text-center">Let's make AI work for you!</h1> <br><br>
 
           <div class="hero-contact-form-header d-flex align-items-center justify-content-between">
