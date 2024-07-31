@@ -37,8 +37,8 @@
                             <div class="tab-pane fade show active" id="development" role="tabpanel" aria-labelledby="development-tab">
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
-                                        <div class="img-box">
-                                            <img src="../assets/imgs/casestudy/section/email_thumbnail_section.webp" alt="About" />
+                                        <div class="img-box w-100">
+                                            <img src="../assets/imgs/casestudy/section/email_thumbnail_section.webp"  width="100%" height="100%"  width="100%" height="100%"  alt="About" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -67,8 +67,8 @@
                             <div class="tab-pane fade" id="woo_commerce" role="tabpanel" aria-labelledby="woo_commerce-tab">
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
-                                        <div class="img-box">
-                                            <img src="../assets/imgs/casestudy/section/cv_thumbnail_section.webp" alt="About" />
+                                        <div class="img-box w-100">
+                                            <img src="../assets/imgs/casestudy/section/cv_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -100,8 +100,8 @@
                             <div class="tab-pane fade" id="crm_solutions" role="tabpanel" aria-labelledby="crm_solutions-tab">
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
-                                        <div class="img-box">
-                                            <img src="../assets/imgs/casestudy/section/cloud_thumbnail_section.webp" alt="About" />
+                                        <div class="img-box w-100">
+                                            <img src="../assets/imgs/casestudy/section/cloud_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -133,8 +133,8 @@
                             <div class="tab-pane fade" id="web_designing" role="tabpanel" aria-labelledby="web_designing-tab">
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
-                                        <div class="img-box">
-                                            <img src="../assets/imgs/casestudy/section/digital_thumbnail_section.webp" alt="About" />
+                                        <div class="img-box w-100">
+                                            <img src="../assets/imgs/casestudy/section/digital_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -164,8 +164,8 @@
                             <div class="tab-pane fade" id="it_support" role="tabpanel" aria-labelledby="it_support-tab">
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
-                                        <div class="img-box">
-                                            <img src="../assets/imgs/casestudy/section/idp_thumbanail_section.webp" alt="About" />
+                                        <div class="img-box w-100">
+                                            <img src="../assets/imgs/casestudy/section/idp_thumbanail_section.webp" width="100%" height="100%"  alt="About" />
                                         </div>
                                     </div>
                                     <div class="right">
