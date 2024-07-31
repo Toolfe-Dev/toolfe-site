@@ -1,21 +1,62 @@
 <script>
-document.getElementById('form').addEventListener('submit', function(event) {
-    let isValid = true;
+      document.getElementById('service-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    let valid = true;
 
-    // Check if any services are selected
-    let services = document.querySelectorAll('input[name="services[]"]:checked');
-    if (services.length === 0) {
-        isValid = false;
-        alert('Please select at least one service.');
+    // Reset previous error messages
+    document.querySelectorAll('.error').forEach(el => el.textContent = '');
+
+    // Validate name
+    if (!document.getElementById('first_name').value.trim()) {
+        valid = false;
+        document.getElementById('error-name').textContent = 'Name is required.';
     }
 
-    if (!isValid) {
-        event.preventDefault();
+    // Validate email
+    if (!document.getElementById('email').value.trim()) {
+        valid = false;
+        document.getElementById('error-email').textContent = 'Email is required.';
     }
-});
 
-  document.getElementById("form").addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent the default form submission
+    // Validate phone
+    if (!document.querySelector('input[name="phone"]').value.trim()) {
+        valid = false;
+        document.getElementById('error-phone').textContent = 'Phone is required.';
+    }
+
+    // Validate company
+    if (!document.getElementById('company_name').value.trim()) {
+        valid = false;
+        document.getElementById('error-company').textContent = 'Company Name is required.';
+    }
+
+    // Validate industry
+    if (!document.querySelector('input[name="industry"]:checked')) {
+        valid = false;
+        document.getElementById('error-industry').textContent = 'Industry selection is required.';
+    }
+
+    // Validate services
+    if (!document.querySelector('input[name="services[]"]:checked')) {
+        valid = false;
+        document.getElementById('error-services').textContent = 'At least one service must be selected.';
+    }
+
+    // Validate message
+    if (!document.querySelector('textarea[name="message"]').value.trim()) {
+        valid = false;
+        document.getElementById('error-message').textContent = 'Message is required.';
+    }
+
+    // Validate privacy policy
+    if (!document.getElementById('privacy_policy_accept').checked) {
+        valid = false;
+        document.getElementById('error-privacy').textContent = 'You must agree to the terms and conditions.';
+    }
+
+    if (valid) {
+        console.log('submitted');
+        e.preventDefault(); // Prevent the default form submission
     document.getElementById("alert-message").textContent = "Submitting..";
     document.getElementById("alert-message").style.display = "block";
     document.getElementById("submit-button").disabled = true;
@@ -70,5 +111,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
           "An error occurred while submitting the form.";
         document.getElementById("alert-message").style.display = "block";
       });
-  });
+    }
+});
+
 </script>

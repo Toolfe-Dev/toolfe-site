@@ -221,24 +221,6 @@ include '../includes/header.php'
   <?php include '../includes/foot.php';  ?>
 
 </main>
-<script>
-document.getElementById('form').addEventListener('submit', function(event) {
-    let isValid = true;
-
-    // Add any custom validation logic here
-    // Example: Check if phone number is in the correct format
-    const phone = document.getElementById('Phone').value;
-    const phonePattern = /^\+?[0-9\s\-()]+$/;
-    if (!phonePattern.test(phone)) {
-        isValid = false;
-        alert('Please enter a valid phone number.');
-    }
-
-    if (!isValid) {
-        event.preventDefault();
-    }
-});
-</script>
 
 <?php 
 include '../includes/footer.php'

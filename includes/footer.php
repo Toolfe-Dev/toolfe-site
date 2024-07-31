@@ -64,7 +64,7 @@
 </script>
 
 
-<script>
+<!-- <script>
   document.getElementById("form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent the default form submission
     document.getElementById("alert-message").textContent = "Submitting..";
@@ -122,7 +122,7 @@
         document.getElementById("alert-message").style.display = "block";
       });
   });
-</script>
+</script> -->
 
 
 <!-- jQuery Frameworks ============================================= -->
@@ -133,8 +133,10 @@
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/client-marquee.js"></script>
     <script src="../assets/js/theme-custom.js"></script>
-    <script src="../assets/js/form1.js"></script>
+    <!-- <script src="../assets/js/form1.js"></script> -->
     <script src="../assets/js/subscribe-form.js"></script>
+    <script src="../assets/js/form-validation.js"></script>
+
 
 </body>
 

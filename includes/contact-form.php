@@ -10,54 +10,55 @@
                         <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
                     </p>
                     <form id="form" method="POST" class="contact-form">
-                        <div class="input-row field">
-                            <div class="input-row">
-                                <div class="input-group">
-                                    <label for="name">Full Name</label>
-                                    <input type="text" id="name" name="FullName" placeholder="Enter Your name"
-                                        required />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label for="email">Email</label>
-                                <input id="email" type="email" name="Email" placeholder="Enter Your Email" required />
-                            </div>
-                            <div class="input-group field">
-                                <label for="Phone">Phone</label>
-                                <input id="Phone" type="tel" name="Phone" placeholder="Eg: +1 12123232" required />
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label for="organization">Company Name</label>
-                                <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft"
-                                    required />
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label for="message">Message</label>
-                                <textarea name="Message" id="" placeholder="Leave us a message...." required></textarea>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group input-checkbox">
-                                <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept"
-                                    required />
-                                <label for="privacy_policy_accept">You agree to our
-                                    <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and
-                                        conditions.</a></label>
-                            </div>
-                        </div>
-                        <div class="input-row field is-grouped">
-                            <div class="input-group control">
-                                <button id="submit-button" type="submit" class="theme-btn">Submit</button>
-                            </div>
-                        </div>
-                        <p id="alert-message"></p>
-                    </form>
+      <div class="input-row field">
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="FullName" placeholder="Enter Your name" />
+          <div class="error" id="nameError"></div>
+        </div>
+      </div>
+      <div class="input-row field">
+        <div class="input-group">
+          <label for="Phone">Phone</label>
+          <input id="Phone" type="text" name="Phone" placeholder="Eg: +1 12123232" />
+          <div class="error" id="phoneError"></div>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="text" name="Email" placeholder="Enter Your Email" />
+          <div class="error" id="emailError"></div>
+        </div>
+      </div>
+      <div class="input-row field">
+        <div class="input-group">
+          <label for="organization">Company Name</label>
+          <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft" />
+          <div class="error" id="companyError"></div>
+        </div>
+      </div>
+      <div class="input-row field">
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea name="Message" id="message" placeholder="Leave us a message...."></textarea>
+          <div class="error" id="messageError"></div>
+        </div>
+      </div>
+      <div class="input-row field">
+        <div class="input-group input-checkbox">
+          <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" />
+          <label for="privacy_policy_accept">You agree to our
+            <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a>
+          </label>
+          <div class="error" id="termsError"></div>
+        </div>
+      </div>
+
+      <div class="input-row field is-grouped">
+        <div class="input-group control">
+          <button id="submit-button" type="submit" class="theme-btn">Submit</button>
+        </div>
+      </div>
+    </form>
                     <div id="alert-message" style="
             display: none;
             margin: 20px;
