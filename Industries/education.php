@@ -108,13 +108,14 @@ include '../includes/header.php'
       </div>
 
       <div class="sticky-news d-flex card-h">
+
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
-            <div">Virtual Classroom Solutions </div>
+            <div>Virtual Classroom Solutions  </div>
           </h1>
           <p>
-            Enhanced learning through high-quality video conferencing and
+          Enhanced learning through high-quality video conferencing and
             secure, scalable platforms.
           </p>
           <ul>
@@ -132,14 +133,13 @@ include '../includes/header.php'
             </li>
           </ul>
         </div>
-
         <div class="news-img-box">
           <img src="../assets/imgs/industry/edu2.webp" alt="News" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
-        <div class="news-img-box">
+      <div class="news-img-box">
           <img src="../assets/imgs/industry/edu4.webp" alt="News" />
         </div>
         <div class="news-content">
@@ -171,7 +171,7 @@ include '../includes/header.php'
       </div>
 
       <div class="sticky-news d-flex card-h">
-        <div class="news-content">
+      <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
           <h1 class="section-title">
             <div>Data Analytics for Education </div>

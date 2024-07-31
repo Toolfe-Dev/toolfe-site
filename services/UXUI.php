@@ -90,7 +90,7 @@ include '../includes/header.php'
 
     <!-- Portfolio -->
     <section class="portoflio-area">
-        <img src="../../assets/imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
+        <img src="../assets/imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
         <div class="custom-container">
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
@@ -172,13 +172,8 @@ include '../includes/header.php'
                             <p>We optimize user journeys for effortless interaction.</p>
 
                         </div>
-<<<<<<< Updated upstream
-                        <div class="portfolio-img">
-                            <img src="../assets/imgs/services/uiuxbento/6.svg" alt="Portfolio" />
-=======
                         <div class="portfolio-img" style="height:270px;">
                             <img src="../assets/imgs/services/uiuxbento/6.webp" alt="Portfolio" />
->>>>>>> Stashed changes
                         </div>
                     </div>
 

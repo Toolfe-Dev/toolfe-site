@@ -92,7 +92,7 @@
                                             <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                 <ul class="mega-menu-social d-flex align-items-center">
                                                     <li>
-                                                        <a href="#"><i class="iconoir-linkedin"></i></a>
+                                                        <a href="https://in.linkedin.com/company/toolfe"><i class="iconoir-linkedin"></i></a>
                                                     </li>
                                                 </ul>
 
@@ -127,7 +127,6 @@
                                     <div class="custom-container d-flex">
                                         <div class="left">
                                             <div class="mega-menu-link-wrap d-flex flex-column align-items-start justify-content-between">
-                                            <h5 class="mb-3">Industries</h3>
                                             
                                                 <div class="mega-menu-links d-flex">
                                                     <div class="mega-menu-link">
@@ -177,7 +176,7 @@
                                             <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                 <ul class="mega-menu-social d-flex align-items-center">
                                                     <li>
-                                                        <a href="#"><i class="iconoir-linkedin"></i></a>
+                                                        <a href="https://in.linkedin.com/company/toolfe"><i class="iconoir-linkedin"></i></a>
                                                     </li>
                                                 </ul>
 
@@ -253,7 +252,7 @@
 
                                                     <div class="mega-meu-footer d-flex align-items-center justify-content-between w-full">
                                                         <ul class="mega-menu-social d-flex align-items-center">
-                                                            <li><a href="#"><i class="iconoir-linkedin"></i></a></li>
+                                                            <li><a href="https://in.linkedin.com/company/toolfe"><i class="iconoir-linkedin"></i></a></li>
                                                         </ul>
 
                                                         <p>

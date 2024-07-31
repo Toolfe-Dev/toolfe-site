@@ -402,57 +402,56 @@ include '../includes/header.php'
   </section>
 
   <!-- contact form -->
-  <section class="contact-area" >
+
+  <section class="contact-area">
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">
           <div class="contact-form-body">
             <h5 class="section-subtitle">Contact</h5>
             <h1 class="fw-bold mb-2">Supercharge Your Business?</h1>
-            <p>
-              Get the Results You Deserve. Contact Us Today. <br>
-              <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
-            </p>
-            <form id="form" method="POST" class="contact-form">
+            <p>Get the Results You Deserve. Contact Us Today.</p>
+            <form id="form" method="POST" class="contact-form" onsubmit="return validateForm()">
               <div class="input-row field">
-                <div class="input-row">
-                  <div class="input-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="FullName" placeholder="Enter Your name" />
-                  </div>
+                <div class="input-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="FullName" placeholder="Enter Your name" />
+                  <div class="error" id="nameError"></div>
                 </div>
               </div>
               <div class="input-row field">
                 <div class="input-group">
-
-                  <label for="email">Email</label>
-                  <input id="email" type="text" name="Email" placeholder="Enter Your Email" />
-                </div>
-
-                <div class="input-group field">
-
                   <label for="Phone">Phone</label>
                   <input id="Phone" type="text" name="Phone" placeholder="Eg: +1 12123232" />
+                  <div class="error" id="phoneError"></div>
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input id="email" type="text" name="Email" placeholder="Enter Your Email" />
+                  <div class="error" id="emailError"></div>
                 </div>
               </div>
               <div class="input-row field">
-                <div class="input-group ">
-
+                <div class="input-group">
                   <label for="organization">Company Name</label>
                   <input id="organization" type="text" name="Company" placeholder="Eg. Microsoft" />
+                  <div class="error" id="companyError"></div>
                 </div>
               </div>
               <div class="input-row field">
                 <div class="input-group">
                   <label for="message">Message</label>
-                  <textarea name="Message" id="alert-message" placeholder="Leave us a message...."></textarea>
+                  <textarea name="Message" id="message" placeholder="Leave us a message...."></textarea>
+                  <div class="error" id="messageError"></div>
                 </div>
               </div>
               <div class="input-row field">
                 <div class="input-group input-checkbox">
                   <input type="checkbox" name="Agree To Terms" value="yes" id="privacy_policy_accept" />
                   <label for="privacy_policy_accept">You agree to our
-                    <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a></label>
+                    <a href="../trust-center/terms.php" target="_blank">terms and conditions.</a>
+                  </label>
+                  <div class="error" id="termsError"></div>
                 </div>
               </div>
 
@@ -461,22 +460,8 @@ include '../includes/header.php'
                   <button id="submit-button" type="submit" class="theme-btn">Submit</button>
                 </div>
               </div>
-
-     
-
             </form>
-
-            <div id="alert-message" style="
-        display: none;
-        margin: 20px;
-        font-weight: bold;
-        color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
-        padding: 8px;
-        background-color: beige;
-        border-radius: 4px;
-        border-color: aquamarine;
-      "></div>
-
+            <div id="alert-message" style="display: none; margin: 20px; font-weight: bold; color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%); padding: 8px; background-color: beige; border-radius: 4px; border-color: aquamarine;"></div>
           </div>
         </div>
 
@@ -484,24 +469,20 @@ include '../includes/header.php'
           <ul>
             <li>
               <h1>15 <span>Mins</span></h1>
-              <p class="contact-text" >Response Time</p>
+              <p class="contact-text">Response Time</p>
             </li>
-
             <li>
               <h1>15 <span>Min Free</span></h1>
-              <p class="contact-text" >Consultation</p>
+              <p class="contact-text">Consultation</p>
             </li>
-
             <li>
               <h1>15 <span>Hours</span></h1>
-              <p class="contact-text" >Client Onboarding</p>
+              <p class="contact-text">Client Onboarding</p>
             </li>
-
             <li>
               <h1>15 <span>Hours Delivery</span></h1>
-              <p class="contact-text" ><a href="https://www.hourspark.com">www.hourspark.com</a></p>
+              <p class="contact-text"><a href="https://www.hourspark.com">www.hourspark.com</a></p>
             </li>
-
           </ul>
         </div>
         <div class="contact-infos">
@@ -511,26 +492,21 @@ include '../includes/header.php'
               <h3>Contact Info</h3>
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">
-              <!-- <img src="../assets/imgs/contact_us/location.svg" alt="Map" /> -->
               <h5 class="contact-text text-uppercase">INDIA</h5>
-              <p>
-                12, HP Complex , Habibullah Road, T-Nagar, Chennai-600017, India. <br>+91 8217 460 923 </p><br>
+              <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India.<br>+91 8217 460 923</p><br>
               <h5 class="contact-text text-uppercase">United States</h5>
-              <p>5665 W. Wilshire Blvd
-Los Angeles, CA 90036
-(213) 340 1515</p>
+              <p>5665 W. Wilshire Blvd, Los Angeles, CA 90036<br>(213) 340 1515</p>
             </div>
 
             <ul class="contact-social-links">
               <li>
                 <a href="mailto:support@toolfe.com">
-                  <?xml version="1.0" encoding="UTF-8"?><i class="iconoir-mail"></i>
-                  Email
+                  <i class="iconoir-mail"></i>Email
                 </a>
+              </li>
               <li>
                 <a href="https://in.linkedin.com/company/toolfe">
-                  <?xml version="1.0" encoding="UTF-8"?><i class="iconoir-linkedin"></i>
-                  linkedin
+                  <i class="iconoir-linkedin"></i>LinkedIn
                 </a>
               </li>
             </ul>
