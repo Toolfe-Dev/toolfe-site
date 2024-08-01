@@ -1,67 +1,64 @@
 <script>
-  function validateForm() {
-      // Get form elements
-      var fullName = document.getElementById('fullName').value;
-      var email = document.getElementById('email').value;
-      var phone = document.getElementById('phone').value;
-      var resume = document.getElementById('resume').value;
-      var agree = document.getElementById('agree').checked;
-  
-      // Error elements
-      var nameError = document.getElementById('nameError');
-      var emailError = document.getElementById('emailError');
-      var phoneError = document.getElementById('phoneError');
-      var resumeError = document.getElementById('resumeError');
-      var termsError = document.getElementById('termsError');
-  
-      // Clear previous errors
-      nameError.textContent = '';
-      emailError.textContent = '';
-      phoneError.textContent = '';
-      resumeError.textContent = '';
-      termsError.textContent = '';
-  
-      var isValid = true;
-  
-      // Validate full name
-      if (fullName.trim() === '') {
-          nameError.textContent = 'Full Name is required.';
-          isValid = false;
-      }
-  
-      // Validate email
-      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (email.trim() === '') {
-          emailError.textContent = 'Email is required.';
-          isValid = false;
-      } else if (!emailPattern.test(email)) {
-          emailError.textContent = 'Invalid email format.';
-          isValid = false;
-      }
-  
-      // Validate phone
-      var phonePattern = /^\+?\d+$/;
-      if (phone.trim() === '') {
-          phoneError.textContent = 'Phone number is required.';
-          isValid = false;
-      } else if (!phonePattern.test(phone)) {
-          phoneError.textContent = 'Invalid phone number format.';
-          isValid = false;
-      }
-  
-      // Validate resume
-      if (resume.trim() === '') {
-          resumeError.textContent = 'Resume/CV is required.';
-          isValid = false;
-      }
-  
-      // Validate terms agreement
-      if (!agree) {
-          termsError.textContent = 'You must agree to the terms and conditions.';
-          isValid = false;
-      }
-  
-      return isValid;
-  }
-  </script>
+document.getElementById('careerForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    let isValid = true;
+
+    // Clear previous error messages
+    document.querySelectorAll('.error').forEach(function(el) {
+        el.textContent = '';
+    });
+
+    // Full Name validation
+    let fullName = document.getElementsByName('FullName')[0];
+    if (fullName.value.trim() === '') {
+        isValid = false;
+        document.getElementById('nameError').textContent = 'Full Name is required';
+    }
+
+    // Email validation
+    let email = document.getElementsByName('Email')[0];
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (email.value.trim() === '') {
+        isValid = false;
+        document.getElementById('emailError').textContent = 'Email is required';
+    } else if (!emailPattern.test(email.value.trim())) {
+        isValid = false;
+        document.getElementById('emailError').textContent = 'Enter a valid email';
+    }
+
+    // Phone validation
+    let phone = document.getElementsByName('Phone')[0];
+    if (phone.value.trim() === '') {
+        isValid = false;
+        document.getElementById('phoneError').textContent = 'Phone number is required';
+    }
+
+    // Resume validation
+    let resume = document.getElementsByName('resume')[0];
+    if (resume.files.length === 0) {
+        isValid = false;
+        document.getElementById('resumeError').textContent = 'Please upload your resume';
+    } else {
+        let allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+        if (!allowedTypes.includes(resume.files[0].type)) {
+            isValid = false;
+            document.getElementById('resumeError').textContent = 'Only PDF or Word files are allowed';
+        }
+    }
+
+    // Agree to terms validation
+    let agreeToTerms = document.getElementsByName('AgreeToTerms')[0];
+    if (!agreeToTerms.checked) {
+        isValid = false;
+        document.getElementById('termsError').textContent = 'You must agree to the terms and conditions';
+    }
+
+    if (isValid) {
+        this.submit();
+    } else {
+        document.getElementById('alert-message').textContent = 'Please fix the errors in the form.';
+        document.getElementById('alert-message').style.display = 'block';
+    }
+});
+</script>
   

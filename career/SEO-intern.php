@@ -182,13 +182,13 @@ include '../includes/header.php'
             Shape Your Future with Us <br>
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
-            <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data" onsubmit="return validateForm()">
+            <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
     <input type="hidden" name="role" value="SEO"/>
     <div class="input-row field">
         <div class="input-row">
             <div class="input-group">
                 <label>Full Name</label>
-                <input type="text" id="fullName" name="FullName" placeholder="Enter Your name"/>
+                <input type="text" name="FullName" placeholder="Enter Your name"/>
                 <div class="error" id="nameError"></div>
             </div>
         </div>
@@ -196,31 +196,31 @@ include '../includes/header.php'
     <div class="input-row field">
         <div class="input-group">
             <label>Email</label>
-            <input type="text" id="email" name="Email" placeholder="Enter Your Email"/>
+            <input type="text" name="Email" placeholder="Enter Your Email"/>
             <div class="error" id="emailError"></div>
         </div>
         <div class="input-group field">
             <label>Phone</label>
-            <input type="text" id="phone" name="Phone" placeholder="Eg: +1 12123232"/>
+            <input type="text" name="Phone" placeholder="Eg: +1 12123232"/>
             <div class="error" id="phoneError"></div>
         </div>
     </div>
     <div class="input-row field">
         <div class="input-group">
             <label>Resume/CV</label>
-            <input type="file" id="resume" name="resume"/>
+            <input type="file" name="resume" accept=".pdf,.doc,.docx"/>
             <div class="error" id="resumeError"></div>
         </div>
     </div>
     <div class="input-row field">
         <div class="input-group">
             <label>Message</label>
-            <textarea id="message" name="Message" placeholder="Leave us a message...."></textarea>
+            <textarea name="Message" placeholder="Leave us a message...."></textarea>
         </div>
     </div>
     <div class="input-row field">
         <div class="input-group input-checkbox">
-            <input type="checkbox" id="agree" name="Agree To Terms" value="yes"/>
+            <input type="checkbox" name="AgreeToTerms" value="yes"/>
             <label>You agree to our
                 <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a>
             </label>
@@ -238,12 +238,12 @@ include '../includes/header.php'
     display: none;
     margin: 20px;
     font-weight: bold;
-    color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
+    color: #f87708;
     padding: 8px;
     background-color: beige;
     border-radius: 4px;
     border-color: aquamarine;
-"></div> 
+"></div>
 
           </div>
         </div>
@@ -303,7 +303,7 @@ include '../includes/header.php'
   <!-- Footer -->
   <?php include '../includes/foot.php';  ?>
 </main>
-<?php  include './validate.php';  ?>
+<?php include './validate.php'?>
 
 <?php
 include '../includes/footer.php'

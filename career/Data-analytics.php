@@ -192,68 +192,67 @@ include '../includes/header.php'
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
             <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
-                        <input type="hidden" name="role" value="Data Analytics"/>
-                        <div class="input-row field">
-                            <div class="input-row">
-                                <div class="input-group">
-                                    <label>Full Name</label>
-                                    <input type="text" name="FullName" placeholder="Enter Your name"/>
-                                    <div class="error" id="nameError"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label>Email</label>
-                                <input type="text" name="Email" placeholder="Enter Your Email"/>
-                                <div class="error" id="emailError"></div>
-                            </div>
-                            <div class="input-group field">
-                                <label>Phone</label>
-                                <input type="text" name="Phone" placeholder="Eg: +1 12123232"/>
-                                <div class="error" id="phoneError"></div>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label>Resume/CV</label>
-                                <input type="file" name="resume"/>
-                                <div class="error" id="resumeError"></div>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group">
-                                <label>Message</label>
-                                <textarea name="Message" placeholder="Leave us a message...."></textarea>
-                            </div>
-                        </div>
-                        <div class="input-row field">
-                            <div class="input-group input-checkbox">
-                                <input type="checkbox" name="Agree To Terms" value="yes"/>
-                                <label>You agree to our
-                                    <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a>
-                                </label>
-                                <div class="error" id="termsError"></div>
-                            </div>
-                        </div>
-                        <div class="input-row field is-grouped">
-                            <div class="input-group control">
-                                <button type="submit" class="theme-btn">Submit</button>
-                            </div>
-                        </div>
-                    </form>
+    <input type="hidden" name="role" value="Data Analytics"/>
+    <div class="input-row field">
+        <div class="input-row">
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" name="FullName" placeholder="Enter Your name"/>
+                <div class="error" id="nameError"></div>
+            </div>
+        </div>
+    </div>
+    <div class="input-row field">
+        <div class="input-group">
+            <label>Email</label>
+            <input type="text" name="Email" placeholder="Enter Your Email"/>
+            <div class="error" id="emailError"></div>
+        </div>
+        <div class="input-group field">
+            <label>Phone</label>
+            <input type="text" name="Phone" placeholder="Eg: +1 12123232"/>
+            <div class="error" id="phoneError"></div>
+        </div>
+    </div>
+    <div class="input-row field">
+        <div class="input-group">
+            <label>Resume/CV</label>
+            <input type="file" name="resume" accept=".pdf,.doc,.docx"/>
+            <div class="error" id="resumeError"></div>
+        </div>
+    </div>
+    <div class="input-row field">
+        <div class="input-group">
+            <label>Message</label>
+            <textarea name="Message" placeholder="Leave us a message...."></textarea>
+        </div>
+    </div>
+    <div class="input-row field">
+        <div class="input-group input-checkbox">
+            <input type="checkbox" name="AgreeToTerms" value="yes"/>
+            <label>You agree to our
+                <a href="../trust-center/terms-and-conditions.php" target="_blank">terms and conditions.</a>
+            </label>
+            <div class="error" id="termsError"></div>
+        </div>
+    </div>
+    <div class="input-row field is-grouped">
+        <div class="input-group control">
+            <button type="submit" class="theme-btn">Submit</button>
+        </div>
+    </div>
+</form>
 
-
-            <div id="alert-message" style="
-        display: none;
-        margin: 20px;
-        font-weight: bold;
-        color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
-        padding: 8px;
-        background-color: beige;
-        border-radius: 4px;
-        border-color: aquamarine;
-      "></div>
+<div id="alert-message" style="
+    display: none;
+    margin: 20px;
+    font-weight: bold;
+    color: #f87708;
+    padding: 8px;
+    background-color: beige;
+    border-radius: 4px;
+    border-color: aquamarine;
+"></div>
 
           </div>
         </div>
@@ -313,6 +312,8 @@ include '../includes/header.php'
   <!-- Footer -->
   <?php include '../includes/foot.php';  ?>
 </main>
+
+<?php include './validate.php'?>
 
 <?php
 include '../includes/footer.php'
