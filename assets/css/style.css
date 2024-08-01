@@ -1393,14 +1393,14 @@ img {
 
 /* Hero 2 */
 .hero-section-wrap {
-  padding-bottom: 180px;
+  padding-bottom: 110px;
   overflow: hidden;
 }
 .hero-home2.hero-section-wrap .hero-section-content-wrap {
   padding-top: 310px;
 }
 .hero-section-wrap .hero-section-content-wrap {
-  background:#ffffff;
+  background:#ffffff
   padding-top: 310px;
   padding-bottom: 110px;
 }
@@ -1746,7 +1746,7 @@ img {
   color: #ffffff;
 }
 .company-service-area {
-  padding: 100px 0 100px 0;
+  padding: 50px 0 180px 0;
 }
 .feature-page .company-service-area {
   padding-top: 0px;
@@ -1762,7 +1762,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
   /* border-bottom: 1px solid #d9d9d9; */
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 .hero-company-box {
   padding: 70px 70px 70px 70px;
@@ -2344,8 +2344,8 @@ img {
 
 /* Services */
 .service-area {
-  padding-top: 80px;
-  padding-bottom: 150px;
+  padding-top: 185px;
+  padding-bottom: 180px;
 }
 .overview-page .service-area {
   padding-top: 0;
@@ -2995,8 +2995,8 @@ img {
 
 /* About */
 .about-area {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-top: 220px;
+  padding-bottom: 110px; */
 }
 .about-area .custom-row {
   width: 100%;
@@ -3697,13 +3697,8 @@ img {
 
 /* Testimonial */
 .testimonial-area {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.py-20{
-  padding-top: 10px !important; 
-  padding-bottom: 10px !important;
+  padding-top: 110px;
+  padding-bottom: 220px;
 }
 
 .service-details-page .testimonial-area {
@@ -4147,7 +4142,7 @@ img {
 
 /* Our team 4 */
 .our-team-4-area {
-  padding: 80px 0 80px 0;
+  padding: 180px 0 220px 0;
 }
 .our-team-4-area .section-header {
   margin-bottom: 75px;
@@ -4661,13 +4656,13 @@ img {
 
 /* CTA */
 .cta-area {
-  padding: 80px 0 80px 0;
+  padding: 180px 0 0 0;
 }
 .event-details-page .cta-area {
   padding-top: 120px;
 }
 .portfolio-details-page .cta-area {
-  padding-bottom: 80px 0 80px 0;
+  padding-bottom: 220px;
 }
 .cta-area .cta-body {
   background: var(--dark1);
@@ -5043,7 +5038,7 @@ img {
 }
 /* New2 */
 .news2-area {
-  padding: 85px 0 80px 0;
+  padding: 135px 0 180px 0;
 }
 .news2-area .section-header {
   margin-bottom: 70px;
@@ -6353,7 +6348,7 @@ img {
 
 /* Contact */
 .contact-area {
-  padding: 80px 0;
+  padding: 180px 0;
 }
 .portfolio-page .contact-area {
   padding-top: 0;
@@ -6648,7 +6643,7 @@ img {
 
 /* Contact 3 */
 .contact2-area {
-  padding: 100px 0;
+  padding: 140px 0;
 }
 .contact2-body {
   background: linear-gradient(

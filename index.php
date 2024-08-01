@@ -399,7 +399,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-area py-20">
+    <section class="about-area mb-5">
       <div class="custom-container">
         <div class="custom-row ">
           <div class="left-content">
@@ -564,7 +564,7 @@
     </section>
 
     <!-- Service -->
-    <section class="py-20">
+    <section class="">
       <div class="custom-container">
         <div class="hero-service-about">
           <div class="section-header d-flex align-items-center justify-content-between w-full">
