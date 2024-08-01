@@ -1762,7 +1762,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
   /* border-bottom: 1px solid #d9d9d9; */
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 .hero-company-box {
   padding: 70px 70px 70px 70px;
@@ -3698,7 +3698,12 @@ img {
 /* Testimonial */
 .testimonial-area {
   padding-top: 110px;
-  padding-bottom: 220px;
+  padding-bottom: 100px;
+}
+
+.py-20{
+  padding-top: 80px !important; 
+  padding-bottom: 80px !important;
 }
 
 .service-details-page .testimonial-area {
@@ -4142,7 +4147,7 @@ img {
 
 /* Our team 4 */
 .our-team-4-area {
-  padding: 180px 0 220px 0;
+  padding: 80px 0 80px 0;
 }
 .our-team-4-area .section-header {
   margin-bottom: 75px;
@@ -4656,13 +4661,13 @@ img {
 
 /* CTA */
 .cta-area {
-  padding: 180px 0 0 0;
+  padding: 80px 0 80px 0;
 }
 .event-details-page .cta-area {
   padding-top: 120px;
 }
 .portfolio-details-page .cta-area {
-  padding-bottom: 220px;
+  padding-bottom: 80px 0 80px 0;
 }
 .cta-area .cta-body {
   background: var(--dark1);
@@ -6348,7 +6353,7 @@ img {
 
 /* Contact */
 .contact-area {
-  padding: 180px 0;
+  padding: 80px 0;
 }
 .portfolio-page .contact-area {
   padding-top: 0;
@@ -6643,7 +6648,7 @@ img {
 
 /* Contact 3 */
 .contact2-area {
-  padding: 140px 0;
+  padding: 80px 0;
 }
 .contact2-body {
   background: linear-gradient(
