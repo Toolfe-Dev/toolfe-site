@@ -399,7 +399,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-area py-20" style="background-color: #f6f6f6;">
+    <section class="about-area py-20">
       <div class="custom-container">
         <div class="custom-row ">
           <div class="left-content">
@@ -564,7 +564,7 @@
     </section>
 
     <!-- Service -->
-    <section class="py-20" style="background-color: #f6f6f6;">
+    <section class="py-20">
       <div class="custom-container">
         <div class="hero-service-about">
           <div class="section-header d-flex align-items-center justify-content-between w-full">
@@ -741,7 +741,7 @@
       </div>
     </section>
     <!-- Case Studio -->
-    <section class="case-studio-area" style="background-color: #f6f6f6;">
+    <section class="case-studio-area">
       <div class="custom-container">
         <div class="case-studio-header text-center">
           <h5 class="section-subtitle">Benefits</h5>
@@ -1021,7 +1021,7 @@
     </section>
 
     <!-- Testimonial Section -->
-    <section class="testimonial-area" style="background-color: #f6f6f6;">
+    <section class="testimonial-area">
       <div class="custom-container">
         <div class="case-studio-header text-center">
           <h5 class="section-subtitle mb-2">Testimonial</h5>
@@ -1192,7 +1192,7 @@
         </div>
     </section>
     <!-- CTA -->
-    <section class="cta-area" style="background-color: #f6f6f6;">
+    <section class="cta-area">
       <div class="custom-container">
         <div class="cta-body text-center">
           <img src="assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />

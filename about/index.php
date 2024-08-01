@@ -74,7 +74,7 @@ include '../includes/header.php'
   </section>
 
   <!-- About Section -->
-  <section class="about-area py-20">
+  <section class="about-area">
     <div class="custom-container">
       <div class="custom-row justify-content-between align-items-center">
         <div class="left-content">
@@ -194,7 +194,7 @@ include '../includes/header.php'
   </section>
 
   <!-- Service -->
-  <section class="company-service-area py-20" >
+  <section class="company-service-area" >
     <div class="custom-container">
       <div class="hero-service-about">
         <div class="section-header d-flex align-items-center justify-content-between w-full">

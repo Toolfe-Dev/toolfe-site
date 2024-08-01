@@ -1393,14 +1393,14 @@ img {
 
 /* Hero 2 */
 .hero-section-wrap {
-  padding-bottom: 110px;
+  padding-bottom: 180px;
   overflow: hidden;
 }
 .hero-home2.hero-section-wrap .hero-section-content-wrap {
   padding-top: 310px;
 }
 .hero-section-wrap .hero-section-content-wrap {
-  background:#ffffff
+  background:#ffffff;
   padding-top: 310px;
   padding-bottom: 110px;
 }
@@ -1746,7 +1746,7 @@ img {
   color: #ffffff;
 }
 .company-service-area {
-  padding: 50px 0 180px 0;
+  padding: 100px 0 100px 0;
 }
 .feature-page .company-service-area {
   padding-top: 0px;
@@ -2344,8 +2344,8 @@ img {
 
 /* Services */
 .service-area {
-  padding-top: 185px;
-  padding-bottom: 180px;
+  padding-top: 80px;
+  padding-bottom: 150px;
 }
 .overview-page .service-area {
   padding-top: 0;
@@ -2995,8 +2995,8 @@ img {
 
 /* About */
 .about-area {
-  /* padding-top: 220px;
-  padding-bottom: 110px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .about-area .custom-row {
   width: 100%;
@@ -3697,13 +3697,13 @@ img {
 
 /* Testimonial */
 .testimonial-area {
-  padding-top: 110px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .py-20{
-  padding-top: 80px !important; 
-  padding-bottom: 80px !important;
+  padding-top: 10px !important; 
+  padding-bottom: 10px !important;
 }
 
 .service-details-page .testimonial-area {
@@ -5043,7 +5043,7 @@ img {
 }
 /* New2 */
 .news2-area {
-  padding: 135px 0 180px 0;
+  padding: 85px 0 80px 0;
 }
 .news2-area .section-header {
   margin-bottom: 70px;
@@ -6648,7 +6648,7 @@ img {
 
 /* Contact 3 */
 .contact2-area {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 .contact2-body {
   background: linear-gradient(
