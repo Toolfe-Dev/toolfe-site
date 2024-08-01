@@ -4150,12 +4150,15 @@
   }
   .company-page .service-area {
     padding-top: 100px;
+    
   }
   .about-timeline {
     padding-left: 80px;
+    
   }
   .about-timeline .about-timeline-item:nth-child(odd) {
     margin-left: 0;
+    margin-bottom: 40px;
   }
   .about-timeline .about-timeline-item:nth-child(even) .number,
   .about-timeline .about-timeline-item .number {
