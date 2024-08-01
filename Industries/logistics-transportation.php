@@ -23,7 +23,7 @@ include '../includes/header.php'
               Enhancing Efficiency, Security, and Operational Excellence
               through Advanced Technology
             </p>
-            <a href="../contact/index.php" class="theme-simple-btn">Contact Us Today</a>
+            <a href="../contact/" class="theme-simple-btn">Contact Us Today</a>
           </div>
         </div>
       </div>

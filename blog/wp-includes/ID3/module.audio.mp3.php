@@ -754,8 +754,8 @@ class getid3_mp3 extends getid3_handler
 							unset($thisfile_mpeg_audio_lame['long_version']);
 
 							// It the LAME tag was only introduced in LAME v3.90
-							// https://wiki.hydrogenaud.io/index.php/LAME#VBR_header_and_LAME_tag
-							// https://hydrogenaud.io/index.php?topic=9933
+							// https://wiki.hydrogenaud.io//LAME#VBR_header_and_LAME_tag
+							// https://hydrogenaud.io/?topic=9933
 
 							// Offsets of various bytes in http://gabriel.mp3-tech.org/mp3infotag.html
 							// are assuming a 'Xing' identifier offset of 0x24, which is the case for

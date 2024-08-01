@@ -122,11 +122,11 @@ if ( ! function_exists('reduce_double_slashes'))
 	 * Converts double slashes in a string to a single slash,
 	 * except those found in http://
 	 *
-	 * http://www.some-site.com//index.php
+	 * http://www.some-site.com//
 	 *
 	 * becomes:
 	 *
-	 * http://www.some-site.com/index.php
+	 * http://www.some-site.com/
 	 *
 	 * @param	string
 	 * @return	string

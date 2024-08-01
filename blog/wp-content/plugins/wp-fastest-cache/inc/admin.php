@@ -1,6 +1,6 @@
 <?php
 	class WpFastestCacheAdmin extends WpFastestCache{
-		private $adminPageUrl = "wp-fastest-cache/admin/index.php";
+		private $adminPageUrl = "wp-fastest-cache/admin/";
 		private $systemMessage = array();
 		private $options = array();
 		private $cronJobSettings;

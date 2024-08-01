@@ -4,7 +4,7 @@
     <div class="custom-container">
         <div class="custom-row align-items-center justify-content-between">
             <div class="header-left d-flex align-items-center">
-                <a href="../index.php" class="logo">
+                <a href="../" class="logo">
                     <img src="https://toolfe.com/o-toolfe/assets/test2.png" alt="Logo" />
                 </a>
 
@@ -26,7 +26,7 @@
                             </span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="../about/index.php">About Us</a>
+                                    <a href="../about/">About Us</a>
                                 </li>
                                 <li>
                                     <a href="https://blog.toolfe.com/">Blog</a>
@@ -274,7 +274,7 @@
                                     </div>
                                 </li> 
                         <li>
-                            <a href="../career/index.php">Careers</a>
+                            <a href="../career/">Careers</a>
                         </li>
                     </ul>
                 </nav>
@@ -288,7 +288,7 @@
                         </a>
                         <!-- +1-938-740-7555 -->
                     </div>
-                    <a href="../contact/index.php" class="theme-btn2">Contact Us</a>
+                    <a href="../contact/" class="theme-btn2">Contact Us</a>
                 </div>
             </div>
         </div>

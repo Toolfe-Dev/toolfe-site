@@ -20,7 +20,7 @@ include '../includes/header.php'
           <p>
             Dive into our case studies to learn how Toolfe's solutions have transformed operations and boosted efficiency for our clients. Witness the power of digital excellence in action.
           </p>
-          <a href="../contact/index.php" class="theme-btn2">
+          <a href="../contact/" class="theme-btn2">
             Connect with Us
             <i class="iconoir-arrow-up-right"></i>
           </a>

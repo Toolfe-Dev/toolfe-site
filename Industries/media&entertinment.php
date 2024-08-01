@@ -20,7 +20,7 @@ include '../includes/header.php'
               Elevating Entertainment Innovations in Media Technology
             </h1>
             <p>Enriching User Experiences and Content Delivery</p>
-            <a href="../contact/index.php" class="theme-simple-btn">
+            <a href="../contact/" class="theme-simple-btn">
               Contact Us Today  
             </a>
           </div>

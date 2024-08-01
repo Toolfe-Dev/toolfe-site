@@ -1026,7 +1026,7 @@ class WPForms_About {
 				'url'   => 'https://downloads.wordpress.org/plugin/trustpulse-api.zip',
 			],
 
-			'searchwp/index.php'                           => [
+			'searchwp/'                           => [
 				'icon'  => $images_url . 'plugin-searchwp.webp',
 				'name'  => esc_html__( 'SearchWP', 'wpforms-lite' ),
 				'desc'  => esc_html__( 'The most advanced WordPress search plugin. Customize your WordPress search algorithm, reorder search results, track search metrics, and everything you need to leverage search to grow your business.', 'wpforms-lite' ),

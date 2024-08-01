@@ -28,7 +28,7 @@
                     position.x = 5;
                 } else {
                     position.x = 250;
-                    window.location.href = '../contact/index.php';
+                    window.location.href = '../contact/';
                     position.x = 5;
                 }
 

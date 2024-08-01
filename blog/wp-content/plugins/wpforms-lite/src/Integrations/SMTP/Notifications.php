@@ -171,7 +171,7 @@ class Notifications implements IntegrationInterface {
 			'postmark-approved-wordpress-plugin/postmark.php',
 			'sar-friendly-smtp/sar-friendly-smtp.php',
 			'sendgrid-email-delivery-simplified/wpsendgrid.php',
-			'smtp-mail/index.php',
+			'smtp-mail/',
 			'smtp-mailer/main.php',
 			'sparkpost/wordpress-sparkpost.php',
 			'turbosmtp/turbo-smtp-plugin.php',

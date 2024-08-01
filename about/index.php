@@ -203,7 +203,7 @@ include '../includes/header.php'
             <h1 class="section-title">What Makes Toolfe Your Best Choice</h1>
             <p>We tailor innovative solutions to drive results for your unique business needs.</p>
           </div>
-          <a href="../contact/index.php" class="theme-btn">Contact Us</a>
+          <a href="../contact/" class="theme-btn">Contact Us</a>
         </div>
 
         <img src="../assets/imgs/about_us/about_us_why_choose.webp" alt="Service About" />

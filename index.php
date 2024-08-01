@@ -346,7 +346,7 @@
                   </div>
                 </li>
                 <li>
-                  <a href="career/index.php">Careers</a>
+                  <a href="career/">Careers</a>
                 </li>
               </ul>
             </nav>
@@ -360,7 +360,7 @@
                 </a>
                 <!-- +1-938-740-7555 -->
               </div>
-              <a href="contact/index.php" class="theme-btn2">Contact Us</a>
+              <a href="contact/" class="theme-btn2">Contact Us</a>
             </div>
           </div>
         </div>
@@ -575,7 +575,7 @@
               </h1>
               <p>Drive Your business forward with Toolfe's cutting-edge digital transformation solutions.</p>
             </div>
-            <a href="./contact/index.php" class="theme-btn">Contact Us</a>
+            <a href="./contact/" class="theme-btn">Contact Us</a>
           </div>
 
           <img src="assets/imgs/Home/home_why_choose.webp" alt="Service About" />
@@ -965,7 +965,7 @@
               Explore a gallery of our proven successes through our recognized case studies. Each story showcases our
               expertise, innovative solutions, and the tangible results we deliver.
             </p>
-            <a href="./case-study/index.php" class="theme-btn">
+            <a href="./case-study/" class="theme-btn">
               Explore More
               <i class="iconoir-arrow-up-right"></i>
             </a>
@@ -1146,11 +1146,11 @@
                             <span class="date">Jun 24, 2024</span>
                             <a  class="category">#AWS</a>
                         </div>
-                        <h2><a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step
+                        <h2><a href="https://blog.toolfe.com//2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/">How to Connect to an EC2 Instance Without Errors: A Step-by-Step
                                 Guide(For Linux and MacOS)</a></h2>
                         <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward
                             guide.</p>
-                        <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/"
+                        <a href="https://blog.toolfe.com//2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/"
                             class="theme-btn">
                             <i class="iconoir-arrow-up-right"></i>
                         </a>
@@ -1163,11 +1163,11 @@
                             <span class="date">May 22, 2024</span>
                             <a  class="category">#Blockchain Technology</a>
                         </div>
-                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and
+                        <h2><a href="https://blog.toolfe.com//2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/">Essential Blockchain Testing Techniques: Ensuring Integrity and
                                 Security in Networks</a></h2>
                         <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is
                             maintained.</p>
-                        <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/"
+                        <a href="https://blog.toolfe.com//2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/"
                             class="theme-btn">
                             <i class="iconoir-arrow-up-right"></i>
                         </a>
@@ -1181,10 +1181,10 @@
                             <span class="date">May 15, 2024</span>
                             <a class="category">#UX Research</a>
                         </div>
-                        <h2><a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best ux research methods and when to use them</a></h2>
+                        <h2><a href="https://blog.toolfe.com//2024/05/15/best-ux-research-methods-and-when-to-use-them/">Best ux research methods and when to use them</a></h2>
                         <p>Discover effective UX research methods like interviews and usability tests to enhance product
                             understanding and usability.</p>
-                        <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/"
+                        <a href="https://blog.toolfe.com//2024/05/15/best-ux-research-methods-and-when-to-use-them/"
                             class="theme-btn">
                             <i class="iconoir-arrow-up-right"></i>
                         </a>
@@ -1440,11 +1440,11 @@
 
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="about/index.php">About Us</a></li>
+                  <li><a href="about/">About Us</a></li>
                   <li><a href="https://blog.toolfe.com/">Blogs</a></li>
-                  <li><a href="career/index.php">Career</a></li>
-                  <li><a href="case-study/index.php">Case Study</a></li>
-                  <li><a href="contact/index.php">Contact us</a></li>
+                  <li><a href="career/">Career</a></li>
+                  <li><a href="case-study/">Case Study</a></li>
+                  <li><a href="contact/">Contact us</a></li>
                   <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                   <li><a href="https://hourspark.com/hxt/">Hourspark x Toolfe</a></li>
                   <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>

@@ -92,7 +92,7 @@
 			if($this->isPluginActive('gtranslate/gtranslate.php')){
 				if(isset($_SERVER["HTTP_X_GT_LANG"])){
 					$this->cacheFilePath = $this->getWpContentDir("/cache/".$type."/").$_SERVER["HTTP_X_GT_LANG"].$_SERVER["REQUEST_URI"];
-				}else if(isset($_SERVER["REDIRECT_URL"]) && $_SERVER["REDIRECT_URL"] != "/index.php"){
+				}else if(isset($_SERVER["REDIRECT_URL"]) && $_SERVER["REDIRECT_URL"] != "/"){
 					$this->cacheFilePath = $this->getWpContentDir("/cache/".$type."/").$_SERVER["REDIRECT_URL"];
 				}else if(isset($_SERVER["REQUEST_URI"])){
 					$this->cacheFilePath = $this->getWpContentDir("/cache/".$type."/").$_SERVER["REQUEST_URI"];

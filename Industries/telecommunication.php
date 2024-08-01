@@ -20,7 +20,7 @@ include '../includes/header.php'
               Transforming Connectivity Innovations in Telecommunication
             </h1>
             <p>Enhancing Communication Networks for a Connected World</p>
-            <a href="../contact/index.php" class="theme-simple-btn">Contact Us Today</a>
+            <a href="../contact/" class="theme-simple-btn">Contact Us Today</a>
           </div>
         </div>
       </div>

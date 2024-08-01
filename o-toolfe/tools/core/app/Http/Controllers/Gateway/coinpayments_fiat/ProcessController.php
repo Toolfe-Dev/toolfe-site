@@ -38,7 +38,7 @@ class ProcessController extends Controller
         $send['val'] = $val;
         $send['view'] = 'user.payment.redirect';
         $send['method'] = 'post';
-        $send['url'] = 'https://www.coinpayments.net/index.php';
+        $send['url'] = 'https://www.coinpayments.net/';
 
         return json_encode($send);
     }

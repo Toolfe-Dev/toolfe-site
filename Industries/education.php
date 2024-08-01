@@ -23,7 +23,7 @@ include '../includes/header.php'
               Enhancing Learning Experiences and Operational Efficiency
               through Cutting-Edge Technology
             </p>
-            <a href="../contact/index.php" class="theme-simple-btn">
+            <a href="../contact/" class="theme-simple-btn">
               Contact Us Today
             </a>
           </div>

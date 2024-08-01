@@ -164,7 +164,7 @@ class getid3_apetag extends getid3_handler
 			}
 
 			switch (strtolower($item_key)) {
-				// http://wiki.hydrogenaud.io/index.php?title=ReplayGain#MP3Gain
+				// http://wiki.hydrogenaud.io/?title=ReplayGain#MP3Gain
 				case 'replaygain_track_gain':
 					if (preg_match('#^([\\-\\+][0-9\\.,]{8})( dB)?$#', $thisfile_ape_items_current['data'][0], $matches)) {
 						$thisfile_replaygain['track']['adjustment'] = (float) str_replace(',', '.', $matches[1]); // float casting will see "0,95" as zero!
@@ -389,7 +389,7 @@ class getid3_apetag extends getid3_handler
 	public function parseAPEtagFlags($rawflagint) {
 		// "Note: APE Tags 1.0 do not use any of the APE Tag flags.
 		// All are set to zero on creation and ignored on reading."
-		// http://wiki.hydrogenaud.io/index.php?title=Ape_Tags_Flags
+		// http://wiki.hydrogenaud.io/?title=Ape_Tags_Flags
 		$flags                      = array();
 		$flags['header']            = (bool) ($rawflagint & 0x80000000);
 		$flags['footer']            = (bool) ($rawflagint & 0x40000000);

@@ -5,7 +5,7 @@
           <div class="custom-container">
               <div class="custom-row align-items-end justify-content-between">
                   <div class="left-content">
-                      <a href="../index.php" class="logo">
+                      <a href="../" class="logo">
                           <img src="https://toolfe.com/o-toolfe/assets/white-toolfe.png" alt="Logo" />
                       </a>
                       <p>We provide the expertise and support to <br>
@@ -109,11 +109,11 @@
 
                           <h3>Quick Links</h3>
                           <ul>
-                              <li><a href="../about/index.php">About Us</a></li>
+                              <li><a href="../about/">About Us</a></li>
                               <li><a href="https://blog.toolfe.com/">Blogs</a></li>
-                              <li><a href="../career/index.php">Career</a></li>
-                              <li><a href="../case-study/index.php">Case Study</a></li>
-                              <li><a href="../contact/index.php">Contact us</a></li>
+                              <li><a href="../career/">Career</a></li>
+                              <li><a href="../case-study/">Case Study</a></li>
+                              <li><a href="../contact/">Contact us</a></li>
                               <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                               <li><a href="https://hourspark.com/hxt/">Hourspark x Toolfe</a></li>
                               <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>

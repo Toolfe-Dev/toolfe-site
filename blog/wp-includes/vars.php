@@ -40,7 +40,7 @@ if ( is_admin() ) {
 		preg_match( '#(.*?)(/|$)#', $pagenow, $self_matches );
 		$pagenow = strtolower( $self_matches[1] );
 		if ( ! str_ends_with( $pagenow, '.php' ) ) {
-			$pagenow .= '.php'; // For `Options +Multiviews`: /wp-admin/themes/index.php (themes.php is queried).
+			$pagenow .= '.php'; // For `Options +Multiviews`: /wp-admin/themes/ (themes.php is queried).
 		}
 	}
 } else {

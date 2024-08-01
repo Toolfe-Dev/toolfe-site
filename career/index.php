@@ -194,7 +194,7 @@ include '../includes/header.php'
                 Step-by-Step Guide(For Linux and MacOS)</a></h2>
             <p>Learn to connect flawlessly to EC2 instances on Linux and macOS with this straightforward
               guide.</p>
-            <a href="https://blog.toolfe.com/index.php/2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/" class="theme-btn">
+            <a href="https://blog.toolfe.com//2024/06/24/how-to-connect-to-an-ec2-instance-without-errors-a-step-by-step-guidefor-linux-and-macos/" class="theme-btn">
               <i class="iconoir-arrow-up-right"></i>
             </a>
           </div>
@@ -210,7 +210,7 @@ include '../includes/header.php'
                 and Security in Networks</a></h2>
             <p>Blockchain testing is crucial to ensure that networks are secure and data integrity is
               maintained.</p>
-            <a href="https://blog.toolfe.com/index.php/2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/" class="theme-btn">
+            <a href="https://blog.toolfe.com//2024/05/22/essential-blockchain-testing-techniques-ensuring-integrity-and-security-in-networks/" class="theme-btn">
               <i class="iconoir-arrow-up-right"></i>
             </a>
           </div>
@@ -226,7 +226,7 @@ include '../includes/header.php'
             <h2><a href="blog-details.php">Best ux research methods and when to use them</a></h2>
             <p>Discover effective UX research methods like interviews and usability tests to enhance
               product understanding and usability.</p>
-            <a href="https://blog.toolfe.com/index.php/2024/05/15/best-ux-research-methods-and-when-to-use-them/" class="theme-btn">
+            <a href="https://blog.toolfe.com//2024/05/15/best-ux-research-methods-and-when-to-use-them/" class="theme-btn">
               <i class="iconoir-arrow-up-right"></i>
             </a>
           </div>

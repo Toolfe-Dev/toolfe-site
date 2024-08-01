@@ -486,7 +486,7 @@ function wp_install_maybe_enable_pretty_permalinks() {
 	 */
 	$permalink_structures = array(
 		'/%year%/%monthnum%/%day%/%postname%/',
-		'/index.php/%year%/%monthnum%/%day%/%postname%/',
+		'//%year%/%monthnum%/%day%/%postname%/',
 	);
 
 	foreach ( (array) $permalink_structures as $permalink_structure ) {
@@ -3251,7 +3251,7 @@ function make_site_theme_from_oldschool( $theme_name, $template ) {
 	$site_dir    = WP_CONTENT_DIR . "/themes/$template";
 	$default_dir = WP_CONTENT_DIR . '/themes/' . WP_DEFAULT_THEME;
 
-	if ( ! file_exists( "$home_path/index.php" ) ) {
+	if ( ! file_exists( "$home_path/" ) ) {
 		return false;
 	}
 

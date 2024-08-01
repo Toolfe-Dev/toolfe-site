@@ -340,7 +340,7 @@ function add_rewrite_endpoint( $name, $places, $query_var = true ) {
 /**
  * Filters the URL base for taxonomies.
  *
- * To remove any manually prepended /index.php/.
+ * To remove any manually prepended //.
  *
  * @access private
  * @since 2.6.0
