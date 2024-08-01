@@ -50,7 +50,7 @@ if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
 
 // Execute the statement
 if ($stmt->execute()) {
-   header('Location:./');
+   header('Location:./career-form.php');
 } else {
     echo "Error: " . $stmt->error;
 }

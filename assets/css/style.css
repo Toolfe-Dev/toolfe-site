@@ -105,7 +105,7 @@ Input, textarea:  10px 'Syne', sans-serif
   );
   --primary_color2: #ffbe7a;
   --primary_light: #f6f6f6;
-  --primary_light2: rgb(19 81 216 / 10%);
+  --primary_light2: #f0f0f0;
   --gray: #d9d9d9;
   --font_syne: "Syne", sans-serif;
   --font_yantramanv: "Yantramanav", sans-serif;
@@ -494,7 +494,7 @@ img {
   border-radius: 10px;
   transition: 0.3s;
   color: var(--dark1);
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   color: var(--primary_color);
 }
 .header-area .logo {
@@ -543,7 +543,7 @@ img {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   color: var(--primary_color);
 }
 .header-area .navbar-wrapper ul li a {
@@ -3233,7 +3233,7 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   transition: 0.3s;
 }
 .how-we-do-style-2
@@ -3277,7 +3277,7 @@ img {
 }
 .about2-tabs .nav-item div .icon {
   display: inline-flex;
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -5285,7 +5285,7 @@ img {
   padding: 134px 0 84px 0;
 }
 .breadcrumb-list {
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   border-radius: 30px;
   display: inline-flex;
   align-items: center;
@@ -6580,7 +6580,7 @@ img {
 .contact-map-wrap h4 {
   position: absolute;
   color: var(--primary_color);
-  background: rgb(19 81 216 / 10%);
+  background: #f0f0f0;
   border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
@@ -6652,7 +6652,7 @@ img {
       rgba(19, 81, 216, 0.01)
     ),
     linear-gradient(0deg, rgba(19, 81, 216, 0.05), rgba(19, 81, 216, 0.05));
-  border: 1px solid rgb(19 81 216 / 10%);
+  border: 1px solid #f0f0f0;
   position: relative;
   padding: 120px 95px;
 }
