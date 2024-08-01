@@ -1,9 +1,9 @@
 <?php
 // Database credentials
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "toolfe";
+$username = "u840048117_toolfe_new";
+$password = "Toolfe10!";
+$dbname = "u840048117_toolfe_new";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 // Prepare and bind
-$stmt = $conn->prepare("INSERT INTO CareerForm (role, fullName, email, phone, resume, message, agreeToTerms) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO careerform (role, fullName, email, phone, resume, message, agreeToTerms) VALUES (?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param("ssssssi", $role, $fullName, $email, $phone, $resume, $message, $agreeToTerms);
 
 // Get form data
