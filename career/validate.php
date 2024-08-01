@@ -55,10 +55,7 @@ document.getElementById('careerForm').addEventListener('submit', function(event)
 
     if (isValid) {
         this.submit();
-    } else {
-        document.getElementById('alert-message').textContent = 'Please fix the errors in the form.';
-        document.getElementById('alert-message').style.display = 'block';
-    }
+    } 
 });
 </script>
   

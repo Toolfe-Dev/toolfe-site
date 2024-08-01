@@ -203,10 +203,6 @@ include '../includes/header.php'
                     <h4>Slide to book an appointment</h4>
                 </div>
 
-                <a href="https://blog.toolfe.com/" class="theme-btn">
-                book an appointment
-                    <i class="iconoir-arrow-up-right"></i>
-                </a>
 
             </div>
         </div>
