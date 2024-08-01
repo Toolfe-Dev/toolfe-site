@@ -17,8 +17,7 @@ include '../includes/header.php'
             <h5 class="section-subtitle">Career</h5>
             <h1 class="section-title fade-in">We are Hiring!</h1>
             <p>
-              Enhancing Customer Experience and Operational Efficiency through
-              Cutting-Edge Technology
+            Join our team and help shape the future with your skills and passion.
             </p>
           </div>
         </div>
