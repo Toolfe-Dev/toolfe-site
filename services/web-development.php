@@ -11,8 +11,8 @@ include '../includes/header.php'
     <!-- Hero -->
     <section class="hero-section-wrap hero-home2">
         <div class="hero-section-content-wrap">
-            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="Shape" />
-            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
+            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="bg-shape-6" />
+            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="bg-shape-5" />
             <div class="custom-container">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Responsive, Dynamic, Optimized</h5>
@@ -37,7 +37,7 @@ include '../includes/header.php'
                     <div class="left">
                         <h5 class="section-subtitle">what we do</h5>
                         <h1 class="section-title">Build dynamic websites</h1>
-                        <p style="max-width: 100%;">Enhance your digital landscape with our tailored web development
+                        <p class="whatwe-do">Enhance your digital landscape with our tailored web development
                             services, engineered to ignite user interest and propel your online growth. We specialize in
                             creating websites that reflect your brand and keep your audience engaged at every click.</p>
                     </div>
@@ -101,7 +101,7 @@ include '../includes/header.php'
 
     <!-- why us -->
     <section class="portoflio-area">
-        <img src="../assets/imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
+        <img src="../assets/imgs/bg-shape-9.svg" alt="bg-shape-9" class="bg-shape" />
         <div class="custom-container">
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
@@ -121,7 +121,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/website bento/1.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/website bento/1.webp" alt="1" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Visual <br>
@@ -139,7 +139,7 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/website bento/2.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/website bento/2.webp" alt="2" />
                         </div>
                     </div>
 
@@ -155,12 +155,12 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/website bento/3.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/website bento/3.webp" alt="3" />
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/website bento/4.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/website bento/4.webp" alt="4" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Innovative <br>
@@ -176,7 +176,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img width="20px" src="../assets/imgs/services/website bento/5.webp" alt="Portfolio" />
+                            <img width="20px" src="../assets/imgs/services/website bento/5.webp" alt="5" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Enhanced
@@ -191,8 +191,8 @@ include '../includes/header.php'
                             <p>Continuous support for seamless website evolution.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 240px;">
-                            <img src="../assets/imgs/services/web6.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-card-style7">
+                            <img src="../assets/imgs/services/web6.webp" alt="web6" />
                         </div>
                     </div>
 
@@ -228,9 +228,9 @@ include '../includes/header.php'
 
     <!-- our workflow -->
     <section class="how-we-do-area">
-        <div class="custom-container" style="margin-top: 100px;">
+        <div class="custom-container testimonial-top">
             <div class="custom-row">
-                <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+                <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left how-we-do-bg" />
                 <div class="how-we-do-left-content">
                     <div class="top">
                         <h5 class="section-subtitle">Our Workflow</h5>
@@ -375,7 +375,7 @@ feature of a website.</p>
                 </div>
                 <div class="right">
                     <div class="img-box">
-                        <img src="../assets/imgs/services/techstack/website_dev.webp" alt="About" />
+                        <img src="../assets/imgs/services/techstack/website_dev.webp" alt="website_dev" />
                     </div>
                 </div>
             </div>
@@ -402,7 +402,7 @@ feature of a website.</p>
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog1.webp" alt="Blog1" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
@@ -420,7 +420,7 @@ feature of a website.</p>
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog2.webp" alt="Blog2" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
@@ -437,7 +437,7 @@ feature of a website.</p>
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog3.webp" alt="Blog3" />
 
                     <div class="news2-card-body">
                         <div class="meta">
@@ -635,7 +635,7 @@ feature of a website.</p>
                         <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
-                                    <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                                    <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                                 </div>
                                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
                             </div>

@@ -31,21 +31,21 @@ include '../includes/header.php'
       <div class="d-flex justify-content-between align-items-center mb-5">
         <h1 class="section-title">RPA Developer</h1>
         <a href="#career-form" class="">
-        <button id="#" class="theme-btn" style="background-color:#fff; color: #000;">Apply Now</button>
+        <button id="#" class="theme-btn form-style ">Apply Now</button>
         </a>
         
       </div>
-      <div class="career-body d-flex g-2 p-0" style="background-color: #fff;">
+      <div class="career-body d-flex g-2 p-0 career-body-bg">
         <div class="career-lists ps-3 pe-5">
       <div class="left">
             <h2>Job Overview</h2>
-            <p style="color: #141414">
+            <p class="job-overview-color">
               Seeking an RPA Developer to design, develop, and implement automation solutions using RPA technologies. Must have a strong background in software development and process analysis, with experience in tools like UiPath, Blue Prism, or Automation Anywhere.
             </p>
             <br />
             <h2>Responsibilities</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
                 Design, develop, and deploy RPA solutions. 
               </li>
@@ -77,7 +77,7 @@ include '../includes/header.php'
             <br />
             <h2>Qualifications</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               Bachelor’s degree in Computer Science, IT, or related field. 
               </li>
@@ -102,7 +102,7 @@ include '../includes/header.php'
             <br />
             <h2>Preferred Qualifications</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               RPA certification (e.g., UiPath Certified RPA Developer). 
               </li>
@@ -116,7 +116,7 @@ include '../includes/header.php'
             <br />
             <h2>Benefits</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
                 Professional development opportunities.  
               </li>
@@ -135,7 +135,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                         <div class="">
-                          <img src="../assets/imgs/location.svg" alt="" class="">
+                          <img src="../assets/imgs/location.svg" alt="location" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -148,7 +148,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                       <div class="">
-                          <img src="../assets/imgs/experience.svg" alt="" class="">
+                          <img src="../assets/imgs/experience.svg" alt="experience" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -161,7 +161,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                       <div class="">
-                          <img src="../assets/imgs/jobtitle.svg" alt="" class="">
+                          <img src="../assets/imgs/jobtitle.svg" alt="jobtitle" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -238,16 +238,7 @@ include '../includes/header.php'
     </div>
 </form>
 
-<div id="alert-message" style="
-    display: none;
-    margin: 20px;
-    font-weight: bold;
-    color: #f87708;
-    padding: 8px;
-    background-color: beige;
-    border-radius: 4px;
-    border-color: aquamarine;
-"></div>
+<div id="alert-message alert-message-style"></div>
 
           </div>
         </div>
@@ -275,7 +266,7 @@ include '../includes/header.php'
         <div class="contact-infos">
           <div class="contact-infos-inner">
             <div class="contact-info mb-0 border-0">
-              <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+              <img src="../assets/imgs/contact_us/location.svg" alt="location" />
               <h3>Contact Info</h3>
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">

@@ -11,10 +11,10 @@ include '../includes/header.php'
   <!-- Our Field Hero -->
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px">
+          <div class="hero-section-content text-center testimonial-top ">
             <h5 class="section-subtitle"> Logistics and Transportation</h5>
             <h1 class="section-title fade-in">
               Transforming Logistics with Innovative IT Solutions
@@ -35,7 +35,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/lt1.webp" alt="About" />
+          <img src="../assets/imgs/industry/lt1.webp" alt="lt1" />
         </div>
 
         <div class="content-box">
@@ -82,7 +82,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/lt2.webp" alt="News" />
+          <img src="../assets/imgs/industry/lt2.webp" alt="lt2" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -143,13 +143,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/lt3.webp" alt="News" />
+          <img src="../assets/imgs/industry/lt3.webp" alt="lt3" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/lt4.webp" alt="News" />
+          <img src="../assets/imgs/industry/lt4.webp" alt="lt4" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -207,13 +207,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/lt5.webp" alt="News" />
+          <img src="../assets/imgs/industry/lt5.webp" alt="lt5" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/lt6.webp" alt="News" />
+          <img src="../assets/imgs/industry/lt6.webp" alt="lt6" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -470,7 +470,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/lt7.webp" alt="Service About" />
+        <img src="../assets/imgs/industry/lt7.webp" alt="lt7" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we bring together top talent and forward-thinking experts to transform logistics with innovative
@@ -491,7 +491,7 @@ include '../includes/header.php'
   <!-- case studies -->
 
   <section class="service2-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -507,7 +507,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/lt8.webp" alt="Service" />
+          <img src="../assets/imgs/industry/lt8.webp" alt="lt8" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Route Optimization and Fleet Management</h3>
@@ -520,7 +520,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/lt9.webp" alt="Service" />
+          <img src="../assets/imgs/industry/lt9.webp" alt="lt9" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Predictive Maintenance for Vehicles</h3>

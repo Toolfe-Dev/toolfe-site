@@ -2,7 +2,7 @@
   <section class="cta-area cta-area2">
     <div class="custom-container">
       <div class="cta-body text-center d-flex align-items-center justify-content-between">
-        <img src="../assets/imgs/bg-shape-12.webp" alt="Shape" class="animation-slide-right bg-shape" />
+        <img src="../assets/imgs/bg-shape-12.webp" alt="bg-shape-12" class="animation-slide-right bg-shape" />
         <div class="left">
           <div class="our-expert-team-box"></div>
           <h2>Ready to Transform Your Business?</h2>

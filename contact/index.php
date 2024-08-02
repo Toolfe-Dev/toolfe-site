@@ -8,10 +8,10 @@ include '../includes/header.php'
   <?php include '../includes/head.php' ?>
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap" >
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px;">
+          <div class="hero-section-content text-center testimonial-top">
             <h5 class="section-subtitle">Contact us</h5>
             <h2 class="section-title fade-in">
               Your Vision + Our Expertise = Success!
@@ -167,7 +167,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/contact_us/contact-us_1.webp" alt="About" />
+          <img src="../assets/imgs/contact_us/contact-us_1.webp" alt="contact-us_1" />
         </div>
 
         <div class="content-box">
@@ -198,7 +198,7 @@ include '../includes/header.php'
   <section class="cta-area cta-area2 cta-area2-white">
     <div class="custom-container">
       <div class="cta-body text-center d-flex align-items-center justify-content-between">
-        <img src="../assets/imgs/bg-shape-cta.svg" alt="Shape" class="animation-slide-left bg-shape" />
+        <img src="../assets/imgs/bg-shape-cta.svg" alt="bg-shape-cta" class="animation-slide-left bg-shape" />
         <div class="left">
           <div class="our-expert-team-box">
             <div class="our-expert-team-box-inner d-flex align-items-center">

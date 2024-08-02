@@ -38,7 +38,7 @@
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
                                         <div class="img-box w-100">
-                                            <img src="../assets/imgs/casestudy/section/email_thumbnail_section.webp"  width="100%" height="100%"  width="100%" height="100%"  alt="About" />
+                                            <img src="../assets/imgs/casestudy/section/email_thumbnail_section.webp"  width="100%" height="100%"  width="100%" height="100%"  alt="email_thumbnail_section" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -68,7 +68,7 @@
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
                                         <div class="img-box w-100">
-                                            <img src="../assets/imgs/casestudy/section/cv_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
+                                            <img src="../assets/imgs/casestudy/section/cv_thumbnail_section.webp" width="100%" height="100%"  alt="cv_thumbnail_section" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -101,7 +101,7 @@
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
                                         <div class="img-box w-100">
-                                            <img src="../assets/imgs/casestudy/section/cloud_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
+                                            <img src="../assets/imgs/casestudy/section/cloud_thumbnail_section.webp" width="100%" height="100%"  alt="cloud_thumbnail_section" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -134,7 +134,7 @@
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
                                         <div class="img-box w-100">
-                                            <img src="../assets/imgs/casestudy/section/digital_thumbnail_section.webp" width="100%" height="100%"  alt="About" />
+                                            <img src="../assets/imgs/casestudy/section/digital_thumbnail_section.webp" width="100%" height="100%"  alt="digital_thumbnail_section" />
                                         </div>
                                     </div>
                                     <div class="right">
@@ -165,7 +165,7 @@
                                 <div class="case-studio-body d-flex">
                                     <div class="left d-flex flex-1">
                                         <div class="img-box w-100">
-                                            <img src="../assets/imgs/casestudy/section/idp_thumbanail_section.webp" width="100%" height="100%"  alt="About" />
+                                            <img src="../assets/imgs/casestudy/section/idp_thumbanail_section.webp" width="100%" height="100%"  alt="idp_thumbanail_section" />
                                         </div>
                                     </div>
                                     <div class="right">

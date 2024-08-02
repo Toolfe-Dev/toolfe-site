@@ -9,10 +9,10 @@ include '../includes/header.php'
   <!-- Hero -->
   <section class="hero-section-wrap hero-home2">
     <div class="hero-section-content-wrap">
-      <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="Shape" />
-      <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
+      <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="bg-shape-6" />
+      <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="bg-shape-6" />
       <div class="custom-container">
-        <div class="hero-section-content text-center" style="margin-bottom: 30px">
+        <div class="hero-section-content text-center case-studies-style">
           <h5 class="section-subtitle">case Studies</h5>
           <h1 class="section-title fade-in">
             Unlocking Success with Innovative Solutions
@@ -34,7 +34,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="sticky-news d-flex card-h1">
         <div class="news-img-box">
-          <img src="../assets/imgs/casestudy/cloud_thumbnail_index.webp" alt="Case studies" />
+          <img src="../assets/imgs/casestudy/cloud_thumbnail_index.webp" alt="cloud_thumbnail_index" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle">Cloud Deployment</h5>
@@ -61,7 +61,7 @@ include '../includes/header.php'
       <div class="news-items align-items-start">
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/email_thumbnail_index.webp" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/email_thumbnail_index.webp" alt="email_thumbnail_index" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Robotic Process Automation</h5>
@@ -86,7 +86,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/digital_thumbnail_index.webp" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/digital_thumbnail_index.webp" alt="digital_thumbnail_index" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Automation And Marketing</h5>
@@ -112,7 +112,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/cv_thumbnail_index.webp" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/cv_thumbnail_index.webp" alt="cv_thumbnail_index" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">Computer Vision</h5>
@@ -140,7 +140,7 @@ include '../includes/header.php'
         </div>
         <div class="news-item card-h1">
           <div class="news-img-box">
-            <img src="../assets/imgs/casestudy/idp_thumbanail_index.webp" alt="Case Studie" />
+            <img src="../assets/imgs/casestudy/idp_thumbanail_index.webp" alt="idp_thumbanail_index" />
           </div>
           <div class="news-item-body">
             <h5 class="section-subtitle">NLP/Ai</h5>
@@ -192,7 +192,7 @@ include '../includes/header.php'
             <a href="#" class="our-expert-team-box d-flex align-items-center">
               <div class="our-expert-team-box-inner d-flex align-items-center">
                 <div class="imgs d-flex align-items-center">
-                  <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                  <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                 </div>
                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
               </div>

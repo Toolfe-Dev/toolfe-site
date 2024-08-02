@@ -10,10 +10,10 @@ include '../includes/header.php'
   <!-- Our Field Hero -->
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px">
+          <div class="hero-section-content text-center testimonial-top ">
             <h5 class="section-subtitle">Finance & Banking</h5>
             <h1 class="section-title fade-in">
               Transforming Finance with Innovative IT Solutions
@@ -36,7 +36,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/fin1.webp" alt="About" />
+          <img src="../assets/imgs/industry/fin1.webp" alt="fin1" />
         </div>
 
         <div class="content-box">
@@ -72,7 +72,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/fin2.webp" alt="News" />
+          <img src="../assets/imgs/industry/fin2.webp" alt="fin2" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -131,13 +131,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/fin3.webp" alt="News" />
+          <img src="../assets/imgs/industry/fin3.webp" alt="fin3" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/fin4.webp" alt="News" />
+          <img src="../assets/imgs/industry/fin4.webp" alt="fin4" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -195,13 +195,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/fin5.webp" alt="News" />
+          <img src="../assets/imgs/industry/fin5.webp" alt="fin5" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/fin6.webp" alt="News" />
+          <img src="../assets/imgs/industry/fin6.webp" alt="fin6" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -249,7 +249,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/fin7.webp" alt="Service About" />
+        <img src="../assets/imgs/industry/fin7.webp" alt="fin7" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, our expert team in finance and banking delivers innovative solutions. We ensure your financial
@@ -275,7 +275,7 @@ include '../includes/header.php'
   <!-- case studies -->
 
   <section class="service2-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -294,7 +294,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/fin8.webp" alt="Service" />
+          <img src="../assets/imgs/industry/fin8.webp" alt="fin8" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Fraud Detection and Prevention</h3>
@@ -307,7 +307,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/fin9.webp" alt="Service" />
+          <img src="../assets/imgs/industry/fin9.webp" alt="fin9" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Algorithmic <br>Trading</h3>

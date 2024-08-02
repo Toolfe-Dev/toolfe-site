@@ -1,6 +1,6 @@
   <!-- Footer -->
   <footer class="footer-area">
-      <img src="../assets/imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
+      <img src="../assets/imgs/bg-shape-4.svg" alt="bg-shape-4" class="animation-slide-right bg-shape" />
       <div class="footer-top">
           <div class="custom-container">
               <div class="custom-row align-items-end justify-content-between">
@@ -13,7 +13,7 @@
                       <form action="" method="POST" class="subscribe-form">
                           <div class="subscribe-box d-flex">
                               <input type="email" id="email" name="email" placeholder="Enter Your Email" />
-                              <button id="submit2" class="theme-btn" style="background-color:#fff; color: #000;">Get
+                              <button id="submit2" class="theme-btn form-style" >Get
                                   Started</button>
                           </div>
                           <!-- Alert Message -->
@@ -28,10 +28,10 @@
                               <img src="../assets/imgs/footer/cio.svg" alt="cio">
                           </div>
                           <div class="footer-client-img">
-                              <img src="../assets/imgs/footer/secure_ssl.svg" alt="securepayment">
+                              <img src="../assets/imgs/footer/secure_ssl.svg" alt="securessl">
                           </div>
                           <div class="footer-client-img">
-                              <img src="../assets/imgs/footer/secure_payment.svg" alt="securessl">
+                              <img src="../assets/imgs/footer/secure_payment.svg" alt="securepayment">
                           </div>
                           <div class="footer-client-img">
                               <img src="../assets/imgs/footer/best_choice.svg" alt="bestchoice">
@@ -116,7 +116,7 @@
                               <li><a href="../contact/">Contact us</a></li>
                               <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                               <li><a href="https://hourspark.com/hxt/">Hourspark x Toolfe</a></li>
-                              <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>
+                              <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button book-free-con"> Book a free consultation </a></li>
                           </ul>
                       </div>
                       <div class="footer-links">

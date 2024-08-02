@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="footer-area">
-    <img src="../assets/imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
+    <img src="../assets/imgs/bg-shape-4.svg" alt="bg-shape-4" class="animation-slide-right bg-shape" />
     <div class="footer-top">
         <div class="custom-container">
             <div class="custom-row align-items-end justify-content-between">

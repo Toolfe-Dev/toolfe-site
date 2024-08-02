@@ -104,7 +104,7 @@
                                         </div>
                                         <div class="right">
                                             <div class="mega-menu-ads">
-                                                <img src="../assets/imgs/Hoursparkheader.svg" alt="iPad" />
+                                                <img src="../assets/imgs/Hoursparkheader.svg" alt="Hoursparkheader" />
                                                 <h2>Hourspark</h2>
                                                 <p>World's first 15 hours
                                                 IT task delivery service
@@ -188,7 +188,7 @@
                                         </div>
                                         <div class="right">
                                             <div class="mega-menu-ads">
-                                                <img src="../assets/imgs/industry-header.svg" style="width: 252px; height: 144px; border-radius: 10px;" alt="iPad" />
+                                                <img src="../assets/imgs/industry-header.svg" class="histyle" alt="industry-header" />
                                                 <h2>HealthTech Innovations</h2>
                                                 <p>
                                                 Enhancing Care and Efficiency 
@@ -213,7 +213,7 @@
                                                     <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case1.webp" alt="Portfolio">
+                                                                <img src="../assets/imgs/case1.webp" alt="case1">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
@@ -223,7 +223,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case2.webp" alt="Portfolio">
+                                                                <img src="../assets/imgs/case2.webp" alt="case2">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
@@ -232,7 +232,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case3.webp" alt="Portfolio">
+                                                                <img src="../assets/imgs/case3.webp" alt="case3">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/digital_transformation_initiative.php"> Digital Transformation Initiative <br> for an constructionCompany</a></h3>
@@ -241,7 +241,7 @@
                                                         </div>
                                                         <div class="mega-menu-portfolio-card">
                                                             <div class="img-box">
-                                                                <img src="../assets/imgs/case4.webp" alt="Portfolio">
+                                                                <img src="../assets/imgs/case4.webp" alt="case4">
                                                             </div>
                                                             <div class="content-box">
                                                                 <h3><a href="../case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
@@ -263,7 +263,7 @@
                                                 </div>
                                                 <div class="right">
                                                     <div class="mega-menu-ads">
-                                                        <img src="../assets/imgs/case5.webp" alt="iPad">
+                                                        <img src="../assets/imgs/case5.webp" alt="case5">
                                                         <h2><a href="../case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
                                                         <br>
                                                         <a href="../case-study">View more</a>

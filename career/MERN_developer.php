@@ -9,7 +9,7 @@ include '../includes/header.php'
 
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
           <div class="hero-section-content text-center">
@@ -31,20 +31,20 @@ include '../includes/header.php'
       <div class="d-flex justify-content-between align-items-center mb-5">
       <h1 class="section-title">MERN Stack Developer - Web Development </h1>
       <a href="#career-form" class="">
-        <button id="#" class="theme-btn" style="background-color:#fff; color: #000;">Apply Now</button>
+        <button id="#" class="theme-btn book-free-con">Apply Now</button>
         </a>
       </div>
-      <div class="career-body d-flex g-2 p-0" style="background-color: #fff;">
+      <div class="career-body d-flex g-2 p-0 career-body-bg">
         <div class="career-lists ps-3 pe-5">
         <div class="left">
             <h2>Job Overview</h2>
-            <p style="color: #141414">
+            <p class="job-overview-color">
             We are looking for a skilled MERN Stack Developer to join our web development team. The ideal candidate will have extensive experience in building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js. This role involves working closely with designers and back-end developers to deliver high-quality web solutions. 
             </p>
             <br />
             <h2>Responsibilities</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
               </li>
@@ -75,7 +75,7 @@ include '../includes/header.php'
             <br />
             <h2>Qualifications</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               Bachelor’s degree in Computer Science, Information Technology, or a related field. 
               <li>
@@ -105,7 +105,7 @@ include '../includes/header.php'
             <br />
             <h2>Preferred Qualifications</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               Experience with TypeScript. 
               </li>
@@ -125,7 +125,7 @@ include '../includes/header.php'
             <br />
             <h2>Benefits</h2>
             <br />
-            <ul style="list-style-type: disc">
+            <ul class="list-style-res">
               <li>
               Opportunities for professional development and career advancement. 
               </li>
@@ -144,7 +144,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                         <div class="">
-                          <img src="../assets/imgs/location.svg" alt="" class="">
+                          <img src="../assets/imgs/location.svg" alt="location" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -157,7 +157,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                       <div class="">
-                          <img src="../assets/imgs/experience.svg" alt="" class="">
+                          <img src="../assets/imgs/experience.svg" alt="experience" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -170,7 +170,7 @@ include '../includes/header.php'
                     <div class="how-we-do-card">
                       <div class="how-we-do-icon">
                       <div class="">
-                          <img src="../assets/imgs/jobtitle.svg" alt="" class="">
+                          <img src="../assets/imgs/jobtitle.svg" alt="jobtitle" class="">
                         </div>
                       </div>
                       <div class="how-we-do-content mt-4">
@@ -247,16 +247,7 @@ include '../includes/header.php'
     </div>
 </form>
 
-<div id="alert-message" style="
-    display: none;
-    margin: 20px;
-    font-weight: bold;
-    color: #f87708;
-    padding: 8px;
-    background-color: beige;
-    border-radius: 4px;
-    border-color: aquamarine;
-"></div>
+<div id="alert-message alert-message-style"></div>
 
           </div>
         </div>
@@ -284,7 +275,7 @@ include '../includes/header.php'
         <div class="contact-infos">
           <div class="contact-infos-inner">
             <div class="contact-info mb-0 border-0">
-              <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+              <img src="../assets/imgs/contact_us/location.svg" alt="location" />
               <h3>Contact Info</h3>
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">

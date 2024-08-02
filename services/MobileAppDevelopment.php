@@ -12,8 +12,8 @@ include '../includes/header.php'
     <!-- Hero -->
     <section class="hero-section-wrap hero-home2">
         <div class="hero-section-content-wrap">
-            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="Shape" />
-            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
+            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="bg-shape-6" />
+            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="bg-shape-5" />
             <div class="custom-container">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Strategy Redefined, Design Excellence, Solution Development</h5>
@@ -39,7 +39,7 @@ include '../includes/header.php'
                     <div class="left">
                         <h5 class="section-subtitle">what we do</h5>
                         <h1 class="section-title">Mobile Development</h1>
-                        <p style="max-width: 100%;">Start your transformative journey with our app development services, where advanced technology delivers exceptional digital experiences tailored to your brand's vision.
+                        <p class="whatwe-do">Start your transformative journey with our app development services, where advanced technology delivers exceptional digital experiences tailored to your brand's vision.
 
                             Selecting us means accessing seasoned developers who prioritize your project's success. With transparent communication and post-launch support, we're here for the long haul.</p>
                     </div>
@@ -87,7 +87,7 @@ include '../includes/header.php'
 
     <!-- Portfolio -->
     <section class="portoflio-area">
-        <img src="../assets/imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
+        <img src="../assets/imgs/bg-shape-9.svg" alt="bg-shape-9" class="bg-shape" />
         <div class="custom-container">
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
@@ -103,7 +103,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/1.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/Mobileappbento/1.webp" alt="1" />
                         </div>
                         <div class="portfolio-body">
                             <h2>API <br>
@@ -121,7 +121,7 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/2.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/Mobileappbento/2.webp" alt="2" />
                         </div>
                     </div>
 
@@ -135,12 +135,12 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/3.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/Mobileappbento/3.webp" alt="3" />
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-                        <div class="portfolio-img" style="height:232px;">
-                            <img src="../assets/imgs/services/Mobileappbento/4.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-card-style6">
+                            <img src="../assets/imgs/services/Mobileappbento/4.webp" alt="4" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Multi-platform <br>
@@ -155,7 +155,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/Mobileappbento/5.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/Mobileappbento/5.webp" alt="5" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Wearable Sync</h2>
@@ -170,8 +170,8 @@ include '../includes/header.php'
                             <p>We offer advanced security solutions for secure app development.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 244px;">
-                            <img src="../assets/imgs/services/Mobileappbento/6.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-card-style2">
+                            <img src="../assets/imgs/services/Mobileappbento/6.webp" alt="6" />
                         </div>
                     </div>
 
@@ -202,9 +202,9 @@ include '../includes/header.php'
 
     <!-- How We Do -->
     <section class="how-we-do-area">
-        <div class="custom-container" style="margin-top: 100px;">
+        <div class="custom-container testimonial-top">
             <div class="custom-row">
-                <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+                <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left how-we-do-bg" />
                 <div class="how-we-do-left-content">
                     <div class="top">
                         <h5 class="section-subtitle">Our Workflow</h5>
@@ -350,7 +350,7 @@ include '../includes/header.php'
                 </div>
                 <div class="right">
                     <div class="img-box">
-                        <img src="../assets/imgs/services/techstack/Mobile_app.webp" alt="About" />
+                        <img src="../assets/imgs/services/techstack/Mobile_app.webp" alt="Mobile_app" />
                     </div>
                 </div>
             </div>
@@ -379,7 +379,7 @@ include '../includes/header.php'
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog1.webp" alt="Blog1" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
@@ -397,7 +397,7 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog2.webp" alt="Blog2" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
@@ -414,7 +414,7 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog3.webp" alt="Blog3" />
 
                     <div class="news2-card-body">
                         <div class="meta">
@@ -613,7 +613,7 @@ include '../includes/header.php'
                         <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
-                                    <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                                    <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                                 </div>
                                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
                             </div>

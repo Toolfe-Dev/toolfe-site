@@ -8,10 +8,10 @@ include '../includes/header.php'
   <?php include '../includes/head.php' ?>
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px;">
+          <div class="hero-section-content text-center testimonial-top">
             <h5 class="section-subtitle">Career</h5>
             <h1 class="section-title fade-in">Join Our Innovative Team</h1>
             <p>Discover Exciting Career Opportunities</p>
@@ -95,7 +95,7 @@ include '../includes/header.php'
   <section class="company-service-area career-service-area">
     <div class="custom-container">
       <div class="hero-service-about">
-        <img src="../assets/imgs/career/career_page1.webp" alt="Service About" />
+        <img src="../assets/imgs/career/career_page1.webp" alt="career_page1" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we believe in the power of collective creativity and
@@ -136,24 +136,24 @@ include '../includes/header.php'
 
       <div class="service2-items d-flex w-full">
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Professional Growth.webp" alt="Service" />
+          <img src="../assets/imgs/career/Professional Growth.webp" alt="Professional Growth" />
           <h2>Professional Growth</h2>
           <p>
             Access continuous learning to<br> advance your career.
           </p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Innovative Projects.webp" alt="Service" />
+          <img src="../assets/imgs/career/Innovative Projects.webp" alt="Innovative Projects" />
           <h2> Innovative Projects</h2>
           <p>Work on cutting-edge projects in <br>technology and innovation.</p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/Collaborative Environment.webp" alt="Service" />
+          <img src="../assets/imgs/career/Collaborative Environment.webp" alt="Collaborative Environment" />
           <h2>Collaborative Environment</h2>
           <p>Thrive in a supportive workplace that <br> values teamwork.</p>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/career/WOrk life balance.webp" alt="Service" />
+          <img src="../assets/imgs/career/WOrk life balance.webp" alt="WOrk life balance" />
           <h2>Work-Life Balance</h2>
           <p>
             Enjoy a flexible environment that <br>promotes a healthy balance.
@@ -183,7 +183,7 @@ include '../includes/header.php'
 
       <div class="news2-lists d-flex">
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog1.webp" alt="Blog" />
+          <img src="../assets/imgs/services/blog1.webp" alt="blog1" />
           <span class="news-ribbon">New</span>
           <div class="news2-card-body">
             <div class="meta">
@@ -200,7 +200,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog2.webp" alt="Blog" />
+          <img src="../assets/imgs/services/blog2.webp" alt="blog2" />
           <div class="news2-card-body">
             <div class="meta">
               <span class="date">May 22, 2024</span>
@@ -216,7 +216,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="news2-card card-h">
-          <img src="../assets/imgs/services/blog3.webp" alt="Blog" />
+          <img src="../assets/imgs/services/blog3.webp" alt="blog3" />
 
           <div class="news2-card-body">
             <div class="meta">
@@ -246,7 +246,7 @@ include '../includes/header.php'
           <div class="swiper-wrapper">
             <div class="swiper-slide testimonial-item">
               <div class="testimonial-item-body">
-                <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
 
                 <h1>"As a tester at Toolfe, I've found a supportive environment where my contributions truly matter. Our commitment to quality is evident in every project, and I've grown professionally through challenging yet rewarding experiences. I confidently endorse our products knowing they meet rigorous standards and reflect our dedication to excellence."</h1>
                 <div class="author-box d-flex align-items-center">
@@ -259,7 +259,7 @@ include '../includes/header.php'
             </div>
             <div class="swiper-slide testimonial-item">
               <div class="testimonial-item-body">
-                <img class="bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                <img class="bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
 
                 <h1>"My experience at Toolfe as a UX/UI Designer has been incredibly enriching. I've had the chance to develop user-friendly designs in a team-oriented environment that prioritizes user needs. The support from my colleagues has been instrumental in fostering creativity and delivering exceptional solutions.
                   "</h1>
@@ -274,7 +274,7 @@ include '../includes/header.php'
             </div>
             <div class="swiper-slide testimonial-item">
               <div class="testimonial-item-body">
-                <img class="bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                <img class="bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
                 <h1>"Working as a full stack developer at Toolfe has been enriching. The company's commitment to innovation pushes me to expand my skills and explore new technologies. The supportive culture encourages collaboration and knowledge sharing. I've grown professionally, thanks to the mentorship and opportunities provided here. I'm privileged to contribute to a team that values personal growth and exceptional results."</h1>
 
                 <div class="author-box d-flex align-items-center">
@@ -301,7 +301,7 @@ include '../includes/header.php'
   <section class="cta-area cta-style-3">
     <div class="custom-container">
       <div class="cta-body text-center">
-        <img src="../assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />
+        <img src="../assets/imgs/bg-shape-11.svg" alt="bg-shape-11" class="animation-slide-left bg-shape" />
         <div class="our-expert-team-box">
           <div class="our-expert-team-box-inner d-flex align-items-center">
 

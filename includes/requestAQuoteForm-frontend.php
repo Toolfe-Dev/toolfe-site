@@ -127,7 +127,7 @@
                 <div class="input-row field">
                     <div class="input-group">
                         <label for="budget">Budget (Optional)</label>
-                        <input id="pi_input" type="range" min="0" max="500000" step="1" style="padding: 0;" name="budget" />
+                        <input class="p-0" id="pi_input" type="range" min="0" max="500000" step="1"  name="budget" />
                         <div class="budget-values d-flex align-items-center justify-content-between w-full">
                             <div class="left-value">$<span id="budget-value">200</span></div>
                             <div class="right-value">$500k +</div>
@@ -150,14 +150,5 @@
             </div>
         </form>
 
-        <div id="alert-message" style="
-            display: none;
-            margin: 20px;
-            font-weight: bold;
-            color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
-            padding: 8px;
-            background-color: beige;
-            border-radius: 4px;
-            border-color: aquamarine;
-          "></div>
+        <div id="alert-message alert-message-style"></div>
     </div>

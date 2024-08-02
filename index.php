@@ -176,7 +176,7 @@
                         </div>
                         <div class="right">
                           <div class="mega-menu-ads">
-                            <img src="assets/imgs/Hoursparkheader.svg" alt="iPad" />
+                            <img src="assets/imgs/Hoursparkheader.svg" alt="Hoursparkheader" />
                             <h2>Hourspark</h2>
                             <p>World's first 15 hours
                               IT task delivery service
@@ -260,7 +260,7 @@
                         </div>
                         <div class="right">
                           <div class="mega-menu-ads">
-                            <img src="assets/imgs/industry-header.svg" style="width: 252px; height: 144px; border-radius: 10px;" alt="iPad" />
+                            <img src="assets/imgs/industry-header.svg" class="histyle" alt="industry-header" />
                             <h2>HealthTech Innovations</h2>
                             <p>
                               Enhancing Care and Efficiency
@@ -285,7 +285,7 @@
                           <div class="mega-menu-link-wrap d-flex align-items-start justify-content-between">
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case1.webp" alt="Portfolio">
+                                <img src="assets/imgs/case1.webp" alt="case1">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/automating_cloud_deployment.php">Automating Cloud Deployment for <br> Workflow Management</a></h3>
@@ -295,7 +295,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case2.webp" alt="Portfolio">
+                                <img src="assets/imgs/case2.webp" alt="case2">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for <br> a Security Department</a></h3>
@@ -304,7 +304,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case3.webp" alt="Portfolio">
+                                <img src="assets/imgs/case3.webp" alt="case3">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/digital_transformation_initiative.php"> Digital <br> Transformation Initiative for an constructionCompany</a></h3>
@@ -313,7 +313,7 @@
                             </div>
                             <div class="mega-menu-portfolio-card">
                               <div class="img-box">
-                                <img src="assets/imgs/case4.webp" alt="Portfolio">
+                                <img src="assets/imgs/case4.webp" alt="case4">
                               </div>
                               <div class="content-box">
                                 <h3><a href="case-study/implementing_computer_vision.php">Computer Vision for Fruit<br> Ripeness Detection</a></h3>
@@ -335,7 +335,7 @@
                         </div>
                         <div class="right">
                           <div class="mega-menu-ads">
-                            <img src="assets/imgs/case5.webp" alt="iPad">
+                            <img src="assets/imgs/case5.webp" alt="case5">
                             <h2><a href="case-study/intelligent_document_processing.php">Smart Document Processing for <br> Knowledge Management</h2>
                             <br>
                             <a href="case-study">View more</a>
@@ -369,7 +369,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-empowerment-area " style="background-image: url('./assets/imgs/section.webp');background-repeat: no-repeat; background-size: cover;">
+    <section class="hero-empowerment-area aybstyle">
       <div class="custom-container">
         <div class="custom-row align-items-center ">
           <div class="hero-empowerment-left-content">                                                                                                  
@@ -390,8 +390,8 @@
 
           <div class="hero-empowerment-right-content">
             <div class="top-content">
-              <img class=" fade-in ms-auto" src="./assets/imgs/bg-1.webp" alt="Empowerment" style="max-width: 600px;">
-              <!-- <img class="mobile" src="./assets/imgs/bg-1.webp" alt="Empowerment"> -->
+              <img class=" fade-in ms-auto discover" src="./assets/imgs/bg-1.webp" alt="bg-1">
+              <!-- <img class="mobile" src="./assets/imgs/bg-1.webp" alt="bg-1"> -->
             </div>
           </div>
         </div>
@@ -415,7 +415,7 @@
             <div class="about-timeline">
               <div class="about-timeline-item">
                 <div class="about-timeline-item-inner">
-                  <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                  <img src="./assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                   <span class="number">01</span>
                   <h3>Smoother Operations</h3>
                   <p>
@@ -425,7 +425,7 @@
               </div>
               <div class="about-timeline-item">
                 <div class="about-timeline-item-inner">
-                  <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                  <img src="./assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                   <span class="number">02</span>
                   <h3>Expert Hands</h3>
                   <p>
@@ -436,7 +436,7 @@
 
               <div class="about-timeline-item">
                 <div class="about-timeline-item-inner">
-                  <img src="./assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                  <img src="./assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                   <span class="number">03</span>
                   <h3>Our Continuous Acheivement</h3>
                   <p>
@@ -471,7 +471,7 @@
 
         <div class="services-list d-flex">
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon1.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon1.svg" alt="solution_icon1" class="service-icon" />
             <h3><a href="services/ProcessAutomation.php">Process Automation </a></h3>
             <p>
               Revolutionize your workflows with our end-to-end automation
@@ -480,7 +480,7 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon2.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon2.svg" alt="solution_icon2" class="service-icon" />
             <h3><a href="services/AIMLPage.php"> AI/ML </a></h3>
             <p>
               Leverage the power of artificial intelligence to uncover
@@ -489,7 +489,7 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon3.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon3.svg" alt="solution_icon3" class="service-icon" />
             <h3><a href="services/DataAnalytics.php">Data Analytics </a></h3>
             <p>
               Transform your data into actionable intelligence with our
@@ -498,7 +498,7 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon4.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon4.svg" alt="solution_icon4" class="service-icon" />
             <h3><a href="services/MarketResearch.php">Market Research </a></h3>
             <p>
               Gain a competitive edge with our comprehensive market research
@@ -507,7 +507,7 @@
           </div>
           <div class="service-card simple-shadow">
 
-            <img src="assets/imgs/Home/ourSolution/solution_icon5.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon5.svg" alt="solution_icon5" class="service-icon" />
             <h3><a href="services/Cloud.php">Cloud Solutions </a></h3>
             <p>
               Embrace the future with our secure and scalable cloud solutions,
@@ -518,7 +518,7 @@
         <p></p>
         <div class="services-list d-flex">
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon6.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon6.svg" alt="solution_icon6" class="service-icon" />
             <h3>
               <a href="services/SoftwareDevelopment.php">Web Application Development </a>
             </h3>
@@ -528,7 +528,7 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="solution_icon7" class="service-icon" />
             <h3><a href="services/web-development.php"> Website <br>Development </a></h3>
             <p>
               Develop stunning, high-performance websites that captivate your
@@ -536,7 +536,7 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon8.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon8.svg" alt="solution_icon8" class="service-icon" />
             <h3>
               <a href="services/UXUI.php">User Experience and User Interface</a>
             </h3>
@@ -546,13 +546,13 @@
             </p>
           </div>
           <div class="service-card simple-shadow">
-            <img src="assets/imgs/Home/ourSolution/solution_icon9.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon9.svg" alt="solution_icon9" class="service-icon" />
             <h3><a href="services/MobileAppDevelopment.php">Mobile Application Development </a></h3>
             <p>Develop high-quality, user-friendly mobile apps for optimal performance and satisfaction through innovation.</p>
           </div>
           <div class="service-card simple-shadow">
 
-            <img src="assets/imgs/Home/ourSolution/solution_icon10.svg" alt="Service Icon" class="service-icon" />
+            <img src="assets/imgs/Home/ourSolution/solution_icon10.svg" alt="solution_icon10" class="service-icon" />
             <h3><a href="https://hourspark.com/">15 Hour Spark <br> Tasks </a></h3>
             <p>
               Achieve quick wins with our specialized 15-hour tasks, designed
@@ -578,7 +578,7 @@
             <a href="./contact/" class="theme-btn">Contact Us</a>
           </div>
 
-          <img src="assets/imgs/Home/home_why_choose.webp" alt="Service About" />
+          <img src="assets/imgs/Home/home_why_choose.webp" alt="home_why_choose" />
           <div class="hero-service-about-body">
             <p>
               At Toolfe, we pride ourselves on being a dynamic force of
@@ -608,7 +608,7 @@
             </ul>
           </div>
         </div>
-        <div class="hero-company-boxes" style="margin-top: 50px;">
+        <div class="hero-company-boxes cproject" >
           <div class="hero-company-box simple-shadow ">
             <h1 class="">100+</h1>
             <h3><br>Projects</h3>
@@ -638,8 +638,8 @@
 
     <section class="how-we-do-area">
       <div class="custom-container">
-        <div class="custom-row" style="margin-bottom: 80px">
-          <img src="assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+        <div class="custom-row howwedo" >
+          <img src="assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left how-we-do-bg" />
           <div class="how-we-do-left-content">
             <div class="top">
               <h5 class="section-subtitle">Our Model
@@ -783,7 +783,7 @@
 
                   <div class="case-studio-contents service-card ">
 
-                    <img src="assets/imgs/Home/ourSolution/solution_icon1.svg" alt="ICON" />
+                    <img src="assets/imgs/Home/ourSolution/solution_icon1.svg" alt="solution_icon1" />
 
                     <h3>Process Automation</h3>
                     <p>Manual processes not only slow down business progress but also consume valuable resources unnecessarily. Toolfe's tailored automation workflows are designed to simplify repetitive tasks, enhancing productivity significantly. By automating these routine operations, your team can focus more on strategic initiatives that drive growth and innovation. This efficiency boost not only saves time but also reduces errors, ensuring smoother operations across your organization. Embrace automation with Toolfe and unlock your team's potential for greater achievements.
@@ -793,7 +793,7 @@
                 </div>
                 <div class="right">
                   <div class="case-studio-contents service-card card-h">
-                    <!-- <img src="assets/imgs/service-icon-1.svg" alt="ICON" /> -->
+                    <!-- <img src="assets/imgs/service-icon-1.svg" alt="service-icon-1" /> -->
                     <a href="./services/ProcessAutomation.php" class="theme-btn">
                       <i class="iconoir-arrow-up-right"></i>
                     </a>
@@ -816,7 +816,7 @@
 
                   <div class="case-studio-contents service-card ">
 
-                    <img src="assets/imgs/Home/ourSolution/solution_icon2.svg" alt="ICON" />
+                    <img src="assets/imgs/Home/ourSolution/solution_icon2.svg" alt="solution_icon2" />
 
                     <h3> AI/ML </h3>
                     <p>We specialize in Artificial Intelligence and Machine Learning technology, developing smart systems that learn, adapt, and perform tasks. Our innovations are reshaping how businesses operate by boosting efficiency and enhancing decision-making processes. By harnessing advanced algorithms, we create solutions that continuously improve and adjust to new data, ensuring optimal performance in dynamic environments. Our goal is to empower organizations with cutting-edge technology that not only automates routine tasks but also delivers actionable insights for strategic growth. With our expertise, we're paving the way for smarter, more agile operations across industries.
@@ -849,7 +849,7 @@
 
                   <div class="case-studio-contents service-card ">
 
-                    <img src="assets/imgs/Home/ourSolution/solution_icon3.svg" alt="ICON" />
+                    <img src="assets/imgs/Home/ourSolution/solution_icon3.svg" alt="solution_icon3" />
 
                     <h3>Data Analytics</h3>
                     <p>Unlock actionable insights with our advanced data analytics solutions tailored specifically to meet the unique needs of your business. Our expertise empowers you to drive growth and streamline operations by harnessing the full potential of your data. Whether you're aiming to optimize resource allocation, enhance customer experiences, or improve decision-making processes, our solutions provide the clarity and strategic direction you need. Trust our proven methodologies to transform complex data into actionable strategies that propel your business forward with confidence and efficiency. Partner with us to unlock the true value of your data-driven initiatives today.</p>
@@ -881,7 +881,7 @@
 
                   <div class="case-studio-contents service-card ">
 
-                    <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="ICON" />
+                    <img src="assets/imgs/Home/ourSolution/solution_icon7.svg" alt="solution_icon7" />
 
                     <h3>Web Development</h3>
                     <p>Enhance your business with personalized web solutions. Whether you're looking to revamp your
@@ -918,7 +918,7 @@
 
                   <div class="case-studio-contents service-card ">
 
-                    <img src="assets/imgs/Home/ourSolution/solution_icon4.svg" alt="ICON" />
+                    <img src="assets/imgs/Home/ourSolution/solution_icon4.svg" alt="solution_icon4" />
 
                     <h3>Market Research</h3>
                     <p>Market research plays a vital role in guiding strategic IT decisions. By examining trends,
@@ -985,7 +985,7 @@
                           Management</a>
                       </h2>
                       <a href="./case-study/automating_cloud_deployment.php">
-                        <img src="assets/imgs/casestudy/cloud_thumbnail_home.webp" alt="Project" />
+                        <img src="assets/imgs/casestudy/cloud_thumbnail_home.webp" alt="cloud_thumbnail_home" />
                       </a>
                     </div>
                   </div>
@@ -995,7 +995,7 @@
                         <a href="./case-study/automating_email_management_with_ai_and_rpa_for_security.php">Automating Email Management for a Security Department</a>
                       </h2>
                       <a href="./case-study/implementing_computer_vision.php">
-                        <img src="assets/imgs/casestudy/email_thumbnail_home.webp " alt="Project" />
+                        <img src="assets/imgs/casestudy/email_thumbnail_home.webp " alt="email_thumbnail_home.webp" />
                       </a>
                     </div>
                   </div>
@@ -1006,7 +1006,7 @@
                           for an construction Company
                       </h2>
                       <a href="./case-study/digital_transformation_initiative.php">
-                        <img src="assets/imgs/casestudy/digital_thumbnail_home.webp" alt="Project" />
+                        <img src="assets/imgs/casestudy/digital_thumbnail_home.webp" alt="digital_thumbnail_home.webp" />
                       </a>
                     </div>
                   </div>
@@ -1023,7 +1023,7 @@
     <!-- Testimonial Section -->
     <section class="testimonial-area">
     <div class="custom-container">
-        <div class="case-studio-header text-center" style="margin-top: 100px">
+        <div class="case-studio-header text-center testimonial-top" >
             <h5 class="section-subtitle mb-2">Testimonial</h5>
             <h1 class="section-title">Here's what our clients are saying about us</h1>
 
@@ -1037,7 +1037,7 @@
 
                         </div>
                         <div class="testimonial-item-body">
-                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
                             <!-- <span class="platform-name">
                                       <img src="assets/imgs/icon-linkedin.svg" alt="Icon"/>
                                   </span> -->
@@ -1059,8 +1059,8 @@
                         <div class="left">
 
                         </div>
-                        <div class="testimonial-item-body" style="margin-bottom: 35px">
-                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                        <div class="testimonial-item-body tectimonial-para" >
+                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
                             <!-- <span class="platform-name">
                                       <img src="assets/imgs/icon-linkedin.svg" alt="Icon"/>
                                   </span> -->
@@ -1083,7 +1083,7 @@
 
                         </div>
                         <div class="testimonial-item-body">
-                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="Shape" />
+                            <img class="animation-slide-right bg-shape" src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" />
                             <!-- <span class="platform-name">
                                       <img src="assets/imgs/icon-linkedin.svg" alt="Icon"/>
                                   </span> -->
@@ -1139,7 +1139,7 @@
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="./assets//imgs/services/blog1.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog1.webp" alt="blog1" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
@@ -1157,7 +1157,7 @@
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="./assets//imgs/services/blog2.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog2.webp" alt="blog2" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
@@ -1174,7 +1174,7 @@
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="./assets//imgs/services/blog3.webp" alt="Blog" />
+                    <img src="./assets//imgs/services/blog3.webp" alt="blog3" />
 
                     <div class="news2-card-body">
                         <div class="meta">
@@ -1198,7 +1198,7 @@
     <section class="cta-area">
       <div class="custom-container">
         <div class="cta-body text-center">
-          <img src="assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />
+          <img src="assets/imgs/bg-shape-11.svg" alt="bg-shape-11" class="animation-slide-left bg-shape" />
           <div class="our-expert-team-box">
             <div class="our-expert-team-box-inner d-flex align-items-center">
 
@@ -1271,7 +1271,7 @@
         </div>
       </div>
     </form>
-    <div id="alert-message" style="display: none; margin: 20px; font-weight: bold; color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%); padding: 8px; background-color: beige; border-radius: 4px; border-color: aquamarine;"></div>
+    <div id="alert-message alert-message-style"></div>
   </div>
 </div>
 
@@ -1298,7 +1298,7 @@
         <div class="contact-infos">
           <div class="contact-infos-inner">
             <div class="contact-info mb-0 border-0">
-              <img src="./assets/imgs/contact_us/location.svg" alt="Map" />
+              <img src="./assets/imgs/contact_us/location.svg" alt="location" />
               <h3>Contact Info</h3>
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">
@@ -1331,7 +1331,7 @@
 
     <!-- Footer -->
     <footer class="footer-area">
-      <img src="assets/imgs/bg-shape-4.svg" alt="Shape" class="animation-slide-right bg-shape" />
+      <img src="assets/imgs/bg-shape-4.svg" alt="bg-shape-4" class="animation-slide-right bg-shape" />
       <div class="footer-top">
         <div class="custom-container">
           <div class="custom-row align-items-end justify-content-between">
@@ -1344,7 +1344,7 @@
               <form action="" method="POST" class="subscribe-form">
                 <div class="subscribe-box d-flex">
                   <input type="email" id="email" name="email" placeholder="Enter Your Email" />
-                  <button id="submit2" class="theme-btn" style="background-color:#fff; color: #000;">Get
+                  <button id="submit2" class="theme-btn form-style" >Get
                     Started</button>
                 </div>
                 <!-- Alert Message -->
@@ -1359,10 +1359,10 @@
                   <img src="assets/imgs/footer/cio.svg" alt="cio">
                 </div>
                 <div class="footer-client-img">
-                  <img src="assets/imgs/footer/secure_ssl.svg" alt="securepayment">
+                  <img src="assets/imgs/footer/secure_ssl.svg" alt="securessl">
                 </div>
                 <div class="footer-client-img">
-                  <img src="assets/imgs/footer/secure_payment.svg" alt="securessl">
+                  <img src="assets/imgs/footer/secure_payment.svg" alt="securepayment">
                 </div>
                 <div class="footer-client-img">
                   <img src="assets/imgs/footer/best_choice.svg" alt="bestchoice">
@@ -1447,7 +1447,7 @@
                   <li><a href="contact/">Contact us</a></li>
                   <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                   <li><a href="https://hourspark.com/hxt/">Hourspark x Toolfe</a></li>
-                  <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" style="color: rgba(255, 255, 255, 0.8);"> Book a free consultation </a></li>
+                  <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" class="book-free-con"> Book a free consultation </a></li>
                 </ul>
               </div>
               <div class="footer-links">

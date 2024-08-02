@@ -10,8 +10,8 @@ include '../includes/header.php'
     <!-- Hero -->
     <section class="hero-section-wrap hero-home2">
         <div class="hero-section-content-wrap">
-            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="Shape" />
-            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
+            <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="bg-shape-6" />
+            <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="bg-shape-5" />
             <div class="custom-container">
                 <div class="hero-section-content text-center">
                     <h5 class="section-subtitle">Plan, Train, Implement AI/ML</h5>
@@ -38,7 +38,7 @@ include '../includes/header.php'
                     <div class="left">
                         <h5 class="section-subtitle">What we do</h5>
                         <h1 class="section-title">Unleash AI Creativity</h1>
-                        <p style="max-width: 100%;">Through strategic planning and analytics, organizations extract
+                        <p class="whatwe-do">Through strategic planning and analytics, organizations extract
                             maximum value, empowering confident decisions. With automation and insights, Toolfe
                             drives productivity and innovation.
                             At Toolfe, data optimization is transformative. Powered by AI/ML, we enhance processes,
@@ -91,7 +91,7 @@ include '../includes/header.php'
 
     <!-- why us -->
     <section class="portoflio-area">
-        <img src="../assets/imgs/bg-shape-9.svg" alt="Shape" class="bg-shape" />
+        <img src="../assets/imgs/bg-shape-9.svg" alt="bg-shape-9" class="bg-shape" />
         <div class="custom-container">
             <div class="section-header d-flex align-items-end justify-content-between">
                 <div class="left">
@@ -109,7 +109,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/aibento/aibento1.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/aibento/aibento1.webp" alt="aibento1" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Boosting <br>
@@ -125,8 +125,8 @@ include '../includes/header.php'
                             <p>AI Solutions Crafted for Your Specific Requirements.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 330px;">
-                            <img src="../assets/imgs/services/aibento/aibento4.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-style">
+                            <img src="../assets/imgs/services/aibento/aibento4.webp" alt="aibento4" />
                         </div>
                     </div>
 
@@ -141,12 +141,12 @@ include '../includes/header.php'
 
                         </div>
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/aibento/aibento2.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/aibento/aibento2.webp" alt="aibento2" />
                         </div>
                     </div>
                     <div class="portfolio-card portfolio-card-1 card-h">
-                        <div class="portfolio-img" style="height: 220px">
-                            <img src="../assets/imgs/services/aibento/aibento5.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-card-style">
+                            <img src="../assets/imgs/services/aibento/aibento5.webp" alt="aibento5" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Seamless <br>
@@ -161,7 +161,7 @@ include '../includes/header.php'
 
                     <div class="portfolio-card portfolio-card-1 card-h">
                         <div class="portfolio-img">
-                            <img src="../assets/imgs/services/aibento/aibento3.webp" alt="Portfolio" />
+                            <img src="../assets/imgs/services/aibento/aibento3.webp" alt="aibento3" />
                         </div>
                         <div class="portfolio-body">
                             <h2>Scaling <br>
@@ -178,8 +178,8 @@ include '../includes/header.php'
                             <p>Enhancing AI for seamless operational assistance.</p>
 
                         </div>
-                        <div class="portfolio-img" style="height: 280px;">
-                            <img src="../assets/imgs/services/aibento/aibento6.webp" alt="Portfolio" />
+                        <div class="portfolio-img portfolio-img-card-style1">
+                            <img src="../assets/imgs/services/aibento/aibento6.webp" alt="aibento6" />
                         </div>
                     </div>
 
@@ -210,9 +210,9 @@ include '../includes/header.php'
 
     <!-- Workflow -->
     <section class="how-we-do-area">
-        <div class="custom-container" style="margin-top: 100px;">
+        <div class="custom-container testimonial-top">
             <div class="custom-row">
-                <img src="../assets//imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left how-we-do-bg" />
+                <img src="../assets//imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left how-we-do-bg" />
                 <div class="how-we-do-left-content">
                     <div class="top">
                         <h5 class="section-subtitle">Our Workflow</h5>
@@ -358,7 +358,7 @@ include '../includes/header.php'
                 </div>
                 <div class="right">
                     <div class="img-box">
-                        <img src="../assets/imgs/services/techstack/ai_ml.webp" alt="About" />
+                        <img src="../assets/imgs/services/techstack/ai_ml.webp" alt="ai_ml" />
                     </div>
                 </div>
             </div>
@@ -385,7 +385,7 @@ include '../includes/header.php'
 
             <div class="news2-lists d-flex">
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog1.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog1.webp" alt="Blog1" />
                     <!-- <span class="news-ribbon">New</span> -->
                     <div class="news2-card-body">
                         <div class="meta">
@@ -403,7 +403,7 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog2.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog2.webp" alt="Blog2" />
                     <div class="news2-card-body">
                         <div class="meta">
                             <span class="date">May 22, 2024</span>
@@ -420,7 +420,7 @@ include '../includes/header.php'
                     </div>
                 </div>
                 <div class="news2-card card-h">
-                    <img src="../assets//imgs/services/blog3.webp" alt="Blog" />
+                    <img src="../assets//imgs/services/blog3.webp" alt="Blog3" />
 
                     <div class="news2-card-body">
                         <div class="meta">
@@ -590,7 +590,7 @@ language processing tasks?
                         <a class="our-expert-team-box d-flex align-items-center">
                             <div class="our-expert-team-box-inner d-flex align-items-center">
                                 <div class="imgs d-flex align-items-center">
-                                    <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                                    <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                                 </div>
                                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
                             </div>

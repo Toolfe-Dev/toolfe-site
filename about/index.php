@@ -10,8 +10,8 @@ include '../includes/header.php'
   <!-- Hero -->
   <section class="hero-section-wrap hero-home2">
     <div class="hero-section-content-wrap">
-      <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="Shape" />
-      <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="Shape" />
+      <img class="bg-shape slide-left" src="../assets/imgs/bg-shape-6.svg" alt="bg-shape-6" />
+      <img class="bg-shape2 slide-right" src="../assets/imgs/bg-shape-5.svg" alt="bg-shape-5" />
       <div class="custom-container">
         <div class="hero-section-content text-center">
           <h5 class="section-subtitle">About Us</h5>
@@ -67,7 +67,7 @@ include '../includes/header.php'
         </div>
 
         <div class="img-box">
-          <img src="../assets/imgs/about_us/about_us_1.webp" alt="About" />
+          <img src="../assets/imgs/about_us/about_us_1.webp" alt="about_us_1" />
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@ include '../includes/header.php'
           <div class="about-timeline">
             <div class="about-timeline-item">
               <div class="about-timeline-item-inner">
-                <img src="../assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                <img src="../assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                 <span class="number">01</span>
                 <h3>Client Onboarding</h3>
                 <p>
@@ -117,7 +117,7 @@ include '../includes/header.php'
             </div>
             <div class="about-timeline-item">
               <div class="about-timeline-item-inner">
-                <img src="../assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                <img src="../assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                 <span class="number">02</span>
                 <h3>Requirements Collection</h3>
                 <p>
@@ -129,7 +129,7 @@ include '../includes/header.php'
 
             <div class="about-timeline-item">
               <div class="about-timeline-item-inner">
-                <img src="../assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                <img src="../assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                 <span class="number">03</span>
                 <h3>Solution Providing</h3>
                 <p>
@@ -140,7 +140,7 @@ include '../includes/header.php'
             </div>
             <div class="about-timeline-item">
               <div class="about-timeline-item-inner">
-                <img src="../assets/imgs/bg-shape-2.svg" alt="Shape" class="line-shape" />
+                <img src="../assets/imgs/bg-shape-2.svg" alt="bg-shape-2" class="line-shape" />
                 <span class="number">04</span>
                 <h3>Deployment and Support</h3>
                 <p>
@@ -173,7 +173,7 @@ include '../includes/header.php'
               their strategic objectives.
             </p>
             <!-- <h5 class="section-subtitle">HEALTHCARE SPECIALIZATION</h5> -->
-            <h1 class="section-title" style="margin-top: 50px;">Vision</h1>
+            <h1 class="section-title cproject">Vision</h1>
             <p>
               Our vision is to redefine the future of business by harnessing
               AI, ML, and automation to create transformative solutions that
@@ -194,7 +194,7 @@ include '../includes/header.php'
   </section>
 
   <!-- Service -->
-  <section class="company-service-area" style="padding-bottom: 0px;">
+  <section class="company-service-area whochoose" >
     <div class="custom-container">
       <div class="hero-service-about">
         <div class="section-header d-flex align-items-center justify-content-between w-full">
@@ -206,7 +206,7 @@ include '../includes/header.php'
           <a href="../contact/" class="theme-btn">Contact Us</a>
         </div>
 
-        <img src="../assets/imgs/about_us/about_us_why_choose.webp" alt="Service About" />
+        <img src="../assets/imgs/about_us/about_us_why_choose.webp" alt="about_us_why_choose" />
         <div class="hero-service-about-body">
           <p>At Toolfe, we are committed to delivering top-notch IT solutions that drive business success. Our expertise in AI/ML, RPA, Automation, and Digital Services ensures that we provide innovative, reliable, and efficient solutions tailored to your unique needs. We pride ourselves on our client-centric approach, exceptional service quality, and a track record of successful project deliveries.</p>
           <ul>
@@ -229,7 +229,7 @@ include '../includes/header.php'
   </section>
 
   <!-- Our Team -->
-  <section class="our-team-4-area" style="padding-top: 100px;">
+  <section class="our-team-4-area our-team-style">
     <div class="custom-container">
       <div class="section-header">
         <h5 class="section-subtitle">Our Team</h5>
@@ -277,7 +277,7 @@ include '../includes/header.php'
           </div>
         </div>
       </div>
-      <div class="our-team-4-lists" style="margin-top: 25px;">
+      <div class="our-team-4-lists joshua-img" >
         <div class="our-team-4-box">
           <div class="img-box">
             <img src="../assets/imgs/team/Joshua.webp" alt="Joshua Rubus" />
@@ -388,7 +388,7 @@ include '../includes/header.php'
   <section class="cta-area">
     <div class="custom-container">
       <div class="cta-body text-center">
-        <img src="../assets/imgs/bg-shape-11.svg" alt="Shape" class="animation-slide-left bg-shape" />
+        <img src="../assets/imgs/bg-shape-11.svg" alt="bg-shape-11" class="animation-slide-left bg-shape" />
         <div class="our-expert-team-box">
           <div class="our-expert-team-box-inner d-flex align-items-center">
 
@@ -461,7 +461,7 @@ include '../includes/header.php'
                 </div>
               </div>
             </form>
-            <div id="alert-message" style="display: none; margin: 20px; font-weight: bold; color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%); padding: 8px; background-color: beige; border-radius: 4px; border-color: aquamarine;"></div>
+            <div id="alert-message alert-message-style"></div>
           </div>
         </div>
 
@@ -488,7 +488,7 @@ include '../includes/header.php'
         <div class="contact-infos">
           <div class="contact-infos-inner">
             <div class="contact-info mb-0 border-0">
-              <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+              <img src="../assets/imgs/contact_us/location.svg" alt="location" />
               <h3>Contact Info</h3>
             </div>
             <div class="contact-office-info contact-info mb-0 border-0">

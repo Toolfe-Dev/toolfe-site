@@ -11,10 +11,10 @@ include '../includes/header.php'
   <!-- Our Field Hero -->
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px">
+          <div class="hero-section-content text-center testimonial-top ">
             <h5 class="section-subtitle">Education</h5>
             <h1 class="section-title fade-in">
               Revolutionizing Education with Innovative IT Solutions
@@ -37,7 +37,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/edu1.webp" alt="About" />
+          <img src="../assets/imgs/industry/edu1.webp" alt="edu1" />
         </div>
 
         <div class="content-box">
@@ -79,7 +79,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu3.webp" alt="News" />
+          <img src="../assets/imgs/industry/edu3.webp" alt="edu3" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -134,13 +134,13 @@ include '../includes/header.php'
           </ul>
         </div>
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu2.webp" alt="News" />
+          <img src="../assets/imgs/industry/edu2.webp" alt="edu2" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
       <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu4.webp" alt="News" />
+          <img src="../assets/imgs/industry/edu4.webp" alt="edu4" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -194,13 +194,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu5.webp" alt="News" />
+          <img src="../assets/imgs/industry/edu5.webp" alt="edu5" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/edu6.webp" alt="News" />
+          <img src="../assets/imgs/industry/edu6.webp" alt="edu6" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">Education</h5>
@@ -242,7 +242,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/edu7.webp" alt="Service About" />
+        <img src="../assets/imgs/industry/edu7.webp" alt="edu7" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we provide customized, scalable IT solutions that enhance learning and ensure data security . Our
@@ -263,7 +263,7 @@ include '../includes/header.php'
   <!-- case studies -->
 
   <section class="service2-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -282,7 +282,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/edu8.webp" alt="Service" />
+          <img src="../assets/imgs/industry/edu8.webp" alt="edu8" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Adaptive Learning Platforms</h3>
@@ -295,7 +295,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/edu9.webp" alt="Service" />
+          <img src="../assets/imgs/industry/edu9.webp" alt="edu9" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Automated Grading and Feedback</h3>

@@ -8,7 +8,7 @@ include '../includes/header.php'
   <?php include '../includes/head.php' ?>
 
   <!-- Blog Breadcrumb -->
-  <section class="blog-details-header-area" style="margin-top: 20px">
+  <section class="blog-details-header-area agri">
     <div class="custom-container">
       <div class="blog-details-header-content-body d-flex align-items-center">
         <div class="section-header">
@@ -18,18 +18,14 @@ include '../includes/header.php'
             Computer Vision for Fruit Ripeness Detection
           </h1>
           <p>
-            <span style="
-                color: #141414;
-                text-decoration: underline;
-                font-weight: bolder;
-              ">Challenges:</span>
+            <span class="chellange-s">Challenges:</span>
             A startup agriculture company needed to automate labor-intensive,
             error-prone ripeness detection for dragon fruits to improve product
             quality and marketability.
           </p>
         </div>
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/cv_thumbnail_hero.webp" alt="Blog" />
+          <img src="../assets/imgs/casestudy/cv_thumbnail_hero.webp" alt="cv_thumbnail_hero" />
         </div>
       </div>
     </div>
@@ -37,11 +33,11 @@ include '../includes/header.php'
 
   <!-- About -->
   <section class="about-service3-area about-service3-style-2">
-    <img src="../assets/imgs/bg-shape-3.svg" alt="Shape" class="animation-slide-right bg-shape" />
+    <img src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" class="animation-slide-right bg-shape" />
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/cs4_aim.webp" alt="About" />
+          <img src="../assets/imgs/casestudy/cs4_aim.webp" alt="cs4_aim" />
         </div>
 
         <div class="content-box">
@@ -84,7 +80,7 @@ include '../includes/header.php'
       <div class="our-teams-list">
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs4_solution1.webp" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs4_solution1.webp" alt="cs4_solution1" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -126,7 +122,7 @@ include '../includes/header.php'
 
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs4_solution2.webp" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs4_solution2.webp" alt="cs4_solution2" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -186,14 +182,14 @@ include '../includes/header.php'
         </div>
         <div class="">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/techStack/cv.webp" alt="About" />
+            <img src="../assets/imgs/casestudy/techStack/cv.webp" alt="cv" />
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section style="margin-top: 100px;">
+  <section class="tectimonial-para">
     <div class="custom-container">
       <div class="section-header d-flex align-items-end justify-content-between w-full">
         <div class="left">
@@ -212,7 +208,7 @@ include '../includes/header.php'
         </p>
       </div>
 
-      <div class="hero-company-boxes" style="margin-top: 50px;">
+      <div class="hero-company-boxes cproject">
         <div class="hero-company-box simple-shadow">
           <h1>92%</h1>
           <h3><br>Detection<br> Accuracy</h3>
@@ -241,7 +237,7 @@ include '../includes/header.php'
   </section>
 
   <section class="feature3-area">
-    <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+    <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="section-header">
@@ -295,7 +291,7 @@ include '../includes/header.php'
   </section>
 
   <section class="portoflio-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -312,7 +308,7 @@ include '../includes/header.php'
 
       <div class="service2-items d-flex w-full">
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/finance_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/finance_thumbnail.webp" alt="finance_thumbnail" />
           <h2>Finance & Banking</h2>
           <p>Securing transactions with <br />advanced digital solutions.</p>
           <a href="../Industries/finance&banking.php" class="theme-btn">
@@ -320,7 +316,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/manufactureing_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/manufactureing_thumbnail.webp" alt="manufactureing_thumbnail" />
           <h2>Manufacturing</h2>
           <p>
             Optimizing production with<br />
@@ -331,7 +327,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/energy_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/energy_thumbnail.webp" alt="energy_thumbnail" />
           <h2>Energy & Utilities</h2>
           <p>Efficiently managing resources <br />with digital tools.</p>
           <a href="../Industries/energy&utilities.php" class="theme-btn">
@@ -339,7 +335,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/healthcare_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/healthcare_thumbnail.webp" alt="healthcare_thumbnail" />
           <h2>Healthcare</h2>
           <p>Advanced IT solutions for <br />better patient care..</p>
           <a href="../Industries/healthcare.php" class="theme-btn">
@@ -374,7 +370,7 @@ include '../includes/header.php'
             <a class="our-expert-team-box d-flex align-items-center">
               <div class="our-expert-team-box-inner d-flex align-items-center">
                 <div class="imgs d-flex align-items-center">
-                  <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                  <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                 </div>
                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
               </div>

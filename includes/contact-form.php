@@ -59,15 +59,7 @@
         </div>
       </div>
     </form>
-                    <div id="alert-message" style="
-            display: none;
-            margin: 20px;
-            font-weight: bold;
-            color: linear-gradient(93deg, #f87708 4.1%, #fb4a55 59.93%, #e620af 98.17%);
-            padding: 8px;
-            background-color: beige;
-            border-radius: 4px;
-            border-color: aquamarine;">
+                    <div id="alert-message alert-message-style">
                     </div>
                 </div>
             </div>
@@ -96,7 +88,7 @@
 
                     <div class="contact-office-info  contact-info mb-0 mt-5 border-0">
                         <div class="py-3">
-                            <img src="../assets/imgs/contact_us/location.svg" alt="Map" />
+                            <img src="../assets/imgs/contact_us/location.svg" alt="location" />
                             <h3>Contact Info</h3>
                         </div>
                         <h5 class="contact-text text-uppercase">INDIA</h5>

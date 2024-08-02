@@ -8,7 +8,7 @@ include '../includes/header.php'
   <?php include '../includes/head.php' ?>
 
   <!-- Blog Breadcrumb -->
-  <section class="blog-details-header-area" style="margin-top: 40px">
+  <section class="blog-details-header-area it-style">
     <div class="custom-container">
       <div class="blog-details-header-content-body d-flex align-items-center">
         <div class="section-header">
@@ -20,18 +20,14 @@ include '../includes/header.php'
             Automating Cloud Deployment for Workflow Management
           </h1>
           <p>
-            <span style="
-                    color: #141542;
-                    text-decoration: underline;
-                    font-weight: bolder;
-                  ">Challenges: </span>The Workflow Management Company faced inefficiencies in their
+            <span class="chellange-s">Challenges: </span>The Workflow Management Company faced inefficiencies in their
             cloud deployment process, with each deployment taking 3 to 6
             hours. This manual approach caused delays and strained
             resources, hindering operational efficiency.
           </p>
         </div>
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/cloud_thumbnail_hero.webp" alt="Blog" />
+          <img src="../assets/imgs/casestudy/cloud_thumbnail_hero.webp" alt="cloud_thumbnail_hero" />
         </div>
       </div>
     </div>
@@ -39,11 +35,11 @@ include '../includes/header.php'
 
   <!-- About -->
   <section class="about-service3-area about-service3-style-2">
-    <img src="../assets/imgs/bg-shape-3.svg" alt="Shape" class="animation-slide-right bg-shape" />
+    <img src="../assets/imgs/bg-shape-3.svg" alt="bg-shape-3" class="animation-slide-right bg-shape" />
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/casestudy/cs_aim1.webp" alt="About" />
+          <img src="../assets/imgs/casestudy/cs_aim1.webp" alt="cs_aim1" />
         </div>
 
         <div class="content-box">
@@ -89,7 +85,7 @@ include '../includes/header.php'
       <div class="our-teams-list">
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs1_solution1.webp" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs1_solution1.webp" alt="cs1_solution1" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -134,7 +130,7 @@ include '../includes/header.php'
 
         <div class="our-team-box d-flex" id="first-box">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/cs1_solution2.webp" alt="Team" />
+            <img src="../assets/imgs/casestudy/cs1_solution2.webp" alt="cs1_solution2" />
           </div>
           <div class="our-team-body card-h">
             <div class="mac-btns-wrap d-flex align-items-center justify-content-between">
@@ -192,14 +188,14 @@ include '../includes/header.php'
         </div>
         <div class="right">
           <div class="img-box">
-            <img src="../assets/imgs/casestudy/techStack/cloud.webp" alt="About" />
+            <img src="../assets/imgs/casestudy/techStack/cloud.webp" alt="cloud" />
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section style="margin-top: 100px;">
+  <section class="testimonial-top">
     <div class="custom-container">
       <div class="section-header d-flex align-items-end justify-content-between w-full">
         <div class="left">
@@ -215,7 +211,7 @@ include '../includes/header.php'
         </p>
       </div>
 
-      <div class="hero-company-boxes" style="margin-top: 50px;">
+      <div class="hero-company-boxes cproject">
         <div class="hero-company-box simple-shadow">
           <h1>99%</h1>
           <h3><br>Automating Cloud Deployment</h3>
@@ -245,7 +241,7 @@ include '../includes/header.php'
   <!-- services -->
 
   <section class="feature3-area">
-    <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+    <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="section-header">
@@ -300,7 +296,7 @@ include '../includes/header.php'
 
   <!-- Industries -->
   <section class="portoflio-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -317,7 +313,7 @@ include '../includes/header.php'
 
       <div class="service2-items d-flex w-full">
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/realestate_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/realestate_thumbnail.webp" alt="realestate_thumbnail" />
           <h2>Real Estate</h2>
           <p>
             Smart solutions for property<br />
@@ -328,7 +324,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/education_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/education_thumbnail.webp" alt="education_thumbnail" />
           <h2>Education</h2>
           <p>
             Enhancing learning with<br />
@@ -339,7 +335,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/finance_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/finance_thumbnail.webp" alt="finance_thumbnail" />
           <h2>Finance & Banking</h2>
           <p>
             Securing transactions with <br />advanced digital solutions.
@@ -349,7 +345,7 @@ include '../includes/header.php'
           </a>
         </div>
         <div class="service2-card card-h">
-          <img src="../assets/imgs/industry/thumbnail/telecommunication_thumbnail.webp" alt="Service" />
+          <img src="../assets/imgs/industry/thumbnail/telecommunication_thumbnail.webp" alt="telecommunication_thumbnail" />
           <h2>Telecommunications</h2>
           <p>
             Improving connectivity with<br />
@@ -387,7 +383,7 @@ include '../includes/header.php'
             <a class="our-expert-team-box d-flex align-items-center">
               <div class="our-expert-team-box-inner d-flex align-items-center">
                 <div class="imgs d-flex align-items-center">
-                  <img src="../assets/imgs/small-img-4.webp" alt="team" />
+                  <img src="../assets/imgs/small-img-4.webp" alt="small-img-4" />
                 </div>
                 <p><span>We will reachout to you in less than</span> 15 Hours</p>
               </div>

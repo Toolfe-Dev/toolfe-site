@@ -11,10 +11,10 @@ include '../includes/header.php'
   <!-- Our Field Hero -->
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
-          <div class="hero-section-content text-center" style="margin-top:100px">
+          <div class="hero-section-content text-center testimonial-top ">
             <h5 class="section-subtitle">Telecommunication</h5>
             <h1 class="section-title fade-in">
               Transforming Connectivity Innovations in Telecommunication
@@ -32,7 +32,7 @@ include '../includes/header.php'
     <div class="custom-container">
       <div class="custom-row align-items-center">
         <div class="img-box">
-          <img src="../assets/imgs/industry/tc1.webp" alt="About" />
+          <img src="../assets/imgs/industry/tc1.webp" alt="tc1" />
         </div>
 
         <div class="content-box">
@@ -77,7 +77,7 @@ include '../includes/header.php'
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc2.webp" alt="News" />
+          <img src="../assets/imgs/industry/tc2.webp" alt="tc2" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -138,13 +138,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc3.webp" alt="News" />
+          <img src="../assets/imgs/industry/tc3.webp" alt="tc3" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc4.webp" alt="News" />
+          <img src="../assets/imgs/industry/tc4.webp" alt="tc4" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -205,13 +205,13 @@ include '../includes/header.php'
         </div>
 
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc5.webp" alt="News" />
+          <img src="../assets/imgs/industry/tc5.webp" alt="tc5" />
         </div>
       </div>
 
       <div class="sticky-news d-flex card-h">
         <div class="news-img-box">
-          <img src="../assets/imgs/industry/tc6.webp" alt="News" />
+          <img src="../assets/imgs/industry/tc6.webp" alt="tc6" />
         </div>
         <div class="news-content">
           <h5 class="section-subtitle section-subtitle1">
@@ -268,7 +268,7 @@ include '../includes/header.php'
           </div>
         </div>
 
-        <img src="../assets/imgs/industry/tc7.webp" alt="Service About" />
+        <img src="../assets/imgs/industry/tc7.webp" alt="tc7" />
         <div class="hero-service-about-body">
           <p>
             At Toolfe, we pride ourselves on being a dynamic force of
@@ -294,7 +294,7 @@ include '../includes/header.php'
   <!-- case studies -->
 
   <section class="service2-area">
-    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="Shape" />
+    <img class="bg-shape" src="../assets/imgs/bg-shape-7.svg" alt="bg-shape-7" />
     <div class="custom-container">
       <div class="custom-row">
         <div class="service2-header d-flex align-items-center justify-content-between w-full">
@@ -311,7 +311,7 @@ include '../includes/header.php'
 
       <div class="d-flex gap-24 service2-bottom-2-col">
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/tc8.webp" alt="Service" />
+          <img src="../assets/imgs/industry/tc8.webp" alt="tc8" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Network Security</h3>
@@ -327,7 +327,7 @@ include '../includes/header.php'
           </div>
         </div>
         <div class="service3-card d-flex flex-1 card-h">
-          <img src="../assets/imgs/industry/tc9.webp" alt="Service" />
+          <img src="../assets/imgs/industry/tc9.webp" alt="tc9" />
           <div class="service3-body">
             <div class="service3-content">
               <h3>Customer Support Automation</h3>
@@ -383,7 +383,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section1.webp" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section1.webp" alt="cs_section1" />
                 </div>
               </div>
               <div class="right">
@@ -413,7 +413,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section2.webp" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section2.webp" alt="cs_section2" />
                 </div>
               </div>
               <div class="right">
@@ -446,7 +446,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section3.webp" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section3.webp" alt="cs_section3" />
                 </div>
               </div>
               <div class="right">
@@ -479,7 +479,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section4.webp" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section4.webp" alt="cs_section4" />
                 </div>
               </div>
               <div class="right">
@@ -510,7 +510,7 @@ include '../includes/header.php'
             <div class="case-studio-body d-flex">
               <div class="left d-flex flex-1">
                 <div class="img-box">
-                  <img src="../assets/imgs/casestudy/cs_section5.webp" alt="About" />
+                  <img src="../assets/imgs/casestudy/cs_section5.webp" alt="cs_section5" />
                 </div>
               </div>
               <div class="right">
