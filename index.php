@@ -77,7 +77,7 @@
         <div class="custom-row align-items-center justify-content-between">
           <div class="header-left d-flex align-items-center">
             <a href="index.php" class="logo">
-              <img src="https://toolfe.com/o-toolfe/assets/test2.png" alt="Logo" />
+              <img src="https://toolfe.com/assets/imgs/toolfe-logo.png" alt="Logo" />
             </a>
 
             <div class="header-left-right">
