@@ -6,7 +6,7 @@
               <div class="custom-row align-items-end justify-content-between">
                   <div class="left-content">
                       <a href="../" class="logo">
-                          <img src="https://toolfe.com/o-toolfe/assets/white-toolfe.png" alt="Logo" />
+                          <img src="https://toolfe.com/assets/imgs/white-toolfe.png" alt="Logo" />
                       </a>
                       <p>We provide the expertise and support to <br>
                           propel your business forward.</p>

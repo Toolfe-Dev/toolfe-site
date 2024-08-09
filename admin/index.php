@@ -1,14 +1,23 @@
 <?php
+// Start the session
+session_start();
+
+// Check if the admin is logged in
+if (!isset($_SESSION['admin_id'])) {
+    // If the session variable 'admin_id' is not set, redirect to login.php
+    header("Location: login.php");
+    exit();
+}
+
 // Include the database connection file
 include '../php/db.php';
 
-$sql = "SELECT `id`, `role`, `fullName`, `email`, `phone`, `resume`, `message`, `agreeToTerms`, `submittedAt` FROM `careerform` WHERE 1";
+// Query to fetch data from the `careerform` table
+$sql = "SELECT `id`, `role`, `fullName`, `email`, `phone`, `resume`, `message`, `agreeToTerms`, `submittedAt` FROM `careerform`";
 $result = $conn->query($sql);
 
-
+// Close the database connection
 $conn->close();
-
-
 ?>
 
 <!DOCTYPE html>
@@ -111,7 +120,7 @@ $conn->close();
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
           <a class="dropdown-item">
             <i class="ti-settings text-primary"></i> Settings </a>
-          <a class="dropdown-item">
+          <a class="dropdown-item" href="./login.php">
             <i class="ti-power-off text-primary"></i> Logout </a>
         </div>
       </li>
@@ -151,7 +160,7 @@ $conn->close();
         </ul>
       </div>
     </li>
-  <!-- 
+  
     <li class="nav-item">
       <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
         <i class="icon-columns menu-icon"></i>
@@ -232,7 +241,7 @@ $conn->close();
         <span class="menu-title">Documentation</span>
       </a>
     </li> 
-  -->
+ 
   </ul>
 </nav>
         <!-- partial -->
