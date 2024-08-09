@@ -2,8 +2,11 @@
 // Include the database connection file
 include '../php/db.php';
 
+if (isset($_SESSION['admin_id'])) {
+  session_destroy();
+}
+
 session_start();
-session_destroy();
 $error = ''; // Variable to store error message
 
 // Check if the form is submitted
