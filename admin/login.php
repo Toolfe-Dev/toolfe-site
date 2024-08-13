@@ -1,12 +1,26 @@
 <?php
 // Include the database connection file
 include '../php/db.php';
+session_start();
 
-if (isset($_SESSION['admin_id'])) {
+
+if (!empty($_SESSION)) {
+  // Unset all session variables
+  $_SESSION = array();
+
+  // If you want to destroy the session, also delete the session cookie.
+  if (ini_get("session.use_cookies")) {
+      $params = session_get_cookie_params();
+      setcookie(session_name(), '', time() - 42000,
+          $params["path"], $params["domain"],
+          $params["secure"], $params["httponly"]
+      );
+  }
+
+  // Finally, destroy the session
   session_destroy();
 }
 
-session_start();
 $error = ''; // Variable to store error message
 
 // Check if the form is submitted
