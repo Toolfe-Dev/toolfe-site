@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             stepsRight[currentStep].classList.remove('d-none');
             stepIndicators[currentStep].classList.add('active');
         } else {
+            // This block will never be executed now because the form will be submitted on the last step
             formInnerWrap.classList.add('d-none'); // Hide the initial form section using Bootstrap's d-none
             submissionWrapper.classList.remove('d-none'); // Show the submission section using Bootstrap's d-block (or d-flex if needed)
         }
@@ -54,25 +55,19 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             prevButton.disabled = false;
         }
-
-        // Change Next button to Submit on the last step
-        if (currentStep === stepsLeft.length - 1) {
-            nextButton.textContent = 'Submit';
-        } else {
-            nextButton.textContent = 'Next';
-        }
     }
 
     // Event listener for Next button
-    nextButton.addEventListener('click', () => {
+    nextButton.addEventListener('click', (event) => {
         // Validation can be added here before proceeding to the next step
 
-        if (currentStep < stepsLeft.length) {
+        if (currentStep < stepsLeft.length - 1) {
             currentStep++;
             updateFormDisplay();
         } else {
-            // Prevent form submission from this button click
-            event.preventDefault();
+            // Automatically submit the form on the last step
+            const form = document.querySelector('form'); // Ensure your form element has a <form> tag
+            form.submit();
         }
     });
 
@@ -87,5 +82,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the form display
     updateFormDisplay();
 });
-
-

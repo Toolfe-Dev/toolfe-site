@@ -137,6 +137,7 @@ a {
 
 input:focus,
 textarea:focus,
+select:focus,
 button:focus {
     outline: none;
     box-shadow: none;
@@ -1475,6 +1476,9 @@ img {
     padding: 8px 15px;
     transition: 0.3s;
     cursor: pointer;
+}
+label{
+    line-height: 2 !important;
 }
 
 .hero-contact-form .contact-form .input-row .input-group .choice-a-company .radio-box input:checked~label {
@@ -5846,6 +5850,20 @@ img {
     padding: 12px 20px;
 }
 
+select{
+    width: 100%;
+    display: block;
+    border: 1px solid rgb(16 24 40 / 20%);
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #2c2c2c;
+    padding: 7px 15px;
+}
+
 .comment-form-wrap form .input-group textarea::placeholder,
 .comment-form-wrap form .input-group input::placeholder {
     color: #2c2c2c;
@@ -7803,7 +7821,7 @@ img {
 /* step form */
 .form-steps{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 100px;
 }
 .form-indecator{
@@ -7817,6 +7835,25 @@ img {
     background-color: #d2d2d2;
     position: relative;
 
+}
+.form-indecator::before{
+    position: absolute;
+    content: '';
+    right: -160px;
+    width: 130px;
+    height: 2px;
+    background-color: red;
+}
+.form-indecator::before:last-child{
+    position: absolute;
+    content: '';
+    right: -160px;
+    width: 20px;
+    height: 2px;
+    background-color: green;
+}
+.form-indecator.active::after{
+    background-color: #d2d2d2;
 }
 
 .form-indecator.active {
@@ -7845,3 +7882,114 @@ img {
 .card-blur{
     filter: blur(10px);
 }
+
+body {
+    padding: 100px;
+  }
+  
+  .range {
+    position: relative;
+    width: 550px;
+    height: 5px;
+  }
+  
+  .range input {
+    width: 100%;
+    position: absolute;
+    top: 2px;
+    height: 0;
+    -webkit-appearance: none;
+  }
+  .range input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    margin: -8px 0 0;
+    border-radius: 50%;
+    background: #37adbf;
+    cursor: pointer;
+    border: 0 !important;
+  }
+  .range input::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    margin: -8px 0 0;
+    border-radius: 50%;
+    background: #37adbf;
+    cursor: pointer;
+    border: 0 !important;
+  }
+  .range input::-ms-thumb {
+    width: 18px;
+    height: 18px;
+    margin: -8px 0 0;
+    border-radius: 50%;
+    background: #37adbf;
+    cursor: pointer;
+    border: 0 !important;
+  }
+  .range input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #b2b2b2;
+  }
+  .range input::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #b2b2b2;
+  }
+  .range input::-ms-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #b2b2b2;
+  }
+  .range input:focus {
+    background: none;
+    outline: none;
+  }
+  .range input::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  .range-labels {
+    margin: 18px -41px 0;
+    padding: 0;
+    list-style: none;
+  }
+  .range-labels li {
+    position: relative;
+    float: left;
+    width: 90.25px;
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .range-labels li::before {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    left: 0;
+    content: "";
+    margin: 0 auto;
+    width: 9px;
+    height: 9px;
+    background: #b2b2b2;
+    border-radius: 50%;
+  }
+  .range-labels .active {
+    color: #37adbf;
+  }
+  .range-labels .selected::before {
+    background: #37adbf;
+  }
+  .range-labels .active.selected::before {
+    display: none;
+  }
