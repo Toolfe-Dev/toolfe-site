@@ -1,6 +1,6 @@
 
 <div class="hero-contact-form">
-        <form id="service-form" method="POST" class="contact-form d-flex">
+        <form id="service-form" method="POST" action="../formActions/service-form.php" class="contact-form d-flex">
             <div class="input-main-row">
                 <div class="input-row field">
                     <div class="input-group">

@@ -1221,7 +1221,7 @@
     <h5 class="section-subtitle">Contact</h5>
     <h1 class="fw-bold mb-2">Supercharge Your Business?</h1>
     <p>Get the Results You Deserve. Contact Us Today.</p>
-    <form id="form" method="POST" class="contact-form">
+    <form id="form" method="POST" action="./formActions/contact-from.php" class="contact-form">
       <div class="input-row field">
         <div class="input-group">
           <label for="name">Full Name</label>

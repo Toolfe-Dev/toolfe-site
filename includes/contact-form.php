@@ -9,7 +9,7 @@
                         Get the Results You Deserve. Contact Us Today. <br>
                         <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
                     </p>
-                    <form id="form" method="POST" class="contact-form">
+                    <form id="form" method="POST" class="contact-form" action="../formActions/contact-from.php" >
       <div class="input-row field">
         <div class="input-group">
           <label for="name">Full Name</label>
