@@ -4,13 +4,13 @@
  */
 return array(
 	'title'      => __( 'About page links (dark)', 'twentytwentytwo' ),
-	'categories' => array( 'pages', 'buttons' ),
+	'categories' => array( 'twentytwentytwo_pages', 'buttons' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"10rem","bottom":"10rem"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":false,"contentSize":"400px"}} -->
 					<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:10rem;padding-bottom:10rem;"><!-- wp:group -->
 					<div class="wp-block-group">
 
 					<!-- wp:image {"width":100,"height":100,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-					<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/icon-bird.webp" alt="' . esc_attr__( 'Logo featuring a flying bird', 'twentytwentytwo' ) . '" width="100" height="100"/></figure>
+					<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/icon-bird.jpg" alt="' . esc_attr__( 'Logo featuring a flying bird', 'twentytwentytwo' ) . '" width="100" height="100"/></figure>
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"textAlign":"left","style":{"typography":{"fontSize":"var(--wp--custom--typography--font-size--huge, clamp(2.25rem, 4vw, 2.75rem))"}}} -->

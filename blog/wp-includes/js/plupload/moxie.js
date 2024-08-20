@@ -5746,7 +5746,7 @@ define("moxie/image/Image", [
 					xhr.open('post', 'upload.php');
 					xhr.send(formData);
 				};
-				img.load("http://www.moxiecode.com/images/mox-logo.webp"); // notice file extension (.webp)
+				img.load("http://www.moxiecode.com/images/mox-logo.jpg"); // notice file extension (.jpg)
 			
 
 			@method load
@@ -8026,7 +8026,7 @@ define("moxie/runtime/html5/image/ExifParser", [
 						var IFD1Tags = extractTags.call(this, offsets.IFD1, tags.thumb);
 						
 						if ('JPEGInterchangeFormat' in IFD1Tags) {
-							return this.SEGMENT(offsets.tiffHeader + IFD1Tags.webpInterchangeFormat, IFD1Tags.webpInterchangeFormatLength);
+							return this.SEGMENT(offsets.tiffHeader + IFD1Tags.JPEGInterchangeFormat, IFD1Tags.JPEGInterchangeFormatLength);
 						}
 					} catch (ex) {}
 				}

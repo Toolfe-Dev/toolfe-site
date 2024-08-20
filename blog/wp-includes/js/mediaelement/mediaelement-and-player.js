@@ -7437,7 +7437,7 @@ var YouTubeIframeRenderer = {
 			var quality = options.youtube.imageQuality,
 			    resolutions = ['default', 'hqdefault', 'mqdefault', 'sddefault', 'maxresdefault'],
 			    id = YouTubeApi.getYouTubeId(mediaElement.originalNode.src);
-			return quality && resolutions.indexOf(quality) > -1 && id ? 'https://img.youtube.com/vi/' + id + '/' + quality + '.webp' : '';
+			return quality && resolutions.indexOf(quality) > -1 && id ? 'https://img.youtube.com/vi/' + id + '/' + quality + '.jpg' : '';
 		};
 
 		return youtube;

@@ -4,6 +4,7 @@
  * Slug: twentytwentyfour/banner-hero
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
+ * Description: A hero section with a title, a paragraph, a CTA button, and an image.
  */
 ?>
 
@@ -33,7 +34,7 @@
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
 			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'About Us', 'Button text of the hero section', 'twentytwentyfour' ); ?></a>
+				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'About us', 'Button text of the hero section', 'twentytwentyfour' ); ?></a>
 			</div>
 			<!-- /wp:button -->
 		</div>

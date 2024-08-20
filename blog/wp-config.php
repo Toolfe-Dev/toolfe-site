@@ -92,6 +92,8 @@ define( 'WP_DEBUG', false );
 
 define( 'FS_METHOD', 'direct' );
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
+define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG_DISPLAY', false );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

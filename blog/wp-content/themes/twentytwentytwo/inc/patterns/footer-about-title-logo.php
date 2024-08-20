@@ -10,7 +10,7 @@ return array(
 					<div class="wp-block-group alignfull has-secondary-background-color has-background" style="padding-top:var(--wp--custom--spacing--large, 8rem);padding-bottom:6rem"><!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33%"} -->
 					<div class="wp-block-column" style="flex-basis:33%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase">' . esc_html__( 'About Us', 'twentytwentytwo' ) . '</p>
+					<p style="text-transform:uppercase">' . esc_html__( 'About us', 'twentytwentytwo' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"fontSize":"small"} -->

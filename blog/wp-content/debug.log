@@ -1,0 +1,11 @@
+[06-Aug-2024 13:44:46 UTC] PHP Warning:  require(/home/u840048117/domains/toolfe.com/public_html/blog/wp-includes/blocks): Failed to open stream: No such file or directory in /home/u840048117/domains/toolfe.com/public_html/blog/wp-settings.php on line 339
+[06-Aug-2024 13:44:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u840048117/domains/toolfe.com/public_html/blog/wp-includes/blocks/' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u840048117/domains/toolfe.com/public_html/blog/wp-settings.php:339
+Stack trace:
+#0 /home/u840048117/domains/toolfe.com/public_html/blog/wp-config.php(105): require_once()
+#1 /home/u840048117/domains/toolfe.com/public_html/blog/wp-load.php(50): require_once('/home/u84004811...')
+#2 /home/u840048117/domains/toolfe.com/public_html/blog/wp-blog-header.php(13): require_once('/home/u84004811...')
+#3 /home/u840048117/domains/toolfe.com/public_html/blog/index.php(17): require('/home/u84004811...')
+#4 {main}
+  thrown in /home/u840048117/domains/toolfe.com/public_html/blog/wp-settings.php on line 339
+[06-Aug-2024 13:44:46 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/u840048117/domains/toolfe.com/public_html/blog/wp-includes/functions.php on line 6031
+[06-Aug-2024 13:44:46 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/u840048117/domains/toolfe.com/public_html/blog/wp-includes/functions.php on line 6031
