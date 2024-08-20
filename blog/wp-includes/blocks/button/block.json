@@ -36,8 +36,8 @@
 			"__experimentalRole": "content"
 		},
 		"text": {
-			"type": "rich-text",
-			"source": "rich-text",
+			"type": "string",
+			"source": "html",
 			"selector": "a,button",
 			"__experimentalRole": "content"
 		},
@@ -73,7 +73,6 @@
 	},
 	"supports": {
 		"anchor": true,
-		"splitting": true,
 		"align": false,
 		"alignWide": false,
 		"color": {
@@ -98,9 +97,7 @@
 			}
 		},
 		"reusable": false,
-		"shadow": {
-			"__experimentalSkipSerialization": true
-		},
+		"shadow": true,
 		"spacing": {
 			"__experimentalSkipSerialization": true,
 			"padding": [ "horizontal", "vertical" ],
@@ -121,10 +118,7 @@
 				"width": true
 			}
 		},
-		"__experimentalSelector": ".wp-block-button .wp-block-button__link",
-		"interactivity": {
-			"clientNavigation": true
-		}
+		"__experimentalSelector": ".wp-block-button .wp-block-button__link"
 	},
 	"styles": [
 		{ "name": "fill", "label": "Fill", "isDefault": true },

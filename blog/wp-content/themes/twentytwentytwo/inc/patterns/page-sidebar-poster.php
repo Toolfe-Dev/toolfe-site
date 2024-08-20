@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Poster with right sidebar', 'twentytwentytwo' ),
-	'categories' => array( 'twentytwentytwo_pages' ),
+	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"70%"} -->
@@ -22,14 +22,14 @@ return array(
 
 					<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"70%","style":{"spacing":{"padding":{"bottom":"32px"}}}} -->
-					<div class="wp-block-column" style="padding-bottom:32px;flex-basis:70%"><!-- wp:image {"width":984,"height":1426,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/bird-on-salmon.jpg" alt="' . esc_attr__( 'Image of a bird on a branch', 'twentytwentytwo' ) . '" width="984" height="1426"/></figure>
+					<div class="wp-block-column" style="padding-bottom:32px;flex-basis:70%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/bird-on-salmon.webp" alt="' . esc_attr__( 'Image of a bird on a branch', 'twentytwentytwo' ) . '"/></figure>
 					<!-- /wp:image --></div>
 					<!-- /wp:column -->
 
 					<!-- wp:column {"width":""} -->
 					<div class="wp-block-column"><!-- wp:image {"width":100,"height":47,"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/icon-binoculars.png" alt="' . esc_attr__( 'An icon representing binoculars.', 'twentytwentytwo' ) . '" width="100" height="47"/></figure>
+					<figure class="wp-block-image size-full is-resized"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/icon-binoculars.webp" alt="' . esc_attr__( 'An icon representing binoculars.', 'twentytwentytwo' ) . '" width="100" height="47"/></figure>
 					<!-- /wp:image -->
 
 					<!-- wp:spacer {"height":16} -->

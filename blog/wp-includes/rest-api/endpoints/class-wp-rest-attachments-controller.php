@@ -171,14 +171,6 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			update_post_meta( $attachment_id, '_wp_attachment_image_alt', sanitize_text_field( $request['alt_text'] ) );
 		}
 
-		if ( ! empty( $schema['properties']['featured_media'] ) && isset( $request['featured_media'] ) ) {
-			$thumbnail_update = $this->handle_featured_media( $request['featured_media'], $attachment_id );
-
-			if ( is_wp_error( $thumbnail_update ) ) {
-				return $thumbnail_update;
-			}
-		}
-
 		if ( ! empty( $schema['properties']['meta'] ) && isset( $request['meta'] ) ) {
 			$meta_update = $this->meta->update_value( $request['meta'], $attachment_id );
 
@@ -192,12 +184,6 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 
 		if ( is_wp_error( $fields_update ) ) {
 			return $fields_update;
-		}
-
-		$terms_update = $this->handle_terms( $attachment_id, $request );
-
-		if ( is_wp_error( $terms_update ) ) {
-			return $terms_update;
 		}
 
 		$request->set_param( 'context', 'edit' );
@@ -215,7 +201,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 
 		wp_after_insert_post( $attachment, false, null );
 
-		if ( wp_is_serving_rest_request() ) {
+		if ( defined( 'REST_REQUEST' ) && REST_REQUEST ) {
 			/*
 			 * Set a custom header with the attachment_id.
 			 * Used by the browser/client to resume creating image sub-sizes after a PHP fatal error.
@@ -254,21 +240,10 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		$files   = $request->get_file_params();
 		$headers = $request->get_headers();
 
-		$time = null;
-
-		// Matches logic in media_handle_upload().
-		if ( ! empty( $request['post'] ) ) {
-			$post = get_post( $request['post'] );
-			// The post date doesn't usually matter for pages, so don't backdate this upload.
-			if ( $post && 'page' !== $post->post_type && substr( $post->post_date, 0, 4 ) > 0 ) {
-				$time = $post->post_date;
-			}
-		}
-
 		if ( ! empty( $files ) ) {
-			$file = $this->upload_from_file( $files, $headers, $time );
+			$file = $this->upload_from_file( $files, $headers );
 		} else {
-			$file = $this->upload_from_data( $request->get_body(), $headers, $time );
+			$file = $this->upload_from_data( $request->get_body(), $headers );
 		}
 
 		if ( is_wp_error( $file ) ) {
@@ -304,17 +279,6 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		$attachment->post_mime_type = $type;
 		$attachment->guid           = $url;
 
-		// If the title was not set, use the original filename.
-		if ( empty( $attachment->post_title ) && ! empty( $files['file']['name'] ) ) {
-			// Remove the file extension (after the last `.`)
-			$tmp_title = substr( $files['file']['name'], 0, strrpos( $files['file']['name'], '.' ) );
-
-			if ( ! empty( $tmp_title ) ) {
-				$attachment->post_title = $tmp_title;
-			}
-		}
-
-		// Fall back to the original approach.
 		if ( empty( $attachment->post_title ) ) {
 			$attachment->post_title = preg_replace( '/\.[^.]+$/', '', wp_basename( $file ) );
 		}
@@ -353,43 +317,6 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 	}
 
 	/**
-	 * Determines the featured media based on a request param.
-	 *
-	 * @since 6.5.0
-	 *
-	 * @param int $featured_media Featured Media ID.
-	 * @param int $post_id        Post ID.
-	 * @return bool|WP_Error Whether the post thumbnail was successfully deleted, otherwise WP_Error.
-	 */
-	protected function handle_featured_media( $featured_media, $post_id ) {
-		$post_type         = get_post_type( $post_id );
-		$thumbnail_support = current_theme_supports( 'post-thumbnails', $post_type ) && post_type_supports( $post_type, 'thumbnail' );
-
-		// Similar check as in wp_insert_post().
-		if ( ! $thumbnail_support && get_post_mime_type( $post_id ) ) {
-			if ( wp_attachment_is( 'audio', $post_id ) ) {
-				$thumbnail_support = post_type_supports( 'attachment:audio', 'thumbnail' ) || current_theme_supports( 'post-thumbnails', 'attachment:audio' );
-			} elseif ( wp_attachment_is( 'video', $post_id ) ) {
-				$thumbnail_support = post_type_supports( 'attachment:video', 'thumbnail' ) || current_theme_supports( 'post-thumbnails', 'attachment:video' );
-			}
-		}
-
-		if ( $thumbnail_support ) {
-			return parent::handle_featured_media( $featured_media, $post_id );
-		}
-
-		return new WP_Error(
-			'rest_no_featured_media',
-			sprintf(
-				/* translators: %s: attachment mime type */
-				__( 'This site does not support post thumbnails on attachments with MIME type %s.' ),
-				get_post_mime_type( $post_id )
-			),
-			array( 'status' => 400 )
-		);
-	}
-
-	/**
 	 * Updates a single attachment.
 	 *
 	 * @since 4.7.0
@@ -421,14 +348,6 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		}
 
 		$attachment = get_post( $request['id'] );
-
-		if ( ! empty( $schema['properties']['featured_media'] ) && isset( $request['featured_media'] ) ) {
-			$thumbnail_update = $this->handle_featured_media( $request['featured_media'], $attachment->ID );
-
-			if ( is_wp_error( $thumbnail_update ) ) {
-				return $thumbnail_update;
-			}
-		}
 
 		$fields_update = $this->update_additional_fields_for_object( $attachment, $request );
 
@@ -531,7 +450,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			);
 		}
 
-		$supported_types = array( 'image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/avif' );
+		$supported_types = array( 'image/jpeg', 'image/png', 'image/gif', 'image/webp' );
 		$mime_type       = get_post_mime_type( $attachment_id );
 		if ( ! in_array( $mime_type, $supported_types, true ) ) {
 			return new WP_Error(
@@ -621,12 +540,12 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 				case 'crop':
 					$size = $image_editor->get_size();
 
-					$crop_x = (int) round( ( $size['width'] * $args['left'] ) / 100.0 );
-					$crop_y = (int) round( ( $size['height'] * $args['top'] ) / 100.0 );
-					$width  = (int) round( ( $size['width'] * $args['width'] ) / 100.0 );
-					$height = (int) round( ( $size['height'] * $args['height'] ) / 100.0 );
+					$crop_x = round( ( $size['width'] * $args['left'] ) / 100.0 );
+					$crop_y = round( ( $size['height'] * $args['top'] ) / 100.0 );
+					$width  = round( ( $size['width'] * $args['width'] ) / 100.0 );
+					$height = round( ( $size['height'] * $args['height'] ) / 100.0 );
 
-					if ( $size['width'] !== $width || $size['height'] !== $height ) {
+					if ( $size['width'] !== $width && $size['height'] !== $height ) {
 						$result = $image_editor->crop( $crop_x, $crop_y, $width, $height );
 
 						if ( is_wp_error( $result ) ) {
@@ -711,7 +630,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			update_post_meta( $new_attachment_id, '_wp_attachment_image_alt', wp_slash( $image_alt ) );
 		}
 
-		if ( wp_is_serving_rest_request() ) {
+		if ( defined( 'REST_REQUEST' ) && REST_REQUEST ) {
 			/*
 			 * Set a custom header with the attachment_id.
 			 * Used by the browser/client to resume creating image sub-sizes after a PHP fatal error.
@@ -1057,14 +976,12 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 	 * Handles an upload via raw POST data.
 	 *
 	 * @since 4.7.0
-	 * @since 6.6.0 Added the `$time` parameter.
 	 *
-	 * @param string      $data    Supplied file data.
-	 * @param array       $headers HTTP headers from the request.
-	 * @param string|null $time    Optional. Time formatted in 'yyyy/mm'. Default null.
+	 * @param string $data    Supplied file data.
+	 * @param array  $headers HTTP headers from the request.
 	 * @return array|WP_Error Data from wp_handle_sideload().
 	 */
-	protected function upload_from_data( $data, $headers, $time = null ) {
+	protected function upload_from_data( $data, $headers ) {
 		if ( empty( $data ) ) {
 			return new WP_Error(
 				'rest_upload_no_data',
@@ -1094,7 +1011,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		if ( empty( $filename ) ) {
 			return new WP_Error(
 				'rest_upload_invalid_disposition',
-				__( 'Invalid Content-Disposition supplied. Content-Disposition needs to be formatted as `attachment; filename="image.png"` or similar.' ),
+				__( 'Invalid Content-Disposition supplied. Content-Disposition needs to be formatted as `attachment; filename="image.webp"` or similar.' ),
 				array( 'status' => 400 )
 			);
 		}
@@ -1152,7 +1069,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			'test_form' => false,
 		);
 
-		$sideloaded = wp_handle_sideload( $file_data, $overrides, $time );
+		$sideloaded = wp_handle_sideload( $file_data, $overrides );
 
 		if ( isset( $sideloaded['error'] ) ) {
 			@unlink( $tmpfname );
@@ -1270,14 +1187,12 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 	 * Handles an upload via multipart/form-data ($_FILES).
 	 *
 	 * @since 4.7.0
-	 * @since 6.6.0 Added the `$time` parameter.
 	 *
-	 * @param array       $files   Data from the `$_FILES` superglobal.
-	 * @param array       $headers HTTP headers from the request.
-	 * @param string|null $time    Optional. Time formatted in 'yyyy/mm'. Default null.
+	 * @param array $files   Data from the `$_FILES` superglobal.
+	 * @param array $headers HTTP headers from the request.
 	 * @return array|WP_Error Data from wp_handle_upload().
 	 */
-	protected function upload_from_file( $files, $headers, $time = null ) {
+	protected function upload_from_file( $files, $headers ) {
 		if ( empty( $files ) ) {
 			return new WP_Error(
 				'rest_upload_no_data',
@@ -1319,7 +1234,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		// Include filesystem functions to get access to wp_handle_upload().
 		require_once ABSPATH . 'wp-admin/includes/file.php';
 
-		$file = wp_handle_upload( $files['file'], $overrides, $time );
+		$file = wp_handle_upload( $files['file'], $overrides );
 
 		if ( isset( $file['error'] ) ) {
 			return new WP_Error(

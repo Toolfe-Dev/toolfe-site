@@ -204,7 +204,7 @@ function wp_nav_menu_setup() {
  *
  * @since 3.0.0
  *
- * @global array $wp_meta_boxes Global meta box state.
+ * @global array $wp_meta_boxes
  */
 function wp_initial_nav_menu_meta_boxes() {
 	global $wp_meta_boxes;
@@ -874,7 +874,7 @@ function wp_nav_menu_item_taxonomy_meta_box( $data_object, $box ) {
 		return;
 	}
 
-	$num_pages = (int) ceil(
+	$num_pages = ceil(
 		wp_count_terms(
 			array_merge(
 				$args,

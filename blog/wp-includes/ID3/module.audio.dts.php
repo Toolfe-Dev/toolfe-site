@@ -19,7 +19,7 @@ if (!defined('GETID3_INCLUDEPATH')) { // prevent path-exposing attacks that acce
 }
 
 /**
-* @tutorial http://wiki.multimedia.cx/index.php?title=DTS
+* @tutorial http://wiki.multimedia.cx/?title=DTS
 */
 class getid3_dts extends getid3_handler
 {

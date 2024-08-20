@@ -4,7 +4,6 @@
  * Slug: twentytwentyfour/text-title-left-image-right
  * Categories: banner, about, featured
  * Viewport width: 1400
- * Description: A title, a paragraph and a CTA button on the left with an image on the right.
  */
 ?>
 
@@ -32,7 +31,7 @@
 					<div class="wp-block-buttons">
 						<!-- wp:button -->
 						<div class="wp-block-button">
-							<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'About us', 'Call to Action button text', 'twentytwentyfour' ); ?></a>
+							<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'About Us', 'Call to Action button text', 'twentytwentyfour' ); ?></a>
 						</div>
 						<!-- /wp:button -->
 					</div>

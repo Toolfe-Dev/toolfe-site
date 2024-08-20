@@ -20,8 +20,7 @@ GNU LGPL: https://gnu.org/licenses/lgpl.html                 (v3)
 
 Mozilla MPL: https://www.mozilla.org/MPL/2.0/                (v2)
 
-getID3 Commercial License: https://www.getid3.org/#gCL
-(no longer available, existing licenses remain valid)
+getID3 Commercial License: https://www.getid3.org/#gCL (payment required)
 
 *****************************************************************
 *****************************************************************
@@ -575,7 +574,7 @@ Reference material:
 * http://netghost.narod.ru/gff/graphics/summary/os2bmp.htm
 * http://flac.sourceforge.net/format.html
 * http://www.research.att.com/projects/mpegaudio/mpeg2.html
-* http://www.audiocoding.com/wiki/index.php?page=AAC
+* http://www.audiocoding.com/wiki/?page=AAC
 * http://libmpeg.org/mpeg4/doc/w2203tfs.pdf
 * http://www.geocities.com/xhelmboyx/quicktime/formats/qtm-layout.txt
 * http://developer.apple.com/techpubs/quicktime/qtdevdocs/RM/frameset.htm
