@@ -18,7 +18,7 @@ session_start();
 
     <section class="hero-section-wrap hero-home2" id="contact-us">
 
-<div class="custom-container">3 3s4
+<div class="custom-container">
 
     <div class="hero-contact-form-wrap">
             <!-- after the 5th step hide this div -->
