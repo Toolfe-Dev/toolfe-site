@@ -34,16 +34,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // echo "--------------------------------------------------------------- -----------------------" . "</br>";
 
     $fteHoursPerYear = 2080; 
-    $fteCostPerUnit = ((500000 + (500000 * 0.3)) / $fteHoursPerYear )* $averageProcessingTime;
+    $fteCostPerUnit = (($averageFTESalary + ($averageFTESalary * ($additionalCostForFTE/100))) / $fteHoursPerYear )* $averageProcessingTime;
     $currentAnnualCost = $fteCostPerUnit * $annualVolume;
-    $estimatedAnnualCostAfterAutomation = ($currentAnnualCost * (1 - $percentageAutomation)) + $annualMaintenanceCost;
+    $estimatedAnnualCostAfterAutomation = ($currentAnnualCost * (1 - ($percentageAutomation/100))) + $annualMaintenanceCost;
     $potentialCostSavings = $currentAnnualCost - $estimatedAnnualCostAfterAutomation;
     $roi = $potentialCostSavings / $estimatedAutomationCost;
-    $fteSavings = $annualVolume * $averageProcessingTime * ($percentageAutomation / $fteHoursPerYear);
-    $fteCostSavings = $fteSavings * ($averageFTESalary + ($averageFTESalary * $additionalCostForFTE));
+    $fteSavings = $annualVolume * $averageProcessingTime * (($percentageAutomation/100) / $fteHoursPerYear);
+    $fteCostSavings = $fteSavings * ($averageFTESalary + ($averageFTESalary * ($additionalCostForFTE/100)));
     $percentageReductionInCost = ($potentialCostSavings / $currentAnnualCost) * 100;
     $paybackPeriodDays = ($estimatedAutomationCost / $potentialCostSavings) * 365;
-    $hoursSaved = $annualVolume * $averageProcessingTime * $percentageAutomation;
+    $hoursSaved = $annualVolume * $averageProcessingTime * ($percentageAutomation/100);
     $daysSaved = $hoursSaved / 24;
 
     // Store results in session variables

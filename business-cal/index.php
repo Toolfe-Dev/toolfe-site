@@ -166,7 +166,7 @@ include '../includes/header.php'
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="add_cost">Additional Cost for FTE (%)</label>
-                                                <input id="add_cost" type="number" max="100" min="0" name="add_cost" placeholder="0.25" />
+                                                <input id="add_cost" type="number" max="100" min="0" name="add_cost" placeholder="25%" />
                                             </div>
                                         </div>
 
