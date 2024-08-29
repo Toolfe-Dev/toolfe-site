@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showError('prcss_name', 'Process Name is required');
             isValid = false;
         }
-        if (timePerUnit === "" || isNaN(timePerUnit) || timePerUnit <= 0 || timePerUnit > 10000) {
+        if (timePerUnit === "" || isNaN(timePerUnit) || timePerUnit <= 0 || timePerUnit > 10000000) {
             showError('time_per_unit', 'Please enter a valid time per unit ');
             isValid = false;
         }
