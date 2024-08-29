@@ -45,43 +45,20 @@ if (isset($_SESSION['companyName'])) {
                     <div class="contact-form d-flex">
                         <div class="input-main-row">
                             <h4 class="mb-4 company-res"><?php echo "Hey <span>{$companyName}</span> , you are planning to automate <span>{$processName}</span> \n" ;  ?></h4>
-                            <div class="chart position-relative" style="">
-                                <div id="ch-main" style="width: 600px;height:400px;"></div>
+                            <div class="chart position-relative w-100" style="">
+                                <div id="ch-main" class="w-100" style="height:400px;"></div>
                                 <div class="tot-exp" style="">
-                                  <span class="">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo $currentAnnualCost ?></span> </span>
+                                  <span class="">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </span>
                                 </div>
                             </div>
                             <div class="stats">
-                                <table class="w-100">
-                                  <tr >
-                                    <td class="pb-3">With Toolfe ,</td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 Cost Reduction</td>
-                                    <td class="">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 2)  ?></td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 Process Automation Savings </td>
-                                    <td class="">$ <?php echo number_format($potentialCostSavings, 2)  ?></td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 Labor Cost Savings </td>
-                                    <td class=""> <?php echo number_format($fteSavings, 2) ; ?> FTEs | $ <?php echo number_format($fteCostSavings, 2) ?></td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 Time Savings </td>
-                                    <td class=""><?php echo number_format($hoursSaved, 0)  ?> hrs | <?php echo number_format($daysSaved, 0) ?> days</td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 ROI per Rupee </td>
-                                    <td class="">$ <?php echo number_format($roi, 2)   ?></td>
-                                  </tr>
-                                  <tr class="">
-                                    <td class="pb-3">🟢 Quick ROI </td>
-                                    <td class=""><?php echo number_format($paybackPeriodDays, 0)  ?> days</td>
-                                  </tr>
-
-                                </table>
+                              <p class="">🟢  This Cost can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p>
+                              <p class="">🟢 You can save <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($potentialCostSavings, 0)  ?></span>after implementing Process Automation</p>
+                              <p class="">🟢 You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p>
+                              <p class="">🟢 Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days</p>
+                              <p class="">🟢 Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every Rs.1 spent in our Automation.</p>
+                              <p class="">🟢 Automation solution delivers ROI in just<span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days</p>
+                           
                             </div>
                             <div class="stats-foot mt-5">
                                 <div class="input-row field">
