@@ -90,11 +90,11 @@ include '../includes/header.php'
                             <ul class=" form-steps">
                                 <li class="d-flex justify-content-center align-items-center flex-column">
                                     <div class="form-indecator">1</div>
-                                    <div class="text-center"> Current Process Details</div>   
+                                    <div class="text-center"> Company Process Details</div>   
                                 </li>
                                 <li class="d-flex justify-content-center align-items-center flex-column">
                                     <div class="form-indecator">2</div>
-                                    <div class="text-center"> Automation Potential</div>    
+                                    <div class="text-center">Company Automation Details</div>    
                                 </li>
                             </ul>
                         </div>
@@ -112,19 +112,19 @@ include '../includes/header.php'
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="prcss_name">Process Name</label>
-                                                <input id="prcss_name" type="text" name="prcss_name" placeholder="Invoice Processing" />
+                                                <input id="prcss_name" type="text" name="prcss_name" placeholder="e.g. Invoice Processing" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                    <label for="time_per_unit">Average Processing Time per Unit (hours)</label>
-                                                    <input id="time_per_unit" type="number" max="10000" min="0" name="time_per_unit" placeholder="1 hrs / 0.5 hrs" />
+                                                    <label for="time_per_unit">Average Processing Time per Unit (minutes)</label>
+                                                    <input id="time_per_unit" type="number" max="100000" min="0" name="time_per_unit" placeholder="e.g. 30 min" />
                                                 </div>
                                             </div>
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="annual_volume">Annual Volume</label>
-                                                <input id="annual_volume" type="number" max="9999999" min="0" name="annual_volume" placeholder="3000" />
+                                                <input id="annual_volume" type="number" max="9999999" min="0" name="annual_volume" placeholder="e.g. 3000" />
                                             </div>
                                         </div>
                                         <!-- first step over -->
@@ -133,20 +133,20 @@ include '../includes/header.php'
                                         <!-- second step starts-->
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="per_pro_auto">Percentage of Process Automation</label>
-                                                <input id="per_pro_auto" type="number" max="100" min="0" name="per_pro_auto" placeholder="80%" />
+                                                <label for="per_pro_auto">Percentage of Process Automation (%)</label>
+                                                <input id="per_pro_auto" type="number" max="100" min="0" name="per_pro_auto" placeholder="e.g. 80" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="auto_cost">Estimated Automation Cost</label>
-                                                <input id="auto_cost" type="number" max="99999999999" min="0" name="auto_cost" placeholder="₹ 50,000.00" />
+                                                <input id="auto_cost" type="number" max="99999999999" min="0" name="auto_cost" placeholder="e.g. $ 50,000.00" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="maint_cost">Annual Maintenance Cost</label>
-                                                <input id="maint_cost" type="number" max="99999999999" min="0" name="maint_cost" placeholder="₹ 10,000.00" />
+                                                <input id="maint_cost" type="number" max="99999999999" min="0" name="maint_cost" placeholder="e.g. $ 10,000.00" />
                                             </div>
                                         </div>
                                         <!-- second step over-->
@@ -159,15 +159,15 @@ include '../includes/header.php'
                                         <!-- first step -->
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                    <label for="fte_salary">Average FTE Salary per year</label>
-                                                    <input id="fte_salary" type="number" max="99999999999" min="0" name="fte_salary" placeholder="₹ 500,000.00" />
+                                                    <label for="fte_salary">Average Employee Salary per year</label>
+                                                    <input id="fte_salary" type="number" max="99999999999" min="0" name="fte_salary" placeholder="e.g. $ 500,000.00" />
                                                 </div>
                                             </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="add_cost">Additional Cost for FTE (%)</label>
-                                                <input id="add_cost" type="number" max="100" min="0" name="add_cost" placeholder="25%" />
-                                            </div>
+                                                <label for="add_cost">Additional Cost for Employee (%)</label>
+                                                <input id="add_cost" type="number" max="100" min="0" name="add_cost" placeholder="e.g. 25" />
+                                            </div> 
                                         </div>
 
 
@@ -177,7 +177,7 @@ include '../includes/header.php'
                                         <div class="input-row field">
                                             <div class="input-group">
                                                 <label for="company_name">Company Name</label>
-                                                <input id="company_name" type="text" name="company_name" placeholder="TechSys Solutions Pvt. Ltd." />
+                                                <input id="company_name" type="text" name="company_name" placeholder="e.g. Microsoft" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
@@ -190,7 +190,7 @@ include '../includes/header.php'
                                                     <option value="education">Education</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div> 
                                             <div class="input-row field">
                                                 <div class="input-group">
                                                     <label>Number of Employees doing the Process</label>
@@ -219,7 +219,7 @@ include '../includes/header.php'
                                     
                                     <div class="input-row field">
                                         <!-- disable the previous button when in first step  -->
-                                        <div class="input-group">
+                                        <div class="input-group prev-btn">
                                             <button class="theme-btn" type="button">Previous</button>
                                         </div>
                                         <div class="input-group phone-number">

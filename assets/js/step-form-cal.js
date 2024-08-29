@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Select navigation buttons
     const prevButton = document.querySelector('.input-group .theme-btn[type="button"]:first-child');
+    const prevBtnDiv = document.querySelector('.prev-btn');
     const nextButton = document.querySelector('.input-group.phone-number .theme-btn[type="button"]');
 
     // Initialize the current step
@@ -115,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         stepsLeft.forEach(step => step.classList.add('d-none'));
         stepsRight.forEach(step => step.classList.add('d-none'));
         stepIndicators.forEach(indicator => indicator.classList.remove('active'));
-
+        
         // Show current step if within bounds
         if (currentStep < stepsLeft.length) {
             stepsLeft[currentStep].classList.remove('d-none');
@@ -127,8 +128,13 @@ document.addEventListener('DOMContentLoaded', () => {
             form.submit();
         }
 
-        // Disable Prev button on the first step
-        prevButton.disabled = currentStep === 0;
+        if (currentStep === 0) {
+            prevButton.classList.add('d-none');
+            prevBtnDiv.classList.add('d-none');
+        } else {
+            prevButton.classList.remove('d-none');
+            prevBtnDiv.classList.remove('d-none');
+        }
     }
 
     // Event listener for Next button
@@ -155,7 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
             updateFormDisplay();
         }
     });
-
     // Initialize the form display
     updateFormDisplay();
 });

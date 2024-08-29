@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $processName  = $_POST['prcss_name'];
     $employeeCount = $_POST['employe_count'];
 
-    $averageProcessingTime  = $_POST['time_per_unit'];
+    $averageProcessingTime  = $_POST['time_per_unit']/60;
     $annualVolume  = $_POST['annual_volume'];
     $percentageAutomation  = $_POST['per_pro_auto'];
     $estimatedAutomationCost  = $_POST['auto_cost'];
