@@ -9,15 +9,15 @@ include '../includes/header.php'
 
   <section class="hero-service-wrap hero-section-wrap hero-career-wrap hero-our-field-wrap">
     <div class="hero-section-content-wrap">
-      <img src="../assets/imgs/bg-shape-1.svg" alt="bg-shape-1" class="animation-slide-left bg-shape" />
+      <img src="../assets/imgs/bg-shape-1.svg" alt="Shape" class="animation-slide-left bg-shape" />
       <div class="custom-container">
         <div class="hero-portfolio-body">
           <div class="hero-section-content text-center">
+            </p>
             <h5 class="section-subtitle">Career</h5>
             <h1 class="section-title fade-in">We are Hiring!</h1>
             <p>
             Join our team and help shape the future with your skills and passion.
-            </p>
           </div>
         </div>
       </div>
@@ -29,97 +29,64 @@ include '../includes/header.php'
   <section class="career-area">
     <div class="custom-container">
       <div class="d-flex justify-content-between align-items-center mb-5">
-      <h1 class="section-title">MERN Stack Developer - Web Development </h1>
-      <a href="#career-form" class="">
-        <button id="#" class="theme-btn book-free-con">Apply Now</button>
+        <h1 class="section-title pe-0">Senior Social Media Manager </h1>
+        <h2>- B2B Lead Conversion</h2>
+        <a href="#career-form" class="">
+        <button id="#" class="theme-btn form-style ">Apply Now</button>
         </a>
+        
       </div>
       <div class="career-body d-flex g-2 p-0 career-body-bg">
         <div class="career-lists ps-3 pe-5">
-        <div class="left">
-            <h2>Job Overview</h2>
-            <p class="job-overview-color">
-            We are looking for a skilled MERN Stack Developer to join our web development team. The ideal candidate will have extensive experience in building dynamic and responsive web applications using MongoDB, Express.js, React.js, and Node.js. This role involves working closely with designers and back-end developers to deliver high-quality web solutions. 
-            </p>
-            <br />
+      <div class="left">
             <h2>Responsibilities</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
+              Develop and execute a strategic social media plan tailored to B2B audiences to drive brand awareness and lead generation.
               </li>
               <li>
-              Collaborate with UX/UI designers to implement design into the code. 
+              Create and manage high-impact content across social media platforms (e.g., LinkedIn, Twitter, Facebook) aimed at engaging B2B clients. 
               </li>
               <li>
-              Write clean, scalable, and well-documented code. 
+              Use social media channels to generate and nurture leads through targeted content, messaging, and campaigns.
               </li>
               <li>
-              Perform unit testing and debugging to ensure application quality and performance. 
+              Collaborate with the sales team to design and implement social media campaigns that align with sales goals and target specific business audiences. 
               </li>
               <li>
-              Integrate third-party APIs and services as needed. 
+              Monitor and analyze social media performance metrics to optimize lead generation strategies and improve lead conversion rates.
               </li>
               <li>
-              Participate in code reviews and contribute to continuous improvement of development practices. 
-              <li>
-              Work closely with back-end developers to integrate front-end components with the server-side logic. 
+              Engage with industry influencers, partners, and potential clients to build relationships and expand the company's reach.
               </li>
               <li>
-              Ensure the responsiveness and cross-browser compatibility of web applications. 
+              Implement and manage paid social media campaigns to drive lead generation and conversion.
               </li>
               <li>
-              Stay updated with the latest web development trends and technologies. 
+              Stay informed about the latest trends and tools in B2B social media marketing to continuously enhance strategies.
               </li>
             </ul>
             <br />
-            <h2>Qualifications</h2>
+            <h2>Skills Required:</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Bachelor’s degree in Computer Science, Information Technology, or a related field. 
-              <li>
-              Proven experience as a MERN Stack Developer or similar role. 
+              Deep understanding of B2B social media marketing and lead conversion strategies.  
               </li>
               <li>
-              Strong proficiency in JavaScript, including ES6+ syntax. 
-              </li>
-              <li>In-depth knowledge of MongoDB, Express.js, React.js, and Node.js. </li>
-              <li>Experience with front-end technologies such as HTML5, CSS3, and JavaScript frameworks. </li>
-              <li>
-              Familiarity with RESTful APIs and web services. 
+              Experience with social media platforms relevant to B2B marketing (e.g., LinkedIn). 
               </li>
               <li>
-              Knowledge of version control systems like Git. 
+              Strong analytical skills and experience with social media analytics tools.
+              </li>
+              <li> Proven ability to create compelling content that drives B2B engagement and conversions.</li>
+              <li>Excellent communication, writing, and editing skills.</li>
+              <li>
+              Familiarity with CRM systems and lead tracking tools. 
               </li>
               <li>
-              Strong problem-solving skills and attention to detail. 
-              </li>
-              <li>
-              Excellent communication and collaboration skills. 
-              </li>
-              <li>
-              Ability to work independently and as part of a team in a fast-paced environment.  
-              </li>
-            </ul>
-            <br />
-            <h2>Preferred Qualifications</h2>
-            <br />
-            <ul class="list-style-res">
-              <li>
-              Experience with TypeScript. 
-              </li>
-              <li>
-              Knowledge of state management libraries like Redux or MobX. 
-              </li>
-              <li>
-              Familiarity with CI/CD pipelines and DevOps practices. 
-              </li>
-              <li>
-              Experience with testing frameworks like Jest or Mocha.  
-              </li>
-              <li>
-              Understanding of agile methodologies. 
+              Strong project management skills and the ability to manage multiple campaigns simultaneously.
               </li>
             </ul>
             <br />
@@ -127,13 +94,13 @@ include '../includes/header.php'
             <br />
             <ul class="list-style-res">
               <li>
-              Opportunities for professional development and career advancement. 
+                Professional development opportunities.  
               </li>
               <li>
-              Flexible working hours and remote work options. 
+                Flexible working hours . 
               </li>
               <li>
-              Collaborative and inclusive work environment. 
+                Collaborative and inclusive work environment. 
               </li>
             </ul>
           </div>
@@ -184,7 +151,7 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
-  <section class="contact-area" id="career-form">
+  <section class="contact-area" id="career-form" >
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">
@@ -196,7 +163,7 @@ include '../includes/header.php'
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
             <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
-    <input type="hidden" name="role" value="MERN"/>
+    <input type="hidden" name="role" value="Social Media"/>
     <div class="input-row field">
         <div class="input-row">
             <div class="input-group">

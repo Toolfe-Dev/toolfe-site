@@ -49,14 +49,14 @@ if (isset($_SESSION['companyName'])) {
                                 <div id="ch-main" class="w-100" style="height:400px;"></div>
                                 
                                 <div class="tot-exp" style="">
-                                  <center><p class="">Of Your annual OPEX can be saved </p></center>
+                                  <center><p class="">of your annual OPEX can be saved </p></center>
                                   <div class="box">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </div>
                                 </div>
                             </div>
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
-                                <li><p class=""> This Cost can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
+                                <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days</p></li>
@@ -74,7 +74,7 @@ if (isset($_SESSION['companyName'])) {
                         </div>
                         <div class="input-main-row">
                             <!-- i have a form submission button here -->
-                                <h3 class="mb-4">Recommendations to enhance your Business Performance</h3>
+                                <h3 class="mb-4"></h3>
                                 <div class="report-card">
                                     <h4 class="">Automation ROI Summary</h4>
                                     <p class="">Unlock the full potential of automation with our expert audit. Get advanced, precise reports and tailored implementation strategies. </p>
@@ -84,13 +84,16 @@ if (isset($_SESSION['companyName'])) {
                                             <p class="">Your score indicates there's room for improvement in your financial strategy. Consider implementing a more robust budgeting process and exploring ways to increase profitability.</p>
                                             <h4 class="">Revenue and Financial Health</h4>
                                             <p class="">Your score indicates there's room for improvement in your financial strategy. Consider implementing a more robust budgeting process and exploring ways to increase profitability.</p>
-                                            <h4 class="">Revenue and Financial Health</h4>
-                                            <p class="">Your score indicates there's room for improvement in your financial strategy. Consider implementing a more robust budgeting process and exploring ways to increase profitability.</p>
+                                            <h4 class="d-md-block d-none">Revenue and Financial Health</h4>
+                                            <p class="d-md-block d-none">Your score indicates there's room for improvement in your financial strategy. Consider implementing a more robust budgeting process and exploring ways to increase profitability.</p>
                                         </div>
                                         <div class="position-absolute full-report w-100 h-100">
                                             <button class="theme-btn rounded-2 mx-auto my-4" type="button">View Full Report</button>
                                             
                                             <ul class="mt-5 mx-auto">
+                                              <li class="">
+                                                <p class=""><strong>Our deliverables </strong></p>
+                                              </li>
                                                 <li class="">
                                                     <p class="">Advanced Cost Reduction Analysis</p>
                                                 </li>

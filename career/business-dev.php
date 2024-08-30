@@ -1,3 +1,4 @@
+
 <?php
 include '../includes/header.php'
 ?>
@@ -29,83 +30,84 @@ include '../includes/header.php'
   <section class="career-area">
     <div class="custom-container">
       <div class="d-flex justify-content-between align-items-center mb-5">
-      <h1 class="section-title">SEO Intern - Marketing </h1>
-      <a href="#career-form" class="">
-        <button id="#" class="theme-btn form-style" >Apply Now</button>
+        <h1 class="section-title">Business Development Executive - B2B Sales</h1>
+        <a href="#career-form" class="">
+        <button id="#" class="theme-btn form-style">Apply Now</button>
         </a>
       </div>
-      <div class="career-body d-flex g-2 p-0 career-body-bg">
+      <div class="career-body d-flex g-2 p-0 career-body-bg" >
         <div class="career-lists ps-3 pe-5">
         <div class="left">
-            <h2>Job Overview</h2>
-            <p class="job-overview-color">
-             We are seeking a motivated and enthusiastic SEO Intern to join our marketing team. The SEO Intern will assist in improving our company's online visibility and search engine rankings through various SEO techniques. This is an excellent opportunity for someone looking to gain hands-on experience in the field of digital marketing and search engine optimization. 
-            </p>
-            <br />
             <h2>Responsibilities</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Conduct keyword research to identify potential keywords for content optimization and new content creation. 
+              Develop and implement effective sales strategies to meet or exceed sales targets. 
               </li>
               <li>
-              Assist in optimizing existing content on the company's website, including blog posts, product pages, and landing pages.  
+              Identify and pursue new business opportunities within the IT sector.  
               </li>
               <li>
-              Implement on-page SEO techniques such as meta tags, header tags, and URL structures to improve organic search rankings. 
+              Build and maintain strong relationships with clients and customers. 
               </li>
               <li>
-              Support link-building efforts by identifying and reaching out to potential link partners, and assisting in the creation of backlinking strategies. 
+              Conduct market research and competitive analysis to stay up-to-date with industry trends and IT developments. 
               </li>
               <li>
-              Monitor and report on key SEO metrics such as organic traffic, search rankings, and conversion rates using tools like Google Analytics and Google Search Console. 
+              Negotiate contracts and close deals with clients, ensuring a focus on IT-related products and services. 
               </li>
               <li>
-              Perform competitor analysis to identify strengths and weaknesses, and develop strategies to outperform them in search rankings.  
+              Develop and deliver sales presentations and proposals tailored to the IT industry. 
               <li>
-              Collaborate with content creators to develop SEO-friendly content that aligns with the company's marketing goals. 
+              Conduct field visits and handle field sales activities to engage directly with potential clients. 
               </li>
               <li>
-              Assist with technical SEO audits and implementation of best practices to ensure the website is search-engine friendly. 
+              Arrange and participate in direct business meetings, including on-site visits and client travel. 
               </li>
               <li>
-              Keep up-to-date with the latest SEO trends, algorithms, and best practices. 
+              Collaborate with internal teams to ensure customer satisfaction and successful project delivery. 
+              </li>
+              <li>
+              Provide regular reports and updates on sales activities and performance.  
+              </li>
+              <li>
+              Attend industry events and conferences to network and build relationships within the IT sector.  
+              </li>
+              <li>
+              Stay informed about the latest developments in the IT industry and share knowledge with colleagues. 
               </li>
             </ul>
             <br />
-            <h2>Qualifications</h2>
+            <h2> Requirements:</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Currently pursuing or recently completed a degree in Marketing, Communications, Business, or a related field. 
+              Minimum 2- 3 years of B2B sales experience, with a proven track record of meeting sales targets.  
+              <li>
+              Experience in selling IT-related products or services. 
               </li>
               <li>
-              Basic understanding of SEO principles and digital marketing. 
+              Strong ability to conduct field visits and manage field sales activities.  
+              </li>
+              <li>Excellent communication and negotiation skills. </li>
+              <li>Ability to build and maintain client relationships. </li>
+              <li>
+              Strong understanding of sales processes and techniques. 
               </li>
               <li>
-              Familiarity with SEO tools such as Google Analytics, Google Search Console, SEMrush, Ahrefs, or similar. 
+              Experience in lead generation and prospecting. 
               </li>
-              <li>Strong analytical skills with attention to detail. </li>
-              <li>Excellent written and verbal communication skills. </li>
               <li>
               Ability to work independently and as part of a team. 
               </li>
               <li>
-              Proficient in Microsoft Office Suite (Word, Excel, PowerPoint). 
-              </li>
-            </ul>
-            <br />
-            <h2>Preferred Qualifications</h2>
-            <br />
-            <ul class="list-style-res">
-              <li>
-              Experience with content management systems (CMS) like WordPress. 
+              Proficient in CRM software and Microsoft Office. 
               </li>
               <li>
-              Basic knowledge of HTML, CSS, and JavaScript. 
+              Willingness to travel for client meetings and field sales activities. 
               </li>
               <li>
-              Previous experience in a digital marketing or SEO role is a plus. 
+              Strong time management and organizational skills. 
               </li>
             </ul>
             <br />
@@ -170,7 +172,7 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
-  <section class="contact-area" id="career-form" >
+  <section class="contact-area"  id="career-form" >
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">
@@ -182,7 +184,7 @@ include '../includes/header.php'
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
             <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
-    <input type="hidden" name="role" value="SEO"/>
+    <input type="hidden" name="role" value="Business Development"/>
     <div class="input-row field">
         <div class="input-row">
             <div class="input-group">
@@ -293,6 +295,7 @@ include '../includes/header.php'
   <!-- Footer -->
   <?php include '../includes/foot.php';  ?>
 </main>
+
 <?php include './validate.php'?>
 
 <?php

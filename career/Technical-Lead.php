@@ -1,4 +1,3 @@
-
 <?php
 include '../includes/header.php'
 ?>
@@ -30,91 +29,72 @@ include '../includes/header.php'
   <section class="career-area">
     <div class="custom-container">
       <div class="d-flex justify-content-between align-items-center mb-5">
-        <h1 class="section-title">Data Scientist - Data Analytics</h1>
-        <a href="#career-form" class="">
-        <button id="#" class="theme-btn form-style">Apply Now</button>
+      <h1 class="section-title">Technical Lead </h1>
+      <a href="#career-form" class="">
+        <button id="#" class="theme-btn form-style" >Apply Now</button>
         </a>
       </div>
-      <div class="career-body d-flex g-2 p-0 career-body-bg" >
+      <div class="career-body d-flex g-2 p-0 career-body-bg">
         <div class="career-lists ps-3 pe-5">
         <div class="left">
-            <h2>Job Overview</h2>
-            <p class="job-overview-color">
-            We are seeking a Data Scientist to join our team and drive data-driven decision-making across the organization. The ideal candidate will have a strong background in statistical analysis, machine learning, and data visualization. This role involves working closely with cross-functional teams to analyze large datasets and develop predictive models to support business objectives.
-            </p>
-            <br />
             <h2>Responsibilities</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Collect, clean, and preprocess large datasets from various sources. 
+                <strong>Project Feasibility Analysis:</strong> Assess the technical feasibility of new projects, particularly in software development, app development, RPA, and AI, ensuring alignment with company goals and resource capabilities.
               </li>
               <li>
-              Perform exploratory data analysis (EDA) to uncover trends and insights. 
+                <strong>Technical Advisory:</strong> Serve as the primary technical advisor for projects, providing guidance on architecture, technology stack, and best practices in relevant domains.
               </li>
               <li>
-              Develop and implement predictive models and machine learning algorithms. 
+                <strong>Solution Design:</strong> Collaborate with cross-functional teams to design scalable and robust solutions that meet business requirements, with a focus on software, app, RPA, and AI projects.
               </li>
               <li>
-              Use statistical techniques to test hypotheses and validate models. 
+                <strong>Technology Evaluation:</strong> Evaluate and recommend new technologies, tools, and frameworks related to software development, app development, RPA, and AI that can enhance project outcomes and overall company efficiency.
               </li>
               <li>
-              Create data visualizations and dashboards to communicate findings to stakeholders. 
+                <strong>Project Oversight:</strong> Oversee the technical aspects of project delivery, ensuring that development teams adhere to design principles, coding standards, and quality benchmarks.
               </li>
               <li>
-              Collaborate with cross-functional teams to understand business requirements and provide data-driven solutions. 
-              <li>
-              Monitor and optimize model performance. 
+                <strong>Risk Management:</strong> Identify potential technical risks in projects and develop mitigation strategies to address them effectively.
               </li>
               <li>
-              Stay up-to-date with the latest advancements in data science and analytics. 
+                <strong>Stakeholder Communication:</strong> Work closely with the CTO, project managers, and other stakeholders to communicate project status, technical challenges, and potential solutions.
               </li>
               <li>
-              Document processes, methodologies, and results.  
-              </li>
-            </ul>
-            <br />
-            <h2>Qualifications</h2>
-            <br />
-            <ul class="list-style-res">
-              <li>
-              Bachelor’s degree in Data Science, Statistics, Computer Science, or a related field. 
-              <li>
-              Proven experience as a Data Scientist or similar role. 
+                <strong>Mentorship:</strong> Provide mentorship and guidance to junior developers and technical staff, fostering a culture of continuous learning and improvement.
               </li>
               <li>
-              Strong programming skills in Python, R, or a similar language. 
-              </li>
-              <li>Experience with machine learning libraries such as scikit-learn, TensorFlow, or PyTorch. </li>
-              <li>Proficiency in SQL and database management. </li>
-              <li>
-              Strong knowledge of statistical analysis and data mining techniques. 
+                <strong>Process Improvement:</strong> Lead initiatives to improve development processes, tools, and methodologies to enhance team productivity and project quality.
               </li>
               <li>
-              Experience with data visualization tools like Tableau, Power BI, or matplotlib. 
-              </li>
-              <li>
-              Excellent problem-solving skills and attention to detail. 
-              </li>
-              <li>
-              Strong communication and collaboration skills. 
+                <strong>Technical Documentation:</strong> Ensure that all technical documentation is accurate, up-to-date, and accessible to relevant teams.
               </li>
             </ul>
             <br />
-            <h2>Preferred Qualifications</h2>
+            <h2>Requirements: </h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Master’s degree or PhD in Data Science, Statistics, Computer Science, or a related field. 
+                <strong>Experience:</strong> Minimum 5-7 years of experience in software development, app development, RPA, and AI-related technologies, with at least 2-3 years in a technical leadership role.
               </li>
               <li>
-              Experience with big data technologies like Hadoop, Spark, or Hive. 
+                <strong>Technical Expertise:</strong> Strong proficiency in multiple programming languages, frameworks, and tools, with a deep understanding of software architecture, design patterns, and RPA and AI technologies.
               </li>
               <li>
-              Knowledge of cloud platforms such as AWS, Google Cloud, or Azure. 
+                <strong>Leadership Skills:</strong> Proven ability to lead technical teams, manage complex projects, and make informed decisions under pressure.
               </li>
               <li>
-              Familiarity with Agile and Scrum methodologies.  
+                <strong>Analytical Thinking:</strong> Strong analytical and problem-solving skills, with a focus on assessing feasibility and optimizing solutions.
+              </li>
+              <li>
+                <strong>Communication:</strong> Excellent communication skills, with the ability to convey complex technical concepts to non-technical stakeholders.
+              </li>
+              <li>
+                <strong>Adaptability:</strong> Ability to adapt to changing technologies, project requirements, and business priorities.
+              </li>
+              <li>
+                <strong>Education:</strong> Bachelor's degree in Computer Science, Engineering, or a related field. Advanced degrees or certifications in relevant technologies are a plus.
               </li>
             </ul>
             <br />
@@ -122,13 +102,19 @@ include '../includes/header.php'
             <br />
             <ul class="list-style-res">
               <li>
-              Opportunities for professional development and career advancement. 
+              Hands-on experience in data analysis and reporting. 
               </li>
               <li>
-              Flexible working hours and remote work options. 
+              Mentorship from experienced data analysts and business intelligence professionals. 
               </li>
               <li>
-              Collaborative and inclusive work environment. 
+              Opportunity to work on real-world projects and contribute to data-driven decision-making processes. 
+              </li>
+              <li>
+              Potential for a full-time position based on performance during the internship. 
+              </li>
+              <li>
+              Internship completion certificate and professional certification, recognizing the skills and experience gained during the internship. 
               </li>
             </ul>
           </div>
@@ -179,7 +165,7 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
-  <section class="contact-area"  id="career-form" >
+  <section class="contact-area" id="career-form" >
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">
@@ -191,7 +177,7 @@ include '../includes/header.php'
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
             <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
-    <input type="hidden" name="role" value="Data Analytics"/>
+    <input type="hidden" name="role" value="Technical Lead"/>
     <div class="input-row field">
         <div class="input-row">
             <div class="input-group">
@@ -302,7 +288,6 @@ include '../includes/header.php'
   <!-- Footer -->
   <?php include '../includes/foot.php';  ?>
 </main>
-
 <?php include './validate.php'?>
 
 <?php

@@ -29,61 +29,64 @@ include '../includes/header.php'
   <section class="career-area">
     <div class="custom-container">
       <div class="d-flex justify-content-between align-items-center mb-5">
-      <h1 class="section-title">RPA Developer Internship - 6 Months </h1>
+      <h1 class="section-title">Data Analyst Internship - 8 Months </h1>
       <a href="#career-form" class="">
-        <button id="#" class="theme-btn book-free-con">Apply Now</button>
+        <button id="#" class="theme-btn form-style" >Apply Now</button>
         </a>
       </div>
       <div class="career-body d-flex g-2 p-0 career-body-bg">
         <div class="career-lists ps-3 pe-5">
         <div class="left">
-            <br />
             <h2>Responsibilities</h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Assist in the development and deployment of Robotic Process Automation (RPA) solutions to streamline sales processes. 
+              Assist in collecting, analyzing, and interpreting large datasets to support business decisions.  
               </li>
               <li>
-              Work closely with the sales team to identify repetitive tasks that can be automated to enhance efficiency and productivity.  
+              Work closely with cross-functional teams to gather data requirements and develop data-driven insights.   
               </li>
               <li>
-              Design, develop, and test automation workflows using RPA tools (e.g., UiPath, Automation Anywhere, Blue Prism). 
+              Create and maintain dashboards and reports using tools like Power BI, Tableau, or Looker Studio. 
               </li>
               <li>
-              Collaborate with the sales and IT teams to integrate RPA solutions with existing sales tools and systems. 
+              Conduct data cleaning, transformation, and validation to ensure data accuracy and consistency.  
               </li>
               <li>
-              Document and maintain technical specifications for RPA solutions. 
+              Analyze trends and patterns in data to identify opportunities for process improvement and optimization.  
               </li>
               <li>
-              Monitor and maintain deployed RPA bots to ensure their smooth operation and troubleshoot issues as they arise.  
+              Support the team in preparing detailed reports and presentations for stakeholders.  
               <li>
-              Assist in training the sales team on how to use the RPA tools and solutions effectively. 
+              Assist in automating data collection and reporting processes. 
               </li>
               <li>
-              Stay updated with the latest trends and best practices in RPA and automation technologies. 
+              Stay updated with the latest data analysis techniques, tools, and best practices. 
               </li>
             </ul>
             <br />
-            <h2> Requirements:</h2>
+            <h2>Requirements: </h2>
             <br />
             <ul class="list-style-res">
               <li>
-              Currently pursuing or recently completed a degree in Computer Science, IT, Engineering, or a related field. 
-              <li>
-              Basic understanding of RPA tools like UiPath, Automation Anywhere, or Blue Prism. 
+              Currently pursuing or recently completed a degree in Data Science, Statistics, Computer Science, Mathematics, or a related field.  
               </li>
               <li>
-              Familiarity with programming languages such as Python, Java, or C#.  
+              Proficiency in data analysis tools such as Excel, SQL, Python, or R. 
+              </li>
+              <li>
+              Familiarity with data visualization tools like Power BI, Tableau, or Looker Studio.  
               </li>
               <li>Strong analytical and problem-solving skills. </li>
-              <li>Ability to work collaboratively with cross-functional teams. </li>
+              <li>Ability to work with large datasets and conduct complex data analysis. </li>
               <li>
-              Strong communication skills and attention to detail.  
+              Good communication skills and the ability to present findings clearly. 
               </li>
               <li>
-              Eagerness to learn and adapt to new technologies and processes.  
+              Attention to detail and a strong commitment to data accuracy.  
+              </li>
+              <li>
+              Eagerness to learn and adapt to new data tools and techniques.  
               </li>
             </ul>
             <br />
@@ -91,16 +94,19 @@ include '../includes/header.php'
             <br />
             <ul class="list-style-res">
               <li>
-              Hands-on experience with cutting-edge RPA technologies. 
+              Hands-on experience in data analysis and reporting. 
               </li>
               <li>
-              Mentorship from experienced RPA developers and sales professionals.  
+              Mentorship from experienced data analysts and business intelligence professionals. 
               </li>
               <li>
-              Opportunity to work on real-world projects and make a tangible impact on the sales team's efficiency. 
+              Opportunity to work on real-world projects and contribute to data-driven decision-making processes. 
               </li>
               <li>
-              Potential for a full-time position upon successful completion of the internship 
+              Potential for a full-time position based on performance during the internship. 
+              </li>
+              <li>
+              Internship completion certificate and professional certification, recognizing the skills and experience gained during the internship. 
               </li>
             </ul>
           </div>
@@ -151,7 +157,7 @@ include '../includes/header.php'
       </div>
     </div>
   </section>
-  <section class="contact-area" id="career-form">
+  <section class="contact-area" id="career-form" >
     <div class="custom-container">
       <div class="custom-row">
         <div class="contact-form-wrap">
@@ -163,7 +169,7 @@ include '../includes/header.php'
               <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
             </p>
             <form id="careerForm" action="career-form.php" method="POST" class="contact-form" enctype="multipart/form-data">
-    <input type="hidden" name="role" value="MERN"/>
+    <input type="hidden" name="role" value="Data Analyst"/>
     <div class="input-row field">
         <div class="input-row">
             <div class="input-group">
@@ -275,6 +281,7 @@ include '../includes/header.php'
   <?php include '../includes/foot.php';  ?>
 </main>
 <?php include './validate.php'?>
+
 <?php
 include '../includes/footer.php'
 ?>
