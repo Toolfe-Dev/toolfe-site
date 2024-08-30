@@ -47,9 +47,10 @@ if (isset($_SESSION['companyName'])) {
                             <h4 class="mb-4 company-res"><?php echo "Hey <span>{$companyName}</span> , you are planning to automate <span>{$processName}</span> \n" ;  ?></h4>
                             <div class="chart position-relative w-100" style="">
                                 <div id="ch-main" class="w-100" style="height:400px;"></div>
-                                <p class="">Of Your annual OPEX can be saved </p>
+                                
                                 <div class="tot-exp" style="">
-                                  <span class="">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </span>
+                                  <center><p class="">Of Your annual OPEX can be saved </p></center>
+                                  <div class="box">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </div>
                                 </div>
                             </div>
                             <div class="stats">
@@ -67,7 +68,7 @@ if (isset($_SESSION['companyName'])) {
                             <div class="stats-foot mt-5">
                               <p class="">Discover how Toolfe can rapidly elevate your score in a short period of time.</p>
                               <div class="input-row field">
-                                  <button class="theme-btn rounded-2 mb-4" type="button">Improve your score</button>
+                                  <button class="theme-btn rounded-2 w-fit " type="button">Improve your score</button>
                               </div>
                             </div>
                         </div>
