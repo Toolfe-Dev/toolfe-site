@@ -29,7 +29,7 @@ $stmt->bind_param("sdddddddsdssssss", $processName, $currentAnnualCost, $estimat
 
 if ($stmt->execute()) {
     echo "Form submitted successfully!";
-    header("Location: ./");
+    header("Location: ./form-success.php");
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
