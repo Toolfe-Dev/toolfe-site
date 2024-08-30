@@ -56,19 +56,19 @@ if (isset($_SESSION['companyName'])) {
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
                                 <li><p class=""> This Cost can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
-                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span>after implementing Process Automation</p></li>
+                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days</p></li>
-                                <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every Rs.1 spent in our Automation.</p></li>
+                                <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every $1 spent in our Automation.</p></li>
                                 <li><p class=""> Automation solution delivers ROI in just<span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days</p></li>
                               </ul>
                               
                             </div>
                             <div class="stats-foot mt-5">
-                                <div class="input-row field">
-                                    <button class="theme-btn rounded-2 mb-4" type="button">Improve your score</button>
-                                </div>
-                                <p class="">Discover how Toolfe can rapidly elevate your score in a short period of time.</p>
+                              <p class="">Discover how Toolfe can rapidly elevate your score in a short period of time.</p>
+                              <div class="input-row field">
+                                  <button class="theme-btn rounded-2 mb-4" type="button">Improve your score</button>
+                              </div>
                             </div>
                         </div>
                         <div class="input-main-row">
@@ -106,7 +106,7 @@ if (isset($_SESSION['companyName'])) {
                                                     <p class="">Expert Insights Compilation</p>
                                                 </li>
                                                 <li class="">
-                                                    <p class="">And more ...</p>
+                                                    <p class=""><strong>And more ...</strong></p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -121,6 +121,27 @@ if (isset($_SESSION['companyName'])) {
                 <section class="contact-area p-0">
                   <div class="">
                       <div class="custom-row">
+                      <div class="contact-infos">
+                              <div class="contact-infos-inner ">
+                                  <ul class="contact-social-links mb-5">
+                                      <li>
+                                        <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
+                                        <h6 class="mt-3 mb-3">Automation Savings Breakdown</h6>
+                                        <p class="mb-3">Unlock Savings with Automation: Cut Costs, Boost Efficiency, Maximize Returns.</p>
+                                      </li>
+                                      <li>
+                                        <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
+                                        <h6 class="mt-3 mb-3">ROI Calculation Summary</h6>
+                                        <p class="mb-3">See Your Investment’s True Value: Track Gains, Measure Impact, and Optimize Returns.</p>
+                                      </li>
+                                      <li>
+                                        <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
+                                        <h6 class="mt-3 mb-3">Advanced Cost Reduction Analysis</h6>
+                                        <p class="mb-3">Maximize Budget Efficiency: Track Expenses, Uncover Savings, and Optimize Financial Impact.</p>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
                           <div class="contact-form-wrap">
                               <div class="contact-form-body">
                                   <h5 class="section-subtitle">Contact</h5>
@@ -168,7 +189,7 @@ if (isset($_SESSION['companyName'])) {
                                       <div class="input-row field">
                                         <div class="input-group">
                                           <label for="message">Designation</label>
-                                          <textarea name="Message" id="message" placeholder="enter your Designation...."></textarea>
+                                          <input name="Message" id="message"  type="text"  placeholder="Enter your Designation" />
                                           <div class="error" id="messageError"></div>
                                         </div>
                                       </div>
@@ -192,40 +213,7 @@ if (isset($_SESSION['companyName'])) {
                                   </div>
                               </div>
                           </div>
-                          <div class="contact-infos">
-                              <div class="contact-infos-inner ">
 
-                                  <div class="contact-office-info  contact-info mb-0 mt-5 border-0">
-                                      <div class="py-3">
-                                          <img src="../assets/imgs/contact_us/location.svg" alt="location" />
-                                          <h3>Contact Info</h3>
-                                      </div>
-                                      <h5 class="contact-text text-uppercase">INDIA</h5>
-                                      <p>12, HP Complex, Habibullah Road, T-Nagar, Chennai-600017, India. <br><a
-                                              href="tel:+91 8217 460 923">+91 8217 460 923 </a></p><br>
-                                      <h5 class="contact-text text-uppercase">United States</h5>
-                                      <p>5665 W. Wilshire Blvd
-
-                                          <br> Los Angeles, CA 90036
-                                          <br><a href="tel:(213) 340 1515">+1 (213) 340 1515</a>
-                                      </p>
-                                  </div>
-                                  <ul class="contact-social-links mb-5">
-                                      <li>
-                                          <a href="mailto:support@toolfe.com">
-                                              <i class="iconoir-mail"></i>
-                                              Email
-                                          </a>
-                                      </li>
-                                      <li>
-                                          <a href="https://in.linkedin.com/company/toolfe">
-                                              <i class="iconoir-linkedin"></i>
-                                              LinkedIn
-                                          </a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
                       </div>
                   </div>
               </section>

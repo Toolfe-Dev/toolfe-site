@@ -64,16 +64,6 @@ include '../includes/header.php'
         </div>
     </section>
 
-    <section class="case-studio-area">
-                <div class="custom-container">
-                    <div class="case-studio-header text-center">
-                        <h5 class="section-subtitle">CASE STUDIES</h5>
-                        <h1 class="section-title">Proven Results Through Innovation</h1>
-                    </div>
-
-                </div>
-            </section>
-
 
     <!-- Hero -->
     <section class="hero-section-wrap hero-home2" id="contact-us">
@@ -232,6 +222,7 @@ include '../includes/header.php'
                                             <button class="theme-btn"  type="button">Next</button>
                                         </div>
                                     </div>
+                                    <div data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace="" class=""><a href="#" class="text-grad pe-auto">Need assistance ? Schedule a meeting with us!</a></div>
                                 </div>
                             </div>
 

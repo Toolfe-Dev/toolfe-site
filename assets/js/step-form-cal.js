@@ -115,7 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Hide all steps
         stepsLeft.forEach(step => step.classList.add('d-none'));
         stepsRight.forEach(step => step.classList.add('d-none'));
-        stepIndicators.forEach(indicator => indicator.classList.remove('active'));
         
         // Show current step if within bounds
         if (currentStep < stepsLeft.length) {
