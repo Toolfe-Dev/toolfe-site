@@ -28,12 +28,12 @@ if (isset($_SESSION['companyName'])) {
 <!-- Main -->
 <main class="main-page service-details-page portfolio-details-page">
 
-    <section class="hero-section-wrap hero-home2 pb-0" id="contact-us">
+    <section class="hero-section-wrap hero-home2 pb-0" style="background-color: #f6f6f6;"  id="contact-us">
 
 <div class="custom-container">
 
     <div class="hero-contact-form-wrap">
-            <div class="hero-contact-form-inner-wrap" >
+            <div class="hero-contact-form-inner-wrap">
                 <div class="hero-contact-form-header">
                   <center>
                     <h5 class="section-subtitle text-center">RPA CALCULATION</h5>
@@ -41,20 +41,22 @@ if (isset($_SESSION['companyName'])) {
                     <h2 class="text-center">Business RPA Calculator</h2>
                 </div>
             <!-- this is a first content to show initly -->
-                <div class="hero-contact-form report ">
+                <div class="hero-contact-form report">
                     <div class="contact-form d-flex">
                         <div class="input-main-row">
                             <h4 class="mb-4 company-res"><?php echo "Hey <span>{$companyName}</span> , you are planning to automate <span>{$processName}</span> \n" ;  ?></h4>
                             <div class="chart position-relative w-100" style="">
                                 <div id="ch-main" class="w-100" style="height:400px;"></div>
+                                <p class="">Of Your annual OPEX can be saved </p>
                                 <div class="tot-exp" style="">
                                   <span class="">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </span>
                                 </div>
                             </div>
                             <div class="stats">
+                              <p class="">With Toolfe,</p>
                               <ul class="stats">
                                 <li><p class=""> This Cost can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
-                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($potentialCostSavings, 0)  ?></span>after implementing Process Automation</p></li>
+                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span>after implementing Process Automation</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days</p></li>
                                 <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every Rs.1 spent in our Automation.</p></li>
@@ -92,10 +94,10 @@ if (isset($_SESSION['companyName'])) {
                                                     <p class="">Advanced Cost Reduction Analysis</p>
                                                 </li>
                                                 <li class="">
-                                                    <p class="">Automation Savings Breakdown/p>
+                                                    <p class="">Automation Savings Breakdown</p>
                                                 </li>
                                                 <li class="">
-                                                    <p class="">Time Reclamation Repor</p>
+                                                    <p class="">Time Reclamation Report</p>
                                                 </li>
                                                 <li class="">
                                                     <p class="">Toolfe Solutions & Benefits Report.</p>
@@ -166,7 +168,7 @@ if (isset($_SESSION['companyName'])) {
                                       <div class="input-row field">
                                         <div class="input-group">
                                           <label for="message">Designation</label>
-                                          <textarea name="Message" id="message" placeholder="Leave us a message...."></textarea>
+                                          <textarea name="Message" id="message" placeholder="enter your Designation...."></textarea>
                                           <div class="error" id="messageError"></div>
                                         </div>
                                       </div>

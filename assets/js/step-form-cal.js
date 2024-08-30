@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showError('fte_salary', 'Please enter a valid FTE salary ');
             isValid = false;
         }
-        if (addCost === "" || isNaN(addCost) || addCost < 0 || addCost >= 100) {
+        if (addCost === "" || isNaN(addCost) || addCost < 0 || addCost >= 101) {
             showError('add_cost', 'Please enter a valid additional cost percentage ');
             isValid = false;
         }
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.error-message').forEach(el => el.remove());
     
         // Validate each field
-        if (perProAuto === "" || isNaN(perProAuto) || perProAuto < 0 || perProAuto >= 100) {
+        if (perProAuto === "" || isNaN(perProAuto) || perProAuto < 0 || perProAuto >= 101) {
             showError('per_pro_auto', 'Please enter a valid percentage of process automation ');
             isValid = false;
         }

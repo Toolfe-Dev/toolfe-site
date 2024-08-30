@@ -85,6 +85,12 @@ include '../includes/header.php'
                     <!-- after the 5th step hide this div -->
                      <!-- dont submit the form here  -->
                     <div class="hero-contact-form-inner-wrap">
+                    <div class="hero-contact-form-header">
+                  <center>
+                    <h5 class="section-subtitle text-center">RPA CALCULATION</h5>
+                  </center>
+                    <h2 class="text-center">Business RPA Calculator</h2>
+                </div>
                     <!-- step form indecators -->
                         <div class="mb-5">
                             <ul class=" form-steps">
@@ -100,7 +106,7 @@ include '../includes/header.php'
                         </div>
                     <!-- step form indecators -->
                         <div class="hero-contact-form-header d-flex align-items-center justify-content-between">
-                            <p>Please answer the following questions honestly to ensure an accurate assessment.</p>
+                            <p>  Please answer the following questions with care to ensure a thorough assessment.</p>
                         </div>
                     <!-- here my form starts -->
                         <div class="hero-contact-form">
