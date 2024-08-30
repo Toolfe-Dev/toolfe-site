@@ -144,10 +144,10 @@ if (isset($_SESSION['companyName'])) {
                           </div>
                           <div class="contact-form-wrap">
                               <div class="contact-form-body">
-                                  <h5 class="section-subtitle">Contact</h5>
-                                  <h1 class="fw-bold mb-2"> To enhance your Business Performance</h1>
+                                  <h5 class="section-subtitle">Audit report</h5>
+                                  <h1 class="fw-bold mb-2"> Get you precise audit report with our expertise</h1>
                                   <p>
-                                      Get the Results You Deserve. Contact Us Today. <br>
+                                     Fill out the form now for the better insights <br>
                                       <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
                                   </p>
                                   <form id="rpa-cals" method="POST" class="contact-form" action="./rpa-cals-submission.php" >
