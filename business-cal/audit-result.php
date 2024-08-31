@@ -50,12 +50,13 @@ if (isset($_SESSION['companyName'])) {
                                 
                                 <div class="tot-exp" style="">
                                   <center><p class="">of your annual OPEX can be saved </p></center>
-                                  <div class="box">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </div>
+                                  <!-- <div class="box">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </div> -->
                                 </div>
                             </div>
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
+                                <li><p class="">  You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> In this process .</p></li>
                                 <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p></li>
@@ -68,7 +69,7 @@ if (isset($_SESSION['companyName'])) {
                             <div class="stats-foot mt-5">
                               <p class="">Discover how Toolfe can rapidly elevate your score in a short period of time.</p>
                               <div class="input-row field">
-                                  <button class="theme-btn rounded-2 w-fit " type="button">Improve your score</button>
+                                  <button class="theme-btn rounded-2 w-fit " id="improveBtn" type="button">Improve your score</button>
                               </div>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ if (isset($_SESSION['companyName'])) {
                                             <p class="d-md-block d-none">Your score indicates there's room for improvement in your financial strategy. Consider implementing a more robust budgeting process and exploring ways to increase profitability.</p>
                                         </div>
                                         <div class="position-absolute full-report w-100 h-100">
-                                            <button class="theme-btn rounded-2 mx-auto my-4" type="button">View Full Report</button>
+                                            <button id="fullReportBtn" class="theme-btn rounded-2 mx-auto my-4" type="button">View Full Report</button>
                                             
                                             <ul class="mt-5 mx-auto">
                                               <li class="">
@@ -241,8 +242,8 @@ include '../includes/requestAQuoteForm.php'
   // Wait for the document to be fully loaded
   document.addEventListener("DOMContentLoaded", function () {
     // Get the elements
-    const improveScoreButton = document.querySelector(".theme-btn.rounded-2.mb-4");
-    const viewFullReportButton = document.querySelector(".theme-btn.rounded-2.mx-auto.my-4");
+    const improveScoreButton = document.getElementById("improveBtn");
+    const viewFullReportButton = document.getElementById("fullReportBtn");
     const contact2Section = document.querySelector(".hero-contact-form.contact-2");
     const reportSection = document.querySelector(".hero-contact-form.report");
 
@@ -251,6 +252,7 @@ include '../includes/requestAQuoteForm.php'
 
     // Function to show the contact-2 section and hide the report section
     function showContact2Section() {
+      console.log("cliecked")
       contact2Section.style.display = "block";  // Show contact-2 section
       reportSection.style.display = "none";     // Hide the initial report section
     }

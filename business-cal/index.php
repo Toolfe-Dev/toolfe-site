@@ -129,7 +129,7 @@ include '../includes/header.php'
                                         <!-- second step starts-->
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="per_pro_auto">Percentage of Process Automation (%)</label>
+                                                <label for="per_pro_auto">What percentage of your tasks are repetitive? (%)</label>
                                                 <input id="per_pro_auto" type="number" max="100" min="0" name="per_pro_auto" placeholder="e.g. 80" />
                                             </div>
                                         </div>
@@ -181,9 +181,17 @@ include '../includes/header.php'
                                                 <label for="Industry">Industry</label>
                                                 <select name="Industry" id="Industry" required>
                                                     <option value="">Please select</option>
-                                                    <option value="IT Services">IT Services</option>
-                                                    <option value="medical">Medical</option>
-                                                    <option value="education">Education</option>
+                                                    <option value="Healthcare" class="">Healthcare</option>
+                                                    <option value="Finance and Banking" class="">Finance and Banking</option>
+                                                    <option value="E-Commerce" class="">E-Commerce</option>
+                                                    <option value="Education" class="">Education</option>
+                                                    <option value="Real Estate" class="">Real Estate</option>
+                                                    <option value="Manufacturing" class="">Manufacturing</option>
+                                                    <option value="Media and Entertainment" class="">Media and Entertainment</option>
+                                                    <option value="Logistics and Transportation" class="">Logistics and Transportation</option>
+                                                    <option value="Telecommunications" class="">Telecommunications</option>
+                                                    <option value="Energy and Utilities" class="">Energy and Utilities</option>
+                                                    <option value="Other" class="">Other</option>
                                                 </select>
                                             </div>
                                         </div> 
@@ -192,20 +200,30 @@ include '../includes/header.php'
                                                     <label>Number of Employees doing the Process</label>
                                                     <div class="choice-a-company flex-wrap d-flex">
                                                         <div class="radio-box">
-                                                            <input type="radio" id="0 - 50" name="employe_count" value="50" required />
-                                                            <label for="0 - 50">0 - 50</label>
+                                                            <input type="radio" id="0 - 10" name="employe_count" value="10" required />
+                                                            <label for="0 - 10">0 - 10</label>
                                                         </div>
                                                         <div class="radio-box">
-                                                            <input type="radio" id="50 - 100" name="employe_count" value="100" />
-                                                            <label for="50 - 100">50 - 100</label>
+                                                            <input type="radio" id="10 - 50" name="employe_count" value="50" />
+                                                            <label for="10 - 50">10 - 50</label>
                                                         </div>
                                                         <div class="radio-box">
-                                                            <input type="radio" id="100 - 300 " name="employe_count" value="300" />
-                                                            <label for="100 - 300 ">100 - 300 </label>
+                                                            <input type="radio" id="50 - 200 " name="employe_count" value="200" />
+                                                            <label for="50 - 200 ">50 - 200 </label>
+                                                        </div>
+                                                        
+                                                        <div class="radio-box">
+                                                            <input type="radio" id="200 - 500 " name="employe_count" value="500" />
+                                                            <label for="200 - 500 ">200 - 500 </label>
+                                                        </div>
+                                                        
+                                                        <div class="radio-box">
+                                                            <input type="radio" id="500 - 1000 " name="employe_count" value="1000" />
+                                                            <label for="500 - 1000 ">500 - 1000 </label>
                                                         </div>
                                                         <div class="radio-box">
-                                                            <input type="radio" id="300 - more" name="employe_count" value="500" />
-                                                            <label for="300 - more">300 - more</label>
+                                                            <input type="radio" id="200 - more" name="employe_count" value="1111" />
+                                                            <label for="1000 - more">1000 - more</label>
                                                         </div>
                                                     </div>
                                                 </div>
