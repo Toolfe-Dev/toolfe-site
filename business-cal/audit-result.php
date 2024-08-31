@@ -50,19 +50,19 @@ if (isset($_SESSION['companyName'])) {
                                 
                                 <div class="tot-exp" style="">
                                   <center><p class="">of your annual OPEX can be saved </p></center>
-                                  <!-- <div class="box">Total expenses : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($currentAnnualCost,0) ?></span> </div> -->
+                                  <div class="box">Your annual saveings : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($potentialCostSavings, 0)  ?></span> </div>
                                 </div>
                             </div>
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
-                                <li><p class="">  You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> In this process .</p></li>
-                                <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions</p></li>
-                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation</p></li>
-                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span></p></li>
-                                <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days</p></li>
-                                <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every $1 spent in our Automation.</p></li>
-                                <li><p class=""> Automation solution delivers ROI in just<span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days</p></li>
+                                <li><p class=""> You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> in this process.</p></li>
+                                <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions.</p></li>
+                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
+                                <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
+                                <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>
+                                <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every $1 spent in our Automation in each year.</p></li>
+                                <li><p class=""> Automation solution delivers ROI in just<span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days after implementing.</p></li>
                               </ul>
                               
                             </div>
@@ -77,7 +77,7 @@ if (isset($_SESSION['companyName'])) {
                             <!-- i have a form submission button here -->
                                 <h3 class="mb-4"></h3>
                                 <div class="report-card">
-                                    <h4 class="">Automation ROI Summary</h4>
+                                    <h4 class="">Unleash Automation’s Full Power</h4>
                                     <p class="">Unlock the full potential of automation with our expert audit. Get advanced, precise reports and tailored implementation strategies. </p>
                                     <div class="position-relative ">
                                         <div class="card-blur">
@@ -131,18 +131,18 @@ if (isset($_SESSION['companyName'])) {
                                   <ul class="contact-social-links mb-5">
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Automation Savings Breakdown</h6>
-                                        <p class="mb-3">Unlock Savings with Automation: Cut Costs, Boost Efficiency, Maximize Returns.</p>
+                                        <h6 class="mt-3 mb-3">Unlock Savings with Automation</h6>
+                                        <p class="mb-3"> Cut Costs, Boost Efficiency, Maximize Returns.</p>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">ROI Calculation Summary</h6>
-                                        <p class="mb-3">See Your Investment’s True Value: Track Gains, Measure Impact, and Optimize Returns.</p>
+                                        <h6 class="mt-3 mb-3">See Your Investment’s True Value</h6>
+                                        <p class="mb-3"> Track Gains, Measure Impact, and Optimize Returns.</p>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Advanced Cost Reduction Analysis</h6>
-                                        <p class="mb-3">Maximize Budget Efficiency: Track Expenses, Uncover Savings, and Optimize Financial Impact.</p>
+                                        <h6 class="mt-3 mb-3">Maximize Budget Efficiency</h6>
+                                        <p class="mb-3"> Track Expenses, Uncover Savings, and Optimize Financial Impact.</p>
                                       </li>
                                   </ul>
                               </div>

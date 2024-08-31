@@ -20,7 +20,7 @@ header("Refresh:5; url=$url");
           <img src="../assets/imgs/email.svg" alt="email" class=""/>
           <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
           <h2 class="section-title fade-in mt-4">
-            Thank You For Your Applicataion
+            Thank You For Your Application
             
           </h2>
           <br/>
