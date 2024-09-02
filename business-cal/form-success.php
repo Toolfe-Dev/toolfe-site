@@ -16,17 +16,14 @@ header("Refresh:5; url=$url");
       <div class="custom-container">
         <div class="hero-section-content text-center">
           <!-- <h5 class="section-subtitle">About Us</h5> -->
-          <!-- <img class="../assets/email.svg" alt="img" />      -->
-          <img src="../assets/imgs/email-g.svg" alt="email" class=""/>
+          <!-- <img class="../assets/email.svg" alt="img" />  -->
+          <img src="../assets/imgs/email-g.svg" alt="email" class="" />
           <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-          <h2 class="section-title fade-in mt-4">
-          Thank You For Your Submission
-            
-          </h2>
+          <h2 class="section-title fade-in mt-4">Thank You For Your Submission </h2>
           <br/>
           <p>Our experts are now reviewing the information provided and will send you a detailed business audit report within the next 12 hours.</p>
           <a href="./" class="">
-            <button class="theme-btn back-button" >Back</button>
+            <button class="theme-btn back-button"> Back </button>
           </a>
         </div>
       </div>

@@ -221,9 +221,10 @@ include '../includes/header.php'
                                                             <input type="radio" id="500 - 1000 " name="employe_count" value="1000" />
                                                             <label for="500 - 1000 ">500 - 1000 </label>
                                                         </div>
+                                                        
                                                         <div class="radio-box">
-                                                            <input type="radio" id="200 - more" name="employe_count" value="1111" />
-                                                            <label for="1000 - more">1000 - more</label>
+                                                            <input type="radio" id="1000 - more " name="employe_count" value="1111" />
+                                                            <label for="1000 - more ">1000 - more </label>
                                                         </div>
                                                     </div>
                                                 </div>

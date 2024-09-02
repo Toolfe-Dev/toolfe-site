@@ -7919,7 +7919,18 @@ select{
 .full-report ul li{
     list-style-image: url('../imgs/list-tick.svg');
     padding-left: 5px;
+    
 }
+/* .full-report ul li:first-child{
+    list-style: none;
+    list-style-type: none;
+    padding-left: 5px;
+}
+.full-report ul li:last-child{
+    list-style: none;
+    list-style-type: none;
+    padding-left: 5px;
+} */
 .stats li{
     list-style-image: url('../imgs/list-disc.svg');
     padding-left: 5px;

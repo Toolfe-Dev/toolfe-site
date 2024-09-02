@@ -50,7 +50,7 @@ if (isset($_SESSION['companyName'])) {
                                 
                                 <div class="tot-exp" style="">
                                   <center><p class="">of your annual OPEX can be saved </p></center>
-                                  <div class="box">Your annual saveings : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($potentialCostSavings, 0)  ?></span> </div>
+                                  <div class="box">Your annual savings : <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($potentialCostSavings, 0)  ?></span> </div>
                                 </div>
                             </div>
                             <div class="stats">
@@ -90,11 +90,8 @@ if (isset($_SESSION['companyName'])) {
                                         </div>
                                         <div class="position-absolute full-report w-100 h-100">
                                             <button id="fullReportBtn" class="theme-btn rounded-2 mx-auto my-4" type="button">View Full Report</button>
-                                            
-                                            <ul class="mt-5 mx-auto">
-                                              <li class="">
-                                                <p class=""><strong>Our deliverables </strong></p>
-                                              </li>
+                                            <p class=""><strong>Our deliverables </strong></p>
+                                            <ul class="ps-3 mx-auto">
                                                 <li class="">
                                                     <p class="">Advanced Cost Reduction Analysis</p>
                                                 </li>
@@ -110,10 +107,8 @@ if (isset($_SESSION['companyName'])) {
                                                 <li class="">
                                                     <p class="">Expert Insights Compilation</p>
                                                 </li>
-                                                <li class="">
-                                                    <p class=""><strong>And more ...</strong></p>
-                                                </li>
                                             </ul>
+                                            <p class=""><strong>And more ...</strong></p>
                                         </div>
                                     </div>
 
