@@ -154,7 +154,7 @@ function currency_sym($code){
                           <div class="contact-form-wrap">
                               <div class="contact-form-body">
                                   <h5 class="section-subtitle">Audit report</h5>
-                                  <h1 class="fw-bold mb-2"> Unlock an accurate audit report for <?php echo $companyName ?> with our Expertise</h1>
+                                  <h1 class="fw-bold mb-2"> Unlock an accurate audit report with our Expertise</h1>
                                   <p>
                                      Fill out the form now for the better insights <br>
                                       <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
