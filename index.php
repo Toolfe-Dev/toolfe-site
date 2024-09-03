@@ -1447,6 +1447,7 @@
                   <li><a href="contact/">Contact us</a></li>
                   <li><a href="https://www.toolfe.org/public/login">Client Login</a></li>
                   <li><a href="https://hourspark.com/hxt/">Hourspark x Toolfe</a></li>
+                  <li><a href="https://toolfe.com/rpa-calculator/">Business RPA Calculator</a></li>
                   <li class="cursor-pointer" data-cal-link="toolfe/revolutionize-your-business" data-cal-config='{"layout":"week_view"}' data-cal-namespace=""><a role="button" class="book-free-con"> Book a free consultation </a></li>
                 </ul>
               </div>

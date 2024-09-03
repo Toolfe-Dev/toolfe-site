@@ -100,6 +100,7 @@
                             <li><a href="our-field-details.php">Contact us</a></li>
                             <li><a href="our-field-details.php">Client Login</a></li>
                             <li><a href="our-field-details.php">Hourspark x Toolfe</a></li>
+                            <li><a href="https://toolfe.com/rpa-calculator/">Business RPA Calculator</a></li>
                             <li><a href="our-field-details.php">Book a free consultation</a></li>
                         </ul>
                     </div>

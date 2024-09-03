@@ -77,7 +77,7 @@ include '../includes/header.php'
                     <div class="hero-contact-form-inner-wrap">
                     <div class="hero-contact-form-header">
                   <center>
-                    <h5 class="section-subtitle text-center">RPA CALCULATION</h5>
+                    <h5 class="section-subtitle text-center">Business Insight Tool</h5>
                   </center>
                     <h2 class="text-center">Business RPA Calculator</h2>
                 </div>

@@ -47,7 +47,7 @@ function currency_sym($code){
             <div class="hero-contact-form-inner-wrap">
                 <div class="hero-contact-form-header">
                   <center>
-                    <h5 class="section-subtitle text-center">RPA CALCULATION</h5>
+                    <h5 class="section-subtitle text-center">Business Insight Tool</h5>
                   </center>
                     <h2 class="text-center">Business RPA Calculator</h2>
                 </div>
@@ -67,18 +67,20 @@ function currency_sym($code){
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
-                                <li><p class="">By implementing Toolfe solutions, you can reduce your current expenses of <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($currentAnnualCost, 0)  ?></span>  to <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> .</p></li>
+                                <li><p class="">You are currently spending <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($currentAnnualCost, 0)  ?></span> In this process.</p></li>
+                                <li><p class="">This Cost can be reduced to <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>
                                 <li><p class=""> You’ll see a <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($roi, 2)   ?></span> return on each <span><?php echo currency_sym($Currency); ?></span>1 spent on our automation, with benefits beginning in <span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days. </p></li>
+                                <li><p class="">Automation solution delivers ROI in just 50 days</p></li>
                               </ul>
                               
                             </div>
                             <div class="stats-foot mt-5">
                               <p class="">Discover how Toolfe can rapidly elevate your score in a short period of time.</p>
                               <div class="input-row field">
-                                  <button class="theme-btn rounded-2 w-fit " id="improveBtn" type="button">Improve your score</button>
+                                  <button class="theme-btn rounded-2 w-fit " id="improveBtn" type="button">Improve your savings</button>
                               </div>
                             </div>
                         </div>
@@ -135,18 +137,15 @@ function currency_sym($code){
                                   <ul class="contact-social-links mb-5">
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Unlock Savings with Automation</h6>
-                                        <p class="mb-3"> Cut Costs, Boost Efficiency, Maximize Returns.</p>
+                                        <h6 class="mt-3 mb-3">Transform <span class="text-grad"><?php echo $companyName ?>'s</span> Savings with Automation!</h6>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">See Your Investment’s True Value</h6>
-                                        <p class="mb-3"> Track Gains, Measure Impact, and Optimize Returns.</p>
+                                        <h6 class="mt-3 mb-3">See <span class="text-grad"><?php echo $companyName ?>'s</span> True Investment Value</h6>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Maximize Budget Efficiency</h6>
-                                        <p class="mb-3"> Track Expenses, Uncover Savings, and Optimize Financial Impact.</p>
+                                        <h6 class="mt-3 mb-3">Maximize Budget Efficiency for <span class="text-grad"><?php echo $companyName ?>'s</span></h6>
                                       </li>
                                   </ul>
                               </div>
