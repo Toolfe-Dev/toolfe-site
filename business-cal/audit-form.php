@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $companyName = $_POST['company_name'];
     $industry = $_POST['Industry'];
     $processName  = $_POST['prcss_name'];
+    $Currency  = $_POST['Currency'];
     $employeeCount = $_POST['employe_count'];
     $averageProcessingTime  = $_POST['time_per_unit']/60;
     $annualVolume  = $_POST['annual_volume'];
@@ -46,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['roi'] = $roi;
     $_SESSION['percentageReductionInCost'] = $percentageReductionInCost;
     $_SESSION['paybackPeriodDays'] = $paybackPeriodDays;
+    $_SESSION['Currency'] = $Currency;
 
 
     // Insert data into the database
