@@ -9,7 +9,7 @@
                 </a>
 
                 <div class="header-left-right">
-                    <a href="contact.php" class="theme-btn">Contact Us</a>
+                    <a href="/contact" class="theme-btn">Contact Us</a>
                     <span class="menu-bar">
                         <i class="las la-bars"></i>
                     </span>

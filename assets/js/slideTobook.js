@@ -12,7 +12,7 @@ $(function () {
         }
       },
       stop: function (event, ui) {
-        location.replace("contact.php");
+        location.replace("/contact");
         if (ui.position.left < 551) {
           $(this).animate({
             left: 6,

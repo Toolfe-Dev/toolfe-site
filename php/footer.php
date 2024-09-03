@@ -30,7 +30,7 @@
                         <h2>Let’s get started on something great</h2>
                         <p>Our team of IT experts looks forward to meeting with you <br>
                             and providing valuable insights tailored to your business.</p>
-                        <a href="contact.php" class="theme-btn">Get an appointment now</a>
+                        <a href="/contact" class="theme-btn">Get an appointment now</a>
 
                         <div class="footer-experience d-flex align-items-center">
 
