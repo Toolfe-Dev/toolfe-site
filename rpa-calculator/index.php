@@ -79,7 +79,7 @@ include '../includes/header.php'
                   <center>
                     <h5 class="section-subtitle text-center">Business Insight Tool</h5>
                   </center>
-                    <h2 class="text-center">Business RPA Calculator</h2>
+                    <h2 class="text-center"> RPA Calculator</h2>
                 </div>
                     <!-- step form indecators -->
                         <div class="mb-5">
