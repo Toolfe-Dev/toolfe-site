@@ -18,6 +18,8 @@ if (isset($_SESSION['companyName'])) {
     $percentageReductionInCost = $_SESSION['percentageReductionInCost'];
     $paybackPeriodDays = $_SESSION['paybackPeriodDays'];
     $Currency = $_SESSION['Currency'];
+    $dev_cost = $_SESSION['dev_cost'];
+    $main_cost = $_SESSION['main_cost'];
 
 } else {
     // If no session data is found, print a message
@@ -69,6 +71,8 @@ function currency_sym($code){
                               <ul class="stats">
                                 <li><p class="">You are currently spending <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($currentAnnualCost, 0)  ?></span> In this process.</p></li>
                                 <li><p class="">This Cost can be reduced to <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions.</p></li>
+                                <li><p class="">Total Development cost <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($dev_cost, 2)  ?></span></p></li>
+                                <li><p class="">Total Maintainance cost <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($main_cost, 2)  ?></span></p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>

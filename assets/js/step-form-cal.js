@@ -61,8 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to validate inputs in the second step
     function validateSecondStep() {
         const perProAuto = document.getElementById('per_pro_auto').value.trim();
-        const autoCost = document.getElementById('auto_cost').value.trim();
-        const maintCost = document.getElementById('maint_cost').value.trim();
         const companyName = document.getElementById('company_name').value.trim();
         const industry = document.getElementById('Industry').value.trim();
         const employeeCount = document.querySelector('input[name="employe_count"]:checked');
@@ -74,14 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Validate each field
         if (perProAuto === "" || isNaN(perProAuto) || perProAuto < 0 || perProAuto >= 101) {
             showError('per_pro_auto', 'Please enter a valid percentage of process automation ');
-            isValid = false;
-        }
-        if (autoCost === "" || isNaN(autoCost) || autoCost <= 0 || autoCost > 99999999999) {
-            showError('auto_cost', 'Please enter a valid automation cost ');
-            isValid = false;
-        }
-        if (maintCost === "" || isNaN(maintCost) || maintCost <= 0 || maintCost > 99999999999) {
-            showError('maint_cost', 'Please enter a valid maintenance cost ');
             isValid = false;
         }
         if (companyName === "") {

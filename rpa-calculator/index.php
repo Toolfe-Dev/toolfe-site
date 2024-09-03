@@ -135,16 +135,29 @@ include '../includes/header.php'
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="auto_cost">Estimated Automation Cost (<span class="currency">$</span>)</label>
-                                                <input id="auto_cost" type="number" max="99999999999" min="0" name="auto_cost" placeholder="e.g.  50,000.00" />
+                                                <label for="company_name">Company Name</label>
+                                                <input id="company_name" type="text" name="company_name" placeholder="e.g. Microsoft" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="maint_cost">Annual Maintenance Cost (<span class="currency">$</span>)</label>
-                                                <input id="maint_cost" type="number" max="99999999999" min="0" name="maint_cost" placeholder="e.g. 10,000.00" />
+                                                <label for="Industry">Industry</label>
+                                                <select name="Industry" id="Industry" required>
+                                                    <option value="">Please select</option>
+                                                    <option value="Healthcare" class="">Healthcare</option>
+                                                    <option value="Finance and Banking" class="">Finance and Banking</option>
+                                                    <option value="E-Commerce" class="">E-Commerce</option>
+                                                    <option value="Education" class="">Education</option>
+                                                    <option value="Real Estate" class="">Real Estate</option>
+                                                    <option value="Manufacturing" class="">Manufacturing</option>
+                                                    <option value="Media and Entertainment" class="">Media and Entertainment</option>
+                                                    <option value="Logistics and Transportation" class="">Logistics and Transportation</option>
+                                                    <option value="Telecommunications" class="">Telecommunications</option>
+                                                    <option value="Energy and Utilities" class="">Energy and Utilities</option>
+                                                    <option value="Other" class="">Other</option>
+                                                </select>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <!-- second step over-->
                                     </div>
                                     <!-- here end for left form fields -->     
@@ -181,31 +194,6 @@ include '../includes/header.php'
                                     </div>
                                     <div class="second">
                                         <!-- second step -->
-                                        <div class="input-row field">
-                                            <div class="input-group">
-                                                <label for="company_name">Company Name</label>
-                                                <input id="company_name" type="text" name="company_name" placeholder="e.g. Microsoft" />
-                                            </div>
-                                        </div>
-                                        <div class="input-row field">
-                                            <div class="input-group">
-                                                <label for="Industry">Industry</label>
-                                                <select name="Industry" id="Industry" required>
-                                                    <option value="">Please select</option>
-                                                    <option value="Healthcare" class="">Healthcare</option>
-                                                    <option value="Finance and Banking" class="">Finance and Banking</option>
-                                                    <option value="E-Commerce" class="">E-Commerce</option>
-                                                    <option value="Education" class="">Education</option>
-                                                    <option value="Real Estate" class="">Real Estate</option>
-                                                    <option value="Manufacturing" class="">Manufacturing</option>
-                                                    <option value="Media and Entertainment" class="">Media and Entertainment</option>
-                                                    <option value="Logistics and Transportation" class="">Logistics and Transportation</option>
-                                                    <option value="Telecommunications" class="">Telecommunications</option>
-                                                    <option value="Energy and Utilities" class="">Energy and Utilities</option>
-                                                    <option value="Other" class="">Other</option>
-                                                </select>
-                                            </div>
-                                        </div> 
                                             <div class="input-row field">
                                                 <div class="input-group">
                                                     <label>Number of Employees doing the Process</label>
