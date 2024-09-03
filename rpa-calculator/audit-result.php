@@ -49,7 +49,7 @@ function currency_sym($code){
                   <center>
                     <h5 class="section-subtitle text-center">Business Insight Tool</h5>
                   </center>
-                    <h2 class="text-center">Business RPA Calculator</h2>
+                    <h2 class="text-center">RPA Calculator</h2>
                 </div>
             <!-- this is a first content to show initly -->
                 <div class="hero-contact-form report">
@@ -72,8 +72,8 @@ function currency_sym($code){
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>
-                                <li><p class=""> You’ll see a <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($roi, 2)   ?></span> return on each <span><?php echo currency_sym($Currency); ?></span>1 spent on our automation, with benefits beginning in <span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days. </p></li>
-                                <li><p class="">Automation solution delivers ROI in just 50 days</p></li>
+                                <li><p class="">Achieve ROI of <span class="text-grad text-bold fw-bold "><span><?php echo currency_sym($Currency); ?></span> <?php echo number_format($roi, 2)   ?></span> in every <span><?php echo currency_sym($Currency); ?></span> spent in our Automation.</p></li>
+                                <li><p class="">Automation solution delivers ROI in just <span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days</p></li>
                               </ul>
                               
                             </div>
@@ -137,15 +137,15 @@ function currency_sym($code){
                                   <ul class="contact-social-links mb-5">
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Transform <span class="text-grad"><?php echo $companyName ?>'s</span> Savings with Automation!</h6>
+                                        <h4 class="mt-3 mb-5">Transform <span class="text-grad"><?php echo $companyName ?>'s</span> Savings with Automation!</h4>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">See <span class="text-grad"><?php echo $companyName ?>'s</span> True Investment Value</h6>
+                                        <h4 class="mt-3 mb-5">See <span class="text-grad"><?php echo $companyName ?>'s</span> True Investment Value</h4>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h6 class="mt-3 mb-3">Maximize Budget Efficiency for <span class="text-grad"><?php echo $companyName ?>'s</span></h6>
+                                        <h4 class="mt-3 mb-5">Maximize Budget Efficiency for <span class="text-grad"><?php echo $companyName ?>'s</span></h4>
                                       </li>
                                   </ul>
                               </div>
