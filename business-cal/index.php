@@ -135,14 +135,14 @@ include '../includes/header.php'
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="auto_cost">Estimated Automation Cost</label>
-                                                <input id="auto_cost" type="number" max="99999999999" min="0" name="auto_cost" placeholder="e.g. $ 50,000.00" />
+                                                <label for="auto_cost">Estimated Automation Cost (<span class="currency">$</span>)</label>
+                                                <input id="auto_cost" type="number" max="99999999999" min="0" name="auto_cost" placeholder="e.g.  50,000.00" />
                                             </div>
                                         </div>
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                <label for="maint_cost">Annual Maintenance Cost</label>
-                                                <input id="maint_cost" type="number" max="99999999999" min="0" name="maint_cost" placeholder="e.g. $ 10,000.00" />
+                                                <label for="maint_cost">Annual Maintenance Cost (<span class="currency">$</span>)</label>
+                                                <input id="maint_cost" type="number" max="99999999999" min="0" name="maint_cost" placeholder="e.g. 10,000.00" />
                                             </div>
                                         </div>
                                         <!-- second step over-->
@@ -153,10 +153,21 @@ include '../includes/header.php'
                                     <!-- here my form fields for step form for right   -->
                                     <div class="first">
                                         <!-- first step -->
+                                        
                                         <div class="input-row field">
                                             <div class="input-group">
-                                                    <label for="fte_salary">Average Employee Salary per year</label>
-                                                    <input id="fte_salary" type="number" max="99999999999" min="0" name="fte_salary" placeholder="e.g. $ 500,000.00" />
+                                                <label for="Currency">Currency (<span class="currency">$</span>)</label>
+                                                <select name="Currency" id="Currency" required>
+                                                    <option value="USD" class="">USD ($)</option>
+                                                    <option value="INR" class="">INR (₹)</option>
+                                                    <option value="EUR" class="">EUR (€)</option>
+                                                </select>
+                                            </div>
+                                        </div> 
+                                        <div class="input-row field">
+                                            <div class="input-group">
+                                                    <label for="fte_salary">Average Employee Salary per year (<span class="currency">$</span>)</label>
+                                                    <input id="fte_salary" type="number" max="99999999999" min="0" name="fte_salary" placeholder="e.g.  500,000.00" />
                                                 </div>
                                             </div>
                                         <div class="input-row field">

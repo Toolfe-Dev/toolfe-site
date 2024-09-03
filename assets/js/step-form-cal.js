@@ -163,3 +163,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the form display
     updateFormDisplay();
 });
+
+// Function to update all currency symbols in the span tags
+function updateCurrencySymbols() {
+    // Get the selected currency value from the select element
+    var selectedCurrency = document.getElementById('Currency').value;
+
+    // Get all span elements with the currency class
+    var currencySpans = document.querySelectorAll('.currency');
+
+    // Define a dictionary for currency symbols
+    var currencySymbols = {
+        'USD': '$',
+        'INR': '₹',
+        'EUR': '€'
+    };
+
+    // Update all spans with the corresponding symbol
+    currencySpans.forEach(function(span) {
+        span.textContent = currencySymbols[selectedCurrency];
+    });
+}
+
+// Set the default currency symbol when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    updateCurrencySymbols(); // Set default to USD
+});
+
+// Attach the change event listener to the select element
+document.getElementById('Currency').addEventListener('change', updateCurrencySymbols);

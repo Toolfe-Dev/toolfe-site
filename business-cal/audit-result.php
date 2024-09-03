@@ -56,13 +56,11 @@ if (isset($_SESSION['companyName'])) {
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
-                                <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions.</p></li>
-                                <li><p class=""> You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> in this process.</p></li>
+                                <li><p class="">By implementing Toolfe solutions, you can reduce your current expenses of <span class="text-grad text-bold fw-bold "><span>$₹</span> <?php echo number_format($currentAnnualCost, 0)  ?></span>  to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> .</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>
-                                <li><p class=""> Achieve ROI of <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> in every $1 spent in our Automation in each year.</p></li>
-                                <li><p class=""> Automation solution delivers ROI in just<span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days after implementing.</p></li>
+                                <li><p class=""> You’ll see a <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($roi, 2)   ?></span> return on each $1 spent on our automation, with benefits beginning in <span class="text-grad text-bold fw-bold "> <?php echo number_format($paybackPeriodDays, 0)  ?></span> days. </p></li>
                               </ul>
                               
                             </div>
@@ -145,7 +143,7 @@ if (isset($_SESSION['companyName'])) {
                           <div class="contact-form-wrap">
                               <div class="contact-form-body">
                                   <h5 class="section-subtitle">Audit report</h5>
-                                  <h1 class="fw-bold mb-2"> Get you precise audit report with our expertise</h1>
+                                  <h1 class="fw-bold mb-2"> Unlock an accurate audit report for <?php echo $companyName ?> with our Expertise</h1>
                                   <p>
                                      Fill out the form now for the better insights <br>
                                       <!-- <a class="section-subtitle" href="mailto:support@toolfe.com">support@toolfe.com</a> -->
