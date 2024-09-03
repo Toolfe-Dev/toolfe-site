@@ -56,8 +56,8 @@ if (isset($_SESSION['companyName'])) {
                             <div class="stats">
                               <p class="">With Toolfe,</p>
                               <ul class="stats">
-                                <li><p class=""> You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> in this process.</p></li>
                                 <li><p class=""> Total expenses can be reduced to <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> after implementing toolfe solutions.</p></li>
+                                <li><p class=""> You are currently spending <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($estimatedAnnualCostAfterAutomation, 0)  ?></span> in this process.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> $ <?php echo number_format($potentialCostSavings, 0)  ?></span> after implementing Process Automation.</p></li>
                                 <li><p class=""> You can save <span class="text-grad text-bold fw-bold "> <?php echo number_format($fteSavings, 2) ; ?></span> FTEs which reduces your annual labor costs by <span class="text-grad text-bold fw-bold ">$ <?php echo number_format($fteCostSavings, 0) ?></span>.</p></li>
                                 <li><p class=""> Annually you will save<span class="text-grad text-bold fw-bold "> <?php echo number_format($hoursSaved, 0)  ?></span> hours or<span class="text-grad text-bold fw-bold "> <?php echo number_format($daysSaved, 0) ?></span> Days.</p></li>
