@@ -21,7 +21,7 @@ header("Refresh:5; url=$url");
           <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
           <h2 class="section-title fade-in mt-4">Thank You For Your Submission </h2>
           <br/>
-          <p>Our experts are reviewing your submission. We’ll follow up in 12 hours. Email support@toolfe.com for urgent assistance.</p>
+          <p>Our experts are reviewing your submission. We’ll follow up within 12 hours. Email support@toolfe.com for urgent assistance.</p>
           <a href="./" class="">
             <button class="theme-btn back-button"> Back </button>
           </a>

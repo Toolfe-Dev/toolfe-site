@@ -140,15 +140,15 @@ function currency_sym($code){
                                   <ul class="contact-social-links mb-5">
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h5 class="mt-3 mb-5">Transform <span class="text-grad"><?php echo $companyName ?>'s</span> Savings with Automation!</h5>
+                                        <h5 class="mt-3 mb-5">Transform <span class="text-grad"><?php echo $companyName ?></span> Savings with Automation!</h5>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h5 class="mt-3 mb-5">See <span class="text-grad"><?php echo $companyName ?>'s</span> True Investment Value</h5>
+                                        <h5 class="mt-3 mb-5">See <span class="text-grad"><?php echo $companyName ?></span> True Investment Value</h5>
                                       </li>
                                       <li>
                                         <img src="../assets/imgs/contact_us/tick.svg" alt="tick" />
-                                        <h5 class="mt-3 mb-5">Maximize Budget Efficiency for <span class="text-grad"><?php echo $companyName ?>'s</span></h5>
+                                        <h5 class="mt-3 mb-5">Maximize Budget Efficiency for <span class="text-grad"><?php echo $companyName ?></span></h5>
                                       </li>
                                   </ul>
                               </div>
