@@ -15,7 +15,7 @@ if (!isset($_SESSION['admin_id'])) {
 include '../../php/db.php';
 
 // Query to fetch data from the `careerform` table
-$sql = "SELECT `id`, `role`, `fullName`, `email`, `phone`, `resume`, `message`, `agreeToTerms`, `submittedAt` FROM `careerform`";
+$sql = "SELECT `id`, `role`, `fullName`, `email`, `phone`, `resume`, `message`, `agreeToTerms`, `submittedAt` FROM `careerform` ORDER BY id DESC";
 $result = $conn->query($sql);
 
 // Close the database connection
@@ -124,14 +124,16 @@ include '../includes/header.php';
                         </tr>
                      </thead>
                      <tbody>
-                          <?php 
-                          
+                        <?php
                               if ($result->num_rows > 0) {
-                                // Output data of each row
-                                while($row = $result->fetch_assoc()) {
-                            ?> 
+                                 // Initialize a counter variable
+                                 $counter = 1;
+
+                                 // Output data of each row
+                                 while($row = $result->fetch_assoc()) {
+                           ?>
                           <tr>
-                            <td><?php echo  $row["id"]  ?></td>
+                            <td><?php echo  $counter  ?></td>
                             <td><?php echo  $row["fullName"]  ?></td>
                             <td><?php echo  $row["email"]  ?></td>
                             <td><?php echo  $row["phone"]  ?></td>
@@ -142,12 +144,13 @@ include '../includes/header.php';
                           </tr>
 
                           <?php
-                                }
-                              } else {
-                                echo "0 results";
-                              }
-
-                          ?>
+                           // Increment the counter after each row
+                           $counter++;
+                           }
+                        } else {
+                           echo "<tr><td colspan='18'>No results found</td></tr>";
+                        }
+                     ?>
                      </tbody>
                      <tfoot>
                         <tr>

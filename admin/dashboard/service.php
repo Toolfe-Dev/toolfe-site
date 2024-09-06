@@ -15,7 +15,7 @@ if (!isset($_SESSION['admin_id'])) {
 include '../../php/db.php';
 
 // Query to fetch data from the `service_form_submissions` table
-$sql = "SELECT `id`, `full_name`, `phone`, `email`, `company_name`, `industry`, `services`, `message`, `budget`, `agree_to_terms`, `submission_date` FROM `service_form_submissions`";
+$sql = "SELECT `id`, `full_name`, `phone`, `email`, `company_name`, `industry`, `services`, `message`, `budget`, `agree_to_terms`, `submission_date` FROM `service_form_submissions` ORDER BY id DESC";
 $result = $conn->query($sql);
 
 // Close the database connection
@@ -129,13 +129,16 @@ include '../includes/header.php';
                            </tr>
                         </thead>
                         <tbody>
-                           <?php
-                           if ($result->num_rows > 0) {
-                              // Output data of each row
-                              while($row = $result->fetch_assoc()) {
+                        <?php
+                              if ($result->num_rows > 0) {
+                                 // Initialize a counter variable
+                                 $counter = 1;
+
+                                 // Output data of each row
+                                 while($row = $result->fetch_assoc()) {
                            ?>
                            <tr>
-                              <td><?php echo $row["id"]; ?></td>
+                              <td><?php echo $counter; ?></td>
                               <td><?php echo $row["full_name"]; ?></td>
                               <td><?php echo $row["email"]; ?></td>
                               <td><?php echo $row["phone"]; ?></td>
@@ -148,11 +151,13 @@ include '../includes/header.php';
                               <td><?php echo $row["submission_date"]; ?></td>
                            </tr>
                            <?php
-                              }
-                           } else {
-                              echo "<tr><td colspan='11'>No results found</td></tr>";
+                           // Increment the counter after each row
+                           $counter++;
                            }
-                           ?>
+                        } else {
+                           echo "<tr><td colspan='18'>No results found</td></tr>";
+                        }
+                     ?>
                         </tbody>
                      <tfoot>
                            <tr>

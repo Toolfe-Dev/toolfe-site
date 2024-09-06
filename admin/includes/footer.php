@@ -203,6 +203,32 @@
     
     <!-- App Script -->
     <script src="../assets/js/hope-ui.js" defer></script>
+
+    <script>
+              // Get the current page's URL path
+        var currentPage = window.location.pathname;
+
+        // Extract only the file name (last segment) of the path
+        var currentPageFile = currentPage.substring(currentPage.lastIndexOf('/') + 1);
+
+        // Get all the sidebar links
+        var sidebarLinks = document.querySelectorAll('.sidebar-list .nav-link');
+
+        // Loop through all sidebar links
+        sidebarLinks.forEach(function(link) {
+            // Check if the href of the link matches the current page file
+            if (link.getAttribute('href') === currentPageFile) {
+                // Remove active class from any previously active link
+                sidebarLinks.forEach(function(l) {
+                    l.classList.remove('active');
+                });
+
+                // Add active class to the matching link
+                link.classList.add('active');
+            }
+        });
+
+    </script>
     
     
   </body>

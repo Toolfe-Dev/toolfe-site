@@ -74,7 +74,6 @@ include '../includes/header.php'
 
                     <p>You can contact us through our website’s contact form, email us at support@toolfe.com , or call
                       us at +91 8217 460 923
-
                       . Our team will respond promptly to schedule a consultation.
                   </div>
                 </div>
@@ -88,7 +87,6 @@ include '../includes/header.php'
                     </div> What are the primary industries Toolfe focuses on?
                   </button>
                 </h5>
-
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div class="card-body">
                     Toolfe serves a wide range of industries including Healthcare, Real Estate, Energy & Utilities,
@@ -110,7 +108,6 @@ include '../includes/header.php'
                     </div>How does Toolfe ensure the quality of its services?
                   </button>
                 </h5>
-
                 <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordion2">
                   <div class="card-body">
                     We adhere to industry best practices and employ a rigorous quality assurance process. Our team of
@@ -127,7 +124,6 @@ include '../includes/header.php'
                     </div> What is the typical timeline for a project with Toolfe?
                   </button>
                 </h5>
-
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
                   <div class="card-body">
                     The timeline for a project varies based on its complexity and scope. We work closely with our
@@ -144,7 +140,6 @@ include '../includes/header.php'
                     </div>How can Toolfe's IT solutions benefit my business?
                   </button>
                 </h5>
-
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
                   <div class="card-body">
                     Toolfe supercharges your business
@@ -156,7 +151,6 @@ include '../includes/header.php'
             </div>
           </div>
         </div>
-
       </div>
     </div>
     </div>

@@ -1,27 +1,29 @@
 <?php  
+ 
 
+// Start the session
 session_start();
 
- // Check if the admin is logged in
- if (!isset($_SESSION['admin_id'])) {
-     // If the session variable 'admin_id' is not set, redirect to login.php
-     header("Location: auth/login.php");
-     exit();
- }
- 
- // Include the database connection file
- include '../../php/db.php';
- 
- // Query to fetch data from the `contact_form` table
- $sql = "SELECT `id`, `full_name`, `phone`, `email`, `company_name`, `message`, `agree_to_terms`, `created_at` FROM `contact_form` ORDER BY id DESC" ;
- $result = $conn->query($sql);
- 
- // Close the database connection
- $conn->close();
+// Check if the admin is logged in
+if (!isset($_SESSION['admin_id'])) {
+    // If the session variable 'admin_id' is not set, redirect to login.php
+    header("Location: auth/login.php");
+    exit();
+}
+
+// Include the database connection file
+include '../../php/db.php';
+
+// Query to fetch data from the `service_form_submissions` table
+$sql = "SELECT * FROM `rpa_cals_submissions` ORDER BY id DESC";
+$result = $conn->query($sql);
+
+// Close the database connection
+$conn->close();
 include '../includes/header.php';
 ?>
 <!-- Nav Header Component End -->
-   <!--Nav End-->
+        <!--Nav End-->
       
 <div class="conatiner-fluid content-inner mt-n5 py-0">
 <div class="row">
@@ -103,45 +105,66 @@ include '../includes/header.php';
          <div class="card">
             <div class="card-header d-flex justify-content-between">
                <div class="header-title">
-                  <h4 class="card-title">Contact Details</h4>
+                  <h4 class="card-title">RPA Results</h4>
                </div>
             </div>
             <div class="card-body">
                <div class="table-responsive">
                   <table id="datatable" class="table table-striped" data-toggle="data-table">
+                     <thead>
+                        <tr>
+                           <th>ID</th>
+                           <th>Process Name</th>
+                           <th>Current Annual Cost</th>
+                           <th>Estimated Annual Cost After Automation</th>
+                           <th>Potential Cost Savings</th>
+                           <th>FTE Savings</th>
+                           <th>Hours Saved</th>
+                           <th>ROI</th>
+                           <th>% Reduction in Cost</th>
+                           <th>Payback Period (Days)</th>
+                           <th>Full Name</th>
+                           <th>Email</th>
+                           <th>Phone</th>
+                           <th>Company</th>
+                           <th>Designation</th>
+                           <th>Agree to Terms</th>
+                           <th>Submit Type</th>
+                           <th>Submission Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                     <?php
+                        if ($result->num_rows > 0) {
+                           // Initialize a counter variable
+                           $counter = 1;
 
-                        <thead>
-                           <tr>
-                              <th>ID</th>
-                              <th>Name</th>
-                              <th>Email</th>
-                              <th>Phone</th>
-                              <th>Company</th>
-                              <th>Message</th>
-                              <th>Agree to Terms</th>
-                              <th>Created At</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                        <?php
-                              if ($result->num_rows > 0) {
-                                 // Initialize a counter variable
-                                 $counter = 1;
-
-                                 // Output data of each row
-                                 while($row = $result->fetch_assoc()) {
-                           ?>
-                           <tr>
-                              <td><?php echo $counter; ?></td>
-                              <td><?php echo $row["full_name"]; ?></td>
-                              <td><?php echo $row["email"]; ?></td>
-                              <td><?php echo $row["phone"]; ?></td>
-                              <td><?php echo $row["company_name"]; ?></td>
-                              <td title="<?php echo $row["message"]; ?>" class="" style="max-width:300px; overflow: hidden;"><?php echo $row["message"]; ?></td>
-                              <td><?php echo $row["agree_to_terms"] ? 'Yes' : 'No'; ?></td>
-                              <td><?php echo $row["created_at"]; ?></td>
-                           </tr>
-                           <?php
+                           // Output data of each row
+                           while($row = $result->fetch_assoc()) {
+                     ?>
+                        <tr>
+                           <td><?php echo $counter; ?></td> <!-- Counter as ID -->
+                           <td><?php echo $row["processName"]; ?></td>
+                           <td><?php echo $row["currentAnnualCost"]; ?></td>
+                           <td><?php echo $row["estimatedAnnualCostAfterAutomation"]; ?></td>
+                           <td><?php echo $row["potentialCostSavings"]; ?></td>
+                           <td><?php echo $row["fteSavings"]; ?></td>
+                           <td><?php echo $row["hoursSaved"]; ?></td>
+                           <td><?php echo $row["roi"]; ?></td>
+                           <td><?php echo $row["percentageReductionInCost"]; ?></td>
+                           <td><?php echo $row["paybackPeriodDays"]; ?></td>
+                           <td><?php echo $row["FullName"]; ?></td>
+                           <td><?php echo $row["Email"]; ?></td>
+                           <td><?php echo $row["Phone"]; ?></td>
+                           <td><?php echo $row["Company"]; ?></td>
+                           <td title="<?php echo $row["Message"]; ?>" style="max-width:300px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                              <?php echo $row["Message"]; ?>
+                           </td>
+                           <td><?php echo $row["AgreeToTerms"] ? 'Yes' : 'No'; ?></td>
+                           <td><?php echo $row["submit_type"]; ?></td>
+                           <td><?php echo $row["submitted_at"]; ?></td>
+                        </tr>
+                     <?php
                            // Increment the counter after each row
                            $counter++;
                            }
@@ -149,19 +172,30 @@ include '../includes/header.php';
                            echo "<tr><td colspan='18'>No results found</td></tr>";
                         }
                      ?>
-                        </tbody>
-                        <tfoot>
-                              <tr>
-                                 <th>ID</th>
-                                 <th>Name</th>
-                                 <th>Email</th>
-                                 <th>Phone</th>
-                                 <th>Company</th>
-                                 <th>Message</th>
-                                 <th>Agree to Terms</th>
-                                 <th>Created At</th>
-                              </tr>
-                        </tfoot>
+                     </tbody>
+                     <tfoot>
+                        <tr>
+                           <th>ID</th>
+                           <th>Process Name</th>
+                           <th>Current Annual Cost</th>
+                           <th>Estimated Annual Cost After Automation</th>
+                           <th>Potential Cost Savings</th>
+                           <th>FTE Savings</th>
+                           <th>Hours Saved</th>
+                           <th>ROI</th>
+                           <th>% Reduction in Cost</th>
+                           <th>Payback Period (Days)</th>
+                           <th>Full Name</th>
+                           <th>Email</th>
+                           <th>Phone</th>
+                           <th>Company</th>
+                           <th>Designation</th>
+                           <th>Agree to Terms</th>
+                           <th>Submit Type</th>
+                           <th>Submission Date</th>
+                        </tr>
+                     </tfoot>
+
                   </table>
                </div>
             </div>
