@@ -137,7 +137,7 @@ include '../includes/header.php';
                               <td><?php echo $row["email"]; ?></td>
                               <td><?php echo $row["phone"]; ?></td>
                               <td><?php echo $row["company_name"]; ?></td>
-                              <td title="<?php echo $row["message"]; ?>" class="" style="max-width:300px; overflow: hidden;"><?php echo $row["message"]; ?></td>
+                              <td><p class="" title="<?php echo htmlspecialchars( $row["message"], ENT_QUOTES, 'UTF-8'); ?>" style="max-width:300px; overflow: hidden;"><?php echo htmlspecialchars( $row["message"], ENT_QUOTES, 'UTF-8'); ?></p></td>
                               <td><?php echo $row["agree_to_terms"] ? 'Yes' : 'No'; ?></td>
                               <td><?php echo $row["created_at"]; ?></td>
                            </tr>

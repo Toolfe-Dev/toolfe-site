@@ -51,7 +51,7 @@ function currency_sym($code){
                   <center>
                     <h5 class="section-subtitle text-center">Business Insight Tool</h5>
                   </center>
-                    <h2 class="text-center">RPA Calculator</h2>
+                    <h2 class="text-center">Toolfe's RPA Calculator</h2>
                 </div>
             <!-- this is a first content to show initly -->
                 <div class="hero-contact-form report">
