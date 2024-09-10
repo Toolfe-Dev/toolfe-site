@@ -19,6 +19,10 @@ session_start();
  // Close the database connection
  $conn->close();
 include '../includes/header.php';
+
+// if (isset($_GET['message'])) {
+//    echo "<div class='alert alert-info toster'>" . htmlspecialchars($_GET['message']) . "</div>";
+// }
 ?>
 <!-- Nav Header Component End -->
    <!--Nav End-->
@@ -29,7 +33,7 @@ include '../includes/header.php';
    <div class="col-md-12 col-lg-12">
       <div class="row">
 
-         <div class="col-md-12 col-xl-6">
+         <!-- <div class="col-md-12 col-xl-6">
             <div class="card" data-aos="fade-up" data-aos-delay="900">
                <div class="flex-wrap card-header d-flex justify-content-between">
                   <div class="header-title">
@@ -98,7 +102,7 @@ include '../includes/header.php';
                   <div id="d-activity" class="d-activity"></div>
                </div>
             </div>
-         </div>
+         </div> -->
          <div class="col-md-12">
          <div class="card">
             <div class="card-header d-flex justify-content-between">
@@ -106,6 +110,12 @@ include '../includes/header.php';
                   <h4 class="card-title">Contact Details</h4>
                </div>
             </div>
+            <?php if (isset($_GET['message'])) { ?>
+                     <div class='alert m-5 alert-warning alert-dismissible fade show' role="alert">
+                        <?php echo htmlspecialchars($_GET['message'])?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                     </div>
+            <?php    } ?>
             <div class="card-body">
                <div class="table-responsive">
                   <table id="datatable" class="table table-striped" data-toggle="data-table">
@@ -120,6 +130,7 @@ include '../includes/header.php';
                               <th>Message</th>
                               <th>Agree to Terms</th>
                               <th>Created At</th>
+                              <th>Action</th>
                            </tr>
                         </thead>
                         <tbody>
@@ -140,6 +151,13 @@ include '../includes/header.php';
                               <td><p class="" title="<?php echo htmlspecialchars( $row["message"], ENT_QUOTES, 'UTF-8'); ?>" style="max-width:300px; overflow: hidden;"><?php echo htmlspecialchars( $row["message"], ENT_QUOTES, 'UTF-8'); ?></p></td>
                               <td><?php echo $row["agree_to_terms"] ? 'Yes' : 'No'; ?></td>
                               <td><?php echo $row["created_at"]; ?></td>
+                              <td>
+                                    <form method="POST" action="delete-data.php" onsubmit="return confirm('Are you sure you want to delete this entry?');">
+                                       <input type="hidden" name="table" value="contact_form"> <!-- Specify the table name -->
+                                       <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+                                       <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                              </td>
                            </tr>
                            <?php
                            // Increment the counter after each row
@@ -160,6 +178,7 @@ include '../includes/header.php';
                                  <th>Message</th>
                                  <th>Agree to Terms</th>
                                  <th>Created At</th>
+                                 <th>Action</th>
                               </tr>
                         </tfoot>
                   </table>

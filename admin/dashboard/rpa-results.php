@@ -30,77 +30,6 @@ include '../includes/header.php';
 
    <div class="col-md-12 col-lg-12">
       <div class="row">
-
-         <div class="col-md-12 col-xl-6">
-            <div class="card" data-aos="fade-up" data-aos-delay="900">
-               <div class="flex-wrap card-header d-flex justify-content-between">
-                  <div class="header-title">
-                     <h4 class="card-title">Earnings</h4>            
-                  </div>   
-                  <div class="dropdown">
-                     <a href="#" class="text-gray dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        This Week
-                     </a>
-                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">This Week</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="card-body">
-                  <div class="flex-wrap d-flex align-items-center justify-content-between">
-                     <div id="myChart" class="col-md-8 col-lg-8 myChart"></div>
-                     <div class="d-grid gap col-md-4 col-lg-4">
-                        <div class="d-flex align-items-start">
-                           <svg class="mt-2 icon-14" xmlns="http://www.w3.org/2000/svg" width="14" viewBox="0 0 24 24" fill="#3a57e8">
-                              <g>
-                                 <circle cx="12" cy="12" r="8" fill="#3a57e8"></circle>
-                              </g>
-                           </svg>
-                           <div class="ms-3">
-                              <span class="text-gray">Fashion</span>
-                              <h6>251K</h6>
-                           </div>
-                        </div>
-                        <div class="d-flex align-items-start">
-                           <svg class="mt-2 icon-14" xmlns="http://www.w3.org/2000/svg" width="14" viewBox="0 0 24 24" fill="#4bc7d2">
-                              <g>
-                                 <circle cx="12" cy="12" r="8" fill="#4bc7d2"></circle>
-                              </g>
-                           </svg>
-                           <div class="ms-3">
-                              <span class="text-gray">Accessories</span>
-                              <h6>176K</h6>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-12 col-xl-6">
-            <div class="card" data-aos="fade-up" data-aos-delay="1000">
-               <div class="flex-wrap card-header d-flex justify-content-between">
-                  <div class="header-title">
-                     <h4 class="card-title">Conversions</h4>            
-                  </div>
-                  <div class="dropdown">
-                     <a href="#" class="text-gray dropdown-toggle" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
-                        This Week
-                     </a>
-                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton3">
-                        <li><a class="dropdown-item" href="#">This Week</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="card-body">
-                  <div id="d-activity" class="d-activity"></div>
-               </div>
-            </div>
-         </div>
          <div class="col-md-12">
          <div class="card">
             <div class="card-header d-flex justify-content-between">
@@ -108,6 +37,12 @@ include '../includes/header.php';
                   <h4 class="card-title">RPA Results</h4>
                </div>
             </div>
+            <?php if (isset($_GET['message'])) { ?>
+                     <div class='alert m-5 alert-warning alert-dismissible fade show' role="alert">
+                        <?php echo htmlspecialchars($_GET['message'])?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                     </div>
+            <?php    } ?>
             <div class="card-body">
                <div class="table-responsive">
                   <table id="datatable" class="table table-striped" data-toggle="data-table">
@@ -131,6 +66,7 @@ include '../includes/header.php';
                            <th>Agree to Terms</th>
                            <th>Submit Type</th>
                            <th>Submission Date</th>
+                           <th>Action</th>
                         </tr>
                      </thead>
                      <tbody>
@@ -163,6 +99,13 @@ include '../includes/header.php';
                            <td><?php echo $row["AgreeToTerms"] ? 'Yes' : 'No'; ?></td>
                            <td><?php echo $row["submit_type"]; ?></td>
                            <td><?php echo $row["submitted_at"]; ?></td>
+                            <td>
+                                 <form method="POST" action="delete-data.php" onsubmit="return confirm('Are you sure you want to delete this entry?');">
+                                    <input type="hidden" name="table" value="rpa_cals_submissions"> <!-- Specify the table name -->
+                                    <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                 </form>
+                           </td>
                         </tr>
                      <?php
                            // Increment the counter after each row
@@ -193,6 +136,7 @@ include '../includes/header.php';
                            <th>Agree to Terms</th>
                            <th>Submit Type</th>
                            <th>Submission Date</th>
+                           <th>Action</th>
                         </tr>
                      </tfoot>
 
